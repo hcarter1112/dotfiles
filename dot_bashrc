@@ -97,8 +97,7 @@ export EDITOR=nvim
 alias config='/usr/bin/git --git-dir=$HOME/arch-dotfiles/ --work-tree=$HOME'
 ######----------------------------------------------------#####
 
-alias calcup="calcurse-caldav --init keep-remote --authcode '4/0AX4XfWiRMKEItDg7jR2│
-aTKqIIQGLw37KKYm4MpAG4Utf0cYMCW6YpoPPckw-QsIFnt4vvA'"
+alias calcup="calcurse-caldav --init keep-remote --authcode '4/0AX4XfWhx10vCfRzGh3Qu5m3vW-0G2klCWGaLBLn_rcYWvCH    DbKQNu2PMwejhvpjy-tqkWQ'"
 alias hmt="ranger ~/Documents/HmT\ Mats"
 alias nc="ncspot"
 alias pm="pulsemixer"
