@@ -1,0 +1,492 @@
+: 1650466380:0;vim .zshrc
+: 1650466870:0;.bashrc
+: 1650466879:0;nvim .bashrc
+: 1650467011:0;ls $ZSH/plugins
+: 1650467217:0;uninstall_oh_my_zsh
+: 1650467229:0;zsh
+: 1650467239:0;clear
+: 1650474018.3976066:0;cd git-sendgmail-git/
+: 1650474018.3976169:0;makepkg -si
+: 1650474018.3976183:0;cd
+: 1650474018.3976195:0;rm gmail-oauth2-tools/*
+: 1650474018.3976202:0;rm -rf gmail-oauth2-tools/*
+: 1650474018.3976212:0;rm -r git-sendgmail-git/
+: 1650474018.397622:0;gmail-oauth2-tools/
+: 1650474018.3976228:0;cd gmail-oauth2-tools/
+: 1650474018.3976235:0;ls
+: 1650474018.3976245:0;cd
+: 1650474018.3976254:0;rmdir gmail-oauth2-tools/
+: 1650474018.3976262:0;rmdir -rf  gmail-oauth2-tools/
+: 1650474018.397627:0;rmdir -f  gmail-oauth2-tools/
+: 1650474018.3976278:0;vim oauth2.py
+: 1650474018.3976288:0;chmod +x oauth2.py
+: 1650474018.3976352:0;     # http://www.apache.org/licenses/LICENSE-2.0
+: 1650474018.3976376:0;"""Performs client tasks for testing IMAP OAuth2 authentication.
+: 1650474018.3976383:0;To use this script, you'll need to have registered with Google as an OAuth
+: 1650474018.3976393:0;application and obtained an OAuth client ID and client secret.
+: 1650474018.3976402:0;See https://developers.google.com/identity/protocols/OAuth2 for instructions on
+: 1650474018.3976417:0;registering and for documentation of the APIs invoked by this code.
+: 1650474018.3976429:0;This script has 3 modes of operation.
+: 1650474018.3976436:0;1. The first mode is used to generate and authorize an OAuth2 token, the
+: 1650474018.3976443:0;first step in logging in via OAuth2.
+: 1650474018.397645:0;  oauth2 --user=xxx@gmail.com \
+: 1650474018.3976474:0;    --client_id=1038[...].apps.googleusercontent.com \
+: 1650474018.3976483:0;    --client_secret=VWFn8LIKAMC-MsjBMhJeOplZ \
+: 1650474018.397649:0;    --generate_oauth2_token
+: 1650474018.39765:0;The script will converse with Google and generate an oauth request
+: 1650474018.3976507:0;token, then present you with a URL you should visit in your browser to
+: 1650474018.3976517:0;authorize the token. Once you get the verification code from the Google
+: 1650474018.3976524:0;website, enter it into the script to get your OAuth access token. The output
+: 1650474018.3976533:0;from this command will contain the access token, a refresh token, and some
+: 1650474018.397654:0;metadata about the tokens. The access token can be used until it expires, and
+: 1650474018.3976548:0;the refresh token lasts indefinitely, so you should record these values for
+: 1650474018.3976555:0;reuse.
+: 1650474018.3976567:0;2. The script will generate new access tokens using a refresh token.
+: 1650474018.3976574:0;  oauth2 --user=xxx@gmail.com \
+: 1650474018.397658:0;    --client_id=1038[...].apps.googleusercontent.com \
+: 1650474018.3976588:0;    --client_secret=VWFn8LIKAMC-MsjBMhJeOplZ \
+: 1650474018.3976595:0;    --refresh_token=1/Yzm6MRy4q1xi7Dx2DuWXNgT6s37OrP_DW_IoyTum4YA
+: 1650474018.3976607:0;3. The script will generate an OAuth2 string that can be fed
+: 1650474018.3976614:0;directly to IMAP or SMTP. This is triggered with the --generate_oauth2_string
+: 1650474018.3976622:0;option.
+: 1650474018.3976629:0;  oauth2 --generate_oauth2_string --user=xxx@gmail.com \
+: 1650474018.397664:0;    --access_token=ya29.AGy[...]ezLg
+: 1650474018.3976648:0;The output of this mode will be a base64-encoded string. To use it, connect to a
+: 1650474018.3976655:0;IMAPFE and pass it as the second argument to the AUTHENTICATE command.
+: 1650474018.3976662:0;  a AUTHENTICATE XOAUTH2 a9sha9sfs[...]9dfja929dk==
+: 1650474018.3976672:0;"""
+: 1650474018.3976681:0;import base64
+: 1650474018.3976688:0;import imaplib
+: 1650474018.3976696:0;import json
+: 1650474018.3976707:0;from optparse import OptionParser
+: 1650474018.3976715:0;import smtplib
+: 1650474018.3976724:0;import sys
+: 1650474018.3976731:0;import urllib
+: 1650474018.397674:0;def SetupOptionParser():
+: 1650474018.3976748:0;  # Usage message is the module's docstring.
+: 1650474018.3976755:0;  parser = OptionParser(usage=__doc__)
+: 1650474018.3976765:0;  parser.add_option('--generate_oauth2_token',
+: 1650474018.3976774:0;                    action='store_true',
+: 1650474018.3976789:0;                    dest='generate_oauth2_token',
+: 1650474018.3976798:0;                    help='generates an OAuth2 token for testing')
+: 1650474018.3976805:0;  parser.add_option('--generate_oauth2_string',
+: 1650474018.3976817:0;                    action='store_true',
+: 1650474018.3976824:0;                    dest='generate_oauth2_string',
+: 1650474018.3976831:0;                    help='generates an initial client response string for '
+: 1650474018.3976843:0;                         'OAuth2')
+: 1650474018.397685:0;  parser.add_option('--client_id',
+: 1650474018.3976858:0;                    default=None,
+: 1650474018.3976865:0;                    help='Client ID of the application that is authenticating. '
+: 1650474018.3976872:0;                         'See OAuth2 documentation for details.')
+: 1650474018.3976884:0;  parser.add_option('--client_secret',
+: 1650474018.39769:0;                    default=None,
+: 1650474018.3976908:0;                    help='Client secret of the application that is '
+: 1650474018.3976917:0;                         'authenticating. See OAuth2 documentation for '
+: 1650474018.3976927:0;                         'details.')
+: 1650474018.3976936:0;  parser.add_option('--access_token',
+: 1650474018.3976943:0;                    default=None,
+: 1650474018.3976953:0;                    help='OAuth2 access token')
+: 1650474018.397696:0;  parser.add_option('--refresh_token',
+: 1650474018.3976967:0;                    default=None,
+: 1650474018.3976974:0;                    help='OAuth2 refresh token')
+: 1650474018.3976986:0;  parser.add_option('--scope',
+: 1650474018.3976994:0;                    default='https://mail.google.com/',
+: 1650474018.3977:0;                    help='scope for the access token. Multiple scopes can be '
+: 1650474018.3977008:0;                         'listed separated by spaces with the whole argument '
+: 1650474018.397702:0;                         'quoted.')
+: 1650474018.3977027:0;  parser.add_option('--test_imap_authentication',
+: 1650474018.3977034:0;                    action='store_true',
+: 1650474018.3977044:0;                    dest='test_imap_authentication',
+: 1650474018.3977053:0;                    help='attempts to authenticate to IMAP')
+: 1650474018.397706:0;  parser.add_option('--test_smtp_authentication',
+: 1650474018.3977067:0;                    action='store_true',
+: 1650474018.3977075:0;                    dest='test_smtp_authentication',
+: 1650474018.3977087:0;                    help='attempts to authenticate to SMTP')
+: 1650474018.3977094:0;  parser.add_option('--user',
+: 1650474018.39771:0;                    default=None,
+: 1650474018.3977108:0;                    help='email address of user whose account is being '
+: 1650474018.3977115:0;                         'accessed')
+: 1650474018.3977127:0;  parser.add_option('--quiet',
+: 1650474018.3977134:0;                    action='store_true',
+: 1650474018.3977141:0;                    default=False,
+: 1650474018.3977149:0;                    dest='quiet',
+: 1650474018.3977158:0;                    help='Omit verbose descriptions and only print '
+: 1650474018.3977168:0;                         'machine-readable outputs.')
+: 1650474018.3977175:0;  return parser
+: 1650474018.3977184:0;GOOGLE_ACCOUNTS_BASE_URL = 'https://accounts.google.com'
+: 1650474018.3977199:0;REDIRECT_URI = 'urn:ietf:wg:oauth:2.0:oob'
+: 1650474018.3977206:0;def AccountsUrl(command):
+: 1650474018.3977215:0;  """Generates the Google Accounts URL.
+: 1650474018.3977225:0;  Args:
+: 1650474018.3977232:0;    command: The command to execute.
+: 1650474018.397724:0;  Returns:
+: 1650474018.3977246:0;    A URL for the given command.
+: 1650474018.3977253:0;  """
+: 1650474018.3977265:0;  return '%s/%s' % (GOOGLE_ACCOUNTS_BASE_URL, command)
+: 1650474018.3977273:0;def UrlEscape(text):
+: 1650474018.397728:0;  # See OAUTH 5.1 for a definition of which characters need to be escaped.
+: 1650474018.3977287:0;  return urllib.quote(text, safe='~-._')
+: 1650474018.3977296:0;def UrlUnescape(text):
+: 1650474018.3977306:0;  # See OAUTH 5.1 for a definition of which characters need to be escaped.
+: 1650474018.3977313:0;  return urllib.unquote(text)
+: 1650474018.397732:0;def FormatUrlParams(params):
+: 1650474018.397761:0;  """Formats parameters into a URL query string.
+: 1650474018.397762:0;  Args:
+: 1650474018.3977628:0;    params: A key-value map.
+: 1650474018.3977635:0;  Returns:
+: 1650474018.3977647:0;    A URL query string version of the given parameters.
+: 1650474018.3977654:0;  """
+: 1650474018.397766:0;  param_fragments = []
+: 1650474018.397767:0;  for param in sorted(params.iteritems(), key=lambda x: x[0]):
+: 1650474018.397768:0;    param_fragments.append('%s=%s' % (param[0], UrlEscape(param[1])))
+: 1650474018.3977687:0;  return '&'.join(param_fragments)
+: 1650474018.3977695:0;def GeneratePermissionUrl(client_id, scope='https://mail.google.com/'):
+: 1650474018.3977702:0;  """Generates the URL for authorizing access.
+: 1650474018.3977714:0;  This uses the "OAuth2 for Installed Applications" flow described at
+: 1650474018.397772:0;  https://developers.google.com/accounts/docs/OAuth2InstalledApp
+: 1650474018.3977728:0;  Args:
+: 1650474018.3977735:0;    client_id: Client ID obtained by registering your app.
+: 1650474018.3977742:0;    scope: scope for access token, e.g. 'https://mail.google.com'
+: 1650474018.3977754:0;  Returns:
+: 1650474018.3977761:0;    A URL that the user should visit in their browser.
+: 1650474018.3977768:0;  """
+: 1650474018.3977776:0;  params = {}
+: 1650474018.3977785:0;  params['client_id'] = client_id
+: 1650474018.3977792:0;  params['redirect_uri'] = REDIRECT_URI
+: 1650474018.3977802:0;  params['scope'] = scope
+: 1650474018.397781:0;  params['response_type'] = 'code'
+: 1650474018.3977818:0;  return '%s?%s' % (AccountsUrl('o/oauth2/auth'),
+: 1650474018.3977826:0;                    FormatUrlParams(params))
+: 1650474018.3977833:0;def AuthorizeTokens(client_id, client_secret, authorization_code):
+: 1650474018.3977842:0;  """Obtains OAuth access token and refresh token.
+: 1650474018.3977852:0;  This uses the application portion of the "OAuth2 for Installed Applications"
+: 1650474018.397786:0;  flow at https://developers.google.com/accounts/docs/OAuth2InstalledApp#handlingtheresponse
+: 1650474018.3977866:0;  Args:
+: 1650474018.3977876:0;    client_id: Client ID obtained by registering your app.
+: 1650474018.3977885:0;    client_secret: Client secret obtained by registering your app.
+: 1650474018.3977892:0;    authorization_code: code generated by Google Accounts after user grants
+: 1650474018.39779:0;        permission.
+: 1650474018.3977907:0;  Returns:
+: 1650474018.3977919:0;    The decoded response from the Google Accounts server, as a dict. Expected
+: 1650474018.3977926:0;    fields include 'access_token', 'expires_in', and 'refresh_token'.
+: 1650474018.3977933:0;  """
+: 1650474018.397794:0;  params = {}
+: 1650474018.397795:0;  params['client_id'] = client_id
+: 1650474018.397796:0;  params['client_secret'] = client_secret
+: 1650474018.3977966:0;  params['code'] = authorization_code
+: 1650474018.3977973:0;  params['redirect_uri'] = REDIRECT_URI
+: 1650474018.397798:0;  params['grant_type'] = 'authorization_code'
+: 1650474018.397799:0;  request_url = AccountsUrl('o/oauth2/token')
+: 1650474018.3977997:0;  response = urllib.urlopen(request_url, urllib.urlencode(params)).read()
+: 1650474018.3978004:0;  return json.loads(response)
+: 1650474018.3978014:0;def RefreshToken(client_id, client_secret, refresh_token):
+: 1650474018.3978024:0;  """Obtains a new token given a refresh token.
+: 1650474018.397803:0;  See https://developers.google.com/accounts/docs/OAuth2InstalledApp#refresh
+: 1650474018.3978038:0;  Args:
+: 1650474018.3978045:0;    client_id: Client ID obtained by registering your app.
+: 1650474018.3978052:0;    client_secret: Client secret obtained by registering your app.
+: 1650474018.3978064:0;    refresh_token: A previously-obtained refresh token.
+: 1650474018.3978071:0;  Returns:
+: 1650474018.3978078:0;    The decoded response from the Google Accounts server, as a dict. Expected
+: 1650474018.3978086:0;    fields include 'access_token', 'expires_in', and 'refresh_token'.
+: 1650474018.3978095:0;  """
+: 1650474018.3978102:0;  params = {}
+: 1650474018.3978112:0;  params['client_id'] = client_id
+: 1650474018.397812:0;  params['client_secret'] = client_secret
+: 1650474018.3978128:0;  params['refresh_token'] = refresh_token
+: 1650474018.3978136:0;  params['grant_type'] = 'refresh_token'
+: 1650474018.3978143:0;  request_url = AccountsUrl('o/oauth2/token')
+: 1650474018.397815:0;  response = urllib.urlopen(request_url, urllib.urlencode(params)).read()
+: 1650474018.3978162:0;  return json.loads(response)
+: 1650474018.397817:0;def GenerateOAuth2String(username, access_token, base64_encode=True):
+: 1650474018.3978176:0;  """Generates an IMAP OAuth2 authentication string.
+: 1650474018.3978183:0;  See https://developers.google.com/google-apps/gmail/oauth2_overview
+: 1650474018.397819:0;  Args:
+: 1650474018.3978202:0;    username: the username (email address) of the account to authenticate
+: 1650474018.397821:0;    access_token: An OAuth2 access token.
+: 1650474018.3978217:0;    base64_encode: Whether to base64-encode the output.
+: 1650474018.3978224:0;  Returns:
+: 1650474018.3978236:0;    The SASL argument for the OAuth2 mechanism.
+: 1650474018.3978245:0;  """
+: 1650474018.3978252:0;  auth_string = 'user=%s\1auth=Bearer %s\1\1' % (username, access_token)
+: 1650474018.397826:0;  if base64_encode:;     auth_string = base64.b64encode(auth_string)
+: 1650474018.397827:0;  return auth_string
+: 1650474018.3978276:0;def TestImapAuthentication(user, auth_string):
+: 1650474018.3978283:0;  """Authenticates to IMAP with the given auth_string.
+: 1650474018.3978293:0;  Prints a debug trace of the attempted IMAP connection.
+: 1650474018.3978302:0;  Args:
+: 1650474018.397831:0;    user: The Gmail username (full email address)
+: 1650474018.3978317:0;    auth_string: A valid OAuth2 string, as returned by GenerateOAuth2String.
+: 1650474018.3978324:0;        Must not be base64-encoded, since imaplib does its own base64-encoding.
+: 1650474018.397833:0;  """
+: 1650474018.397834:0;  print
+: 1650474018.397835:0;  imap_conn = imaplib.IMAP4_SSL('imap.gmail.com')
+: 1650474018.3978357:0;  imap_conn.debug = 4
+: 1650474018.3978364:0;  imap_conn.authenticate('XOAUTH2', lambda x: auth_string)
+: 1650474018.3978374:0;  imap_conn.select('INBOX')
+: 1650474018.3978384:0;def TestSmtpAuthentication(user, auth_string):
+: 1650474018.397839:0;  """Authenticates to SMTP with the given auth_string.
+: 1650474018.3978398:0;  Args:
+: 1650474018.3978407:0;    user: The Gmail username (full email address)
+: 1650474018.3978415:0;    auth_string: A valid OAuth2 string, not base64-encoded, as returned by
+: 1650474018.3978422:0;        GenerateOAuth2String.
+: 1650474018.3978431:0;  """
+: 1650474018.397844:0;  print
+: 1650474018.3978448:0;  smtp_conn = smtplib.SMTP('smtp.gmail.com', 587)
+: 1650474018.3978455:0;  smtp_conn.set_debuglevel(True)
+: 1650474018.3978462:0;  smtp_conn.ehlo('test')
+: 1650474018.397847:0;  smtp_conn.starttls()   smtp_conn.docmd('AUTH', 'XOAUTH2 ' + base64.b64encode(auth_string))
+: 1650474018.3978481:0;def RequireOptions(options, *args):
+: 1650474018.3978488:0;  missing = [arg for arg in args if getattr(options, arg) is None]
+: 1650474018.3978496:0;  if missing:;     print 'Missing options: %s' % ' '.join(missing)
+: 1650474018.3978505:0;    sys.exit(-1)
+: 1650474018.3978515:0;def main(argv):
+: 1650474018.3978522:0;  options_parser = SetupOptionParser()
+: 1650474018.397853:0;  (options, args) = options_parser.parse_args()
+: 1650474018.3978536:0;  if options.refresh_token:;     RequireOptions(options, 'client_id', 'client_secret')
+: 1650474018.3978546:0;    response = RefreshToken(options.client_id, options.client_secret,
+: 1650474018.3978553:0;                            options.refresh_token)
+: 1650474018.397856:0;    if options.quiet:;       print response['access_token'];     else:;       print 'Access Token: %s' % response['access_token'];       print 'Access Token Expiration Seconds: %s' % response['expires_in'];   elif options.generate_oauth2_string:
+: 1650474018.397857:0;    RequireOptions(options, 'user', 'access_token')
+: 1650474018.397858:0;    oauth2_string = GenerateOAuth2String(options.user, options.access_token)
+: 1650474018.3978689:0;    if options.quiet:;       print oauth2_string;     else:;       print 'OAuth2 argument:\n' + oauth2_string;   elif options.generate_oauth2_token:
+: 1650474018.3978698:0;    RequireOptions(options, 'client_id', 'client_secret')
+: 1650474018.3978708:0;    print 'To authorize token, visit this url and follow the directions:'
+: 1650474018.3978717:0;    print '  %s' % GeneratePermissionUrl(options.client_id, options.scope)
+: 1650474018.3978724:0;    authorization_code = raw_input('Enter verification code: ')
+: 1650474018.3978732:0;    response = AuthorizeTokens(options.client_id, options.client_secret,
+: 1650474018.3978739:0;                                authorization_code)
+: 1650474018.3978748:0;    print 'Refresh Token: %s' % response['refresh_token']
+: 1650474018.3978758:0;    print 'Access Token: %s' % response['access_token']
+: 1650474018.3978765:0;    print 'Access Token Expiration Seconds: %s' % response['expires_in']
+: 1650474018.3978772:0;  elif options.test_imap_authentication:
+: 1650474018.397878:0;    RequireOptions(options, 'user', 'access_token')
+: 1650474018.397879:0;    TestImapAuthentication(options.user,
+: 1650474018.3978796:0;        GenerateOAuth2String(options.user, options.access_token,
+: 1650474018.3978803:0;                             base64_encode=False))
+: 1650474018.3978813:0;  elif options.test_smtp_authentication:
+: 1650474018.3978822:0;    RequireOptions(options, 'user', 'access_token')
+: 1650474018.397883:0;    TestSmtpAuthentication(options.user,
+: 1650474018.3978837:0;        GenerateOAuth2String(options.user, options.access_token,
+: 1650474018.3978844:0;                             base64_encode=False))
+: 1650474018.397885:0;  else:
+: 1650474018.397886:0;    options_parser.print_help()     print 'Nothing to do, exiting.'
+: 1650474018.3978868:0;    return
+: 1650474018.3978877:0;if __name__ == '__main__':;   main(sys.argv)
+: 1650474018.3978884:0;./oauth2.py --user=your@gmail.com \
+: 1650474018.3978894:0;--client_id=2345...0123.apps.googleusercontent.com \
+: 1650474018.39789:0;--client_secret=s_ec_ret --generate_oauth2_token
+: 1650474018.3978908:0;./oauth2.py --user=hcarter1112@gmail.com --client_id=28759283618-dcc2988c606sqbsee7ggsagqt1n7thrb.apps.googleusercontent.com --client_secret=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 --generate_oauth2_token
+: 1650474018.3978918:0;vim oauth2.py
+: 1650474018.3978927:0;./oauth2.py --user=hcarter1112@gmail.com
+: 1650474018.3978934:0;vim oauth2.py
+: 1650474018.3978941:0;./oauth2.py --user=hcarter1112@gmail.com
+: 1650474018.397895:0;vim oauth2.py
+: 1650474018.397896:0;./oauth2.py
+: 1650474018.3978968:0;./oauth2.py --user=hcarter1112@gmail.com \ 
+: 1650474018.3978975:0;  --client_id=28759283618-dcc2988c606sqbsee7ggsagqt1n7thrb.apps.googleusercontent.com   --client_secret=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 --generate_oauth2_token
+: 1650474018.3978982:0;vim oauth2.py
+: 1650474018.3978992:0;./oauth2.py --user=hcarter1112@gmail.com
+: 1650474018.3979:0;vim oauth2.py
+: 1650474018.3979008:0;./oauth2.py --user=hcarter1112@gmail.com
+: 1650474018.3979015:0;vim oauth2.py
+: 1650474018.3979023:0;./oauth2.py --user=hcarter1112@gmail.com
+: 1650474018.3979032:0;vim oauth2.py
+: 1650474018.3979042:0;vim oauth2.py
+: 1650474018.3979049:0;yay python2
+: 1650474018.3979056:0;neomutt
+: 1650474018.3979065:0;cp Downloads/client_secret_28759283618-dcc2988c606sqbsee7ggsagqt1n7thrb.apps.googleusercontent.com.json .config/mutt/
+: 1650474018.3979075:0;vim .config/mutt/client_secret_28759283618-dcc2988c606sqbsee7ggsagqt1n7thrb.apps.googleusercontent.com.json 
+: 1650474018.3979082:0;clear
+: 1650474018.397909:0;hmt
+: 1650474018.3979096:0;hmt
+: 1650474018.3979106:0;bash
+: 1650474018.3979115:0;clear
+: 1650474018.3979123:0;clear
+: 1650474018.397913:0;ranger --help
+: 1650474018.397914:0;ranger ~/
+: 1650474018.3979146:0;ranger ~/Documents
+: 1650474018.3979154:0;ranger ~/Documents/HmT\ Mats/
+: 1650474018.3979163:0;hmt
+: 1650474018.3979173:0;bash
+: 1650474018.397918:0;mw -T
+: 1650474018.3979187:0;mw -T
+: 1650474018.3979194:0;hmt
+: 1650474018.3979204:0;hmt
+: 1650474018.3979213:0;hmt
+: 1650474018.397922:0;hmt
+: 1650474018.3979228:0;hmt
+: 1650474018.3979235:0;cd
+: 1650474018.3979244:0;hmt
+: 1650474018.3979254:0;Q
+: 1650474018.397926:0;exit
+: 1650474018.3979268:0;calcurse
+: 1650474018.397928:0;hmt
+: 1650474018.3979287:0;hmt
+: 1650474018.3979294:0;exit
+: 1650474018.3979301:0;clear
+: 1650474018.3979313:0;nc
+: 1650474018.397932:0;pm
+: 1650474018.3979328:0;yay tmux
+: 1650474018.3979335:0;tmux new -s Home
+: 1650474018.3979347:0;tmux a
+: 1650474018.3979354:0;tmux attach -t Home
+: 1650474018.397936:0;tmux new -s Home
+: 1650474018.3979368:0;Downloads/
+: 1650474018.3979378:0;ranger Downloads/
+: 1650474018.3979387:0;ranger Downloads/
+: 1650474018.3979394:0;tmux -a 
+: 1650474018.3979404:0;
+: 1650474018.3979414:0;aweconf
+: 1650474018.397942:0;kittyconf
+: 1650474018.3979428:0;kitconf
+: 1650474018.3979435:0;bashcon
+: 1650474018.3979447:0;bashconf
+: 1650474018.3979454:0;bash
+: 1650474018.3979461:0;calcurse
+: 1650474018.397947:0;calcurse
+: 1650474018.3979478:0;hmt
+: 1650474018.3979487:0;ranger Downloads/
+: 1650474018.3979495:0;neomutt
+: 1650474018.3979504:0;tmux --help
+: 1650474018.3979511:0;tmux exit
+: 1650474018.397952:0;tmux close
+: 1650474018.3979528:0;hmt
+: 1650474018.3979535:0;clear
+: 1650474018.3979545:0;pm
+: 1650474018.3979554:0;nc
+: 1650474018.3979561:0;htop
+: 1650474018.3979568:0;htop
+: 1650474018.3979578:0;pm
+: 1650474018.3979588:0;tty-clock -tcs
+: 1650474018.3979597:0;pm
+: 1650474018.3979604:0;calcurse
+: 1650474018.3979623:0;calcurse
+: 1650474018.397963:0;tmux -d
+: 1650474018.397964:0;detach
+: 1650474018.3979647:0;tmux d
+: 1650474018.3979657:0;tmux -detach
+: 1650474018.3979664:0;tmux kill-session
+: 1650474018.397967:0;yay mutt
+: 1650474018.3979678:0;yay -Rs mutt
+: 1650474018.397969:0;mkdir .config/mutt
+: 1650474018.3979697:0;cd .config/mutt
+: 1650474018.3979704:0;vim muttrc
+: 1650474018.3979712:0;vim muttrc
+: 1650474018.3979719:0;clear
+: 1650474018.397973:0;cd
+: 1650474018.3979738:0;neomutt
+: 1650474018.3979745:0;neomutt
+: 1650474018.3979752:0;mw -T
+: 1650474018.3979764:0;mw -T
+: 1650474018.397977:0;mw -y
+: 1650474018.3979778:0;mw -Y
+: 1650474018.3979785:0;neomutt
+: 1650474018.3979805:0;mw -Y
+: 1650474018.3979812:0;CLEAR
+: 1650474018.397982:0;clear
+: 1650474018.3979828:0;bpytop
+: 1650474018.3979836:0;htop
+: 1650474018.3979843:0;tmux attach Big Vertical
+: 1650474018.3979852:0;tmux attach -t
+: 1650474018.397986:0;tmux attach -t Big Vertical
+: 1650474018.397987:0;tmux kill
+: 1650474018.3979876:0;tmux session
+: 1650474018.3979883:0;tmux kill-session
+: 1650474018.397989:0;calcurse
+: 1650474018.39799:0;tmux -a Big Vert
+: 1650474018.3979907:0;tmux --help
+: 1650474018.3979917:0;tmux attach 
+: 1650474018.3979926:0;ear
+: 1650474018.3979936:0;clear
+: 1650474018.3979943:0;tmux -attach Big Vertical
+: 1650474018.3979952:0;tmux attach Big Vertical
+: 1650474018.397996:0;tmux
+: 1650474018.397997:0;killall obs
+: 1650474018.3979976:0;obs
+: 1650474018.3979983:0;killall droidcam
+: 1650474018.397999:0;clear
+: 1650474018.3979998:0;bytop
+: 1650474018.3980007:0;bpytop
+: 1650474018.3980017:0;exit
+: 1650474018.3980024:0;neomutt
+: 1650474018.398003:0;clear
+: 1650474018.398004:0;mw -y
+: 1650474018.3980048:0;mw -Y
+: 1650474018.3980055:0;neomutt
+: 1650474018.3980062:0;killall obs
+: 1650474018.3980072:0;obs\
+: 1650474018.398008:0;obs &
+: 1650474018.3980088:0;rofi task
+: 1650474018.3980095:0;rofi -modi
+: 1650474018.3980103:0;rofi -modi emoji
+: 1650474018.3980112:0;rofi -show emoji
+: 1650474018.3980122:0;killall obs zoom zhumu
+: 1650474018.398013:0;killall droidcam
+: 1650474018.398014:0;microsoft-edge-bin-stable
+: 1650474018.3980148:0;microsoft-edge-bin
+: 1650474018.3980155:0;microsoft-edge
+: 1650474018.3980162:0;htop
+: 1650474018.398017:0;msedge
+: 1650474018.398018:0;htop\
+: 1650474018.3980188:0;microsoft
+: 1650474018.3980196:0;lynx
+: 1650474018.3980203:0;htop\
+: 1650474018.3980212:0;/opt/microsoft/msedge/msedge
+: 1650474018.398022:0;hmt
+: 1650474018.3980227:0;bash
+: 1650474018.3980236:0;clear
+: 1650474018.3980246:0;hmt
+: 1650474018.3980253:0;/opt/microsoft/msedge/msedge
+: 1650474018.3980343:0;cd .config/ranger/
+: 1650474018.3980355:0;ls
+: 1650474018.3980365:0;xpdf
+: 1650474018.3980372:0;okular
+: 1650474018.398038:0;msedge
+: 1650474018.3980389:0;yay microsoft
+: 1650474018.3980398:0;yay edge-stable
+: 1650474018.3980405:0;microsoft-edge-stable-bin
+: 1650474018.3980412:0;start msedge
+: 1650474018.3980422:0;msedge
+: 1650474018.3980432:0;microsoft-edge-stable
+: 1650474018.3980439:0;microsoft-edge-stable --help
+: 1650474018.3980446:0;bash
+: 1650474018.3980455:0;clear
+: 1650474018.3980463:0;hmt
+: 1650474018.398047:0;bash
+: 1650474018.3980477:0;hmt
+: 1650474018.3980484:0;hmt
+: 1650474018.3980496:0;microsoft-edge-stable
+: 1650474018.3980503:0;hmt
+: 1650474018.398051:0;microsoft-edge-stable --
+: 1650474018.3980517:0;hmt
+: 1650474018.3980527:0;hmt
+: 1650474018.3980534:0;xdg-open --help
+: 1650474018.3980541:0;microsoft-edge-stable --
+: 1650474018.398055:0;hmt
+: 1650474018.398056:0;hmt
+: 1650474018.3980567:0;man xdg-open
+: 1650474018.3980575:0;xdg-open --manual
+: 1650474018.3980582:0;hmt
+: 1650474018.398059:0;hmt
+: 1650474018.3980598:0;cd
+: 1650474018.3980606:0;hmt
+: 1650474018.3980613:0;hmt
+: 1650474018.398062:0;bash
+: 1650474018.398063:0;clear
+: 1650474018.3980637:0;hmt
+: 1650474018.3980646:0;microsoft-edge-stable --
+: 1650474018.3980653:0;hmt
+: 1650474018.3980663:0;xdg-open --help
+: 1650474018.398067:0;xdg-open { ~/Documents/HmT\ Mats/ORT\ Band\ 3/3-11\ The\ Rope\ Swing.pdf  }
+: 1650474018.3980677:0;xdg-open { ~/Documents/HmT\ Mats/ORT\ Band\ 3/3-11\ The\ Rope\ Swing.pdf  } microsoft-edge-stable --
+: 1650474018.3980687:0;isync
+: 1650474018.3980696:0;systemctl start isync
+: 1650474018.3980703:0;yay isync
+: 1650474018.398071:0;clear
+: 1650474018.3980718:0;yay bmon
+: 1650474018.3980725:0;neomutt
+: 1650474018.3980734:0;pacman -S zsh
+: 1650474018.3980742:0;zsh
+: 1650474018.398075:0;.bashrc
+: 1650474018.3980758:0;bashconf
