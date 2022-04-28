@@ -1,0 +1,217 @@
+10:53:59.777: CPU Name: AMD Ryzen 5 3600 6-Core Processor
+10:53:59.777: CPU Speed: 3600.000MHz
+10:53:59.778: Physical Cores: 6, Logical Cores: 12
+10:53:59.778: Physical Memory: 15928MB Total, 3447MB Free
+10:53:59.778: Kernel Version: Linux 5.17.4-arch1-1
+10:53:59.778: Distribution: EndeavourOS Unknown
+10:53:59.778: Session Type: x11
+10:53:59.778: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+10:53:59.779: Qt Version: 5.15.3 (runtime), 5.15.3 (compiled)
+10:53:59.779: Portable mode: false
+10:53:59.829: OBS 27.2.3-1 (linux)
+10:53:59.829: ---------------------------------
+10:53:59.829: ---------------------------------
+10:53:59.829: audio settings reset:
+10:53:59.829: 	samples per sec: 48000
+10:53:59.829: 	speakers:        2
+10:53:59.831: ---------------------------------
+10:53:59.831: Initializing OpenGL...
+10:53:59.871: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1070 Ti/PCIe/SSE2
+10:53:59.871: OpenGL loaded successfully, version 3.3.0 NVIDIA 510.60.02, shading language 3.30 NVIDIA via Cg compiler
+10:53:59.878: ---------------------------------
+10:53:59.878: video settings reset:
+10:53:59.878: 	base resolution:   1920x1080
+10:53:59.878: 	output resolution: 1280x720
+10:53:59.878: 	downscale filter:  Bicubic
+10:53:59.878: 	fps:               30/1
+10:53:59.878: 	format:            NV12
+10:53:59.878: 	YUV mode:          709/Partial
+10:53:59.878: NV12 texture support not available
+10:53:59.878: Audio monitoring device:
+10:53:59.878: 	name: Monitor of Virtual1-Mic Audio/Sink sink
+10:53:59.878: 	id: Virtual1-Mic.monitor
+10:53:59.878: ---------------------------------
+10:53:59.880: Failed to load 'en-US' text for module: 'decklink-captions.so'
+10:53:59.881: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+10:53:59.940: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+10:53:59.940: No blackmagic support
+10:53:59.945: NVENC supported
+10:53:59.945: FFMPEG VAAPI supported
+10:53:59.949: os_dlopen(/usr//lib/obs-plugins/sndio.so->/usr//lib/obs-plugins/sndio.so): libsndio.so.7: cannot open shared object file: No such file or directory
+10:53:59.949: 
+10:53:59.949: Module '/usr//lib/obs-plugins/sndio.so' not loaded
+10:53:59.950: ---------------------------------
+10:53:59.950:   Loaded Modules:
+10:53:59.950:     text-freetype2.so
+10:53:59.950:     rtmp-services.so
+10:53:59.950:     obs-x264.so
+10:53:59.950:     obs-transitions.so
+10:53:59.950:     obs-outputs.so
+10:53:59.950:     obs-libfdk.so
+10:53:59.950:     obs-filters.so
+10:53:59.950:     obs-ffmpeg.so
+10:53:59.950:     linux-v4l2.so
+10:53:59.950:     linux-pulseaudio.so
+10:53:59.950:     linux-jack.so
+10:53:59.950:     linux-decklink.so
+10:53:59.950:     linux-capture.so
+10:53:59.950:     linux-alsa.so
+10:53:59.950:     image-source.so
+10:53:59.950:     frontend-tools.so
+10:53:59.950:     decklink-ouput-ui.so
+10:53:59.950:     decklink-captions.so
+10:53:59.950: ---------------------------------
+10:53:59.950: ==== Startup complete ===============================================
+10:53:59.998: All scene data cleared
+10:53:59.998: ------------------------------------------------
+10:54:00.001: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.50) 15.0.0'
+10:54:00.001: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+10:54:00.001: pulse-input: Started recording from 'alsa_input.usb-SteelSeries_SteelSeries_Arctis_7-00.mono-chat'
+10:54:00.004: pulse-am: Server name: 'PulseAudio (on PipeWire 0.3.50) 15.0.0'
+10:54:00.004: pulse-am: Audio format: float32le, 48000 Hz, 2 channels
+10:54:00.004: pulse-am: Started Monitoring in 'Virtual1-Mic.monitor'
+10:54:00.005: [Loaded global audio device]: 'Mic/Aux'
+10:54:00.005:     - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+10:54:00.005:     - filter: 'Noise Gate' (noise_gate_filter)
+10:54:00.005:     - filter: 'Compressor' (compressor_filter)
+10:54:00.005:     - monitoring: monitor and output
+10:54:00.198: v4l2-input: Start capture from /dev/video10
+10:54:00.198: v4l2-input: Input: 0
+10:54:00.198: v4l2-input: Resolution: 1280x720
+10:54:00.198: v4l2-input: Pixelformat: YU12
+10:54:00.198: v4l2-input: Linesize: 1280 Bytes
+10:54:00.198: v4l2-input: Framerate: 30.00 fps
+10:54:00.198: v4l2-input: /dev/video10: select timeout set to 166666 (5x frame periods)
+10:54:00.337: Failed to open file '/home/ralldi/OBS Stuff/Masks/Circle mask.png': No such file or directory
+10:54:00.337: gs_image_file_init_internal: Failed to load file '/home/ralldi/OBS Stuff/Masks/Circle mask.png'
+10:54:00.366: v4l2-input: /dev/video10: select timed out
+10:54:00.366: v4l2-input: /dev/video10: failed to log status
+10:54:00.429: Switched to scene 'Classroom'
+10:54:00.429: ------------------------------------------------
+10:54:00.429: Loaded scenes:
+10:54:00.429: - scene 'Main Camera':
+10:54:00.429:     - source: 'OnePlus' (v4l2_input)
+10:54:00.429:     - source: '[NS] Standard Audio' (scene)
+10:54:00.429: - scene 'Classroom':
+10:54:00.434:     - source: 'Main Camera' (scene)
+10:54:00.434:     - source: 'Alphabet' (image_source)
+10:54:00.434:     - source: 'World Map' (image_source)
+10:54:00.434:     - source: 'Nameplate flip' (text_ft2_source_v2)
+10:54:00.434:     - source: 'Nameplate flip' (text_ft2_source_v2)
+10:54:00.434:     - source: 'justin.png' (image_source)
+10:54:00.434:     - source: 'Car' (image_source)
+10:54:00.434:     - source: 'Cat' (image_source)
+10:54:00.434:     - source: 'Elsa' (image_source)
+10:54:00.434:     - source: 'George' (image_source)
+10:54:00.434:     - source: 'Harold Sticker' (image_source)
+10:54:00.434:     - source: 'Ice Cream' (image_source)
+10:54:00.434:     - source: 'Spiderman' (image_source)
+10:54:00.434:     - source: 'Ultraman' (image_source)
+10:54:00.434:     - source: 'Ultraman plus' (image_source)
+10:54:00.434:     - source: 'toppng.com-orange-juice-2960x3504.png' (image_source)
+10:54:00.434:     - source: 'toppng.com-bunny-png-cartoon-free-487x477.png' (image_source)
+10:54:00.434:     - source: 'toppng.com-fox-300x300.png' (image_source)
+10:54:00.434:     - source: 'toppng.com-kawaii-sushi-png-sushi-anime-600x355.png' (image_source)
+10:54:00.434:     - source: 'toppng.com-ultraman-orb-coloring-pages-709x1097.png' (image_source)
+10:54:00.434:     - source: 'Chat' (text_ft2_source_v2)
+10:54:00.434:     - source: 'toppng.com-tropical-fish-clipart-realistic-fish-fish-1035x344.png' (image_source)
+10:54:00.434: - scene 'Media with Camera':
+10:54:00.434:     - source: 'PT 105' (slideshow)
+10:54:00.434:     - source: 'FF' (xcomposite_input)
+10:54:00.434:     - source: '[NS] Cirlce Mask Cam' (scene)
+10:54:00.434:         - filter: 'Circle Mask' (mask_filter_v2)
+10:54:00.434: - scene 'Fullscreen share':
+10:54:00.434:     - source: 'JW Lib' (xcomposite_input)
+10:54:00.434:     - source: 'FF' (xcomposite_input)
+10:54:00.434: - scene '[NS] Standard Audio':
+10:54:00.434: - scene '[NS] Cirlce Mask Cam':
+10:54:00.434:     - source: 'OnePlus' (v4l2_input)
+10:54:00.434:     - filter: 'Circle Mask' (mask_filter_v2)
+10:54:00.434: ------------------------------------------------
+10:54:00.533: v4l2-input: /dev/video10: select timed out
+10:54:00.533: v4l2-input: /dev/video10: failed to log status
+10:54:00.546: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+10:54:00.546: 
+10:54:00.700: v4l2-input: /dev/video10: select timed out
+10:54:00.700: v4l2-input: /dev/video10: failed to log status
+10:54:00.866: v4l2-input: /dev/video10: select timed out
+10:54:00.867: v4l2-input: /dev/video10: failed to log status
+10:54:01.033: v4l2-input: /dev/video10: select timed out
+10:54:01.033: v4l2-input: /dev/video10: failed to log status
+10:54:01.200: v4l2-input: /dev/video10: select timed out
+10:54:01.200: v4l2-input: /dev/video10: failed to log status
+10:54:01.367: v4l2-input: /dev/video10: select timed out
+10:54:01.367: v4l2-input: /dev/video10: failed to log status
+10:54:01.534: v4l2-input: /dev/video10: select timed out
+10:54:01.534: v4l2-input: /dev/video10: failed to log status
+10:54:01.701: v4l2-input: /dev/video10: select timed out
+10:54:01.701: v4l2-input: /dev/video10: failed to log status
+10:54:01.836: ==== Shutting down ==================================================
+10:54:01.868: v4l2-input: /dev/video10: select timed out
+10:54:01.868: v4l2-input: /dev/video10: failed to log status
+10:54:01.874: pulse-input: Stopped recording from 'alsa_input.usb-SteelSeries_SteelSeries_Arctis_7-00.mono-chat'
+10:54:01.874: pulse-input: Got 88 packets with 90112 frames
+10:54:01.874: pulse-am: Stopped Monitoring in 'Virtual1-Mic.monitor'
+10:54:01.874: pulse-am: Got 61 packets with 62464 frames
+10:54:01.875: X Error: BadWindow (invalid Window parameter), Major opcode: BadValue (integer parameter out of range for operation), Minor opcode: 0, Serial: 110
+10:54:01.875: X Error: BadWindow (invalid Window parameter), Major opcode: 142, Minor opcode: BadWindow (invalid Window parameter), Serial: 111
+10:54:02.035: v4l2-input: /dev/video10: select timed out
+10:54:02.035: v4l2-input: /dev/video10: failed to log status
+10:54:02.035: v4l2-input: /dev/video10: Stopped capture after 1 frames
+10:54:02.065: All scene data cleared
+10:54:02.065: ------------------------------------------------
+10:54:02.153: [Scripting] Total detached callbacks: 0
+10:54:02.153: Freeing OBS context data
+10:54:02.165: == Profiler Results =============================
+10:54:02.165: run_program_init: 773.812 ms
+10:54:02.165:  ┣OBSApp::AppInit: 1.427 ms
+10:54:02.165:  ┃ ┗OBSApp::InitLocale: 0.565 ms
+10:54:02.165:  ┗OBSApp::OBSInit: 744.257 ms
+10:54:02.165:    ┣obs_startup: 16.262 ms
+10:54:02.165:    ┗OBSBasic::OBSInit: 677.334 ms
+10:54:02.165:      ┣OBSBasic::InitBasicConfig: 0.077 ms
+10:54:02.165:      ┣OBSBasic::ResetAudio: 0.138 ms
+10:54:02.165:      ┣OBSBasic::ResetVideo: 48.61 ms
+10:54:02.165:      ┣OBSBasic::InitOBSCallbacks: 0.003 ms
+10:54:02.165:      ┣OBSBasic::InitHotkeys: 0.028 ms
+10:54:02.165:      ┣obs_load_all_modules: 71.708 ms
+10:54:02.165:      ┃ ┣obs_init_module(decklink-captions.so): 0.025 ms
+10:54:02.165:      ┃ ┣obs_init_module(decklink-ouput-ui.so): 0.339 ms
+10:54:02.165:      ┃ ┣obs_init_module(frontend-tools.so): 54.087 ms
+10:54:02.165:      ┃ ┣obs_init_module(image-source.so): 0.004 ms
+10:54:02.165:      ┃ ┣obs_init_module(linux-alsa.so): 0.001 ms
+10:54:02.165:      ┃ ┣obs_init_module(linux-capture.so): 0.201 ms
+10:54:02.165:      ┃ ┣obs_init_module(linux-decklink.so): 0.08 ms
+10:54:02.165:      ┃ ┣obs_init_module(linux-jack.so): 0.001 ms
+10:54:02.165:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.001 ms
+10:54:02.165:      ┃ ┣obs_init_module(linux-v4l2.so): 0.072 ms
+10:54:02.165:      ┃ ┣obs_init_module(obs-ffmpeg.so): 0.306 ms
+10:54:02.165:      ┃ ┃ ┗nvenc_check: 0.222 ms
+10:54:02.165:      ┃ ┣obs_init_module(obs-filters.so): 0.013 ms
+10:54:02.165:      ┃ ┣obs_init_module(obs-libfdk.so): 0 ms
+10:54:02.165:      ┃ ┣obs_init_module(obs-outputs.so): 0.001 ms
+10:54:02.165:      ┃ ┣obs_init_module(obs-transitions.so): 0.003 ms
+10:54:02.165:      ┃ ┣obs_init_module(obs-x264.so): 0 ms
+10:54:02.165:      ┃ ┣obs_init_module(rtmp-services.so): 0.518 ms
+10:54:02.165:      ┃ ┗obs_init_module(text-freetype2.so): 0.004 ms
+10:54:02.165:      ┣OBSBasic::ResetOutputs: 0.096 ms
+10:54:02.165:      ┣OBSBasic::CreateHotkeys: 0.151 ms
+10:54:02.165:      ┣OBSBasic::InitService: 0.784 ms
+10:54:02.165:      ┣OBSBasic::InitPrimitives: 0.109 ms
+10:54:02.165:      ┗OBSBasic::Load: 501.332 ms
+10:54:02.165: obs_hotkey_thread(25 ms): min=0.043 ms, median=0.087 ms, max=0.558 ms, 99th percentile=0.558 ms, 100% below 25 ms
+10:54:02.165: audio_thread(Audio): min=0 ms, median=0.028 ms, max=0.267 ms, 99th percentile=0.09 ms
+10:54:02.165: obs_graphics_thread(33.3333 ms): min=0.228 ms, median=1.015 ms, max=422.861 ms, 99th percentile=422.861 ms, 98.2456% below 33.333 ms
+10:54:02.165:  ┣tick_sources: min=0.001 ms, median=0.018 ms, max=415.529 ms, 99th percentile=415.529 ms
+10:54:02.165:  ┣output_frame: min=0.077 ms, median=0.51 ms, max=5.601 ms, 99th percentile=5.601 ms
+10:54:02.165:  ┃ ┗gs_context(video->graphics): min=0.077 ms, median=0.51 ms, max=5.601 ms, 99th percentile=5.601 ms
+10:54:02.165:  ┃   ┣render_video: min=0.032 ms, median=0.423 ms, max=5.485 ms, 99th percentile=5.485 ms
+10:54:02.165:  ┃   ┃ ┗render_main_texture: min=0.026 ms, median=0.412 ms, max=5.476 ms, 99th percentile=5.476 ms
+10:54:02.165:  ┃   ┗gs_flush: min=0.004 ms, median=0.01 ms, max=0.426 ms, 99th percentile=0.426 ms
+10:54:02.165:  ┗render_displays: min=0.032 ms, median=0.283 ms, max=16.027 ms, 99th percentile=16.027 ms
+10:54:02.165: =================================================
+10:54:02.165: == Profiler Time Between Calls ==================
+10:54:02.165: obs_hotkey_thread(25 ms): min=25.104 ms, median=25.15 ms, max=25.62 ms, 98.9247% within ±2% of 25 ms (0% lower, 1.07527% higher)
+10:54:02.165: obs_graphics_thread(33.3333 ms): min=10.468 ms, median=33.334 ms, max=422.864 ms, 96.4286% within ±2% of 33.333 ms (1.78571% lower, 1.78571% higher)
+10:54:02.165: =================================================
+10:54:02.166: Number of memory leaks: 0

@@ -1,0 +1,337 @@
+16:58:14.429: CPU Name: AMD Ryzen 5 3600 6-Core Processor              
+16:58:14.429: CPU Speed: 3600MHz
+16:58:14.429: Physical Cores: 6, Logical Cores: 12
+16:58:14.429: Physical Memory: 16317MB Total, 5155MB Free
+16:58:14.430: Windows Version: 10.0 Build 19043 (release: 2009; revision: 1237; 64-bit)
+16:58:14.430: Running as administrator: false
+16:58:14.430: Aero is Enabled (Aero is always on for windows 8 and above)
+16:58:14.430: Windows 10 Gaming Features:
+16:58:14.430: 	Game DVR: On
+16:58:14.434: Sec. Software Status:
+16:58:14.435: 	Bitdefender Antivirus Free Antimalware: enabled (AV)
+16:58:14.436: 	Microsoft Defender Antivirus: disabled (AV)
+16:58:14.436: 	Windows Firewall: enabled (FW)
+16:58:14.437: Current Date/Time: 2021-10-04, 16:58:14
+16:58:14.437: Browser Hardware Acceleration: true
+16:58:14.437: Portable mode: false
+16:58:14.802: OBS 27.0.1 (64-bit, windows)
+16:58:14.802: ---------------------------------
+16:58:14.803: ---------------------------------
+16:58:14.803: audio settings reset:
+16:58:14.803: 	samples per sec: 44100
+16:58:14.803: 	speakers:        2
+16:58:14.805: ---------------------------------
+16:58:14.805: Initializing D3D11...
+16:58:14.805: Available Video Adapters: 
+16:58:14.807: 	Adapter 0: NVIDIA GeForce GTX 1070 Ti
+16:58:14.807: 	  Dedicated VRAM: 4176478208
+16:58:14.807: 	  Shared VRAM:    4260206592
+16:58:14.807: 	  PCI ID:         10de:1b82
+16:58:14.808: 	  Driver Version: 30.0.14.7168
+16:58:14.808: 	  output 0: pos={0, 0}, size={2560, 1440}, attached=true, refresh=165, name=AORUS CV27Q
+16:58:14.808: 	  output 1: pos={-1440, -620}, size={1440, 2560}, attached=true, refresh=165, name=ROG PG278QR
+16:58:14.810: Loading up D3D11 on adapter NVIDIA GeForce GTX 1070 Ti (0)
+16:58:14.899: D3D11 loaded successfully, feature level used: b000
+16:58:14.899: DXGI increase maximum frame latency success
+16:58:14.899: D3D11 GPU priority setup failed (not admin?)
+16:58:15.283: ---------------------------------
+16:58:15.283: video settings reset:
+16:58:15.283: 	base resolution:   2560x1440
+16:58:15.283: 	output resolution: 1280x720
+16:58:15.283: 	downscale filter:  Bicubic
+16:58:15.283: 	fps:               30/1
+16:58:15.283: 	format:            NV12
+16:58:15.283: 	YUV mode:          709/Partial
+16:58:15.283: NV12 texture support enabled
+16:58:15.285: Audio monitoring device:
+16:58:15.285: 	name: Default
+16:58:15.285: 	id: default
+16:58:15.288: ---------------------------------
+16:58:15.289: Skipping module '../../obs-plugins/64bit/chrome_elf.dll', not an OBS plugin
+16:58:15.293: [CoreAudio encoder]: CoreAudio AAC encoder not installed on the system or couldn't be loaded
+16:58:15.294: Failed to load 'en-US' text for module: 'decklink-captions.dll'
+16:58:15.296: Failed to load 'en-US' text for module: 'decklink-ouput-ui.dll'
+16:58:15.362: [AMF] Unable to load 'amfrt64.dll', error code 126.
+16:58:15.364: [AMF] AMF Test failed due to one or more errors.
+16:58:15.365: Failed to initialize module 'enc-amf.dll'
+16:58:15.375: Skipping module '../../obs-plugins/64bit/libcef.dll', not an OBS plugin
+16:58:15.387: Skipping module '../../obs-plugins/64bit/libEGL.dll', not an OBS plugin
+16:58:15.388: Skipping module '../../obs-plugins/64bit/libGLESv2.dll', not an OBS plugin
+16:58:15.394: [obs-browser]: Version 2.14.3
+16:58:15.394: [obs-browser]: CEF Version 75.1.16+g16a67c4+chromium-75.0.3770.100
+16:58:15.399: NVENC supported
+16:58:15.401: [noise suppress: Nvidia RTX denoiser disabled, redistributable not found]
+16:58:15.582: [obs-websocket] you can haz websockets (version 4.9.1)
+16:58:15.582: [obs-websocket] qt version (compile-time): 5.15.2 ; qt version (run-time): 5.15.2
+16:58:15.586: [obs-websocket] module loaded!
+16:58:15.594: Couldn't find VLC installation, VLC video source disabled
+16:58:15.602: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+16:58:15.602: No blackmagic support
+16:58:15.608: ---------------------------------
+16:58:15.608:   Loaded Modules:
+16:58:15.608:     win-wasapi.dll
+16:58:15.608:     win-mf.dll
+16:58:15.608:     win-dshow.dll
+16:58:15.608:     win-decklink.dll
+16:58:15.608:     win-capture.dll
+16:58:15.608:     vlc-video.dll
+16:58:15.608:     text-freetype2.dll
+16:58:15.608:     rtmp-services.dll
+16:58:15.608:     obs-x264.dll
+16:58:15.608:     obs-websocket.dll
+16:58:15.608:     obs-vst.dll
+16:58:15.608:     obs-transitions.dll
+16:58:15.608:     obs-text.dll
+16:58:15.608:     obs-qsv11.dll
+16:58:15.608:     obs-outputs.dll
+16:58:15.608:     obs-filters.dll
+16:58:15.608:     obs-ffmpeg.dll
+16:58:15.608:     obs-browser.dll
+16:58:15.608:     image-source.dll
+16:58:15.608:     frontend-tools.dll
+16:58:15.608:     enc-amf.dll
+16:58:15.608:     decklink-ouput-ui.dll
+16:58:15.608:     decklink-captions.dll
+16:58:15.608:     coreaudio-encoder.dll
+16:58:15.609: ---------------------------------
+16:58:15.609: ==== Startup complete ===============================================
+16:58:15.620: All scene data cleared
+16:58:15.620: ------------------------------------------------
+16:58:15.666: WASAPI: Device 'VoiceMeeter Aux Input (VB-Audio VoiceMeeter AUX VAIO)' [48000 Hz] initialized
+16:58:15.666: [Loaded global audio device]: 'Desktop Audio'
+16:58:15.683: WASAPI: Device 'VoiceMeeter Output (VB-Audio VoiceMeeter VAIO)' [44100 Hz] initialized
+16:58:15.684: [noise suppress: 'Noise Suppression'] NVAFX redist is not installed.
+16:58:15.687: [Loaded global audio device]: 'Mic/Aux'
+16:58:15.687:     - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+16:58:15.687:     - filter: 'Noise Gate' (noise_gate_filter)
+16:58:15.688: [window-capture: 'Window Capture 2'] update settings:
+16:58:15.688: 	executable: chrome.exe
+16:58:15.688: 	method selected: Automatic
+16:58:15.688: 	method chosen: WGC
+16:58:15.688: 
+16:58:15.706: adding 23 milliseconds of audio buffering, total audio buffering is now 23 milliseconds (source: Mic/Aux)
+16:58:15.706: 
+16:58:16.040: warning: deprecated pixel format used, make sure you did set range correctly
+16:58:16.346: ---------------------------------
+16:58:16.346: [DShow Device: 'Normal Webcam'] settings updated: 
+16:58:16.346: 	video device: Iriun Webcam
+16:58:16.346: 	video path: \\?\root#camera#0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{2a1f7d28-c666-4848-a04c-3b1a9f2546a2}
+16:58:16.346: 	resolution: 1920x1080
+16:58:16.346: 	flip: 0
+16:58:16.346: 	fps: 60.00 (interval: 166667)
+16:58:16.346: 	format: YUY2
+16:58:16.396: [rtmp-services plugin] Successfully updated file 'services.json' (version 182)
+16:58:16.397: [rtmp-services plugin] Successfully updated package (version 182)
+16:58:23.320: [window-capture: 'JW Library '] update settings:
+16:58:23.320: 	executable: chrome.exe
+16:58:23.320: 	method selected: Automatic
+16:58:23.320: 	method chosen: WGC
+16:58:23.320: 
+16:58:23.321: [window-capture: 'Window Capture'] update settings:
+16:58:23.321: 	executable: JWLibrary.exe
+16:58:23.321: 	method selected: Automatic
+16:58:23.321: 	method chosen: WGC
+16:58:23.321: 
+16:58:23.321: [window-capture: 'Zoom'] update settings:
+16:58:23.321: 	executable: Zoom.exe
+16:58:23.321: 	method selected: Automatic
+16:58:23.321: 	method chosen: BitBlt
+16:58:23.321: 
+16:58:23.321: [duplicator-monitor-capture: 'Display Capture'] update settings:
+16:58:23.321: 	display: 1 (2560x1440)
+16:58:23.321: 	cursor: true
+16:58:23.321: 	method: DXGI
+16:58:23.336: ---------------------------------
+16:58:23.344: [DShow Device: 'Webcam'] settings updated: 
+16:58:23.344: 	video device: Iriun Webcam
+16:58:23.344: 	video path: \\?\root#camera#0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{2a1f7d28-c666-4848-a04c-3b1a9f2546a2}
+16:58:23.344: 	resolution: 1920x1080
+16:58:23.344: 	flip: 0
+16:58:23.344: 	fps: 60.00 (interval: 166667)
+16:58:23.344: 	format: XRGB
+16:58:23.346: DShow: HDevice::ConnectPins: failed to connect pins (0x8004022A): 
+16:58:23.381: warning: deprecated pixel format used, make sure you did set range correctly
+16:58:23.428: warning: deprecated pixel format used, make sure you did set range correctly
+16:58:23.465: warning: deprecated pixel format used, make sure you did set range correctly
+16:58:23.490: warning: deprecated pixel format used, make sure you did set range correctly
+16:58:23.503: warning: deprecated pixel format used, make sure you did set range correctly
+16:58:23.517: warning: deprecated pixel format used, make sure you did set range correctly
+16:58:23.538: warning: deprecated pixel format used, make sure you did set range correctly
+16:58:23.561: warning: deprecated pixel format used, make sure you did set range correctly
+16:58:23.566: Switched to scene 'Normal Cam'
+16:58:23.567: ------------------------------------------------
+16:58:23.567: Loaded scenes:
+16:58:23.567: - scene 'Show Media':
+16:58:23.567:     - source: 'Background color' (color_source_v3)
+16:58:23.567:     - source: 'Window Capture' (window_capture)
+16:58:23.567:     - source: 'Display Capture' (monitor_capture)
+16:58:23.567:     - source: 'PT 105 Comfort' (slideshow)
+16:58:23.567:     - source: 'Normal Webcam' (dshow_input)
+16:58:23.567: - scene 'Normal Cam':
+16:58:23.571:     - source: 'Normal Webcam' (dshow_input)
+16:58:23.571: - scene 'Video':
+16:58:23.571:     - source: 'VLC' (game_capture)
+16:58:23.571: - scene 'Full Screen Share':
+16:58:23.571:     - source: 'JW Library ' (window_capture)
+16:58:23.571:     - source: 'Zoom' (window_capture)
+16:58:23.571: - scene 'Acitve Background':
+16:58:23.571:     - source: 'White Wall' (image_source)
+16:58:23.571:     - source: 'Chroma Cam' (scene)
+16:58:23.571: - scene 'Chroma Cam':
+16:58:23.571:     - source: 'Webcam' (dshow_input)
+16:58:23.571:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+16:58:23.571:         - filter: 'Color Correction' (color_filter_v2)
+16:58:23.571: - scene 'Classroom':
+16:58:23.571:     - source: 'Normal Webcam' (dshow_input)
+16:58:23.571:     - source: 'Name' (text_gdiplus_v2)
+16:58:23.571:     - source: 'Car Reward' (image_source)
+16:58:23.571:     - source: 'Ultraman Reward' (image_source)
+16:58:23.571:     - source: 'George' (image_source)
+16:58:23.571:     - source: 'Ice Cream' (image_source)
+16:58:23.571:     - source: 'Elsa' (image_source)
+16:58:23.571:     - source: 'Map' (image_source)
+16:58:23.571:     - source: 'Alphabet' (image_source)
+16:58:23.571:     - source: 'Alphabet Ltters' (group)
+16:58:23.571: - scene 'Classroom Game':
+16:58:23.571:     - source: 'Window Capture 2' (window_capture)
+16:58:23.571:     - source: 'Normal Webcam' (dshow_input)
+16:58:23.571: - scene 'Goodbye':
+16:58:23.571:     - source: 'Normal Webcam' (dshow_input)
+16:58:23.571:     - source: 'Goodbye pic' (image_source)
+16:58:23.571: ------------------------------------------------
+16:58:23.745: [obs-websocket] WSServer::start: Not locked to IPv4 bindings
+16:58:23.745: [obs-websocket] server started successfully on port 4444
+16:58:23.745: [obs-websocket] IO thread started.
+16:58:47.397: ---------------------------------
+16:58:47.397: [DShow Device: 'Normal Webcam'] settings updated: 
+16:58:47.397: 	video device: Iriun Webcam
+16:58:47.397: 	video path: \\?\root#camera#0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{2a1f7d28-c666-4848-a04c-3b1a9f2546a2}
+16:58:47.397: 	resolution: 1920x1080
+16:58:47.397: 	flip: 0
+16:58:47.397: 	fps: 60.00 (interval: 166667)
+16:58:47.397: 	format: YUY2
+16:58:54.114: Virtual output started
+16:58:54.117: ==== Virtual Camera Start ==========================================
+11:30:30.635: ---------------------------------
+11:30:30.635: [DShow Device: 'Normal Webcam'] settings updated: 
+11:30:30.635: 	video device: Iriun Webcam
+11:30:30.635: 	video path: \\?\root#camera#0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{2a1f7d28-c666-4848-a04c-3b1a9f2546a2}
+11:30:30.635: 	resolution: 1920x1080
+11:30:30.635: 	flip: 0
+11:30:30.635: 	fps: 60.00 (interval: 166667)
+11:30:30.635: 	format: YUY2
+09:55:56.720: ---------------------------------
+09:55:56.720: [DShow Device: 'Normal Webcam'] settings updated: 
+09:55:56.720: 	video device: Iriun Webcam
+09:55:56.720: 	video path: \\?\root#camera#0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{2a1f7d28-c666-4848-a04c-3b1a9f2546a2}
+09:55:56.720: 	resolution: 1920x1080
+09:55:56.720: 	flip: 0
+09:55:56.720: 	fps: 60.00 (interval: 166667)
+09:55:56.720: 	format: YUY2
+11:30:04.545: adding 23 milliseconds of audio buffering, total audio buffering is now 46 milliseconds (source: Mic/Aux)
+11:30:04.545: 
+13:52:42.824: ---------------------------------
+13:52:42.824: [DShow Device: 'Normal Webcam'] settings updated: 
+13:52:42.824: 	video device: Iriun Webcam
+13:52:42.824: 	video path: \\?\root#camera#0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{2a1f7d28-c666-4848-a04c-3b1a9f2546a2}
+13:52:42.824: 	resolution: 1920x1080
+13:52:42.824: 	flip: 0
+13:52:42.824: 	fps: 60.00 (interval: 166667)
+13:52:42.824: 	format: YUY2
+16:54:30.794: Output 'virtualcam_output': stopping
+16:54:30.794: Output 'virtualcam_output': Total frames output: 5176100
+16:54:30.794: Output 'virtualcam_output': Total drawn frames: 5175955 (5176101 attempted)
+16:54:30.794: Output 'virtualcam_output': Number of lagged frames due to rendering lag/stalls: 146 (0.0%)
+16:54:30.796: ==== Virtual Camera Stop ===========================================
+16:54:30.800: Virtual output stopped
+17:54:50.257: ---------------------------------
+17:54:50.257: [DShow Device: 'Normal Webcam'] settings updated: 
+17:54:50.257: 	video device: Iriun Webcam
+17:54:50.257: 	video path: \\?\root#camera#0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{2a1f7d28-c666-4848-a04c-3b1a9f2546a2}
+17:54:50.257: 	resolution: 1920x1080
+17:54:50.257: 	flip: 0
+17:54:50.257: 	fps: 60.00 (interval: 166667)
+17:54:50.257: 	format: YUY2
+17:54:51.773: Virtual output started
+17:54:51.776: ==== Virtual Camera Start ==========================================
+09:11:44.765: Output 'virtualcam_output': stopping
+09:11:44.766: Output 'virtualcam_output': Total frames output: 1650389
+09:11:44.766: Output 'virtualcam_output': Total drawn frames: 1650390
+09:11:44.766: ==== Virtual Camera Stop ===========================================
+09:11:44.770: Virtual output stopped
+09:11:45.976: ==== Shutting down ==================================================
+09:11:45.992: [obs-websocket] IO thread exited.
+09:11:45.992: [obs-websocket] server stopped successfully
+09:11:46.241: WASAPI: Device 'VoiceMeeter Aux Input (VB-Audio VoiceMeeter AUX VAIO)' Terminated
+09:11:46.253: WASAPI: Device 'VoiceMeeter Output (VB-Audio VoiceMeeter VAIO)' Terminated
+09:11:46.258: All scene data cleared
+09:11:46.258: ------------------------------------------------
+09:11:46.386: [obs-websocket] goodbye!
+09:11:46.391: [Scripting] Total detached callbacks: 0
+09:11:46.409: Freeing OBS context data
+09:11:46.473: == Profiler Results =============================
+09:11:46.473: run_program_init: 9585.58 ms
+09:11:46.473:  ┣OBSApp::AppInit: 247.314 ms
+09:11:46.473:  ┃ ┗OBSApp::InitLocale: 222.922 ms
+09:11:46.473:  ┗OBSApp::OBSInit: 9315.96 ms
+09:11:46.473:    ┣obs_startup: 7.824 ms
+09:11:46.473:    ┗OBSBasic::OBSInit: 8942.77 ms
+09:11:46.473:      ┣OBSBasic::InitBasicConfig: 0.491 ms
+09:11:46.473:      ┣OBSBasic::ResetAudio: 0.18 ms
+09:11:46.473:      ┣OBSBasic::ResetVideo: 481.881 ms
+09:11:46.473:      ┣OBSBasic::InitOBSCallbacks: 0.008 ms
+09:11:46.473:      ┣OBSBasic::InitHotkeys: 0.065 ms
+09:11:46.473:      ┣obs_load_all_modules: 319.778 ms
+09:11:46.473:      ┃ ┣obs_init_module(coreaudio-encoder.dll): 1.527 ms
+09:11:46.473:      ┃ ┣obs_init_module(decklink-captions.dll): 0.037 ms
+09:11:46.473:      ┃ ┣obs_init_module(decklink-ouput-ui.dll): 0.869 ms
+09:11:46.473:      ┃ ┣obs_init_module(enc-amf.dll): 66.247 ms
+09:11:46.473:      ┃ ┣obs_init_module(frontend-tools.dll): 5.011 ms
+09:11:46.473:      ┃ ┣obs_init_module(image-source.dll): 0.008 ms
+09:11:46.473:      ┃ ┣obs_init_module(obs-browser.dll): 0.382 ms
+09:11:46.473:      ┃ ┣obs_init_module(obs-ffmpeg.dll): 0.874 ms
+09:11:46.473:      ┃ ┃ ┗nvenc_check: 0.823 ms
+09:11:46.473:      ┃ ┣obs_init_module(obs-filters.dll): 0.063 ms
+09:11:46.473:      ┃ ┣obs_init_module(obs-outputs.dll): 0.012 ms
+09:11:46.473:      ┃ ┣obs_init_module(obs-qsv11.dll): 171.05 ms
+09:11:46.473:      ┃ ┣obs_init_module(obs-text.dll): 0.271 ms
+09:11:46.473:      ┃ ┣obs_init_module(obs-transitions.dll): 0.011 ms
+09:11:46.473:      ┃ ┣obs_init_module(obs-vst.dll): 0.001 ms
+09:11:46.473:      ┃ ┣obs_init_module(obs-websocket.dll): 4.532 ms
+09:11:46.473:      ┃ ┣obs_init_module(obs-x264.dll): 0.002 ms
+09:11:46.473:      ┃ ┣obs_init_module(rtmp-services.dll): 1.666 ms
+09:11:46.473:      ┃ ┣obs_init_module(text-freetype2.dll): 0.136 ms
+09:11:46.473:      ┃ ┣obs_init_module(vlc-video.dll): 0.062 ms
+09:11:46.473:      ┃ ┣obs_init_module(win-capture.dll): 1.979 ms
+09:11:46.473:      ┃ ┣obs_init_module(win-decklink.dll): 3.438 ms
+09:11:46.473:      ┃ ┣obs_init_module(win-dshow.dll): 1.835 ms
+09:11:46.473:      ┃ ┣obs_init_module(win-mf.dll): 0 ms
+09:11:46.473:      ┃ ┣obs_init_module(win-wasapi.dll): 0.009 ms
+09:11:46.473:      ┃ ┗reset_win32_symbol_paths: 0.221 ms
+09:11:46.473:      ┣OBSBasic::ResetOutputs: 0.515 ms
+09:11:46.473:      ┣OBSBasic::CreateHotkeys: 0.065 ms
+09:11:46.473:      ┣OBSBasic::InitService: 3.018 ms
+09:11:46.473:      ┣OBSBasic::InitPrimitives: 0.112 ms
+09:11:46.473:      ┗OBSBasic::Load: 7959.24 ms
+09:11:46.473: obs_hotkey_thread(25 ms): min=0.006 ms, median=0.015 ms, max=1389 ms, 99th percentile=0.184 ms, 99.9998% below 25 ms
+09:11:46.473: audio_thread(Audio): min=0 ms, median=0.037 ms, max=4.517 ms, 99th percentile=0.153 ms
+09:11:46.474: obs_graphics_thread(33.3333 ms): min=0.102 ms, median=0.778 ms, max=7878.62 ms, 99th percentile=5.438 ms, 99.9998% below 33.333 ms
+09:11:46.474:  ┣tick_sources: min=0.001 ms, median=0.031 ms, max=7878.51 ms, 99th percentile=0.078 ms
+09:11:46.474:  ┣output_frame: min=0.047 ms, median=0.568 ms, max=1372.11 ms, 99th percentile=1.768 ms
+09:11:46.474:  ┃ ┣gs_context(video->graphics): min=0.046 ms, median=0.28 ms, max=1371.76 ms, 99th percentile=1.292 ms
+09:11:46.474:  ┃ ┃ ┣render_video: min=0.004 ms, median=0.078 ms, max=632.772 ms, 99th percentile=1.052 ms
+09:11:46.474:  ┃ ┃ ┃ ┣render_main_texture: min=0.002 ms, median=0.011 ms, max=7.848 ms, 99th percentile=0.96 ms
+09:11:46.474:  ┃ ┃ ┃ ┣render_output_texture: min=0.006 ms, median=0.021 ms, max=0.825 ms, 99th percentile=0.049 ms
+09:11:46.474:  ┃ ┃ ┃ ┣render_convert_texture: min=0.006 ms, median=0.011 ms, max=7.551 ms, 99th percentile=0.025 ms
+09:11:46.474:  ┃ ┃ ┃ ┗stage_output_texture: min=0.001 ms, median=0.014 ms, max=632.049 ms, 99th percentile=0.1 ms
+09:11:46.474:  ┃ ┃ ┣gs_flush: min=0.021 ms, median=0.085 ms, max=1371.24 ms, 99th percentile=0.293 ms
+09:11:46.474:  ┃ ┃ ┗download_frame: min=0 ms, median=0.064 ms, max=21.735 ms, 99th percentile=0.173 ms
+09:11:46.474:  ┃ ┗output_video_data: min=0.13 ms, median=0.229 ms, max=3.888 ms, 99th percentile=0.553 ms
+09:11:46.474:  ┗render_displays: min=0 ms, median=0.001 ms, max=33.239 ms, 99th percentile=4.963 ms
+09:11:46.474: video_thread(video): min=0.094 ms, median=0.172 ms, max=3.803 ms, 99th percentile=0.398 ms
+09:11:46.474: =================================================
+09:11:46.474: == Profiler Time Between Calls ==================
+09:11:46.474: obs_hotkey_thread(25 ms): min=24.559 ms, median=25.019 ms, max=1413.58 ms, 99.9353% within ±2% of 25 ms (0% lower, 0.0647119% higher)
+09:11:46.474: obs_graphics_thread(33.3333 ms): min=0.678 ms, median=33.333 ms, max=7878.63 ms, 99.9928% within ±2% of 33.333 ms (0.00357563% lower, 0.00364772% higher)
+09:11:46.474: =================================================
+09:11:46.583: Number of memory leaks: 1

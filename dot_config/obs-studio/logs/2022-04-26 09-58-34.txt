@@ -1,0 +1,194 @@
+09:58:34.128: CPU Name: AMD Ryzen 5 3600 6-Core Processor
+09:58:34.128: CPU Speed: 3600.000MHz
+09:58:34.128: Physical Cores: 6, Logical Cores: 12
+09:58:34.128: Physical Memory: 15928MB Total, 3102MB Free
+09:58:34.128: Kernel Version: Linux 5.17.4-arch1-1
+09:58:34.128: Distribution: EndeavourOS Unknown
+09:58:34.128: Session Type: x11
+09:58:34.129: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+09:58:34.129: Qt Version: 5.15.3 (runtime), 5.15.3 (compiled)
+09:58:34.129: Portable mode: false
+09:58:34.172: OBS 27.2.3-1 (linux)
+09:58:34.172: ---------------------------------
+09:58:34.172: ---------------------------------
+09:58:34.172: audio settings reset:
+09:58:34.172: 	samples per sec: 48000
+09:58:34.172: 	speakers:        2
+09:58:34.173: ---------------------------------
+09:58:34.173: Initializing OpenGL...
+09:58:34.212: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1070 Ti/PCIe/SSE2
+09:58:34.212: OpenGL loaded successfully, version 3.3.0 NVIDIA 510.60.02, shading language 3.30 NVIDIA via Cg compiler
+09:58:34.219: ---------------------------------
+09:58:34.219: video settings reset:
+09:58:34.219: 	base resolution:   1920x1080
+09:58:34.219: 	output resolution: 1280x720
+09:58:34.219: 	downscale filter:  Bicubic
+09:58:34.219: 	fps:               30/1
+09:58:34.219: 	format:            NV12
+09:58:34.219: 	YUV mode:          709/Partial
+09:58:34.219: NV12 texture support not available
+09:58:34.220: Audio monitoring device:
+09:58:34.220: 	name: Monitor of Virtual1-Mic Audio/Sink sink
+09:58:34.220: 	id: Virtual1-Mic.monitor
+09:58:34.220: ---------------------------------
+09:58:34.222: Failed to load 'en-US' text for module: 'decklink-captions.so'
+09:58:34.223: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+09:58:34.282: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+09:58:34.282: No blackmagic support
+09:58:34.287: NVENC supported
+09:58:34.287: FFMPEG VAAPI supported
+09:58:34.291: os_dlopen(/usr//lib/obs-plugins/sndio.so->/usr//lib/obs-plugins/sndio.so): libsndio.so.7: cannot open shared object file: No such file or directory
+09:58:34.291: 
+09:58:34.291: Module '/usr//lib/obs-plugins/sndio.so' not loaded
+09:58:34.292: ---------------------------------
+09:58:34.292:   Loaded Modules:
+09:58:34.292:     text-freetype2.so
+09:58:34.292:     rtmp-services.so
+09:58:34.292:     obs-x264.so
+09:58:34.292:     obs-transitions.so
+09:58:34.292:     obs-outputs.so
+09:58:34.292:     obs-libfdk.so
+09:58:34.292:     obs-filters.so
+09:58:34.292:     obs-ffmpeg.so
+09:58:34.292:     linux-v4l2.so
+09:58:34.292:     linux-pulseaudio.so
+09:58:34.292:     linux-jack.so
+09:58:34.292:     linux-decklink.so
+09:58:34.292:     linux-capture.so
+09:58:34.292:     linux-alsa.so
+09:58:34.292:     image-source.so
+09:58:34.292:     frontend-tools.so
+09:58:34.292:     decklink-ouput-ui.so
+09:58:34.292:     decklink-captions.so
+09:58:34.292: ---------------------------------
+09:58:34.292: ==== Startup complete ===============================================
+09:58:34.341: All scene data cleared
+09:58:34.341: ------------------------------------------------
+09:58:34.344: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.50) 15.0.0'
+09:58:34.344: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+09:58:34.344: pulse-input: Started recording from 'alsa_input.usb-SteelSeries_SteelSeries_Arctis_7-00.mono-chat'
+09:58:34.347: pulse-am: Server name: 'PulseAudio (on PipeWire 0.3.50) 15.0.0'
+09:58:34.347: pulse-am: Audio format: float32le, 48000 Hz, 2 channels
+09:58:34.347: pulse-am: Started Monitoring in 'Virtual1-Mic.monitor'
+09:58:34.347: [Loaded global audio device]: 'Mic/Aux'
+09:58:34.347:     - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+09:58:34.347:     - filter: 'Noise Gate' (noise_gate_filter)
+09:58:34.347:     - filter: 'Compressor' (compressor_filter)
+09:58:34.347:     - monitoring: monitor and output
+09:58:34.461: v4l2-input: Start capture from /dev/video10
+09:58:34.462: v4l2-input: Input: 0
+09:58:34.462: v4l2-input: Resolution: 1280x720
+09:58:34.462: v4l2-input: Pixelformat: YU12
+09:58:34.462: v4l2-input: Linesize: 1280 Bytes
+09:58:34.462: v4l2-input: Framerate: 30.00 fps
+09:58:34.462: v4l2-input: /dev/video10: select timeout set to 166666 (5x frame periods)
+09:58:34.630: v4l2-input: /dev/video10: select timed out
+09:58:34.630: v4l2-input: /dev/video10: failed to log status
+09:58:34.755: Switched to scene 'Classroom'
+09:58:34.755: ------------------------------------------------
+09:58:34.755: Loaded scenes:
+09:58:34.755: - scene 'Main Camera':
+09:58:34.755:     - source: 'OnePlus' (v4l2_input)
+09:58:34.755:     - source: '[NS] Standard Audio' (scene)
+09:58:34.755: - scene 'Classroom':
+09:58:34.760:     - source: 'Main Camera' (scene)
+09:58:34.760:     - source: 'Alphabet' (image_source)
+09:58:34.760:     - source: 'World Map' (image_source)
+09:58:34.760:     - source: 'Nameplate flip' (text_ft2_source_v2)
+09:58:34.760:     - source: 'Nameplate flip' (text_ft2_source_v2)
+09:58:34.760:     - source: 'toppng.com-kawaii-sushi-png-sushi-anime-600x355.png' (image_source)
+09:58:34.760:     - source: 'justin.png' (image_source)
+09:58:34.760:     - source: 'Car' (image_source)
+09:58:34.760:     - source: 'Cat' (image_source)
+09:58:34.760:     - source: 'Elsa' (image_source)
+09:58:34.760:     - source: 'George' (image_source)
+09:58:34.760:     - source: 'Harold Sticker' (image_source)
+09:58:34.760:     - source: 'Ice Cream' (image_source)
+09:58:34.760:     - source: 'Spiderman' (image_source)
+09:58:34.760:     - source: 'Ultraman' (image_source)
+09:58:34.760:     - source: 'Ultraman plus' (image_source)
+09:58:34.760:     - source: 'toppng.com-orange-juice-2960x3504.png' (image_source)
+09:58:34.760:     - source: 'toppng.com-bunny-png-cartoon-free-487x477.png' (image_source)
+09:58:34.760:     - source: 'toppng.com-fox-300x300.png' (image_source)
+09:58:34.760:     - source: 'Chat' (text_ft2_source_v2)
+09:58:34.760: - scene 'Media with Camera':
+09:58:34.760:     - source: 'PT 105' (slideshow)
+09:58:34.760:     - source: 'FF' (xcomposite_input)
+09:58:34.760:     - source: '[NS] Cirlce Mask Cam' (scene)
+09:58:34.760:         - filter: 'Circle Mask' (mask_filter_v2)
+09:58:34.760: - scene 'Fullscreen share':
+09:58:34.760:     - source: 'JW Lib' (xcomposite_input)
+09:58:34.760:     - source: 'FF' (xcomposite_input)
+09:58:34.760: - scene '[NS] Standard Audio':
+09:58:34.760: - scene '[NS] Cirlce Mask Cam':
+09:58:34.760:     - source: 'OnePlus' (v4l2_input)
+09:58:34.760:     - filter: 'Circle Mask' (mask_filter_v2)
+09:58:34.760: ------------------------------------------------
+09:58:34.796: v4l2-input: /dev/video10: select timed out
+09:58:34.797: v4l2-input: /dev/video10: failed to log status
+09:58:34.931: adding 64 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Mic/Aux)
+09:58:34.931: 
+09:58:34.963: v4l2-input: /dev/video10: select timed out
+09:58:34.963: v4l2-input: /dev/video10: failed to log status
+09:58:35.130: v4l2-input: /dev/video10: select timed out
+09:58:35.130: v4l2-input: /dev/video10: failed to log status
+09:58:35.297: v4l2-input: /dev/video10: select timed out
+09:58:35.297: v4l2-input: /dev/video10: failed to log status
+09:58:35.464: v4l2-input: /dev/video10: select timed out
+09:58:35.464: v4l2-input: /dev/video10: failed to log status
+09:58:35.631: v4l2-input: /dev/video10: select timed out
+09:58:35.631: v4l2-input: /dev/video10: failed to log status
+09:58:35.798: v4l2-input: /dev/video10: select timed out
+09:58:35.798: v4l2-input: /dev/video10: failed to log status
+09:58:35.965: v4l2-input: /dev/video10: select timed out
+09:58:35.965: v4l2-input: /dev/video10: failed to log status
+09:58:36.132: v4l2-input: /dev/video10: select timed out
+09:58:36.132: v4l2-input: /dev/video10: failed to log status
+09:58:36.299: v4l2-input: /dev/video10: select timed out
+09:58:36.299: v4l2-input: /dev/video10: failed to log status
+09:58:36.466: v4l2-input: /dev/video10: select timed out
+09:58:36.466: v4l2-input: /dev/video10: failed to log status
+09:58:36.633: v4l2-input: /dev/video10: select timed out
+09:58:36.633: v4l2-input: /dev/video10: failed to log status
+09:58:36.800: v4l2-input: /dev/video10: select timed out
+09:58:36.800: v4l2-input: /dev/video10: failed to log status
+09:58:36.966: v4l2-input: /dev/video10: select timed out
+09:58:36.966: v4l2-input: /dev/video10: failed to log status
+09:58:37.133: v4l2-input: /dev/video10: select timed out
+09:58:37.133: v4l2-input: /dev/video10: failed to log status
+09:58:37.300: v4l2-input: /dev/video10: select timed out
+09:58:37.300: v4l2-input: /dev/video10: failed to log status
+09:58:37.467: v4l2-input: /dev/video10: select timed out
+09:58:37.467: v4l2-input: /dev/video10: failed to log status
+09:58:37.634: v4l2-input: /dev/video10: select timed out
+09:58:37.634: v4l2-input: /dev/video10: failed to log status
+09:58:37.801: v4l2-input: /dev/video10: select timed out
+09:58:37.801: v4l2-input: /dev/video10: failed to log status
+09:58:37.968: v4l2-input: /dev/video10: select timed out
+09:58:37.968: v4l2-input: /dev/video10: failed to log status
+09:58:38.135: v4l2-input: /dev/video10: select timed out
+09:58:38.135: v4l2-input: /dev/video10: failed to log status
+09:58:38.302: v4l2-input: /dev/video10: select timed out
+09:58:38.302: v4l2-input: /dev/video10: failed to log status
+09:58:38.469: v4l2-input: /dev/video10: select timed out
+09:58:38.469: v4l2-input: /dev/video10: failed to log status
+09:58:38.636: v4l2-input: /dev/video10: select timed out
+09:58:38.636: v4l2-input: /dev/video10: failed to log status
+09:58:38.803: v4l2-input: /dev/video10: select timed out
+09:58:38.803: v4l2-input: /dev/video10: failed to log status
+09:58:38.969: v4l2-input: /dev/video10: select timed out
+09:58:38.969: v4l2-input: /dev/video10: failed to log status
+09:58:39.136: v4l2-input: /dev/video10: select timed out
+09:58:39.136: v4l2-input: /dev/video10: failed to log status
+09:58:42.258: Starting virtual camera due to hotkey
+09:58:42.258: Virtual camera started
+09:58:42.265: ==== Virtual Camera Start ==========================================
+09:58:44.690: User switched to scene 'Main Camera'
+10:16:01.248: User switched to scene 'Classroom'
+10:16:03.347: User switched to scene 'Main Camera'
+13:33:44.389: Stopping virtual camera due to hotkey
+13:33:44.389: Output 'virtualcam_output': stopping
+13:33:44.389: Output 'virtualcam_output': Total frames output: 387063
+13:33:44.389: Output 'virtualcam_output': Total drawn frames: 387064
+13:33:44.389: ==== Virtual Camera Stop ===========================================
+13:33:44.391: Virtual camera stopped

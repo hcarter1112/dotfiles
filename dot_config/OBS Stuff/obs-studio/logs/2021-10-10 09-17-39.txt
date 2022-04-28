@@ -1,0 +1,314 @@
+09:17:39.292: CPU Name: AMD Ryzen 5 3600 6-Core Processor              
+09:17:39.292: CPU Speed: 3600MHz
+09:17:39.293: Physical Cores: 6, Logical Cores: 12
+09:17:39.293: Physical Memory: 16317MB Total, 8111MB Free
+09:17:39.293: Windows Version: 10.0 Build 19043 (release: 2009; revision: 1237; 64-bit)
+09:17:39.293: Running as administrator: false
+09:17:39.293: Aero is Enabled (Aero is always on for windows 8 and above)
+09:17:39.293: Windows 10 Gaming Features:
+09:17:39.293: 	Game DVR: On
+09:17:39.295: Sec. Software Status:
+09:17:39.296: 	Bitdefender Antivirus Free Antimalware: enabled (AV)
+09:17:39.296: 	Microsoft Defender Antivirus: disabled (AV)
+09:17:39.296: 	Windows Firewall: enabled (FW)
+09:17:39.297: Current Date/Time: 2021-10-10, 09:17:39
+09:17:39.297: Browser Hardware Acceleration: true
+09:17:39.297: Portable mode: false
+09:17:39.651: OBS 27.0.1 (64-bit, windows)
+09:17:39.651: ---------------------------------
+09:17:39.651: ---------------------------------
+09:17:39.652: audio settings reset:
+09:17:39.652: 	samples per sec: 44100
+09:17:39.652: 	speakers:        2
+09:17:39.653: ---------------------------------
+09:17:39.653: Initializing D3D11...
+09:17:39.654: Available Video Adapters: 
+09:17:39.656: 	Adapter 0: NVIDIA GeForce GTX 1070 Ti
+09:17:39.656: 	  Dedicated VRAM: 4176478208
+09:17:39.656: 	  Shared VRAM:    4260206592
+09:17:39.656: 	  PCI ID:         10de:1b82
+09:17:39.656: 	  Driver Version: 30.0.14.7212
+09:17:39.656: 	  output 0: pos={0, 0}, size={2560, 1440}, attached=true, refresh=165, name=AORUS CV27Q
+09:17:39.656: 	  output 1: pos={-1440, -620}, size={1440, 2560}, attached=true, refresh=165, name=ROG PG278QR
+09:17:39.658: Loading up D3D11 on adapter NVIDIA GeForce GTX 1070 Ti (0)
+09:17:39.737: D3D11 loaded successfully, feature level used: b000
+09:17:39.737: DXGI increase maximum frame latency success
+09:17:39.737: D3D11 GPU priority setup failed (not admin?)
+09:17:40.110: ---------------------------------
+09:17:40.110: video settings reset:
+09:17:40.110: 	base resolution:   2560x1440
+09:17:40.110: 	output resolution: 1280x720
+09:17:40.110: 	downscale filter:  Bicubic
+09:17:40.110: 	fps:               30/1
+09:17:40.110: 	format:            NV12
+09:17:40.110: 	YUV mode:          709/Partial
+09:17:40.110: NV12 texture support enabled
+09:17:40.112: Audio monitoring device:
+09:17:40.112: 	name: Default
+09:17:40.112: 	id: default
+09:17:40.115: ---------------------------------
+09:17:40.116: Skipping module '../../obs-plugins/64bit/chrome_elf.dll', not an OBS plugin
+09:17:40.120: [CoreAudio encoder]: CoreAudio AAC encoder not installed on the system or couldn't be loaded
+09:17:40.120: Failed to load 'en-US' text for module: 'decklink-captions.dll'
+09:17:40.121: Failed to load 'en-US' text for module: 'decklink-ouput-ui.dll'
+09:17:40.166: [AMF] Unable to load 'amfrt64.dll', error code 126.
+09:17:40.168: [AMF] AMF Test failed due to one or more errors.
+09:17:40.168: Failed to initialize module 'enc-amf.dll'
+09:17:40.176: Skipping module '../../obs-plugins/64bit/libcef.dll', not an OBS plugin
+09:17:40.186: Skipping module '../../obs-plugins/64bit/libEGL.dll', not an OBS plugin
+09:17:40.187: Skipping module '../../obs-plugins/64bit/libGLESv2.dll', not an OBS plugin
+09:17:40.192: [obs-browser]: Version 2.14.3
+09:17:40.192: [obs-browser]: CEF Version 75.1.16+g16a67c4+chromium-75.0.3770.100
+09:17:40.197: NVENC supported
+09:17:40.198: [noise suppress: Nvidia RTX denoiser disabled, redistributable not found]
+09:17:40.393: [obs-websocket] you can haz websockets (version 4.9.1)
+09:17:40.393: [obs-websocket] qt version (compile-time): 5.15.2 ; qt version (run-time): 5.15.2
+09:17:40.397: [obs-websocket] module loaded!
+09:17:40.404: Couldn't find VLC installation, VLC video source disabled
+09:17:40.411: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+09:17:40.412: No blackmagic support
+09:17:40.418: ---------------------------------
+09:17:40.418:   Loaded Modules:
+09:17:40.418:     win-wasapi.dll
+09:17:40.418:     win-mf.dll
+09:17:40.418:     win-dshow.dll
+09:17:40.418:     win-decklink.dll
+09:17:40.418:     win-capture.dll
+09:17:40.418:     vlc-video.dll
+09:17:40.418:     text-freetype2.dll
+09:17:40.418:     rtmp-services.dll
+09:17:40.419:     obs-x264.dll
+09:17:40.419:     obs-websocket.dll
+09:17:40.419:     obs-vst.dll
+09:17:40.419:     obs-transitions.dll
+09:17:40.419:     obs-text.dll
+09:17:40.419:     obs-qsv11.dll
+09:17:40.419:     obs-outputs.dll
+09:17:40.419:     obs-filters.dll
+09:17:40.419:     obs-ffmpeg.dll
+09:17:40.419:     obs-browser.dll
+09:17:40.419:     image-source.dll
+09:17:40.419:     frontend-tools.dll
+09:17:40.419:     enc-amf.dll
+09:17:40.419:     decklink-ouput-ui.dll
+09:17:40.419:     decklink-captions.dll
+09:17:40.419:     coreaudio-encoder.dll
+09:17:40.419: ---------------------------------
+09:17:40.419: ==== Startup complete ===============================================
+09:17:40.434: All scene data cleared
+09:17:40.434: ------------------------------------------------
+09:17:40.494: WASAPI: Device 'VoiceMeeter Aux Input (VB-Audio VoiceMeeter AUX VAIO)' [48000 Hz] initialized
+09:17:40.495: [Loaded global audio device]: 'Desktop Audio'
+09:17:40.511: WASAPI: Device 'VoiceMeeter Output (VB-Audio VoiceMeeter VAIO)' [44100 Hz] initialized
+09:17:40.512: [noise suppress: 'Noise Suppression'] NVAFX redist is not installed.
+09:17:40.513: [Loaded global audio device]: 'Mic/Aux'
+09:17:40.513:     - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+09:17:40.513:     - filter: 'Noise Gate' (noise_gate_filter)
+09:17:40.514: [window-capture: 'Window Capture 2'] update settings:
+09:17:40.514: 	executable: chrome.exe
+09:17:40.514: 	method selected: Automatic
+09:17:40.514: 	method chosen: WGC
+09:17:40.514: 
+09:17:40.553: adding 46 milliseconds of audio buffering, total audio buffering is now 46 milliseconds (source: Mic/Aux)
+09:17:40.553: 
+09:17:40.930: warning: deprecated pixel format used, make sure you did set range correctly
+09:17:41.265: ---------------------------------
+09:17:41.265: [DShow Device: 'Normal Webcam'] settings updated: 
+09:17:41.265: 	video device: Iriun Webcam
+09:17:41.265: 	video path: \\?\root#camera#0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{2a1f7d28-c666-4848-a04c-3b1a9f2546a2}
+09:17:41.265: 	resolution: 1920x1080
+09:17:41.265: 	flip: 0
+09:17:41.265: 	fps: 60.00 (interval: 166667)
+09:17:41.265: 	format: YUY2
+09:17:41.504: [window-capture: 'JW Library '] update settings:
+09:17:41.504: 	executable: JWLibrary.exe
+09:17:41.504: 	method selected: Automatic
+09:17:41.504: 	method chosen: WGC
+09:17:41.504: 
+09:17:41.504: [window-capture: 'Window Capture'] update settings:
+09:17:41.504: 	executable: JWLibrary.exe
+09:17:41.504: 	method selected: Automatic
+09:17:41.504: 	method chosen: WGC
+09:17:41.504: 
+09:17:41.504: [window-capture: 'Zoom'] update settings:
+09:17:41.504: 	executable: Zoom.exe
+09:17:41.504: 	method selected: Automatic
+09:17:41.504: 	method chosen: BitBlt
+09:17:41.504: 
+09:17:41.505: [duplicator-monitor-capture: 'Display Capture'] update settings:
+09:17:41.505: 	display: 1 (2560x1440)
+09:17:41.505: 	cursor: true
+09:17:41.505: 	method: DXGI
+09:17:41.516: ---------------------------------
+09:17:41.531: [DShow Device: 'Webcam'] settings updated: 
+09:17:41.531: 	video device: Iriun Webcam
+09:17:41.531: 	video path: \\?\root#camera#0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{2a1f7d28-c666-4848-a04c-3b1a9f2546a2}
+09:17:41.531: 	resolution: 1920x1080
+09:17:41.531: 	flip: 0
+09:17:41.531: 	fps: 60.00 (interval: 166667)
+09:17:41.531: 	format: XRGB
+09:17:41.533: DShow: HDevice::ConnectPins: failed to connect pins (0x8004022A): 
+09:17:41.572: warning: deprecated pixel format used, make sure you did set range correctly
+09:17:41.621: warning: deprecated pixel format used, make sure you did set range correctly
+09:17:41.648: warning: deprecated pixel format used, make sure you did set range correctly
+09:17:41.672: warning: deprecated pixel format used, make sure you did set range correctly
+09:17:41.685: warning: deprecated pixel format used, make sure you did set range correctly
+09:17:41.698: warning: deprecated pixel format used, make sure you did set range correctly
+09:17:41.721: warning: deprecated pixel format used, make sure you did set range correctly
+09:17:41.744: warning: deprecated pixel format used, make sure you did set range correctly
+09:17:41.762: warning: deprecated pixel format used, make sure you did set range correctly
+09:17:41.795: warning: deprecated pixel format used, make sure you did set range correctly
+09:17:41.807: Switched to scene 'Classroom'
+09:17:41.808: ------------------------------------------------
+09:17:41.808: Loaded scenes:
+09:17:41.808: - scene 'Show Media':
+09:17:41.808:     - source: 'Background color' (color_source_v3)
+09:17:41.808:     - source: 'Window Capture' (window_capture)
+09:17:41.808:     - source: 'Display Capture' (monitor_capture)
+09:17:41.809:     - source: 'PT 105 Comfort' (slideshow)
+09:17:41.809:     - source: 'Normal Webcam' (dshow_input)
+09:17:41.809: - scene 'Normal Cam':
+09:17:41.809:     - source: 'Normal Webcam' (dshow_input)
+09:17:41.809: - scene 'Video':
+09:17:41.809:     - source: 'VLC' (game_capture)
+09:17:41.809: - scene 'Full Screen Share':
+09:17:41.809:     - source: 'JW Library ' (window_capture)
+09:17:41.809:     - source: 'Zoom' (window_capture)
+09:17:41.809:     - source: 'Vane Talk' (slideshow)
+09:17:41.809: - scene 'Acitve Background':
+09:17:41.809:     - source: 'White Wall' (image_source)
+09:17:41.809:     - source: 'Chroma Cam' (scene)
+09:17:41.809: - scene 'Chroma Cam':
+09:17:41.809:     - source: 'Webcam' (dshow_input)
+09:17:41.809:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+09:17:41.809:         - filter: 'Color Correction' (color_filter_v2)
+09:17:41.809: - scene 'Classroom':
+09:17:41.809:     - source: 'Normal Webcam' (dshow_input)
+09:17:41.809:     - source: 'Name' (text_gdiplus_v2)
+09:17:41.809:     - source: 'Car Reward' (image_source)
+09:17:41.809:     - source: 'Ultraman Reward' (image_source)
+09:17:41.809:     - source: 'George' (image_source)
+09:17:41.809:     - source: 'Ice Cream' (image_source)
+09:17:41.809:     - source: 'Elsa' (image_source)
+09:17:41.809:     - source: 'Map' (image_source)
+09:17:41.809:     - source: 'Alphabet' (image_source)
+09:17:41.809:     - source: 'Alphabet Ltters' (group)
+09:17:41.809: - scene 'Classroom Game':
+09:17:41.809:     - source: 'Window Capture 2' (window_capture)
+09:17:41.809:     - source: 'Normal Webcam' (dshow_input)
+09:17:41.809: - scene 'Goodbye':
+09:17:41.809:     - source: 'Normal Webcam' (dshow_input)
+09:17:41.809:     - source: 'Goodbye pic' (image_source)
+09:17:41.809: ------------------------------------------------
+09:17:41.814: A sprite cannot be drawn without a width/height
+09:17:41.847: A sprite cannot be drawn without a width/height
+09:17:41.881: A sprite cannot be drawn without a width/height
+09:17:41.914: A sprite cannot be drawn without a width/height
+09:17:41.947: A sprite cannot be drawn without a width/height
+09:17:41.981: A sprite cannot be drawn without a width/height
+09:17:41.998: [obs-websocket] WSServer::start: Not locked to IPv4 bindings
+09:17:42.000: [obs-websocket] server started successfully on port 4444
+09:17:42.000: [obs-websocket] IO thread started.
+09:17:42.014: A sprite cannot be drawn without a width/height
+09:17:42.047: A sprite cannot be drawn without a width/height
+09:17:42.081: A sprite cannot be drawn without a width/height
+09:17:42.114: A sprite cannot be drawn without a width/height
+09:17:42.148: A sprite cannot be drawn without a width/height
+09:17:42.181: A sprite cannot be drawn without a width/height
+09:17:42.214: A sprite cannot be drawn without a width/height
+09:17:42.247: A sprite cannot be drawn without a width/height
+09:17:42.281: A sprite cannot be drawn without a width/height
+09:17:42.314: A sprite cannot be drawn without a width/height
+09:17:42.348: A sprite cannot be drawn without a width/height
+09:17:42.381: A sprite cannot be drawn without a width/height
+09:17:42.414: A sprite cannot be drawn without a width/height
+09:17:42.447: A sprite cannot be drawn without a width/height
+09:17:42.481: A sprite cannot be drawn without a width/height
+09:17:42.514: A sprite cannot be drawn without a width/height
+09:17:42.547: A sprite cannot be drawn without a width/height
+09:17:42.581: A sprite cannot be drawn without a width/height
+09:17:42.614: A sprite cannot be drawn without a width/height
+09:17:42.647: A sprite cannot be drawn without a width/height
+09:17:42.681: A sprite cannot be drawn without a width/height
+09:17:42.714: A sprite cannot be drawn without a width/height
+09:17:42.747: A sprite cannot be drawn without a width/height
+09:17:42.781: A sprite cannot be drawn without a width/height
+09:17:42.814: A sprite cannot be drawn without a width/height
+09:17:42.848: A sprite cannot be drawn without a width/height
+09:17:42.881: A sprite cannot be drawn without a width/height
+09:17:42.914: A sprite cannot be drawn without a width/height
+09:17:42.947: A sprite cannot be drawn without a width/height
+09:17:42.981: A sprite cannot be drawn without a width/height
+09:17:43.014: A sprite cannot be drawn without a width/height
+09:17:45.859: Last log entry repeated for 85 more lines
+09:17:45.859: ==== Shutting down ==================================================
+09:17:45.869: [obs-websocket] IO thread exited.
+09:17:45.869: [obs-websocket] server stopped successfully
+09:17:45.881: A sprite cannot be drawn without a width/height
+09:17:46.111: WASAPI: Device 'VoiceMeeter Aux Input (VB-Audio VoiceMeeter AUX VAIO)' Terminated
+09:17:46.118: WASAPI: Device 'VoiceMeeter Output (VB-Audio VoiceMeeter VAIO)' Terminated
+09:17:46.120: All scene data cleared
+09:17:46.120: ------------------------------------------------
+09:17:46.283: [obs-websocket] goodbye!
+09:17:46.284: [Scripting] Total detached callbacks: 0
+09:17:46.289: Freeing OBS context data
+09:17:46.317: == Profiler Results =============================
+09:17:46.317: run_program_init: 2967.93 ms
+09:17:46.317:  ┣OBSApp::AppInit: 240.849 ms
+09:17:46.317:  ┃ ┗OBSApp::InitLocale: 215.254 ms
+09:17:46.317:  ┗OBSApp::OBSInit: 2707.63 ms
+09:17:46.317:    ┣obs_startup: 4.674 ms
+09:17:46.317:    ┗OBSBasic::OBSInit: 2348.86 ms
+09:17:46.317:      ┣OBSBasic::InitBasicConfig: 0.439 ms
+09:17:46.317:      ┣OBSBasic::ResetAudio: 0.182 ms
+09:17:46.317:      ┣OBSBasic::ResetVideo: 460.156 ms
+09:17:46.317:      ┣OBSBasic::InitOBSCallbacks: 0.006 ms
+09:17:46.317:      ┣OBSBasic::InitHotkeys: 0.044 ms
+09:17:46.317:      ┣obs_load_all_modules: 302.823 ms
+09:17:46.317:      ┃ ┣obs_init_module(coreaudio-encoder.dll): 1.346 ms
+09:17:46.317:      ┃ ┣obs_init_module(decklink-captions.dll): 0.027 ms
+09:17:46.317:      ┃ ┣obs_init_module(decklink-ouput-ui.dll): 0.43 ms
+09:17:46.317:      ┃ ┣obs_init_module(enc-amf.dll): 44.986 ms
+09:17:46.317:      ┃ ┣obs_init_module(frontend-tools.dll): 3.541 ms
+09:17:46.317:      ┃ ┣obs_init_module(image-source.dll): 0.006 ms
+09:17:46.317:      ┃ ┣obs_init_module(obs-browser.dll): 0.411 ms
+09:17:46.317:      ┃ ┣obs_init_module(obs-ffmpeg.dll): 0.888 ms
+09:17:46.317:      ┃ ┃ ┗nvenc_check: 0.84 ms
+09:17:46.317:      ┃ ┣obs_init_module(obs-filters.dll): 0.064 ms
+09:17:46.317:      ┃ ┣obs_init_module(obs-outputs.dll): 0.008 ms
+09:17:46.317:      ┃ ┣obs_init_module(obs-qsv11.dll): 175.397 ms
+09:17:46.317:      ┃ ┣obs_init_module(obs-text.dll): 0.26 ms
+09:17:46.317:      ┃ ┣obs_init_module(obs-transitions.dll): 0.009 ms
+09:17:46.317:      ┃ ┣obs_init_module(obs-vst.dll): 0.001 ms
+09:17:46.317:      ┃ ┣obs_init_module(obs-websocket.dll): 4.147 ms
+09:17:46.317:      ┃ ┣obs_init_module(obs-x264.dll): 0.002 ms
+09:17:46.317:      ┃ ┣obs_init_module(rtmp-services.dll): 1.224 ms
+09:17:46.317:      ┃ ┣obs_init_module(text-freetype2.dll): 0.098 ms
+09:17:46.317:      ┃ ┣obs_init_module(vlc-video.dll): 0.04 ms
+09:17:46.317:      ┃ ┣obs_init_module(win-capture.dll): 2.054 ms
+09:17:46.317:      ┃ ┣obs_init_module(win-decklink.dll): 3.677 ms
+09:17:46.317:      ┃ ┣obs_init_module(win-dshow.dll): 2.124 ms
+09:17:46.317:      ┃ ┣obs_init_module(win-mf.dll): 0 ms
+09:17:46.317:      ┃ ┣obs_init_module(win-wasapi.dll): 0.012 ms
+09:17:46.317:      ┃ ┗reset_win32_symbol_paths: 0.246 ms
+09:17:46.317:      ┣OBSBasic::ResetOutputs: 0.252 ms
+09:17:46.317:      ┣OBSBasic::CreateHotkeys: 0.042 ms
+09:17:46.317:      ┣OBSBasic::InitService: 5.607 ms
+09:17:46.317:      ┣OBSBasic::InitPrimitives: 0.096 ms
+09:17:46.317:      ┗OBSBasic::Load: 1399.14 ms
+09:17:46.317: obs_hotkey_thread(25 ms): min=0.007 ms, median=0.02 ms, max=2.611 ms, 99th percentile=0.538 ms, 100% below 25 ms
+09:17:46.317: audio_thread(Audio): min=0 ms, median=0.041 ms, max=0.39 ms, 99th percentile=0.153 ms
+09:17:46.317: obs_graphics_thread(33.3333 ms): min=0.113 ms, median=0.608 ms, max=1292.46 ms, 99th percentile=5.585 ms, 99.3243% below 33.333 ms
+09:17:46.317:  ┣tick_sources: min=0.002 ms, median=0.033 ms, max=1292.32 ms, 99th percentile=0.592 ms
+09:17:46.317:  ┣output_frame: min=0.048 ms, median=0.242 ms, max=1.149 ms, 99th percentile=0.746 ms
+09:17:46.317:  ┃ ┗gs_context(video->graphics): min=0.048 ms, median=0.242 ms, max=1.148 ms, 99th percentile=0.746 ms
+09:17:46.317:  ┃   ┣render_video: min=0.003 ms, median=0.067 ms, max=0.415 ms, 99th percentile=0.382 ms
+09:17:46.317:  ┃   ┃ ┗render_main_texture: min=0.002 ms, median=0.064 ms, max=0.412 ms, 99th percentile=0.378 ms
+09:17:46.317:  ┃   ┗gs_flush: min=0.045 ms, median=0.168 ms, max=0.925 ms, 99th percentile=0.6 ms
+09:17:46.317:  ┗render_displays: min=0 ms, median=0.297 ms, max=5.261 ms, 99th percentile=1.069 ms
+09:17:46.317: =================================================
+09:17:46.317: == Profiler Time Between Calls ==================
+09:17:46.317: obs_hotkey_thread(25 ms): min=24.811 ms, median=25.02 ms, max=27.541 ms, 98.556% within ±2% of 25 ms (0% lower, 1.44404% higher)
+09:17:46.317: obs_graphics_thread(33.3333 ms): min=7.534 ms, median=33.333 ms, max=1292.46 ms, 98.6395% within ±2% of 33.333 ms (0.680272% lower, 0.680272% higher)
+09:17:46.317: =================================================
+09:17:46.323: Number of memory leaks: 0

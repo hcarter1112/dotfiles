@@ -1,0 +1,8 @@
+{
+    "settings": {
+        "key": "t3zt-0v3t-xp8x-pcqt-ebag",
+        "server": "rtmp://a.rtmp.youtube.com/live2",
+        "service": "YouTube - RTMP"
+    },
+    "type": "rtmp_common"
+}

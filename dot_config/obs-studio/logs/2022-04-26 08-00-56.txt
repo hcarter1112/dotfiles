@@ -1,0 +1,137 @@
+08:00:56.362: CPU Name: AMD Ryzen 5 3600 6-Core Processor
+08:00:56.362: CPU Speed: 4073.302MHz
+08:00:56.362: Physical Cores: 6, Logical Cores: 12
+08:00:56.362: Physical Memory: 15928MB Total, 636MB Free
+08:00:56.363: Kernel Version: Linux 5.17.4-arch1-1
+08:00:56.363: Distribution: EndeavourOS Unknown
+08:00:56.363: Session Type: x11
+08:00:56.363: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+08:00:56.363: Qt Version: 5.15.3 (runtime), 5.15.3 (compiled)
+08:00:56.363: Portable mode: false
+08:00:56.412: OBS 27.2.3-1 (linux)
+08:00:56.412: ---------------------------------
+08:00:56.412: ---------------------------------
+08:00:56.412: audio settings reset:
+08:00:56.412: 	samples per sec: 48000
+08:00:56.412: 	speakers:        2
+08:00:56.416: ---------------------------------
+08:00:56.416: Initializing OpenGL...
+08:00:56.460: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1070 Ti/PCIe/SSE2
+08:00:56.460: OpenGL loaded successfully, version 3.3.0 NVIDIA 510.60.02, shading language 3.30 NVIDIA via Cg compiler
+08:00:56.467: ---------------------------------
+08:00:56.467: video settings reset:
+08:00:56.467: 	base resolution:   1920x1080
+08:00:56.467: 	output resolution: 1280x720
+08:00:56.467: 	downscale filter:  Bicubic
+08:00:56.467: 	fps:               30/1
+08:00:56.467: 	format:            NV12
+08:00:56.467: 	YUV mode:          709/Partial
+08:00:56.468: NV12 texture support not available
+08:00:56.468: Audio monitoring device:
+08:00:56.468: 	name: Monitor of Virtual1-Mic Audio/Sink sink
+08:00:56.468: 	id: Virtual1-Mic.monitor
+08:00:56.468: ---------------------------------
+08:00:56.470: Failed to load 'en-US' text for module: 'decklink-captions.so'
+08:00:56.472: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+08:00:56.534: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+08:00:56.534: No blackmagic support
+08:00:56.563: NVENC supported
+08:00:56.563: FFMPEG VAAPI supported
+08:00:56.577: os_dlopen(/usr//lib/obs-plugins/sndio.so->/usr//lib/obs-plugins/sndio.so): libsndio.so.7: cannot open shared object file: No such file or directory
+08:00:56.577: 
+08:00:56.577: Module '/usr//lib/obs-plugins/sndio.so' not loaded
+08:00:56.578: ---------------------------------
+08:00:56.578:   Loaded Modules:
+08:00:56.578:     text-freetype2.so
+08:00:56.578:     rtmp-services.so
+08:00:56.578:     obs-x264.so
+08:00:56.578:     obs-transitions.so
+08:00:56.578:     obs-outputs.so
+08:00:56.578:     obs-libfdk.so
+08:00:56.578:     obs-filters.so
+08:00:56.578:     obs-ffmpeg.so
+08:00:56.578:     linux-v4l2.so
+08:00:56.578:     linux-pulseaudio.so
+08:00:56.578:     linux-jack.so
+08:00:56.578:     linux-decklink.so
+08:00:56.578:     linux-capture.so
+08:00:56.578:     linux-alsa.so
+08:00:56.578:     image-source.so
+08:00:56.578:     frontend-tools.so
+08:00:56.578:     decklink-ouput-ui.so
+08:00:56.578:     decklink-captions.so
+08:00:56.578: ---------------------------------
+08:00:56.578: ==== Startup complete ===============================================
+08:00:56.602: All scene data cleared
+08:00:56.602: ------------------------------------------------
+08:00:56.606: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.50) 15.0.0'
+08:00:56.606: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+08:00:56.606: pulse-input: Started recording from 'alsa_input.usb-SteelSeries_SteelSeries_Arctis_7-00.mono-chat'
+08:00:56.609: pulse-am: Server name: 'PulseAudio (on PipeWire 0.3.50) 15.0.0'
+08:00:56.609: pulse-am: Audio format: float32le, 48000 Hz, 2 channels
+08:00:56.609: pulse-am: Started Monitoring in 'Virtual1-Mic.monitor'
+08:00:56.609: [Loaded global audio device]: 'Mic/Aux'
+08:00:56.609:     - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+08:00:56.609:     - filter: 'Noise Gate' (noise_gate_filter)
+08:00:56.609:     - filter: 'Compressor' (compressor_filter)
+08:00:56.609:     - monitoring: monitor and output
+08:00:56.800: v4l2-input: Start capture from /dev/video10
+08:00:56.801: v4l2-input: Input: 0
+08:00:56.801: v4l2-input: Resolution: 1280x720
+08:00:56.801: v4l2-input: Pixelformat: YU12
+08:00:56.801: v4l2-input: Linesize: 1280 Bytes
+08:00:56.801: v4l2-input: Framerate: 30.00 fps
+08:00:56.801: v4l2-input: /dev/video10: select timeout set to 166666 (5x frame periods)
+08:00:57.022: Switched to scene 'Classroom'
+08:00:57.022: ------------------------------------------------
+08:00:57.022: Loaded scenes:
+08:00:57.022: - scene 'Main Camera':
+08:00:57.022:     - source: 'OnePlus' (v4l2_input)
+08:00:57.022:     - source: '[NS] Standard Audio' (scene)
+08:00:57.022: - scene 'Classroom':
+08:00:57.030:     - source: 'Main Camera' (scene)
+08:00:57.030:     - source: 'Alphabet' (image_source)
+08:00:57.030:     - source: 'World Map' (image_source)
+08:00:57.030:     - source: 'Nameplate flip' (text_ft2_source_v2)
+08:00:57.030:     - source: 'Nameplate flip' (text_ft2_source_v2)
+08:00:57.030:     - source: 'toppng.com-kawaii-sushi-png-sushi-anime-600x355.png' (image_source)
+08:00:57.030:     - source: 'justin.png' (image_source)
+08:00:57.030:     - source: 'Car' (image_source)
+08:00:57.030:     - source: 'Cat' (image_source)
+08:00:57.030:     - source: 'Elsa' (image_source)
+08:00:57.030:     - source: 'George' (image_source)
+08:00:57.030:     - source: 'Harold Sticker' (image_source)
+08:00:57.030:     - source: 'Ice Cream' (image_source)
+08:00:57.030:     - source: 'Spiderman' (image_source)
+08:00:57.030:     - source: 'Ultraman' (image_source)
+08:00:57.030:     - source: 'Ultraman plus' (image_source)
+08:00:57.030:     - source: 'toppng.com-orange-juice-2960x3504.png' (image_source)
+08:00:57.030:     - source: 'toppng.com-bunny-png-cartoon-free-487x477.png' (image_source)
+08:00:57.030:     - source: 'toppng.com-fox-300x300.png' (image_source)
+08:00:57.030:     - source: 'Chat' (text_ft2_source_v2)
+08:00:57.030: - scene 'Media with Camera':
+08:00:57.030:     - source: 'PT 105' (slideshow)
+08:00:57.030:     - source: 'FF' (xcomposite_input)
+08:00:57.030:     - source: '[NS] Cirlce Mask Cam' (scene)
+08:00:57.030:         - filter: 'Circle Mask' (mask_filter_v2)
+08:00:57.030: - scene 'Fullscreen share':
+08:00:57.030:     - source: 'JW Lib' (xcomposite_input)
+08:00:57.030:     - source: 'FF' (xcomposite_input)
+08:00:57.030: - scene '[NS] Standard Audio':
+08:00:57.030: - scene '[NS] Cirlce Mask Cam':
+08:00:57.030:     - source: 'OnePlus' (v4l2_input)
+08:00:57.030:     - filter: 'Circle Mask' (mask_filter_v2)
+08:00:57.030: ------------------------------------------------
+08:00:57.157: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+08:00:57.157: 
+08:01:00.286: Virtual camera started
+08:01:00.292: ==== Virtual Camera Start ==========================================
+08:03:57.602: User added source 'Spiderman' (image_source) to scene 'Classroom'
+08:54:16.124: User Removed source 'Spiderman' (image_source) from scene 'Classroom'
+09:04:26.492: adding 21 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Mic/Aux)
+09:04:26.492: 
+09:04:47.239: Output 'virtualcam_output': stopping
+09:04:47.239: Output 'virtualcam_output': Total frames output: 114808
+09:04:47.239: Output 'virtualcam_output': Total drawn frames: 114809
+09:04:47.239: ==== Virtual Camera Stop ===========================================
+09:04:47.240: Virtual camera stopped

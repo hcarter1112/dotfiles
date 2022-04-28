@@ -1,0 +1,500 @@
+12:41:01.866: CPU Name: AMD Ryzen 5 3600 6-Core Processor              
+12:41:01.867: CPU Speed: 3600MHz
+12:41:01.867: Physical Cores: 6, Logical Cores: 12
+12:41:01.867: Physical Memory: 16317MB Total, 6836MB Free
+12:41:01.867: Windows Version: 10.0 Build 19043 (release: 2009; revision: 1237; 64-bit)
+12:41:01.867: Running as administrator: false
+12:41:01.867: Aero is Enabled (Aero is always on for windows 8 and above)
+12:41:01.867: Windows 10 Gaming Features:
+12:41:01.867: 	Game DVR: On
+12:41:01.869: Sec. Software Status:
+12:41:01.870: 	Bitdefender Antivirus Free Antimalware: enabled (AV)
+12:41:01.870: 	Microsoft Defender Antivirus: disabled (AV)
+12:41:01.871: 	Windows Firewall: enabled (FW)
+12:41:01.871: Current Date/Time: 2021-10-11, 12:41:01
+12:41:01.871: Browser Hardware Acceleration: true
+12:41:01.871: Portable mode: false
+12:41:02.272: OBS 27.0.1 (64-bit, windows)
+12:41:02.272: ---------------------------------
+12:41:02.273: ---------------------------------
+12:41:02.273: audio settings reset:
+12:41:02.273: 	samples per sec: 44100
+12:41:02.273: 	speakers:        2
+12:41:02.275: ---------------------------------
+12:41:02.275: Initializing D3D11...
+12:41:02.275: Available Video Adapters: 
+12:41:02.278: 	Adapter 0: NVIDIA GeForce GTX 1070 Ti
+12:41:02.278: 	  Dedicated VRAM: 4176478208
+12:41:02.278: 	  Shared VRAM:    4260206592
+12:41:02.278: 	  PCI ID:         10de:1b82
+12:41:02.278: 	  Driver Version: 30.0.14.7212
+12:41:02.278: 	  output 0: pos={0, 0}, size={2560, 1440}, attached=true, refresh=165, name=AORUS CV27Q
+12:41:02.278: 	  output 1: pos={-1440, -620}, size={1440, 2560}, attached=true, refresh=165, name=ROG PG278QR
+12:41:02.281: Loading up D3D11 on adapter NVIDIA GeForce GTX 1070 Ti (0)
+12:41:02.364: D3D11 loaded successfully, feature level used: b000
+12:41:02.364: DXGI increase maximum frame latency success
+12:41:02.364: D3D11 GPU priority setup failed (not admin?)
+12:41:02.735: ---------------------------------
+12:41:02.735: video settings reset:
+12:41:02.735: 	base resolution:   2560x1440
+12:41:02.735: 	output resolution: 1280x720
+12:41:02.735: 	downscale filter:  Bicubic
+12:41:02.735: 	fps:               30/1
+12:41:02.735: 	format:            NV12
+12:41:02.735: 	YUV mode:          709/Partial
+12:41:02.735: NV12 texture support enabled
+12:41:02.736: Audio monitoring device:
+12:41:02.736: 	name: Default
+12:41:02.736: 	id: default
+12:41:02.740: ---------------------------------
+12:41:02.740: Skipping module '../../obs-plugins/64bit/chrome_elf.dll', not an OBS plugin
+12:41:02.744: [CoreAudio encoder]: CoreAudio AAC encoder not installed on the system or couldn't be loaded
+12:41:02.745: Failed to load 'en-US' text for module: 'decklink-captions.dll'
+12:41:02.747: Failed to load 'en-US' text for module: 'decklink-ouput-ui.dll'
+12:41:02.792: [AMF] Unable to load 'amfrt64.dll', error code 126.
+12:41:02.794: [AMF] AMF Test failed due to one or more errors.
+12:41:02.794: Failed to initialize module 'enc-amf.dll'
+12:41:02.803: Skipping module '../../obs-plugins/64bit/libcef.dll', not an OBS plugin
+12:41:02.814: Skipping module '../../obs-plugins/64bit/libEGL.dll', not an OBS plugin
+12:41:02.816: Skipping module '../../obs-plugins/64bit/libGLESv2.dll', not an OBS plugin
+12:41:02.822: [obs-browser]: Version 2.14.3
+12:41:02.822: [obs-browser]: CEF Version 75.1.16+g16a67c4+chromium-75.0.3770.100
+12:41:02.829: NVENC supported
+12:41:02.831: [noise suppress: Nvidia RTX denoiser disabled, redistributable not found]
+12:41:03.017: [obs-websocket] you can haz websockets (version 4.9.1)
+12:41:03.017: [obs-websocket] qt version (compile-time): 5.15.2 ; qt version (run-time): 5.15.2
+12:41:03.021: [obs-websocket] module loaded!
+12:41:03.029: Couldn't find VLC installation, VLC video source disabled
+12:41:03.040: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+12:41:03.040: No blackmagic support
+12:41:03.048: ---------------------------------
+12:41:03.048:   Loaded Modules:
+12:41:03.048:     win-wasapi.dll
+12:41:03.048:     win-mf.dll
+12:41:03.048:     win-dshow.dll
+12:41:03.048:     win-decklink.dll
+12:41:03.048:     win-capture.dll
+12:41:03.048:     vlc-video.dll
+12:41:03.048:     text-freetype2.dll
+12:41:03.048:     rtmp-services.dll
+12:41:03.048:     obs-x264.dll
+12:41:03.048:     obs-websocket.dll
+12:41:03.048:     obs-vst.dll
+12:41:03.048:     obs-transitions.dll
+12:41:03.048:     obs-text.dll
+12:41:03.048:     obs-qsv11.dll
+12:41:03.048:     obs-outputs.dll
+12:41:03.048:     obs-filters.dll
+12:41:03.048:     obs-ffmpeg.dll
+12:41:03.048:     obs-browser.dll
+12:41:03.048:     image-source.dll
+12:41:03.048:     frontend-tools.dll
+12:41:03.048:     enc-amf.dll
+12:41:03.048:     decklink-ouput-ui.dll
+12:41:03.048:     decklink-captions.dll
+12:41:03.048:     coreaudio-encoder.dll
+12:41:03.048: ---------------------------------
+12:41:03.048: ==== Startup complete ===============================================
+12:41:03.055: All scene data cleared
+12:41:03.055: ------------------------------------------------
+12:41:03.106: WASAPI: Device 'VoiceMeeter Aux Input (VB-Audio VoiceMeeter AUX VAIO)' [48000 Hz] initialized
+12:41:03.106: [Loaded global audio device]: 'Desktop Audio'
+12:41:03.122: WASAPI: Device 'VoiceMeeter Output (VB-Audio VoiceMeeter VAIO)' [44100 Hz] initialized
+12:41:03.123: [noise suppress: 'Noise Suppression'] NVAFX redist is not installed.
+12:41:03.124: [Loaded global audio device]: 'Mic/Aux'
+12:41:03.124:     - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+12:41:03.124:     - filter: 'Noise Gate' (noise_gate_filter)
+12:41:03.153: adding 46 milliseconds of audio buffering, total audio buffering is now 46 milliseconds (source: Mic/Aux)
+12:41:03.153: 
+12:41:03.160: warning: deprecated pixel format used, make sure you did set range correctly
+12:41:03.405: warning: deprecated pixel format used, make sure you did set range correctly
+12:41:03.412: ---------------------------------
+12:41:03.412: [DShow Device: 'Cutout Cam'] settings updated: 
+12:41:03.412: 	video device: Iriun Webcam
+12:41:03.412: 	video path: \\?\root#camera#0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{2a1f7d28-c666-4848-a04c-3b1a9f2546a2}
+12:41:03.412: 	resolution: 640x360
+12:41:03.412: 	flip: 0
+12:41:03.412: 	fps: 30.00 (interval: 333333)
+12:41:03.412: 	format: YUY2
+12:41:03.434: warning: deprecated pixel format used, make sure you did set range correctly
+12:41:03.482: [window-capture: 'JW Library '] update settings:
+12:41:03.482: 	executable: JWLibrary.exe
+12:41:03.482: 	method selected: Automatic
+12:41:03.482: 	method chosen: WGC
+12:41:03.482: 
+12:41:03.482: [window-capture: 'Window Capture'] update settings:
+12:41:03.482: 	executable: chrome.exe
+12:41:03.482: 	method selected: Automatic
+12:41:03.482: 	method chosen: WGC
+12:41:03.482: 
+12:41:03.482: [window-capture: 'Zoom'] update settings:
+12:41:03.482: 	executable: Zoom.exe
+12:41:03.482: 	method selected: Automatic
+12:41:03.482: 	method chosen: BitBlt
+12:41:03.482: 
+12:41:03.482: [duplicator-monitor-capture: 'Display Capture'] update settings:
+12:41:03.482: 	display: 1 (2560x1440)
+12:41:03.482: 	cursor: true
+12:41:03.482: 	method: DXGI
+12:41:03.522: ---------------------------------
+12:41:03.522: [DShow Device: 'Normal Webcam'] settings updated: 
+12:41:03.522: 	video device: Iriun Webcam
+12:41:03.522: 	video path: \\?\root#camera#0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{2a1f7d28-c666-4848-a04c-3b1a9f2546a2}
+12:41:03.522: 	resolution: 1920x1080
+12:41:03.522: 	flip: 0
+12:41:03.522: 	fps: 60.00 (interval: 166667)
+12:41:03.522: 	format: YUY2
+12:41:03.524: warning: deprecated pixel format used, make sure you did set range correctly
+12:41:03.541: ---------------------------------
+12:41:03.541: [DShow Device: 'Webcam'] settings updated: 
+12:41:03.541: 	video device: Iriun Webcam
+12:41:03.541: 	video path: \\?\root#camera#0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{2a1f7d28-c666-4848-a04c-3b1a9f2546a2}
+12:41:03.541: 	resolution: 1920x1080
+12:41:03.541: 	flip: 0
+12:41:03.541: 	fps: 60.00 (interval: 166667)
+12:41:03.541: 	format: XRGB
+12:41:03.542: DShow: HDevice::ConnectPins: failed to connect pins (0x8004022A): 
+12:41:03.571: warning: deprecated pixel format used, make sure you did set range correctly
+12:41:03.601: warning: deprecated pixel format used, make sure you did set range correctly
+12:41:03.633: warning: deprecated pixel format used, make sure you did set range correctly
+12:41:03.647: warning: deprecated pixel format used, make sure you did set range correctly
+12:41:03.660: warning: deprecated pixel format used, make sure you did set range correctly
+12:41:03.682: warning: deprecated pixel format used, make sure you did set range correctly
+12:41:03.705: warning: deprecated pixel format used, make sure you did set range correctly
+12:41:03.746: warning: deprecated pixel format used, make sure you did set range correctly
+12:41:03.776: warning: deprecated pixel format used, make sure you did set range correctly
+12:41:03.817: warning: deprecated pixel format used, make sure you did set range correctly
+12:41:03.847: warning: deprecated pixel format used, make sure you did set range correctly
+12:41:03.875: warning: deprecated pixel format used, make sure you did set range correctly
+12:41:03.904: Switched to scene 'Normal Cam'
+12:41:03.904: ------------------------------------------------
+12:41:03.904: Loaded scenes:
+12:41:03.904: - scene 'Normal Cam':
+12:41:03.910:     - source: 'Normal Webcam' (dshow_input)
+12:41:03.910: - scene 'Show Media':
+12:41:03.911:     - source: 'Background color' (color_source_v3)
+12:41:03.911:     - source: 'Window Capture' (window_capture)
+12:41:03.911:     - source: 'Display Capture' (monitor_capture)
+12:41:03.911:     - source: 'PT 105 Comfort' (slideshow)
+12:41:03.911:     - source: 'Cut Out Cam' (scene)
+12:41:03.911:         - filter: 'Circle Cutout' (mask_filter_v2)
+12:41:03.911: - scene 'Full Screen Share':
+12:41:03.911:     - source: 'JW Library ' (window_capture)
+12:41:03.911:     - source: 'Zoom' (window_capture)
+12:41:03.911:     - source: 'Franske PT' (slideshow)
+12:41:03.911: - scene 'Chroma Cam':
+12:41:03.911:     - source: 'Webcam' (dshow_input)
+12:41:03.911:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+12:41:03.911:         - filter: 'Color Correction' (color_filter_v2)
+12:41:03.911: - scene 'Classroom':
+12:41:03.911:     - source: 'Normal Webcam' (dshow_input)
+12:41:03.911:     - source: 'Name' (text_gdiplus_v2)
+12:41:03.911:     - source: 'Car Reward' (image_source)
+12:41:03.911:     - source: 'Ultraman Reward' (image_source)
+12:41:03.911:     - source: 'George' (image_source)
+12:41:03.911:     - source: 'Ice Cream' (image_source)
+12:41:03.911:     - source: 'Elsa' (image_source)
+12:41:03.911:     - source: 'Map' (image_source)
+12:41:03.911:     - source: 'Alphabet' (image_source)
+12:41:03.911:     - source: 'Alphabet Ltters' (group)
+12:41:03.911: - scene 'Goodbye':
+12:41:03.911:     - source: 'Normal Webcam' (dshow_input)
+12:41:03.911:     - source: 'Goodbye pic' (image_source)
+12:41:03.911: - scene 'Cut Out Cam':
+12:41:03.911:     - source: 'Cutout Cam' (dshow_input)
+12:41:03.911:     - filter: 'Circle Cutout' (mask_filter_v2)
+12:41:03.911: ------------------------------------------------
+12:41:04.270: [obs-websocket] WSServer::start: Not locked to IPv4 bindings
+12:41:04.271: [obs-websocket] server started successfully on port 4444
+12:41:04.271: [obs-websocket] IO thread started.
+12:41:08.244: User switched to scene 'Cut Out Cam'
+12:41:08.273: A sprite cannot be drawn without a width/height
+12:41:08.305: A sprite cannot be drawn without a width/height
+12:41:08.339: A sprite cannot be drawn without a width/height
+12:41:08.372: A sprite cannot be drawn without a width/height
+12:41:08.405: A sprite cannot be drawn without a width/height
+12:41:08.439: A sprite cannot be drawn without a width/height
+12:41:08.472: A sprite cannot be drawn without a width/height
+12:41:08.505: A sprite cannot be drawn without a width/height
+12:41:08.539: A sprite cannot be drawn without a width/height
+12:41:08.572: A sprite cannot be drawn without a width/height
+12:41:08.605: A sprite cannot be drawn without a width/height
+12:41:08.639: A sprite cannot be drawn without a width/height
+12:41:08.672: A sprite cannot be drawn without a width/height
+12:41:08.705: A sprite cannot be drawn without a width/height
+12:41:08.739: A sprite cannot be drawn without a width/height
+12:41:08.772: A sprite cannot be drawn without a width/height
+12:41:08.805: A sprite cannot be drawn without a width/height
+12:41:08.839: A sprite cannot be drawn without a width/height
+12:41:08.872: A sprite cannot be drawn without a width/height
+12:41:08.905: A sprite cannot be drawn without a width/height
+12:41:08.939: A sprite cannot be drawn without a width/height
+12:41:08.972: A sprite cannot be drawn without a width/height
+12:41:09.005: A sprite cannot be drawn without a width/height
+12:41:09.039: A sprite cannot be drawn without a width/height
+12:41:09.072: A sprite cannot be drawn without a width/height
+12:41:09.105: A sprite cannot be drawn without a width/height
+12:41:09.139: A sprite cannot be drawn without a width/height
+12:41:09.172: A sprite cannot be drawn without a width/height
+12:41:09.205: A sprite cannot be drawn without a width/height
+12:41:09.239: A sprite cannot be drawn without a width/height
+12:41:09.272: A sprite cannot be drawn without a width/height
+12:41:17.009: Last log entry repeated for 220 more lines
+12:41:17.009: User switched to scene 'Normal Cam'
+12:41:17.039: A sprite cannot be drawn without a width/height
+12:41:17.072: A sprite cannot be drawn without a width/height
+12:41:17.105: A sprite cannot be drawn without a width/height
+12:41:17.139: A sprite cannot be drawn without a width/height
+12:41:17.172: A sprite cannot be drawn without a width/height
+12:41:17.205: A sprite cannot be drawn without a width/height
+12:41:17.239: A sprite cannot be drawn without a width/height
+12:41:17.272: A sprite cannot be drawn without a width/height
+12:41:17.305: A sprite cannot be drawn without a width/height
+12:41:18.612: User switched to scene 'Cut Out Cam'
+12:41:18.639: A sprite cannot be drawn without a width/height
+12:41:18.672: A sprite cannot be drawn without a width/height
+12:41:18.705: A sprite cannot be drawn without a width/height
+12:41:18.739: A sprite cannot be drawn without a width/height
+12:41:18.772: A sprite cannot be drawn without a width/height
+12:41:18.805: A sprite cannot be drawn without a width/height
+12:41:18.839: A sprite cannot be drawn without a width/height
+12:41:18.872: A sprite cannot be drawn without a width/height
+12:41:18.905: A sprite cannot be drawn without a width/height
+12:41:18.939: A sprite cannot be drawn without a width/height
+12:41:18.972: A sprite cannot be drawn without a width/height
+12:41:19.005: A sprite cannot be drawn without a width/height
+12:41:19.039: A sprite cannot be drawn without a width/height
+12:41:19.072: A sprite cannot be drawn without a width/height
+12:41:19.105: A sprite cannot be drawn without a width/height
+12:41:19.139: A sprite cannot be drawn without a width/height
+12:41:19.172: A sprite cannot be drawn without a width/height
+12:41:19.205: A sprite cannot be drawn without a width/height
+12:41:19.239: A sprite cannot be drawn without a width/height
+12:41:19.272: A sprite cannot be drawn without a width/height
+12:41:19.305: A sprite cannot be drawn without a width/height
+12:41:19.339: A sprite cannot be drawn without a width/height
+12:41:19.372: A sprite cannot be drawn without a width/height
+12:41:19.405: A sprite cannot be drawn without a width/height
+12:41:19.439: A sprite cannot be drawn without a width/height
+12:41:19.472: A sprite cannot be drawn without a width/height
+12:41:19.505: A sprite cannot be drawn without a width/height
+12:41:19.539: A sprite cannot be drawn without a width/height
+12:41:19.572: A sprite cannot be drawn without a width/height
+12:41:19.605: A sprite cannot be drawn without a width/height
+12:41:19.639: A sprite cannot be drawn without a width/height
+12:41:24.071: Last log entry repeated for 181 more lines
+12:41:24.071: User switched to scene 'Normal Cam'
+12:41:24.072: A sprite cannot be drawn without a width/height
+12:41:24.105: A sprite cannot be drawn without a width/height
+12:41:24.139: A sprite cannot be drawn without a width/height
+12:41:24.172: A sprite cannot be drawn without a width/height
+12:41:24.205: A sprite cannot be drawn without a width/height
+12:41:24.239: A sprite cannot be drawn without a width/height
+12:41:24.272: A sprite cannot be drawn without a width/height
+12:41:24.305: A sprite cannot be drawn without a width/height
+12:41:24.339: A sprite cannot be drawn without a width/height
+12:41:26.756: ---------------------------------
+12:41:26.756: [DShow Device: 'Normal Webcam'] settings updated: 
+12:41:26.756: 	video device: Iriun Webcam
+12:41:26.756: 	video path: \\?\root#camera#0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{2a1f7d28-c666-4848-a04c-3b1a9f2546a2}
+12:41:26.756: 	resolution: 1920x1080
+12:41:26.756: 	flip: 0
+12:41:26.756: 	fps: 60.00 (interval: 166667)
+12:41:26.756: 	format: YUY2
+12:41:28.758: User switched to scene 'Cut Out Cam'
+12:41:28.773: A sprite cannot be drawn without a width/height
+12:41:28.806: A sprite cannot be drawn without a width/height
+12:41:28.839: A sprite cannot be drawn without a width/height
+12:41:28.873: A sprite cannot be drawn without a width/height
+12:41:28.906: A sprite cannot be drawn without a width/height
+12:41:28.939: A sprite cannot be drawn without a width/height
+12:41:28.972: A sprite cannot be drawn without a width/height
+12:41:29.006: A sprite cannot be drawn without a width/height
+12:41:29.040: A sprite cannot be drawn without a width/height
+12:41:29.072: A sprite cannot be drawn without a width/height
+12:41:29.105: A sprite cannot be drawn without a width/height
+12:41:29.139: A sprite cannot be drawn without a width/height
+12:41:29.172: A sprite cannot be drawn without a width/height
+12:41:29.205: A sprite cannot be drawn without a width/height
+12:41:29.239: A sprite cannot be drawn without a width/height
+12:41:29.272: A sprite cannot be drawn without a width/height
+12:41:29.305: A sprite cannot be drawn without a width/height
+12:41:29.339: A sprite cannot be drawn without a width/height
+12:41:29.372: A sprite cannot be drawn without a width/height
+12:41:29.405: A sprite cannot be drawn without a width/height
+12:41:29.439: A sprite cannot be drawn without a width/height
+12:41:29.472: A sprite cannot be drawn without a width/height
+12:41:29.505: A sprite cannot be drawn without a width/height
+12:41:29.539: A sprite cannot be drawn without a width/height
+12:41:29.572: A sprite cannot be drawn without a width/height
+12:41:29.605: A sprite cannot be drawn without a width/height
+12:41:29.639: A sprite cannot be drawn without a width/height
+12:41:29.672: A sprite cannot be drawn without a width/height
+12:41:29.705: A sprite cannot be drawn without a width/height
+12:41:29.739: A sprite cannot be drawn without a width/height
+12:41:29.772: A sprite cannot be drawn without a width/height
+12:41:30.605: Last log entry repeated for 20 more lines
+12:41:30.605: ---------------------------------
+12:41:30.605: [DShow Device: 'Cutout Cam'] settings updated: 
+12:41:30.605: 	video device: Iriun Webcam
+12:41:30.605: 	video path: \\?\root#camera#0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{2a1f7d28-c666-4848-a04c-3b1a9f2546a2}
+12:41:30.605: 	resolution: 640x360
+12:41:30.605: 	flip: 0
+12:41:30.605: 	fps: 30.00 (interval: 333333)
+12:41:30.605: 	format: YUY2
+12:41:32.739: User switched to scene 'Normal Cam'
+12:45:04.687: User switched to scene 'Cut Out Cam'
+12:45:12.445: User Removed source 'Cutout Cam' (dshow_input) from scene 'Cut Out Cam'
+12:45:24.014: User added source 'Normal Webcam' (dshow_input) to scene 'Cut Out Cam'
+12:45:27.484: ---------------------------------
+12:45:27.484: [DShow Device: 'Normal Webcam'] settings updated: 
+12:45:27.484: 	video device: Iriun Webcam
+12:45:27.484: 	video path: \\?\root#camera#0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{2a1f7d28-c666-4848-a04c-3b1a9f2546a2}
+12:45:27.484: 	resolution: 1920x1080
+12:45:27.484: 	flip: 0
+12:45:27.484: 	fps: 60.00 (interval: 166667)
+12:45:27.484: 	format: YUY2
+12:46:05.916: User switched to scene 'Show Media'
+12:46:08.730: User switched to scene 'Normal Cam'
+12:46:09.869: User switched to scene 'Full Screen Share'
+12:46:10.531: User switched to scene 'Show Media'
+12:46:16.531: User switched to scene 'Normal Cam'
+12:46:17.413: User switched to scene 'Cut Out Cam'
+12:46:18.941: User switched to scene 'Normal Cam'
+12:46:19.534: User switched to scene 'Show Media'
+12:46:21.115: User switched to scene 'Normal Cam'
+12:46:22.837: User switched to scene 'Show Media'
+12:46:28.997: Virtual output started
+12:46:29.000: ==== Virtual Camera Start ==========================================
+12:48:18.419: User switched to scene 'Normal Cam'
+12:48:21.601: User switched to scene 'Show Media'
+12:52:35.393: User switched to scene 'Normal Cam'
+12:52:37.315: User switched to scene 'Show Media'
+12:52:38.991: User switched to scene 'Normal Cam'
+12:52:40.538: User switched to scene 'Show Media'
+12:57:43.912: User added source 'Rapport Present' (browser_source) to scene 'Show Media'
+12:59:21.137: obs-browser: Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set. (source: https://docs.google.com/static/presentation/client/js/248676633-editor_js_prod_app__es_419.js:3160)
+12:59:21.153: obs-browser: Blocked script execution in 'https://docs.google.com/presentation/d/1j5oz_VZ0oG4A3kiEhObtLVHvFldc80X94RTbzWzstZg/edit' because the document's frame is sandboxed and the 'allow-scripts' permission is not set. (source: https://docs.google.com/static/presentation/client/js/248676633-editor_js_prod_app__es_419.js:2983)
+12:59:21.392: obs-browser: Blocked script execution in 'https://docs.google.com/presentation/d/1j5oz_VZ0oG4A3kiEhObtLVHvFldc80X94RTbzWzstZg/edit' because the document's frame is sandboxed and the 'allow-scripts' permission is not set. (source: https://docs.google.com/static/presentation/client/js/3445973878-editor_js_prod_core__es_419.js:123)
+12:59:21.406: obs-browser: Blocked script execution in 'https://docs.google.com/presentation/d/1j5oz_VZ0oG4A3kiEhObtLVHvFldc80X94RTbzWzstZg/edit' because the document's frame is sandboxed and the 'allow-scripts' permission is not set. (source: https://docs.google.com/static/presentation/client/js/3445973878-editor_js_prod_core__es_419.js:123)
+12:59:21.408: obs-browser: Blocked script execution in 'https://docs.google.com/presentation/d/1j5oz_VZ0oG4A3kiEhObtLVHvFldc80X94RTbzWzstZg/edit' because the document's frame is sandboxed and the 'allow-scripts' permission is not set. (source: https://docs.google.com/static/presentation/client/js/3445973878-editor_js_prod_core__es_419.js:123)
+12:59:22.058: obs-browser: Refused to display 'https://accounts.google.com/ServiceLogin?passive=1209600&continue=https://docs.google.com/sharing/init?id%3D1j5oz_VZ0oG4A3kiEhObtLVHvFldc80X94RTbzWzstZg%26resourcekey%3D%255B%25221j5oz_VZ0oG4A3kiEhObtLVHvFldc80X94RTbzWzstZg%2522,null%255D%26foreignService%3Dpunch%26gaiaService%3Dwise%26shareService%3Dpunch%26subapp%3D10%26popupWindowsEnabled%3Dtrue%26shareUiType%3Ddefault%26hl%3Des-419%26authuser%3D0%26rand%3D1633975161398&followup=https://docs.google.com/sharing/init?id%3D1j5oz_VZ0oG4A3kiEhObtLVHvFldc80X94RTbzWzstZg%26resourcekey%3D%255B%25221j5oz_VZ0oG4A3kiEhObtLVHvFldc80X94RTbzWzstZg%2522,null%255D%26foreignService%3Dpunch%26gaiaService%3Dwise%26shareService%3Dpunch%26subapp%3D10%26popupWindowsEnabled%3Dtrue%26shareUiType%3Ddefault%26hl%3Des-419%26authuser%3D0%26rand%3D1633975161398&hl=es-419' in a frame because it set 'X-Frame-Options' to 'deny'. (source: https://docs.google.com/presentation/d/1j5oz_VZ0oG4A3kiEhObtLVHvFldc80X94RTbzWzstZg/edit#slide=id.g35f391192_00:0)
+12:59:22.061: obs-browser: Blocked script execution in 'https://docs.google.com/presentation/d/1j5oz_VZ0oG4A3kiEhObtLVHvFldc80X94RTbzWzstZg/edit' because the document's frame is sandboxed and the 'allow-scripts' permission is not set. (source: https://docs.google.com/presentation/d/1j5oz_VZ0oG4A3kiEhObtLVHvFldc80X94RTbzWzstZg/edit:0)
+12:59:22.364: obs-browser: Blocked script execution in 'https://docs.google.com/presentation/d/1j5oz_VZ0oG4A3kiEhObtLVHvFldc80X94RTbzWzstZg/edit' because the document's frame is sandboxed and the 'allow-scripts' permission is not set. (source: https://apis.google.com/_/scs/abc-static/_/js/k=gapi.gapi.en.M5RD94rmgZI.O/m=gapi_iframes,googleapis_client/rt=j/sv=1/d=1/ed=1/rs=AHpOoo8z3ZIGbS4Q1hdxlO0-i7gQCAheug/cb=gapi.loaded_0:367)
+12:59:22.712: obs-browser: Blocked script execution in 'https://docs.google.com/presentation/d/1j5oz_VZ0oG4A3kiEhObtLVHvFldc80X94RTbzWzstZg/edit' because the document's frame is sandboxed and the 'allow-scripts' permission is not set. (source: https://docs.google.com/presentation/d/1j5oz_VZ0oG4A3kiEhObtLVHvFldc80X94RTbzWzstZg/edit:0)
+12:59:22.713: obs-browser: Unrecognized Content-Security-Policy directive 'require-trusted-types-for'.
+12:59:22.713:  (source: https://contacts.google.com/widget/hovercard/v/2?authuser&origin=https%3A%2F%2Fdocs.google.com&usegapi=1&jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.gapi.en.M5RD94rmgZI.O%2Fd%3D1%2Frs%3DAHpOoo8z3ZIGbS4Q1hdxlO0-i7gQCAheug%2Fm%3D__features__#id=__HC_94253229&_gfid=__HC_94253229&parent=https%3A%2F%2Fdocs.google.com&pfname=&rpctoken=26690000:0)
+13:00:18.244: User Removed source 'Rapport Present' (browser_source) from scene 'Show Media'
+13:15:52.539: User switched to scene 'Normal Cam'
+13:17:47.490: User switched to scene 'Full Screen Share'
+13:17:48.426: User switched to scene 'Chroma Cam'
+13:17:49.270: User switched to scene 'Show Media'
+13:17:56.541: User switched to scene 'Normal Cam'
+13:18:15.259: User switched to scene 'Show Media'
+14:22:39.088: User switched to scene 'Normal Cam'
+14:45:13.699: User switched to scene 'Show Media'
+14:45:17.650: User switched to scene 'Normal Cam'
+14:45:19.013: User switched to scene 'Show Media'
+14:49:53.016: User switched to scene 'Normal Cam'
+20:37:28.664: User switched to scene 'Full Screen Share'
+20:37:31.215: User switched to scene 'Show Media'
+20:37:52.798: User switched to scene 'Normal Cam'
+20:40:34.423: User switched to scene 'Show Media'
+20:40:38.622: User switched to scene 'Normal Cam'
+20:41:17.106: User switched to scene 'Show Media'
+20:41:36.053: User switched to scene 'Normal Cam'
+20:41:42.363: User switched to scene 'Show Media'
+20:42:15.637: User switched to scene 'Normal Cam'
+20:42:17.696: User switched to scene 'Show Media'
+20:42:20.496: User switched to scene 'Cut Out Cam'
+20:42:55.114: User switched to scene 'Show Media'
+20:43:15.621: User switched to scene 'Normal Cam'
+21:13:06.733: User switched to scene 'Show Media'
+22:22:28.963: User switched to scene 'Normal Cam'
+22:33:59.013: User switched to scene 'Show Media'
+22:36:09.078: User switched to scene 'Normal Cam'
+22:36:09.966: Output 'virtualcam_output': stopping
+22:36:09.966: Output 'virtualcam_output': Total frames output: 1061428
+22:36:09.966: Output 'virtualcam_output': Total drawn frames: 1061409 (1061429 attempted)
+22:36:09.966: Output 'virtualcam_output': Number of lagged frames due to rendering lag/stalls: 20 (0.0%)
+22:36:09.966: ==== Virtual Camera Stop ===========================================
+22:36:09.972: Virtual output stopped
+08:23:42.894: ---------------------------------
+08:23:42.894: [DShow Device: 'Normal Webcam'] settings updated: 
+08:23:42.894: 	video device: Iriun Webcam
+08:23:42.894: 	video path: \\?\root#camera#0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{2a1f7d28-c666-4848-a04c-3b1a9f2546a2}
+08:23:42.894: 	resolution: 1920x1080
+08:23:42.894: 	flip: 0
+08:23:42.894: 	fps: 60.00 (interval: 166667)
+08:23:42.894: 	format: YUY2
+08:30:44.094: User switched to scene 'Cut Out Cam'
+08:30:59.135: User switched to scene 'Show Media'
+08:31:10.959: User added source 'Normal Webcam' (dshow_input) to scene 'Show Media'
+08:53:29.655: User added scene 'Carrot'
+08:53:29.657: User switched to scene 'Carrot'
+08:53:38.685: User added source 'Normal Webcam' (dshow_input) to scene 'Carrot'
+08:53:57.416: User added source 'Notepad' (window_capture) to scene 'Carrot'
+08:53:57.463: [window-capture: 'Notepad'] update settings:
+08:53:57.463: 	executable: chrome.exe
+08:53:57.463: 	method selected: Automatic
+08:53:57.463: 	method chosen: WGC
+08:53:57.463: 
+08:53:57.563: [window-capture: 'Notepad'] update settings:
+08:53:57.563: 	executable: chrome.exe
+08:53:57.563: 	method selected: Automatic
+08:53:57.563: 	method chosen: WGC
+08:53:57.563: 
+08:54:00.863: [window-capture: 'Notepad'] update settings:
+08:54:00.863: 	executable: notepad.exe
+08:54:00.863: 	method selected: Automatic
+08:54:00.863: 	method chosen: BitBlt
+08:54:00.863: 
+08:54:50.458: User added source 'Textbooks' (window_capture) to scene 'Carrot'
+08:54:50.497: [window-capture: 'Textbooks'] update settings:
+08:54:50.497: 	executable: chrome.exe
+08:54:50.497: 	method selected: Automatic
+08:54:50.497: 	method chosen: WGC
+08:54:50.497: 
+08:54:50.563: [window-capture: 'Textbooks'] update settings:
+08:54:50.563: 	executable: chrome.exe
+08:54:50.563: 	method selected: Automatic
+08:54:50.563: 	method chosen: WGC
+08:54:50.563: 
+08:57:39.530: [window-capture: 'Textbooks'] update settings:
+08:57:39.530: 	executable: chrome.exe
+08:57:39.530: 	method selected: Automatic
+08:57:39.530: 	method chosen: WGC
+08:57:39.530: 
+08:57:44.163: [window-capture: 'Textbooks'] update settings:
+08:57:44.163: 	executable: chrome.exe
+08:57:44.163: 	method selected: Automatic
+08:57:44.163: 	method chosen: WGC
+08:57:44.163: 
+09:27:25.478: User switched to scene 'Normal Cam'
+09:27:28.184: Virtual output started
+09:27:28.187: ==== Virtual Camera Start ==========================================
+09:27:31.778: User switched to scene 'Carrot'
+09:28:10.674: User switched to scene 'Normal Cam'
+09:28:12.911: User switched to scene 'Carrot'
+09:28:31.921: User switched to scene 'Normal Cam'
+09:37:29.681: User switched to scene 'Carrot'
+09:53:41.698: Settings changed (hotkeys)
+09:53:41.698: ------------------------------------------------
+09:53:45.097: User switched to scene 'Normal Cam'
+09:53:46.132: User switched to scene 'Carrot'
+09:53:47.105: User switched to scene 'Normal Cam'
+09:53:47.933: User switched to scene 'Carrot'
+09:53:48.709: User switched to scene 'Normal Cam'
+09:53:49.398: User switched to scene 'Carrot'
+09:53:49.899: User switched to scene 'Normal Cam'
+09:53:50.368: User switched to scene 'Carrot'
+09:53:50.865: User switched to scene 'Normal Cam'
+09:53:51.324: User switched to scene 'Carrot'
+09:53:52.971: User switched to scene 'Normal Cam'
+09:53:54.396: User switched to scene 'Show Media'
+09:53:56.180: User switched to scene 'Carrot'
+10:08:33.154: User switched to scene 'Normal Cam'
+10:10:00.337: User switched to scene 'Carrot'
+10:10:03.667: User switched to scene 'Normal Cam'
+10:11:28.461: User switched to scene 'Carrot'
+10:28:35.989: User switched to scene 'Normal Cam'

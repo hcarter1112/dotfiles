@@ -1,0 +1,198 @@
+04:53:54.990: CPU Name: AMD Ryzen 5 3600 6-Core Processor
+04:53:54.990: CPU Speed: 3600.000MHz
+04:53:54.990: Physical Cores: 6, Logical Cores: 12
+04:53:54.990: Physical Memory: 15928MB Total, 169MB Free
+04:53:54.990: Kernel Version: Linux 5.17.4-arch1-1
+04:53:54.991: Distribution: EndeavourOS Unknown
+04:53:54.991: Session Type: x11
+04:53:54.991: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+04:53:54.991: Qt Version: 5.15.3 (runtime), 5.15.3 (compiled)
+04:53:54.991: Portable mode: false
+04:53:55.036: OBS 27.2.3-1 (linux)
+04:53:55.036: ---------------------------------
+04:53:55.036: ---------------------------------
+04:53:55.036: audio settings reset:
+04:53:55.036: 	samples per sec: 48000
+04:53:55.036: 	speakers:        2
+04:53:55.039: ---------------------------------
+04:53:55.039: Initializing OpenGL...
+04:53:55.076: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1070 Ti/PCIe/SSE2
+04:53:55.076: OpenGL loaded successfully, version 3.3.0 NVIDIA 510.60.02, shading language 3.30 NVIDIA via Cg compiler
+04:53:55.087: ---------------------------------
+04:53:55.087: video settings reset:
+04:53:55.087: 	base resolution:   1920x1080
+04:53:55.087: 	output resolution: 1280x720
+04:53:55.087: 	downscale filter:  Bicubic
+04:53:55.087: 	fps:               30/1
+04:53:55.087: 	format:            NV12
+04:53:55.087: 	YUV mode:          709/Partial
+04:53:55.087: NV12 texture support not available
+04:53:55.087: Audio monitoring device:
+04:53:55.087: 	name: Monitor of Virtual1-Mic Audio/Sink sink
+04:53:55.087: 	id: Virtual1-Mic.monitor
+04:53:55.087: ---------------------------------
+04:53:55.090: Failed to load 'en-US' text for module: 'decklink-captions.so'
+04:53:55.092: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+04:53:55.163: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+04:53:55.163: No blackmagic support
+04:53:55.208: NVENC supported
+04:53:55.208: FFMPEG VAAPI supported
+04:53:55.225: os_dlopen(/usr//lib/obs-plugins/sndio.so->/usr//lib/obs-plugins/sndio.so): libsndio.so.7: cannot open shared object file: No such file or directory
+04:53:55.225: 
+04:53:55.225: Module '/usr//lib/obs-plugins/sndio.so' not loaded
+04:53:55.227: ---------------------------------
+04:53:55.227:   Loaded Modules:
+04:53:55.227:     text-freetype2.so
+04:53:55.227:     rtmp-services.so
+04:53:55.227:     obs-x264.so
+04:53:55.227:     obs-transitions.so
+04:53:55.227:     obs-outputs.so
+04:53:55.227:     obs-libfdk.so
+04:53:55.227:     obs-filters.so
+04:53:55.227:     obs-ffmpeg.so
+04:53:55.227:     linux-v4l2.so
+04:53:55.227:     linux-pulseaudio.so
+04:53:55.227:     linux-jack.so
+04:53:55.227:     linux-decklink.so
+04:53:55.227:     linux-capture.so
+04:53:55.227:     linux-alsa.so
+04:53:55.227:     image-source.so
+04:53:55.227:     frontend-tools.so
+04:53:55.227:     decklink-ouput-ui.so
+04:53:55.227:     decklink-captions.so
+04:53:55.227: ---------------------------------
+04:53:55.227: ==== Startup complete ===============================================
+04:53:55.268: All scene data cleared
+04:53:55.268: ------------------------------------------------
+04:53:55.273: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.50) 15.0.0'
+04:53:55.273: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+04:53:55.273: pulse-input: Started recording from 'alsa_input.usb-SteelSeries_SteelSeries_Arctis_7-00.mono-chat'
+04:53:55.277: pulse-am: Server name: 'PulseAudio (on PipeWire 0.3.50) 15.0.0'
+04:53:55.277: pulse-am: Audio format: float32le, 48000 Hz, 2 channels
+04:53:55.277: pulse-am: Started Monitoring in 'Virtual1-Mic.monitor'
+04:53:55.278: [Loaded global audio device]: 'Mic/Aux'
+04:53:55.278:     - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+04:53:55.278:     - filter: 'Noise Gate' (noise_gate_filter)
+04:53:55.278:     - filter: 'Compressor' (compressor_filter)
+04:53:55.278:     - monitoring: monitor and output
+04:53:55.422: v4l2-input: Start capture from /dev/video10
+04:53:55.422: v4l2-input: Input: 0
+04:53:55.422: v4l2-input: Resolution: 1280x720
+04:53:55.422: v4l2-input: Pixelformat: YU12
+04:53:55.422: v4l2-input: Linesize: 1280 Bytes
+04:53:55.423: v4l2-input: Framerate: 30.00 fps
+04:53:55.423: v4l2-input: /dev/video10: select timeout set to 166666 (5x frame periods)
+04:53:55.708: Switched to scene 'Main Camera'
+04:53:55.709: ------------------------------------------------
+04:53:55.709: Loaded scenes:
+04:53:55.709: - scene 'Main Camera':
+04:53:55.712:     - source: 'OnePlus' (v4l2_input)
+04:53:55.712:     - source: '[NS] Standard Audio' (scene)
+04:53:55.712: - scene 'Classroom':
+04:53:55.712:     - source: 'Main Camera' (scene)
+04:53:55.712:     - source: 'Alphabet' (image_source)
+04:53:55.712:     - source: 'World Map' (image_source)
+04:53:55.712:     - source: 'Nameplate flip' (text_ft2_source_v2)
+04:53:55.712:     - source: 'Nameplate flip' (text_ft2_source_v2)
+04:53:55.712:     - source: 'justin.png' (image_source)
+04:53:55.712:     - source: 'Car' (image_source)
+04:53:55.712:     - source: 'Cat' (image_source)
+04:53:55.712:     - source: 'Elsa' (image_source)
+04:53:55.712:     - source: 'George' (image_source)
+04:53:55.712:     - source: 'Harold Sticker' (image_source)
+04:53:55.712:     - source: 'Ice Cream' (image_source)
+04:53:55.712:     - source: 'Spiderman' (image_source)
+04:53:55.712:     - source: 'Ultraman' (image_source)
+04:53:55.712:     - source: 'Ultraman plus' (image_source)
+04:53:55.712:     - source: 'toppng.com-orange-juice-2960x3504.png' (image_source)
+04:53:55.712:     - source: 'toppng.com-bunny-png-cartoon-free-487x477.png' (image_source)
+04:53:55.712:     - source: 'toppng.com-fox-300x300.png' (image_source)
+04:53:55.713:     - source: 'Chat' (text_ft2_source_v2)
+04:53:55.713:     - source: 'toppng.com-kawaii-sushi-png-sushi-anime-600x355.png' (image_source)
+04:53:55.713: - scene 'Media with Camera':
+04:53:55.713:     - source: 'PT 105' (slideshow)
+04:53:55.713:     - source: 'FF' (xcomposite_input)
+04:53:55.713:     - source: '[NS] Cirlce Mask Cam' (scene)
+04:53:55.713:         - filter: 'Circle Mask' (mask_filter_v2)
+04:53:55.713: - scene 'Fullscreen share':
+04:53:55.713:     - source: 'JW Lib' (xcomposite_input)
+04:53:55.713:     - source: 'FF' (xcomposite_input)
+04:53:55.713: - scene '[NS] Standard Audio':
+04:53:55.713: - scene '[NS] Cirlce Mask Cam':
+04:53:55.713:     - source: 'OnePlus' (v4l2_input)
+04:53:55.713:     - filter: 'Circle Mask' (mask_filter_v2)
+04:53:55.713: ------------------------------------------------
+04:53:55.860: adding 64 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Mic/Aux)
+04:53:55.860: 
+04:53:57.538: Starting virtual camera due to hotkey
+04:53:57.539: Virtual camera started
+04:53:57.551: ==== Virtual Camera Start ==========================================
+04:54:28.529: User switched to scene 'Classroom'
+05:02:49.973: User added source 'toppng.com-ultraman-orb-coloring-pages-709x1097.png' (image_source) to scene 'Classroom'
+05:23:29.250: User Removed source 'toppng.com-ultraman-orb-coloring-pages-709x1097.png' (image_source) from scene 'Classroom'
+05:29:02.546: User added source 'OnePlus' (v4l2_input) to scene 'Main Camera'
+05:29:02.546: User added source '[NS] Standard Audio' (scene) to scene 'Main Camera'
+05:29:02.546: User Removed source 'Main Camera' (scene) from scene 'Classroom'
+05:29:02.546: User Removed source 'Alphabet' (image_source) from scene 'Classroom'
+05:29:02.546: User Removed source 'World Map' (image_source) from scene 'Classroom'
+05:29:02.546: User Removed source 'Nameplate flip' (text_ft2_source_v2) from scene 'Classroom'
+05:29:02.546: User Removed source 'Nameplate flip' (text_ft2_source_v2) from scene 'Classroom'
+05:29:02.546: User Removed source 'justin.png' (image_source) from scene 'Classroom'
+05:29:02.546: User Removed source 'Car' (image_source) from scene 'Classroom'
+05:29:02.546: User Removed source 'Cat' (image_source) from scene 'Classroom'
+05:29:02.546: User Removed source 'Elsa' (image_source) from scene 'Classroom'
+05:29:02.546: User Removed source 'George' (image_source) from scene 'Classroom'
+05:29:02.546: User Removed source 'Harold Sticker' (image_source) from scene 'Classroom'
+05:29:02.546: User Removed source 'Ice Cream' (image_source) from scene 'Classroom'
+05:29:02.546: User Removed source 'Spiderman' (image_source) from scene 'Classroom'
+05:29:02.546: User Removed source 'Ultraman' (image_source) from scene 'Classroom'
+05:29:02.546: User Removed source 'Ultraman plus' (image_source) from scene 'Classroom'
+05:29:02.546: User Removed source 'toppng.com-orange-juice-2960x3504.png' (image_source) from scene 'Classroom'
+05:29:02.546: User Removed source 'toppng.com-bunny-png-cartoon-free-487x477.png' (image_source) from scene 'Classroom'
+05:29:02.546: User Removed source 'toppng.com-fox-300x300.png' (image_source) from scene 'Classroom'
+05:29:02.546: User Removed source 'Chat' (text_ft2_source_v2) from scene 'Classroom'
+05:29:02.546: User Removed source 'toppng.com-kawaii-sushi-png-sushi-anime-600x355.png' (image_source) from scene 'Classroom'
+05:29:02.548: User added source 'Main Camera' (scene) to scene 'Classroom'
+05:29:02.549: User added source 'Alphabet' (image_source) to scene 'Classroom'
+05:29:02.550: User added source 'World Map' (image_source) to scene 'Classroom'
+05:29:02.551: User added source 'Nameplate flip' (text_ft2_source_v2) to scene 'Classroom'
+05:29:02.552: User added source 'Nameplate flip' (text_ft2_source_v2) to scene 'Classroom'
+05:29:02.553: User added source 'justin.png' (image_source) to scene 'Classroom'
+05:29:02.554: User added source 'Car' (image_source) to scene 'Classroom'
+05:29:02.556: User added source 'Cat' (image_source) to scene 'Classroom'
+05:29:02.557: User added source 'Elsa' (image_source) to scene 'Classroom'
+05:29:02.560: User added source 'George' (image_source) to scene 'Classroom'
+05:29:02.562: User added source 'Harold Sticker' (image_source) to scene 'Classroom'
+05:29:02.564: User added source 'Ice Cream' (image_source) to scene 'Classroom'
+05:29:02.566: User added source 'Spiderman' (image_source) to scene 'Classroom'
+05:29:02.569: User added source 'Ultraman' (image_source) to scene 'Classroom'
+05:29:02.571: User added source 'Ultraman plus' (image_source) to scene 'Classroom'
+05:29:02.573: User added source 'toppng.com-orange-juice-2960x3504.png' (image_source) to scene 'Classroom'
+05:29:02.576: User added source 'toppng.com-bunny-png-cartoon-free-487x477.png' (image_source) to scene 'Classroom'
+05:29:02.577: User added source 'toppng.com-fox-300x300.png' (image_source) to scene 'Classroom'
+05:29:02.579: User added source 'Chat' (text_ft2_source_v2) to scene 'Classroom'
+05:29:02.581: User added source 'toppng.com-kawaii-sushi-png-sushi-anime-600x355.png' (image_source) to scene 'Classroom'
+05:29:02.583: User added source 'toppng.com-ultraman-orb-coloring-pages-709x1097.png' (image_source) to scene 'Classroom'
+05:39:32.352: User added source 'Ice Cream' (image_source) to scene 'Classroom'
+05:55:35.585: User Removed source 'Ice Cream' (image_source) from scene 'Classroom'
+06:45:57.450: User added source 'Elsa' (image_source) to scene 'Classroom'
+06:46:09.090: User added source 'Elsa' (image_source) to scene 'Classroom'
+06:55:16.653: User added source 'Elsa' (image_source) to scene 'Classroom'
+06:55:19.440: User added source 'Elsa' (image_source) to scene 'Classroom'
+06:56:06.707: User Removed source 'Elsa' (image_source) from scene 'Classroom'
+06:56:06.707: User Removed source 'Elsa' (image_source) from scene 'Classroom'
+06:56:06.707: User Removed source 'Elsa' (image_source) from scene 'Classroom'
+06:56:06.707: User Removed source 'Elsa' (image_source) from scene 'Classroom'
+07:13:07.331: User added source 'toppng.com-tropical-fish-clipart-realistic-fish-fish-1035x344.png' (image_source) to scene 'Classroom'
+07:21:09.194: adding 21 milliseconds of audio buffering, total audio buffering is now 85 milliseconds (source: Mic/Aux)
+07:21:09.194: 
+07:30:18.816: Stopping virtual camera due to hotkey
+07:30:18.817: Output 'virtualcam_output': stopping
+07:30:18.817: Output 'virtualcam_output': Total frames output: 281437
+07:30:18.817: Output 'virtualcam_output': Total drawn frames: 281435 (281438 attempted)
+07:30:18.817: Output 'virtualcam_output': Number of lagged frames due to rendering lag/stalls: 3 (0.0%)
+07:30:18.817: ==== Virtual Camera Stop ===========================================
+07:30:18.818: Virtual camera stopped
+07:30:33.392: Starting virtual camera due to hotkey
+07:30:33.392: Virtual camera started
+07:30:33.396: ==== Virtual Camera Start ==========================================

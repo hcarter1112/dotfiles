@@ -1,0 +1,597 @@
+10:52:30.284: CPU Name: AMD Ryzen 5 3600 6-Core Processor
+10:52:30.284: CPU Speed: 3600.000MHz
+10:52:30.284: Physical Cores: 6, Logical Cores: 12
+10:52:30.284: Physical Memory: 15928MB Total, 3504MB Free
+10:52:30.284: Kernel Version: Linux 5.17.4-arch1-1
+10:52:30.284: Distribution: EndeavourOS Unknown
+10:52:30.284: Session Type: x11
+10:52:30.284: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+10:52:30.285: Qt Version: 5.15.3 (runtime), 5.15.3 (compiled)
+10:52:30.285: Portable mode: false
+10:52:30.339: OBS 27.2.3-1 (linux)
+10:52:30.339: ---------------------------------
+10:52:30.339: ---------------------------------
+10:52:30.339: audio settings reset:
+10:52:30.339: 	samples per sec: 48000
+10:52:30.339: 	speakers:        2
+10:52:30.342: ---------------------------------
+10:52:30.342: Initializing OpenGL...
+10:52:30.380: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1070 Ti/PCIe/SSE2
+10:52:30.380: OpenGL loaded successfully, version 3.3.0 NVIDIA 510.60.02, shading language 3.30 NVIDIA via Cg compiler
+10:52:30.389: ---------------------------------
+10:52:30.389: video settings reset:
+10:52:30.389: 	base resolution:   1920x1080
+10:52:30.389: 	output resolution: 1280x720
+10:52:30.389: 	downscale filter:  Bicubic
+10:52:30.389: 	fps:               30/1
+10:52:30.389: 	format:            NV12
+10:52:30.389: 	YUV mode:          709/Partial
+10:52:30.389: NV12 texture support not available
+10:52:30.389: Audio monitoring device:
+10:52:30.389: 	name: Monitor of Virtual1-Mic Audio/Sink sink
+10:52:30.389: 	id: Virtual1-Mic.monitor
+10:52:30.389: ---------------------------------
+10:52:30.391: Failed to load 'en-US' text for module: 'decklink-captions.so'
+10:52:30.393: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+10:52:30.464: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+10:52:30.464: No blackmagic support
+10:52:30.508: NVENC supported
+10:52:30.508: FFMPEG VAAPI supported
+10:52:30.526: os_dlopen(/usr//lib/obs-plugins/sndio.so->/usr//lib/obs-plugins/sndio.so): libsndio.so.7: cannot open shared object file: No such file or directory
+10:52:30.526: 
+10:52:30.526: Module '/usr//lib/obs-plugins/sndio.so' not loaded
+10:52:30.528: ---------------------------------
+10:52:30.528:   Loaded Modules:
+10:52:30.528:     text-freetype2.so
+10:52:30.528:     rtmp-services.so
+10:52:30.528:     obs-x264.so
+10:52:30.528:     obs-transitions.so
+10:52:30.528:     obs-outputs.so
+10:52:30.528:     obs-libfdk.so
+10:52:30.528:     obs-filters.so
+10:52:30.528:     obs-ffmpeg.so
+10:52:30.528:     linux-v4l2.so
+10:52:30.528:     linux-pulseaudio.so
+10:52:30.528:     linux-jack.so
+10:52:30.528:     linux-decklink.so
+10:52:30.528:     linux-capture.so
+10:52:30.528:     linux-alsa.so
+10:52:30.528:     image-source.so
+10:52:30.528:     frontend-tools.so
+10:52:30.528:     decklink-ouput-ui.so
+10:52:30.528:     decklink-captions.so
+10:52:30.528: ---------------------------------
+10:52:30.528: ==== Startup complete ===============================================
+10:52:30.571: All scene data cleared
+10:52:30.571: ------------------------------------------------
+10:52:30.575: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.50) 15.0.0'
+10:52:30.575: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+10:52:30.575: pulse-input: Started recording from 'alsa_input.usb-SteelSeries_SteelSeries_Arctis_7-00.mono-chat'
+10:52:30.577: pulse-am: Server name: 'PulseAudio (on PipeWire 0.3.50) 15.0.0'
+10:52:30.577: pulse-am: Audio format: float32le, 48000 Hz, 2 channels
+10:52:30.577: pulse-am: Started Monitoring in 'Virtual1-Mic.monitor'
+10:52:30.578: [Loaded global audio device]: 'Mic/Aux'
+10:52:30.578:     - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+10:52:30.578:     - filter: 'Noise Gate' (noise_gate_filter)
+10:52:30.578:     - filter: 'Compressor' (compressor_filter)
+10:52:30.578:     - monitoring: monitor and output
+10:52:30.603: Failed to open file '/home/ralldi/OBS Stuff/OBS Media/toppng.com-kawaii-sushi-png-sushi-anime-600x355.png': No such file or directory
+10:52:30.603: gs_image_file_init_internal: Failed to load file '/home/ralldi/OBS Stuff/OBS Media/toppng.com-kawaii-sushi-png-sushi-anime-600x355.png'
+10:52:30.603: [image_source: 'toppng.com-kawaii-sushi-png-sushi-anime-600x355.png'] failed to load texture '/home/ralldi/OBS Stuff/OBS Media/toppng.com-kawaii-sushi-png-sushi-anime-600x355.png'
+10:52:30.603: Failed to open file '/home/ralldi/OBS Stuff/OBS Media/justin.png': No such file or directory
+10:52:30.603: gs_image_file_init_internal: Failed to load file '/home/ralldi/OBS Stuff/OBS Media/justin.png'
+10:52:30.603: [image_source: 'justin.png'] failed to load texture '/home/ralldi/OBS Stuff/OBS Media/justin.png'
+10:52:30.603: Failed to open file '/home/ralldi/OBS Stuff/OBS Media/toppng.com-fox-300x300.png': No such file or directory
+10:52:30.603: gs_image_file_init_internal: Failed to load file '/home/ralldi/OBS Stuff/OBS Media/toppng.com-fox-300x300.png'
+10:52:30.603: [image_source: 'toppng.com-fox-300x300.png'] failed to load texture '/home/ralldi/OBS Stuff/OBS Media/toppng.com-fox-300x300.png'
+10:52:30.604: Failed to open file '/home/ralldi/OBS Stuff/OBS Media/toppng.com-bunny-png-cartoon-free-487x477.png': No such file or directory
+10:52:30.604: gs_image_file_init_internal: Failed to load file '/home/ralldi/OBS Stuff/OBS Media/toppng.com-bunny-png-cartoon-free-487x477.png'
+10:52:30.604: [image_source: 'toppng.com-bunny-png-cartoon-free-487x477.png'] failed to load texture '/home/ralldi/OBS Stuff/OBS Media/toppng.com-bunny-png-cartoon-free-487x477.png'
+10:52:30.604: Failed to open file '/home/ralldi/OBS Stuff/OBS Media/toppng.com-orange-juice-2960x3504.png': No such file or directory
+10:52:30.604: gs_image_file_init_internal: Failed to load file '/home/ralldi/OBS Stuff/OBS Media/toppng.com-orange-juice-2960x3504.png'
+10:52:30.604: [image_source: 'toppng.com-orange-juice-2960x3504.png'] failed to load texture '/home/ralldi/OBS Stuff/OBS Media/toppng.com-orange-juice-2960x3504.png'
+10:52:30.606: Failed to open file '/home/ralldi/OBS Stuff/OBS Media/Ultraman.png': No such file or directory
+10:52:30.606: gs_image_file_init_internal: Failed to load file '/home/ralldi/OBS Stuff/OBS Media/Ultraman.png'
+10:52:30.606: [image_source: 'Ultraman'] failed to load texture '/home/ralldi/OBS Stuff/OBS Media/Ultraman.png'
+10:52:30.606: Failed to open file '/home/ralldi/OBS Stuff/OBS Media/spiderman.png': No such file or directory
+10:52:30.606: gs_image_file_init_internal: Failed to load file '/home/ralldi/OBS Stuff/OBS Media/spiderman.png'
+10:52:30.606: [image_source: 'Spiderman'] failed to load texture '/home/ralldi/OBS Stuff/OBS Media/spiderman.png'
+10:52:30.607: v4l2-input: Start capture from /dev/video10
+10:52:30.607: v4l2-input: Input: 0
+10:52:30.607: v4l2-input: Resolution: 1280x720
+10:52:30.607: v4l2-input: Pixelformat: YU12
+10:52:30.607: v4l2-input: Linesize: 1280 Bytes
+10:52:30.607: v4l2-input: Framerate: 30.00 fps
+10:52:30.608: v4l2-input: /dev/video10: select timeout set to 166666 (5x frame periods)
+10:52:30.608: Failed to open file '/home/ralldi/OBS Stuff/OBS Media/Alphabet.jpg': No such file or directory
+10:52:30.608: gs_image_file_init_internal: Failed to load file '/home/ralldi/OBS Stuff/OBS Media/Alphabet.jpg'
+10:52:30.608: [image_source: 'Alphabet'] failed to load texture '/home/ralldi/OBS Stuff/OBS Media/Alphabet.jpg'
+10:52:30.608: Failed to open file '/home/ralldi/OBS Stuff/OBS Media/World Map.jpg': No such file or directory
+10:52:30.608: gs_image_file_init_internal: Failed to load file '/home/ralldi/OBS Stuff/OBS Media/World Map.jpg'
+10:52:30.608: [image_source: 'World Map'] failed to load texture '/home/ralldi/OBS Stuff/OBS Media/World Map.jpg'
+10:52:30.608: Failed to open file '/home/ralldi/OBS Stuff/OBS Media/car.png': No such file or directory
+10:52:30.608: gs_image_file_init_internal: Failed to load file '/home/ralldi/OBS Stuff/OBS Media/car.png'
+10:52:30.608: [image_source: 'Car'] failed to load texture '/home/ralldi/OBS Stuff/OBS Media/car.png'
+10:52:30.609: Failed to open file '/home/ralldi/OBS Stuff/OBS Media/cat.png': No such file or directory
+10:52:30.609: gs_image_file_init_internal: Failed to load file '/home/ralldi/OBS Stuff/OBS Media/cat.png'
+10:52:30.609: [image_source: 'Cat'] failed to load texture '/home/ralldi/OBS Stuff/OBS Media/cat.png'
+10:52:30.609: Failed to open file '/home/ralldi/OBS Stuff/OBS Media/Elsa.png': No such file or directory
+10:52:30.609: gs_image_file_init_internal: Failed to load file '/home/ralldi/OBS Stuff/OBS Media/Elsa.png'
+10:52:30.609: [image_source: 'Elsa'] failed to load texture '/home/ralldi/OBS Stuff/OBS Media/Elsa.png'
+10:52:30.609: Failed to open file '/home/ralldi/OBS Stuff/OBS Media/George.png': No such file or directory
+10:52:30.609: gs_image_file_init_internal: Failed to load file '/home/ralldi/OBS Stuff/OBS Media/George.png'
+10:52:30.609: [image_source: 'George'] failed to load texture '/home/ralldi/OBS Stuff/OBS Media/George.png'
+10:52:30.609: Failed to open file '/home/ralldi/OBS Stuff/OBS Media/Harold Sticker.png': No such file or directory
+10:52:30.609: gs_image_file_init_internal: Failed to load file '/home/ralldi/OBS Stuff/OBS Media/Harold Sticker.png'
+10:52:30.609: [image_source: 'Harold Sticker'] failed to load texture '/home/ralldi/OBS Stuff/OBS Media/Harold Sticker.png'
+10:52:30.609: Failed to open file '/home/ralldi/OBS Stuff/OBS Media/Ice Cream.png': No such file or directory
+10:52:30.609: gs_image_file_init_internal: Failed to load file '/home/ralldi/OBS Stuff/OBS Media/Ice Cream.png'
+10:52:30.609: [image_source: 'Ice Cream'] failed to load texture '/home/ralldi/OBS Stuff/OBS Media/Ice Cream.png'
+10:52:30.609: Failed to open file '/home/ralldi/OBS Stuff/OBS Media/clipart2461454.png': No such file or directory
+10:52:30.609: gs_image_file_init_internal: Failed to load file '/home/ralldi/OBS Stuff/OBS Media/clipart2461454.png'
+10:52:30.609: [image_source: 'Ultraman plus'] failed to load texture '/home/ralldi/OBS Stuff/OBS Media/clipart2461454.png'
+10:52:30.633: Failed to open file '/home/ralldi/OBS Stuff/Masks/Circle mask.png': No such file or directory
+10:52:30.634: gs_image_file_init_internal: Failed to load file '/home/ralldi/OBS Stuff/Masks/Circle mask.png'
+10:52:30.707: Switched to scene 'Classroom'
+10:52:30.707: ------------------------------------------------
+10:52:30.707: Loaded scenes:
+10:52:30.707: - scene 'Main Camera':
+10:52:30.707:     - source: 'OnePlus' (v4l2_input)
+10:52:30.707:     - source: '[NS] Standard Audio' (scene)
+10:52:30.707: - scene 'Classroom':
+10:52:30.712:     - source: 'Main Camera' (scene)
+10:52:30.712:     - source: 'Alphabet' (image_source)
+10:52:30.712:     - source: 'World Map' (image_source)
+10:52:30.712:     - source: 'Nameplate flip' (text_ft2_source_v2)
+10:52:30.712:     - source: 'Nameplate flip' (text_ft2_source_v2)
+10:52:30.712:     - source: 'justin.png' (image_source)
+10:52:30.712:     - source: 'Car' (image_source)
+10:52:30.712:     - source: 'Cat' (image_source)
+10:52:30.712:     - source: 'Elsa' (image_source)
+10:52:30.712:     - source: 'George' (image_source)
+10:52:30.712:     - source: 'Harold Sticker' (image_source)
+10:52:30.712:     - source: 'Ice Cream' (image_source)
+10:52:30.712:     - source: 'Spiderman' (image_source)
+10:52:30.712:     - source: 'Ultraman' (image_source)
+10:52:30.712:     - source: 'Ultraman plus' (image_source)
+10:52:30.712:     - source: 'toppng.com-orange-juice-2960x3504.png' (image_source)
+10:52:30.712:     - source: 'toppng.com-bunny-png-cartoon-free-487x477.png' (image_source)
+10:52:30.712:     - source: 'toppng.com-fox-300x300.png' (image_source)
+10:52:30.712:     - source: 'toppng.com-kawaii-sushi-png-sushi-anime-600x355.png' (image_source)
+10:52:30.712:     - source: 'toppng.com-ultraman-orb-coloring-pages-709x1097.png' (image_source)
+10:52:30.712:     - source: 'Chat' (text_ft2_source_v2)
+10:52:30.712:     - source: 'toppng.com-tropical-fish-clipart-realistic-fish-fish-1035x344.png' (image_source)
+10:52:30.712: - scene 'Media with Camera':
+10:52:30.712:     - source: 'PT 105' (slideshow)
+10:52:30.712:     - source: 'FF' (xcomposite_input)
+10:52:30.712:     - source: '[NS] Cirlce Mask Cam' (scene)
+10:52:30.712:         - filter: 'Circle Mask' (mask_filter_v2)
+10:52:30.712: - scene 'Fullscreen share':
+10:52:30.712:     - source: 'JW Lib' (xcomposite_input)
+10:52:30.712:     - source: 'FF' (xcomposite_input)
+10:52:30.712: - scene '[NS] Standard Audio':
+10:52:30.712: - scene '[NS] Cirlce Mask Cam':
+10:52:30.712:     - source: 'OnePlus' (v4l2_input)
+10:52:30.712:     - filter: 'Circle Mask' (mask_filter_v2)
+10:52:30.712: ------------------------------------------------
+10:52:30.775: v4l2-input: /dev/video10: select timed out
+10:52:30.775: v4l2-input: /dev/video10: failed to log status
+10:52:30.942: v4l2-input: /dev/video10: select timed out
+10:52:30.942: v4l2-input: /dev/video10: failed to log status
+10:52:31.109: v4l2-input: /dev/video10: select timed out
+10:52:31.109: v4l2-input: /dev/video10: failed to log status
+10:52:31.162: adding 64 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Mic/Aux)
+10:52:31.162: 
+10:52:31.276: v4l2-input: /dev/video10: select timed out
+10:52:31.276: v4l2-input: /dev/video10: failed to log status
+10:52:31.442: v4l2-input: /dev/video10: select timed out
+10:52:31.443: v4l2-input: /dev/video10: failed to log status
+10:52:31.609: v4l2-input: /dev/video10: select timed out
+10:52:31.609: v4l2-input: /dev/video10: failed to log status
+10:52:31.776: v4l2-input: /dev/video10: select timed out
+10:52:31.776: v4l2-input: /dev/video10: failed to log status
+10:52:31.943: v4l2-input: /dev/video10: select timed out
+10:52:31.943: v4l2-input: /dev/video10: failed to log status
+10:52:32.110: v4l2-input: /dev/video10: select timed out
+10:52:32.110: v4l2-input: /dev/video10: failed to log status
+10:52:32.277: v4l2-input: /dev/video10: select timed out
+10:52:32.277: v4l2-input: /dev/video10: failed to log status
+10:52:32.444: v4l2-input: /dev/video10: select timed out
+10:52:32.444: v4l2-input: /dev/video10: failed to log status
+10:52:32.611: v4l2-input: /dev/video10: select timed out
+10:52:32.611: v4l2-input: /dev/video10: failed to log status
+10:52:32.778: v4l2-input: /dev/video10: select timed out
+10:52:32.778: v4l2-input: /dev/video10: failed to log status
+10:52:32.945: v4l2-input: /dev/video10: select timed out
+10:52:32.945: v4l2-input: /dev/video10: failed to log status
+10:52:33.112: v4l2-input: /dev/video10: select timed out
+10:52:33.112: v4l2-input: /dev/video10: failed to log status
+10:52:33.279: v4l2-input: /dev/video10: select timed out
+10:52:33.279: v4l2-input: /dev/video10: failed to log status
+10:52:33.446: v4l2-input: /dev/video10: select timed out
+10:52:33.446: v4l2-input: /dev/video10: failed to log status
+10:52:33.613: v4l2-input: /dev/video10: select timed out
+10:52:33.613: v4l2-input: /dev/video10: failed to log status
+10:52:33.779: v4l2-input: /dev/video10: select timed out
+10:52:33.780: v4l2-input: /dev/video10: failed to log status
+10:52:33.946: v4l2-input: /dev/video10: select timed out
+10:52:33.946: v4l2-input: /dev/video10: failed to log status
+10:52:34.113: v4l2-input: /dev/video10: select timed out
+10:52:34.113: v4l2-input: /dev/video10: failed to log status
+10:52:34.280: v4l2-input: /dev/video10: select timed out
+10:52:34.280: v4l2-input: /dev/video10: failed to log status
+10:52:34.447: v4l2-input: /dev/video10: select timed out
+10:52:34.447: v4l2-input: /dev/video10: failed to log status
+10:52:34.614: v4l2-input: /dev/video10: select timed out
+10:52:34.614: v4l2-input: /dev/video10: failed to log status
+10:52:34.781: v4l2-input: /dev/video10: select timed out
+10:52:34.781: v4l2-input: /dev/video10: failed to log status
+10:52:34.948: v4l2-input: /dev/video10: select timed out
+10:52:34.948: v4l2-input: /dev/video10: failed to log status
+10:52:35.115: v4l2-input: /dev/video10: select timed out
+10:52:35.115: v4l2-input: /dev/video10: failed to log status
+10:52:35.282: v4l2-input: /dev/video10: select timed out
+10:52:35.282: v4l2-input: /dev/video10: failed to log status
+10:52:35.449: v4l2-input: /dev/video10: select timed out
+10:52:35.449: v4l2-input: /dev/video10: failed to log status
+10:52:35.616: v4l2-input: /dev/video10: select timed out
+10:52:35.616: v4l2-input: /dev/video10: failed to log status
+10:52:35.783: v4l2-input: /dev/video10: select timed out
+10:52:35.783: v4l2-input: /dev/video10: failed to log status
+10:52:35.950: v4l2-input: /dev/video10: select timed out
+10:52:35.950: v4l2-input: /dev/video10: failed to log status
+10:52:36.117: v4l2-input: /dev/video10: select timed out
+10:52:36.117: v4l2-input: /dev/video10: failed to log status
+10:52:36.284: v4l2-input: /dev/video10: select timed out
+10:52:36.284: v4l2-input: /dev/video10: failed to log status
+10:52:36.451: v4l2-input: /dev/video10: select timed out
+10:52:36.451: v4l2-input: /dev/video10: failed to log status
+10:52:36.617: v4l2-input: /dev/video10: select timed out
+10:52:36.617: v4l2-input: /dev/video10: failed to log status
+10:52:36.784: v4l2-input: /dev/video10: select timed out
+10:52:36.784: v4l2-input: /dev/video10: failed to log status
+10:52:36.951: v4l2-input: /dev/video10: select timed out
+10:52:36.951: v4l2-input: /dev/video10: failed to log status
+10:52:37.118: v4l2-input: /dev/video10: select timed out
+10:52:37.118: v4l2-input: /dev/video10: failed to log status
+10:52:37.285: v4l2-input: /dev/video10: select timed out
+10:52:37.285: v4l2-input: /dev/video10: failed to log status
+10:52:37.452: v4l2-input: /dev/video10: select timed out
+10:52:37.452: v4l2-input: /dev/video10: failed to log status
+10:52:37.619: v4l2-input: /dev/video10: select timed out
+10:52:37.619: v4l2-input: /dev/video10: failed to log status
+10:52:37.786: v4l2-input: /dev/video10: select timed out
+10:52:37.786: v4l2-input: /dev/video10: failed to log status
+10:52:37.953: v4l2-input: /dev/video10: select timed out
+10:52:37.953: v4l2-input: /dev/video10: failed to log status
+10:52:38.120: v4l2-input: /dev/video10: select timed out
+10:52:38.120: v4l2-input: /dev/video10: failed to log status
+10:52:38.287: v4l2-input: /dev/video10: select timed out
+10:52:38.287: v4l2-input: /dev/video10: failed to log status
+10:52:38.454: v4l2-input: /dev/video10: select timed out
+10:52:38.454: v4l2-input: /dev/video10: failed to log status
+10:52:38.621: v4l2-input: /dev/video10: select timed out
+10:52:38.621: v4l2-input: /dev/video10: failed to log status
+10:52:38.788: v4l2-input: /dev/video10: select timed out
+10:52:38.788: v4l2-input: /dev/video10: failed to log status
+10:52:38.955: v4l2-input: /dev/video10: select timed out
+10:52:38.955: v4l2-input: /dev/video10: failed to log status
+10:52:39.122: v4l2-input: /dev/video10: select timed out
+10:52:39.122: v4l2-input: /dev/video10: failed to log status
+10:52:39.289: v4l2-input: /dev/video10: select timed out
+10:52:39.289: v4l2-input: /dev/video10: failed to log status
+10:52:39.456: v4l2-input: /dev/video10: select timed out
+10:52:39.456: v4l2-input: /dev/video10: failed to log status
+10:52:39.622: v4l2-input: /dev/video10: select timed out
+10:52:39.623: v4l2-input: /dev/video10: failed to log status
+10:52:39.789: v4l2-input: /dev/video10: select timed out
+10:52:39.789: v4l2-input: /dev/video10: failed to log status
+10:52:39.956: v4l2-input: /dev/video10: select timed out
+10:52:39.956: v4l2-input: /dev/video10: failed to log status
+10:52:40.123: v4l2-input: /dev/video10: select timed out
+10:52:40.123: v4l2-input: /dev/video10: failed to log status
+10:52:40.290: v4l2-input: /dev/video10: select timed out
+10:52:40.290: v4l2-input: /dev/video10: failed to log status
+10:52:40.457: v4l2-input: /dev/video10: select timed out
+10:52:40.457: v4l2-input: /dev/video10: failed to log status
+10:52:40.624: v4l2-input: /dev/video10: select timed out
+10:52:40.624: v4l2-input: /dev/video10: failed to log status
+10:52:40.791: v4l2-input: /dev/video10: select timed out
+10:52:40.791: v4l2-input: /dev/video10: failed to log status
+10:52:40.958: v4l2-input: /dev/video10: select timed out
+10:52:40.958: v4l2-input: /dev/video10: failed to log status
+10:52:41.125: v4l2-input: /dev/video10: select timed out
+10:52:41.125: v4l2-input: /dev/video10: failed to log status
+10:52:41.292: v4l2-input: /dev/video10: select timed out
+10:52:41.292: v4l2-input: /dev/video10: failed to log status
+10:52:41.459: v4l2-input: /dev/video10: select timed out
+10:52:41.459: v4l2-input: /dev/video10: failed to log status
+10:52:41.626: v4l2-input: /dev/video10: select timed out
+10:52:41.626: v4l2-input: /dev/video10: failed to log status
+10:52:41.793: v4l2-input: /dev/video10: select timed out
+10:52:41.793: v4l2-input: /dev/video10: failed to log status
+10:52:41.959: v4l2-input: /dev/video10: select timed out
+10:52:41.959: v4l2-input: /dev/video10: failed to log status
+10:52:42.126: v4l2-input: /dev/video10: select timed out
+10:52:42.126: v4l2-input: /dev/video10: failed to log status
+10:52:42.293: v4l2-input: /dev/video10: select timed out
+10:52:42.293: v4l2-input: /dev/video10: failed to log status
+10:52:42.460: v4l2-input: /dev/video10: select timed out
+10:52:42.460: v4l2-input: /dev/video10: failed to log status
+10:52:42.627: v4l2-input: /dev/video10: select timed out
+10:52:42.627: v4l2-input: /dev/video10: failed to log status
+10:52:42.794: v4l2-input: /dev/video10: select timed out
+10:52:42.794: v4l2-input: /dev/video10: failed to log status
+10:52:42.961: v4l2-input: /dev/video10: select timed out
+10:52:42.961: v4l2-input: /dev/video10: failed to log status
+10:52:43.128: v4l2-input: /dev/video10: select timed out
+10:52:43.128: v4l2-input: /dev/video10: failed to log status
+10:52:43.295: v4l2-input: /dev/video10: select timed out
+10:52:43.295: v4l2-input: /dev/video10: failed to log status
+10:52:43.462: v4l2-input: /dev/video10: select timed out
+10:52:43.462: v4l2-input: /dev/video10: failed to log status
+10:52:43.629: v4l2-input: /dev/video10: select timed out
+10:52:43.629: v4l2-input: /dev/video10: failed to log status
+10:52:43.796: v4l2-input: /dev/video10: select timed out
+10:52:43.796: v4l2-input: /dev/video10: failed to log status
+10:52:43.963: v4l2-input: /dev/video10: select timed out
+10:52:43.963: v4l2-input: /dev/video10: failed to log status
+10:52:44.129: v4l2-input: /dev/video10: select timed out
+10:52:44.130: v4l2-input: /dev/video10: failed to log status
+10:52:44.296: v4l2-input: /dev/video10: select timed out
+10:52:44.296: v4l2-input: /dev/video10: failed to log status
+10:52:44.463: v4l2-input: /dev/video10: select timed out
+10:52:44.463: v4l2-input: /dev/video10: failed to log status
+10:52:44.630: v4l2-input: /dev/video10: select timed out
+10:52:44.630: v4l2-input: /dev/video10: failed to log status
+10:52:44.797: v4l2-input: /dev/video10: select timed out
+10:52:44.797: v4l2-input: /dev/video10: failed to log status
+10:52:44.964: v4l2-input: /dev/video10: select timed out
+10:52:44.964: v4l2-input: /dev/video10: failed to log status
+10:52:45.131: v4l2-input: /dev/video10: select timed out
+10:52:45.131: v4l2-input: /dev/video10: failed to log status
+10:52:45.298: v4l2-input: /dev/video10: select timed out
+10:52:45.298: v4l2-input: /dev/video10: failed to log status
+10:52:45.465: v4l2-input: /dev/video10: select timed out
+10:52:45.465: v4l2-input: /dev/video10: failed to log status
+10:52:45.632: v4l2-input: /dev/video10: select timed out
+10:52:45.632: v4l2-input: /dev/video10: failed to log status
+10:52:45.799: v4l2-input: /dev/video10: select timed out
+10:52:45.799: v4l2-input: /dev/video10: failed to log status
+10:52:45.966: v4l2-input: /dev/video10: select timed out
+10:52:45.966: v4l2-input: /dev/video10: failed to log status
+10:52:46.133: v4l2-input: /dev/video10: select timed out
+10:52:46.133: v4l2-input: /dev/video10: failed to log status
+10:52:46.300: v4l2-input: /dev/video10: select timed out
+10:52:46.300: v4l2-input: /dev/video10: failed to log status
+10:52:46.467: v4l2-input: /dev/video10: select timed out
+10:52:46.467: v4l2-input: /dev/video10: failed to log status
+10:52:46.633: v4l2-input: /dev/video10: select timed out
+10:52:46.633: v4l2-input: /dev/video10: failed to log status
+10:52:46.800: v4l2-input: /dev/video10: select timed out
+10:52:46.800: v4l2-input: /dev/video10: failed to log status
+10:52:46.967: v4l2-input: /dev/video10: select timed out
+10:52:46.967: v4l2-input: /dev/video10: failed to log status
+10:52:47.134: v4l2-input: /dev/video10: select timed out
+10:52:47.134: v4l2-input: /dev/video10: failed to log status
+10:52:47.301: v4l2-input: /dev/video10: select timed out
+10:52:47.301: v4l2-input: /dev/video10: failed to log status
+10:52:47.468: v4l2-input: /dev/video10: select timed out
+10:52:47.468: v4l2-input: /dev/video10: failed to log status
+10:52:47.635: v4l2-input: /dev/video10: select timed out
+10:52:47.635: v4l2-input: /dev/video10: failed to log status
+10:52:47.802: v4l2-input: /dev/video10: select timed out
+10:52:47.802: v4l2-input: /dev/video10: failed to log status
+10:52:47.969: v4l2-input: /dev/video10: select timed out
+10:52:47.969: v4l2-input: /dev/video10: failed to log status
+10:52:48.136: v4l2-input: /dev/video10: select timed out
+10:52:48.136: v4l2-input: /dev/video10: failed to log status
+10:52:48.303: v4l2-input: /dev/video10: select timed out
+10:52:48.303: v4l2-input: /dev/video10: failed to log status
+10:52:48.469: v4l2-input: /dev/video10: select timed out
+10:52:48.470: v4l2-input: /dev/video10: failed to log status
+10:52:48.636: v4l2-input: /dev/video10: select timed out
+10:52:48.636: v4l2-input: /dev/video10: failed to log status
+10:52:48.803: v4l2-input: /dev/video10: select timed out
+10:52:48.803: v4l2-input: /dev/video10: failed to log status
+10:52:48.970: v4l2-input: /dev/video10: select timed out
+10:52:48.970: v4l2-input: /dev/video10: failed to log status
+10:52:49.137: v4l2-input: /dev/video10: select timed out
+10:52:49.137: v4l2-input: /dev/video10: failed to log status
+10:52:49.304: v4l2-input: /dev/video10: select timed out
+10:52:49.304: v4l2-input: /dev/video10: failed to log status
+10:52:49.471: v4l2-input: /dev/video10: select timed out
+10:52:49.471: v4l2-input: /dev/video10: failed to log status
+10:52:49.638: v4l2-input: /dev/video10: select timed out
+10:52:49.638: v4l2-input: /dev/video10: failed to log status
+10:52:49.805: v4l2-input: /dev/video10: select timed out
+10:52:49.805: v4l2-input: /dev/video10: failed to log status
+10:52:49.972: v4l2-input: /dev/video10: select timed out
+10:52:49.972: v4l2-input: /dev/video10: failed to log status
+10:52:50.139: v4l2-input: /dev/video10: select timed out
+10:52:50.139: v4l2-input: /dev/video10: failed to log status
+10:52:50.306: v4l2-input: /dev/video10: select timed out
+10:52:50.306: v4l2-input: /dev/video10: failed to log status
+10:52:50.473: v4l2-input: /dev/video10: select timed out
+10:52:50.473: v4l2-input: /dev/video10: failed to log status
+10:52:50.639: v4l2-input: /dev/video10: select timed out
+10:52:50.639: v4l2-input: /dev/video10: failed to log status
+10:52:50.806: v4l2-input: /dev/video10: select timed out
+10:52:50.806: v4l2-input: /dev/video10: failed to log status
+10:52:50.973: v4l2-input: /dev/video10: select timed out
+10:52:50.973: v4l2-input: /dev/video10: failed to log status
+10:52:51.140: v4l2-input: /dev/video10: select timed out
+10:52:51.140: v4l2-input: /dev/video10: failed to log status
+10:52:51.307: v4l2-input: /dev/video10: select timed out
+10:52:51.307: v4l2-input: /dev/video10: failed to log status
+10:52:51.474: v4l2-input: /dev/video10: select timed out
+10:52:51.474: v4l2-input: /dev/video10: failed to log status
+10:52:51.641: v4l2-input: /dev/video10: select timed out
+10:52:51.641: v4l2-input: /dev/video10: failed to log status
+10:52:51.808: v4l2-input: /dev/video10: select timed out
+10:52:51.808: v4l2-input: /dev/video10: failed to log status
+10:52:51.975: v4l2-input: /dev/video10: select timed out
+10:52:51.975: v4l2-input: /dev/video10: failed to log status
+10:52:52.142: v4l2-input: /dev/video10: select timed out
+10:52:52.142: v4l2-input: /dev/video10: failed to log status
+10:52:52.309: v4l2-input: /dev/video10: select timed out
+10:52:52.309: v4l2-input: /dev/video10: failed to log status
+10:52:52.476: v4l2-input: /dev/video10: select timed out
+10:52:52.476: v4l2-input: /dev/video10: failed to log status
+10:52:52.643: v4l2-input: /dev/video10: select timed out
+10:52:52.643: v4l2-input: /dev/video10: failed to log status
+10:52:52.810: v4l2-input: /dev/video10: select timed out
+10:52:52.810: v4l2-input: /dev/video10: failed to log status
+10:52:52.976: v4l2-input: /dev/video10: select timed out
+10:52:52.976: v4l2-input: /dev/video10: failed to log status
+10:52:53.143: v4l2-input: /dev/video10: select timed out
+10:52:53.143: v4l2-input: /dev/video10: failed to log status
+10:52:53.310: v4l2-input: /dev/video10: select timed out
+10:52:53.310: v4l2-input: /dev/video10: failed to log status
+10:52:53.477: v4l2-input: /dev/video10: select timed out
+10:52:53.477: v4l2-input: /dev/video10: failed to log status
+10:52:53.644: v4l2-input: /dev/video10: select timed out
+10:52:53.644: v4l2-input: /dev/video10: failed to log status
+10:52:53.811: v4l2-input: /dev/video10: select timed out
+10:52:53.811: v4l2-input: /dev/video10: failed to log status
+10:52:53.978: v4l2-input: /dev/video10: select timed out
+10:52:53.978: v4l2-input: /dev/video10: failed to log status
+10:52:54.145: v4l2-input: /dev/video10: select timed out
+10:52:54.145: v4l2-input: /dev/video10: failed to log status
+10:52:54.312: v4l2-input: /dev/video10: select timed out
+10:52:54.312: v4l2-input: /dev/video10: failed to log status
+10:52:54.479: v4l2-input: /dev/video10: select timed out
+10:52:54.479: v4l2-input: /dev/video10: failed to log status
+10:52:54.646: v4l2-input: /dev/video10: select timed out
+10:52:54.646: v4l2-input: /dev/video10: failed to log status
+10:52:54.813: v4l2-input: /dev/video10: select timed out
+10:52:54.813: v4l2-input: /dev/video10: failed to log status
+10:52:54.980: v4l2-input: /dev/video10: select timed out
+10:52:54.980: v4l2-input: /dev/video10: failed to log status
+10:52:55.146: v4l2-input: /dev/video10: select timed out
+10:52:55.147: v4l2-input: /dev/video10: failed to log status
+10:52:55.313: v4l2-input: /dev/video10: select timed out
+10:52:55.313: v4l2-input: /dev/video10: failed to log status
+10:52:55.480: v4l2-input: /dev/video10: select timed out
+10:52:55.480: v4l2-input: /dev/video10: failed to log status
+10:52:55.647: v4l2-input: /dev/video10: select timed out
+10:52:55.647: v4l2-input: /dev/video10: failed to log status
+10:52:55.814: v4l2-input: /dev/video10: select timed out
+10:52:55.814: v4l2-input: /dev/video10: failed to log status
+10:52:55.981: v4l2-input: /dev/video10: select timed out
+10:52:55.981: v4l2-input: /dev/video10: failed to log status
+10:52:56.148: v4l2-input: /dev/video10: select timed out
+10:52:56.148: v4l2-input: /dev/video10: failed to log status
+10:52:56.315: v4l2-input: /dev/video10: select timed out
+10:52:56.315: v4l2-input: /dev/video10: failed to log status
+10:52:56.482: v4l2-input: /dev/video10: select timed out
+10:52:56.482: v4l2-input: /dev/video10: failed to log status
+10:52:56.649: v4l2-input: /dev/video10: select timed out
+10:52:56.649: v4l2-input: /dev/video10: failed to log status
+10:52:56.816: v4l2-input: /dev/video10: select timed out
+10:52:56.816: v4l2-input: /dev/video10: failed to log status
+10:52:56.983: v4l2-input: /dev/video10: select timed out
+10:52:56.983: v4l2-input: /dev/video10: failed to log status
+10:52:57.150: v4l2-input: /dev/video10: select timed out
+10:52:57.150: v4l2-input: /dev/video10: failed to log status
+10:52:57.317: v4l2-input: /dev/video10: select timed out
+10:52:57.317: v4l2-input: /dev/video10: failed to log status
+10:52:57.484: v4l2-input: /dev/video10: select timed out
+10:52:57.484: v4l2-input: /dev/video10: failed to log status
+10:52:57.650: v4l2-input: /dev/video10: select timed out
+10:52:57.651: v4l2-input: /dev/video10: failed to log status
+10:52:57.817: v4l2-input: /dev/video10: select timed out
+10:52:57.817: v4l2-input: /dev/video10: failed to log status
+10:52:57.984: v4l2-input: /dev/video10: select timed out
+10:52:57.984: v4l2-input: /dev/video10: failed to log status
+10:52:58.151: v4l2-input: /dev/video10: select timed out
+10:52:58.151: v4l2-input: /dev/video10: failed to log status
+10:52:58.318: v4l2-input: /dev/video10: select timed out
+10:52:58.318: v4l2-input: /dev/video10: failed to log status
+10:52:58.485: v4l2-input: /dev/video10: select timed out
+10:52:58.485: v4l2-input: /dev/video10: failed to log status
+10:52:58.652: v4l2-input: /dev/video10: select timed out
+10:52:58.652: v4l2-input: /dev/video10: failed to log status
+10:52:58.819: v4l2-input: /dev/video10: select timed out
+10:52:58.819: v4l2-input: /dev/video10: failed to log status
+10:52:58.986: v4l2-input: /dev/video10: select timed out
+10:52:58.986: v4l2-input: /dev/video10: failed to log status
+10:52:59.153: v4l2-input: /dev/video10: select timed out
+10:52:59.153: v4l2-input: /dev/video10: failed to log status
+10:52:59.320: v4l2-input: /dev/video10: select timed out
+10:52:59.320: v4l2-input: /dev/video10: failed to log status
+10:52:59.487: v4l2-input: /dev/video10: select timed out
+10:52:59.487: v4l2-input: /dev/video10: failed to log status
+10:52:59.654: v4l2-input: /dev/video10: select timed out
+10:52:59.654: v4l2-input: /dev/video10: failed to log status
+10:52:59.821: v4l2-input: /dev/video10: select timed out
+10:52:59.821: v4l2-input: /dev/video10: failed to log status
+10:52:59.987: v4l2-input: /dev/video10: select timed out
+10:52:59.987: v4l2-input: /dev/video10: failed to log status
+10:53:00.010: ==== Shutting down ==================================================
+10:53:00.055: pulse-input: Stopped recording from 'alsa_input.usb-SteelSeries_SteelSeries_Arctis_7-00.mono-chat'
+10:53:00.055: pulse-input: Got 1380 packets with 1413120 frames
+10:53:00.055: pulse-am: Stopped Monitoring in 'Virtual1-Mic.monitor'
+10:53:00.055: pulse-am: Got 1353 packets with 1385472 frames
+10:53:00.056: X Error: BadWindow (invalid Window parameter), Major opcode: BadValue (integer parameter out of range for operation), Minor opcode: 0, Serial: 110
+10:53:00.056: X Error: BadWindow (invalid Window parameter), Major opcode: 142, Minor opcode: BadWindow (invalid Window parameter), Serial: 111
+10:53:00.154: v4l2-input: /dev/video10: select timed out
+10:53:00.154: v4l2-input: /dev/video10: failed to log status
+10:53:00.154: v4l2-input: /dev/video10: Stopped capture after 1 frames
+10:53:00.193: All scene data cleared
+10:53:00.194: ------------------------------------------------
+10:53:00.304: [Scripting] Total detached callbacks: 0
+10:53:00.304: Freeing OBS context data
+10:53:00.317: == Profiler Results =============================
+10:53:00.317: run_program_init: 572.96 ms
+10:53:00.317:  ┣OBSApp::AppInit: 2.912 ms
+10:53:00.317:  ┃ ┗OBSApp::InitLocale: 1.56 ms
+10:53:00.317:  ┗OBSApp::OBSInit: 526.867 ms
+10:53:00.317:    ┣obs_startup: 15.228 ms
+10:53:00.317:    ┗OBSBasic::OBSInit: 457.856 ms
+10:53:00.317:      ┣OBSBasic::InitBasicConfig: 0.063 ms
+10:53:00.317:      ┣OBSBasic::ResetAudio: 0.106 ms
+10:53:00.317:      ┣OBSBasic::ResetVideo: 49.874 ms
+10:53:00.317:      ┣OBSBasic::InitOBSCallbacks: 0.003 ms
+10:53:00.317:      ┣OBSBasic::InitHotkeys: 0.027 ms
+10:53:00.317:      ┣obs_load_all_modules: 138.549 ms
+10:53:00.317:      ┃ ┣obs_init_module(decklink-captions.so): 0.027 ms
+10:53:00.317:      ┃ ┣obs_init_module(decklink-ouput-ui.so): 0.367 ms
+10:53:00.317:      ┃ ┣obs_init_module(frontend-tools.so): 57.245 ms
+10:53:00.317:      ┃ ┣obs_init_module(image-source.so): 0.007 ms
+10:53:00.317:      ┃ ┣obs_init_module(linux-alsa.so): 0.001 ms
+10:53:00.317:      ┃ ┣obs_init_module(linux-capture.so): 0.28 ms
+10:53:00.317:      ┃ ┣obs_init_module(linux-decklink.so): 0.086 ms
+10:53:00.317:      ┃ ┣obs_init_module(linux-jack.so): 0.001 ms
+10:53:00.317:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.001 ms
+10:53:00.317:      ┃ ┣obs_init_module(linux-v4l2.so): 0.079 ms
+10:53:00.317:      ┃ ┣obs_init_module(obs-ffmpeg.so): 13.606 ms
+10:53:00.317:      ┃ ┃ ┗nvenc_check: 5.569 ms
+10:53:00.317:      ┃ ┣obs_init_module(obs-filters.so): 0.015 ms
+10:53:00.317:      ┃ ┣obs_init_module(obs-libfdk.so): 0.001 ms
+10:53:00.317:      ┃ ┣obs_init_module(obs-outputs.so): 0.001 ms
+10:53:00.317:      ┃ ┣obs_init_module(obs-transitions.so): 0.005 ms
+10:53:00.317:      ┃ ┣obs_init_module(obs-x264.so): 0.001 ms
+10:53:00.317:      ┃ ┣obs_init_module(rtmp-services.so): 0.523 ms
+10:53:00.317:      ┃ ┗obs_init_module(text-freetype2.so): 0.005 ms
+10:53:00.317:      ┣OBSBasic::ResetOutputs: 0.102 ms
+10:53:00.317:      ┣OBSBasic::CreateHotkeys: 0.154 ms
+10:53:00.317:      ┣OBSBasic::InitService: 0.788 ms
+10:53:00.317:      ┣OBSBasic::InitPrimitives: 0.171 ms
+10:53:00.317:      ┗OBSBasic::Load: 209.698 ms
+10:53:00.317: obs_hotkey_thread(25 ms): min=0.035 ms, median=0.084 ms, max=0.436 ms, 99th percentile=0.192 ms, 100% below 25 ms
+10:53:00.317: audio_thread(Audio): min=0 ms, median=0.036 ms, max=0.291 ms, 99th percentile=0.112 ms
+10:53:00.317: obs_graphics_thread(33.3333 ms): min=0.307 ms, median=0.902 ms, max=122.961 ms, 99th percentile=1.681 ms, 99.8883% below 33.333 ms
+10:53:00.317:  ┣tick_sources: min=0.001 ms, median=0.024 ms, max=117.009 ms, 99th percentile=0.058 ms
+10:53:00.317:  ┣output_frame: min=0.101 ms, median=0.391 ms, max=5.283 ms, 99th percentile=0.668 ms
+10:53:00.317:  ┃ ┗gs_context(video->graphics): min=0.101 ms, median=0.391 ms, max=5.283 ms, 99th percentile=0.667 ms
+10:53:00.317:  ┃   ┣render_video: min=0.044 ms, median=0.306 ms, max=5.202 ms, 99th percentile=0.517 ms
+10:53:00.317:  ┃   ┃ ┗render_main_texture: min=0.036 ms, median=0.296 ms, max=5.193 ms, 99th percentile=0.494 ms
+10:53:00.317:  ┃   ┗gs_flush: min=0.003 ms, median=0.009 ms, max=0.016 ms, 99th percentile=0.014 ms
+10:53:00.317:  ┗render_displays: min=0.03 ms, median=0.304 ms, max=12.073 ms, 99th percentile=0.721 ms
+10:53:00.317: =================================================
+10:53:00.317: == Profiler Time Between Calls ==================
+10:53:00.317: obs_hotkey_thread(25 ms): min=25.091 ms, median=25.146 ms, max=25.496 ms, 100% within ±2% of 25 ms (0% lower, 0% higher)
+10:53:00.317: obs_graphics_thread(33.3333 ms): min=10.365 ms, median=33.333 ms, max=122.964 ms, 99.7763% within ±2% of 33.333 ms (0.111857% lower, 0.111857% higher)
+10:53:00.317: =================================================
+10:53:00.320: Number of memory leaks: 0
