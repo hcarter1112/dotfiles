@@ -27,8 +27,8 @@ alias q.="lvim ~/.config/qtile/config.py"
 
 alias i="sudo nala install"
 alias ls="exa -al"
-alias cat="batcat"
-alias bat="batcat"
+# alias cat="batcat"
+# alias bat="batcat"
 alias hmt="ranger /home/ralldi/Documents/rclone/HmT-Mats/"
 
 ####Scripts####

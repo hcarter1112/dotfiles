@@ -1,0 +1,123 @@
+12:09:36.830: ================================
+12:09:36.830: Warning: OBS is already running!
+12:09:36.830: ================================
+12:09:36.830: User is now running multiple instances of OBS!
+12:09:36.830: Using EGL/X11
+12:09:36.830: CPU Name: AMD Ryzen 5 3600 6-Core Processor
+12:09:36.830: CPU Speed: 2199.987MHz
+12:09:36.831: Physical Cores: 6, Logical Cores: 12
+12:09:36.831: Physical Memory: 31975MB Total, 21862MB Free
+12:09:36.831: Kernel Version: Linux 6.0.12-300.fc37.x86_64
+12:09:36.831: Distribution: "KDE Flatpak runtime" "5.15-21.08"
+12:09:36.831: Session Type: x11
+12:09:36.831: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.14
+12:09:36.832: Qt Version: 6.3.2 (runtime), 6.3.2 (compiled)
+12:09:36.832: Portable mode: false
+12:09:36.861: OBS 28.1.2 (linux)
+12:09:36.861: ---------------------------------
+12:09:36.861: ---------------------------------
+12:09:36.861: audio settings reset:
+12:09:36.861: 	samples per sec: 48000
+12:09:36.861: 	speakers:        2
+12:09:36.861: 	max buffering:   960 milliseconds
+12:09:36.861: 	buffering type:  dynamically increasing
+12:09:36.867: ---------------------------------
+12:09:36.867: Initializing OpenGL...
+12:09:36.905: Loading up OpenGL on adapter AMD AMD Radeon RX 6700 XT (NAVY_FLOUNDER, DRM 3.48.0, 6.0.12-300.fc37.x86_64, LLVM 12.0.1)
+12:09:36.905: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 21.3.9 (git-78c96ae5b6), shading language 4.60
+12:09:36.941: ---------------------------------
+12:09:36.941: video settings reset:
+12:09:36.941: 	base resolution:   1920x1080
+12:09:36.941: 	output resolution: 1280x720
+12:09:36.941: 	downscale filter:  Bicubic
+12:09:36.941: 	fps:               30/1
+12:09:36.941: 	format:            NV12
+12:09:36.941: 	YUV mode:          Rec. 709/Partial
+12:09:36.941: NV12 texture support not available
+12:09:36.941: P010 texture support not available
+12:09:36.945: Audio monitoring device:
+12:09:36.945: 	name: Monitor of Starship/Matisse HD Audio Controller Digital Stereo (IEC958)
+12:09:36.945: 	id: alsa_output.pci-0000_0f_00.4.iec958-stereo.monitor
+12:09:36.945: ---------------------------------
+12:09:36.960: No AJA devices found, skipping loading AJA UI plugin
+12:09:36.960: Failed to initialize module 'aja-output-ui.so'
+12:09:36.972: No AJA devices found, skipping loading AJA plugin
+12:09:36.972: Failed to initialize module 'aja.so'
+12:09:36.976: Failed to load 'en-US' text for module: 'decklink-captions.so'
+12:09:36.981: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+12:09:36.985: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+12:09:36.985: Failed to initialize module 'decklink.so'
+12:09:37.123: [pipewire] No captures available
+12:09:37.138: [obs-browser]: Version 2.18.7
+12:09:37.138: [obs-browser]: CEF Version 103.0.5060.134 (runtime), 103.0.0-5060-shared-textures_143.2591+g4204d54+chromium-103.0.5060.134 (compiled)
+12:09:37.144: FFMPEG VAAPI supported
+12:09:37.171: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.0.1 | RPC Version: 1)
+12:09:37.171: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.3.2 | Qt version (run-time): 6.3.2
+12:09:37.171: [obs-websocket] [obs_module_load] Linked ASIO Version: 101201
+12:09:37.176: [obs-websocket] [obs_module_load] Module loaded.
+12:09:37.191: ---------------------------------
+12:09:37.192:   Loaded Modules:
+12:09:37.192:     text-freetype2.so
+12:09:37.192:     rtmp-services.so
+12:09:37.192:     obs-x264.so
+12:09:37.192:     obs-websocket.so
+12:09:37.192:     obs-vst.so
+12:09:37.192:     obs-transitions.so
+12:09:37.192:     obs-outputs.so
+12:09:37.192:     obs-filters.so
+12:09:37.192:     obs-ffmpeg.so
+12:09:37.192:     obs-browser.so
+12:09:37.192:     linux-v4l2.so
+12:09:37.192:     linux-pulseaudio.so
+12:09:37.192:     linux-pipewire.so
+12:09:37.192:     linux-jack.so
+12:09:37.192:     linux-capture.so
+12:09:37.192:     image-source.so
+12:09:37.192:     frontend-tools.so
+12:09:37.192:     decklink-output-ui.so
+12:09:37.192:     decklink-captions.so
+12:09:37.192: ---------------------------------
+12:09:37.192: ==== Startup complete ===============================================
+12:09:37.225: All scene data cleared
+12:09:37.225: ------------------------------------------------
+12:09:37.225: v4l2-input: Start capture from /dev/video0
+12:09:40.873: v4l2-input: Input: 0
+12:09:45.993: v4l2-input: Unable to set format
+12:09:45.993: v4l2-input: Initialization failed, errno: Input/output error
+12:09:45.993: Switched to scene 'Scene'
+12:09:45.993: ------------------------------------------------
+12:09:45.993: Loaded scenes:
+12:09:45.993: - scene 'Scene':
+12:09:45.993:     - source: 'Webcam' (v4l2_input)
+12:09:45.993: ------------------------------------------------
+12:09:54.287: v4l2-input: /dev/video3 seems to not support video capture
+12:09:54.287: v4l2-input: /dev/video1 seems to not support video capture
+12:09:54.288: v4l2-input: /dev/video4 seems to not support video capture
+12:09:56.233: v4l2-input: Found device 'Logitech BRIO' at /dev/video2
+12:10:01.353: v4l2-input: Found device 'Logitech BRIO' at /dev/video0
+12:10:06.473: v4l2-input: Found input 'Camera 1' (Index 0)
+12:10:11.593: v4l2-controls: setting default for Power Line Frequency to 2
+12:10:16.713: v4l2-controls: setting default for Auto Exposure to 3
+12:10:16.721: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+12:10:16.721: v4l2-input: Pixelformat: Motion-JPEG (available)
+12:10:16.721: v4l2-input: Pixelformat: Y/CbCr 4:2:0 (available)
+12:10:16.721: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+12:10:16.721: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+12:10:16.721: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+12:10:16.721: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+12:10:16.723: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+12:10:16.723: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+12:10:16.723: v4l2-input: Pixelformat: Motion-JPEG (available)
+12:10:16.723: v4l2-input: Pixelformat: Y/CbCr 4:2:0 (available)
+12:10:16.723: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+12:10:16.723: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+12:10:16.723: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+12:10:16.723: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+12:10:16.725: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+12:10:16.726: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+12:10:16.727: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+12:11:48.911: Failed to make context current: EGL_BAD_DISPLAY
+12:11:48.911: Failed to make context current: EGL_BAD_DISPLAY
+12:11:48.911: Failed to make context current: EGL_BAD_DISPLAY
+12:11:48.911: eglSwapInterval failed
+12:11:48.911: Cannot swap EGL buffers: EGL_BAD_DISPLAY
