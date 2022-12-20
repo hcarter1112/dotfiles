@@ -40,7 +40,8 @@ keys = [
     # Split = all windows displayed
     # Unsplit = 1 window displayed, like Max layout, but still with
     # multiple stack panes
-    Key("M-S-<Return>", lazy.layout.toggle_split(),
+    Key("M-t", lazy.window.toggle_floating(), desc="Toggle Floating"),
+    Key("M-S-t", lazy.layout.toggle_split(),
         desc="Toggle between split and unsplit sides of stack"),
     Key("M-<Return>", lazy.spawn(terminal), desc="Launch terminal"),
 
@@ -56,6 +57,8 @@ keys = [
         desc="Spawn a command using a prompt widget"),
     # Key("M-r", lazy.spawn("rofi -modi drun -show drun -show-icons"),
     Key("M-S-<Return>", lazy.spawn("/home/ralldi/.config/rofi/scripts/launcher_t2"),
+        desc="Spawn a command using a prompt widget"),
+    Key("M-S-c", lazy.spawn("/home/ralldi/.config/rofi/scripts/calc_t2"),
         desc="Spawn a command using a prompt widget"),
 
     # Keybindings to launch user defined programs

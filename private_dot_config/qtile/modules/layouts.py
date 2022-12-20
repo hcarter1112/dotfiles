@@ -51,5 +51,6 @@ floating_layout = layout.Floating(float_rules=[
     Match(wm_class='copyq'),  # GPG key password entry
     Match(title='Library'),  # GPG key password entry
     ],
-    border_focus=colors[12] [0]
+    border_focus=colors[12] [1],
+    border_width=3
 )
