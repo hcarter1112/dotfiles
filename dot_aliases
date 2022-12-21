@@ -1,0 +1,55 @@
+####Dotfile Aliases#####
+
+alias al.="lvim /home/ralldi/.aliases"
+alias fish.="lvim /home/ralldi/.config/fish/config.fish"
+alias bash.="lvim /home/ralldi/.bashrc"
+alias scripts.="lvim /home/ralldi/.config/scripts/"
+alias spotifyd.="lvim /home/ralldi/.config/spotifyd/spotifyd.conf"
+alias kitty.="lvim /home/ralldi/.config/kitty/kitty.conf"
+alias gdrive="google-drive-ocamlfuse ~/gdrive/"
+alias rif.="lvim ~/.config/ranger/rifle.conf"
+alias q.="lvim ~/.config/qtile/config.py"
+
+####Filesystem Aliases#####
+
+#bat fedora
+  alias cat="bat"
+  alias con=/usr/bin/cat
+
+# #bat ubuntu
+#   alias con=/usr/bin/cat
+#   alias cat="batcat"
+#   alias bat="batcat"
+
+###Flatpak Aliases
+alias fp="sudo flatpak"
+alias fpl="flatpak list"
+alias fps="flatpak search"
+alias fpr="flatpak run" 
+
+###Fedora dnf aliases
+alias upd=/home/ralldi/.config/scripts/update-fedora.sh #update dnf and flatpak
+alias i="sudo dnf install"   #install fedora
+alias s="sudo dnf search"    #search dnf
+
+###Ubuntu nala aliases
+# alias upd=/home/ralldi/.config/scripts/update-ubuntu.sh   #update and upgrade apt, snap, and flatpak
+# alias i="sudo nala install" #install ubuntu
+# alias s="sudo nala search" #search ubuntu
+
+alias ls="exa -al"
+alias hmt="ranger /home/ralldi/Documents/rclone/HmT-Mats/"
+
+####Scripts####
+
+
+####MISC####
+
+alias ences="gpgtar -eco es"
+alias deces="gpgtar -d es"
+alias clock="tty-clock -tcs"
+alias extip="curl icanhazip.com"
+
+#####REBOOT & SHUTDOWN####
+alias reboot="systemctl reboot"
+alias shutdown="systemctl poweroff"

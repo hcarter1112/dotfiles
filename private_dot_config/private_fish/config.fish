@@ -12,32 +12,36 @@ function fish_user_key_bindings
 end
 ### END OF VI MODE ###
 
-####Dotfile Aliases#####
+if [ -f /home/ralldi/.aliases ]
+source /home/ralldi/.aliases
+end
 
-alias fish.="lvim /home/ralldi/.config/fish/config.fish"
-alias bash.="lvim /home/ralldi/.bashrc"
-alias scripts.="lvim /home/ralldi/.config/scripts/"
-alias spotifyd.="lvim /home/ralldi/.config/spotifyd/spotifyd.conf"
-alias kitty.="lvim /home/ralldi/.config/kitty/kitty.conf"
-alias gdrive="google-drive-ocamlfuse ~/gdrive/"
-alias rif.="lvim ~/.config/ranger/rifle.conf"
-alias q.="lvim ~/.config/qtile/config.py"
+# ####Dotfile Aliases#####
 
-####Filesystem Aliases#####
+# alias fish.="lvim /home/ralldi/.config/fish/config.fish"
+# alias bash.="lvim /home/ralldi/.bashrc"
+# alias scripts.="lvim /home/ralldi/.config/scripts/"
+# alias spotifyd.="lvim /home/ralldi/.config/spotifyd/spotifyd.conf"
+# alias kitty.="lvim /home/ralldi/.config/kitty/kitty.conf"
+# alias gdrive="google-drive-ocamlfuse ~/gdrive/"
+# alias rif.="lvim ~/.config/ranger/rifle.conf"
+# alias q.="lvim ~/.config/qtile/config.py"
 
-alias i="sudo nala install"
-alias ls="exa -al"
-# alias cat="batcat"
-# alias bat="batcat"
-alias hmt="ranger /home/ralldi/Documents/rclone/HmT-Mats/"
+# ####Filesystem Aliases#####
 
-####Scripts####
+# alias i="sudo nala install"
+# alias ls="exa -al"
+# # alias cat="batcat"
+# # alias bat="batcat"
+# alias hmt="ranger /home/ralldi/Documents/rclone/HmT-Mats/"
 
-alias update="update.sh"
+# ####Scripts####
 
-####MISC####
+# alias update="update.sh"
 
-alias ences="gpgtar -eco es"
-alias deces="gpgtar -d es"
-alias clock="tty-clock -tcs"
-alias extip="curl icanhazip.com"
+# ####MISC####
+
+# alias ences="gpgtar -eco es"
+# alias deces="gpgtar -d es"
+# alias clock="tty-clock -tcs"
+# alias extip="curl icanhazip.com"
