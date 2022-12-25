@@ -4,7 +4,7 @@ from libqtile import qtile
 
 def init_colors():
     return [["#313244", "#313244"], # color 0  dark grayish blue
-            ["#45475a", "#45475a"], # color 1  dark grayish blue
+            ["#313244", "#313244"], # color 1  dark grayish blue
             ["#585b70", "#585b70"], # color 2  very dark grayish blue
             ["#6c7086", "#6c7086"], # color 3  very dark grayish blue
             ["#7f849c", "#7f849c"], # color 4  very dark grayish blue

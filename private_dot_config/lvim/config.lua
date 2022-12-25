@@ -167,13 +167,14 @@ lvim.builtin.treesitter.highlight.enable = true
 -- Additional Plugins
 lvim.plugins = {
     {
+      "norcalli/nvim-colorizer.lua",
       "shaunsingh/nord.nvim",
       "catppuccin/nvim",
       "folke/trouble.nvim",
       cmd = "TroubleToggle",
     },
 }
-
+require'colorizer'.setup()
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
 -- vim.api.nvim_create_autocmd("BufEnter", {
 --   pattern = { "*.json", "*.jsonc" },

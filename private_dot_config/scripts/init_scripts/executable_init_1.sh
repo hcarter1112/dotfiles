@@ -117,6 +117,7 @@ ranger \
 rclone \
 rofi \
 rofi-devel \
+util-linux-user \
 vim  \
 volumeicon \
 wget  \
@@ -146,7 +147,7 @@ chsh -s /usr/bin/fish ralldi &&
 ## move systemd files and enable
 ##
 ## v4l2loopback service
-cp /home/ralldi/Downloads/v4l2.service /etc/X11/systemd/system/ &&
+cp /home/ralldi/Downloads/v4l2.service /etc/systemd/system/ &&
   systemctl enable v4l2.service &&
 
 ## pulsemods service

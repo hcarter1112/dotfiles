@@ -67,7 +67,7 @@ git clone https://github.com/svenstaro/rofi-calc.git &&
 systemctl --user enable pulsemods.service &&
 
 ## Pip installs
-  pip install xcffib cairocffi qtile psutil &&
+  pip install xcffib cairocffi qtile psutil pulsemixer &&
 
 ## Flatpak installs
 flatpak install us.zoom.Zoom org.rncbc.qpwgraph org.rncbc.qpwgraph org.libreoffice.LibreOffice org.ferdium.Ferdium net.lutris.Lutris md.obsidian.Obsidian com.obsproject.Studio com.github.tchx84.Flatseal com.brave.Browser
