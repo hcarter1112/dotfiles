@@ -1,21 +1,14 @@
 #!/bin/bash
 #### This part of the script should run without root...
 #
+
 ## Install flatpak repo
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo &&
 
-## Install Node Version Manager (nvm)
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash &&
-  nvm install node &&
-
-## Install rust and cargo
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh &&
-
-## Install Lunar Vim
-LV_BRANCH='release-1.2/neovim-0.8' bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh) &&
-
 ## Make a git clone folder and go to it
-mkdir /home/ralldi/.gitstuff &&
+if [[ ! -d /home/ralldi/.gitstuff ]]; then
+mkdir /home/ralldi/.gitstuff
+fi
 cd /home/ralldi/.gitstuff/ &&
 
 ## git clone rofi-emoji
@@ -23,9 +16,9 @@ cd /home/ralldi/.gitstuff/ &&
 git clone https://github.com/Mange/rofi-emoji.git &&
   cd /home/ralldi/.gitstuff/rofi-emoji/ &&
   autoreconf -i &&
-  mkdir /home/ralldi/.gitstuff/build &&
-  cd /home/ralldi/.gitstuff/build/ &&
-  ../configure &&
+  mkdir /home/ralldi/.gitstuff/rofi-emoji/build &&
+  cd /home/ralldi/.gitstuff/rofi-emoji/build &&
+  /home/ralldi/.gitstuff/rofi-emoji/configure &&
   make &&
 
 ## git clone rofi-calc
@@ -34,14 +27,13 @@ git clone https://github.com/svenstaro/rofi-calc.git &&
   cd /home/ralldi/.gitstuff/rofi-calc/ &&
   autoreconf -i &&
   mkdir /home/ralldi/.gitstuff/rofi-calc/build/ &&
-  cd /home/ralldi/.gitstuff/rofi-calc/build/ &&
-  ../configure &&
+  cd /home/ralldi/.gitstuff/rofi-calc/build &&
+  /home/ralldi/.gitstuff/rofi-calc/configure &&
   make &&
 
 ## git clone i3-lock-color
   cd /home/ralldi/.gitstuff/ &&
   git clone https://github.com/Raymo111/i3lock-color.git &&
-    /home/ralldi/.gitstuff/i3lock-color/build.sh &&
 
 ## wget betterlockscreen and make betterlockscreen
   cd /home/ralldi/.gitstuff/ &&
@@ -53,11 +45,13 @@ git clone https://github.com/svenstaro/rofi-calc.git &&
 ## Build ncspot
   cd /home/ralldi/.gitstuff/ &&
   git clone https://github.com/hrkfdn/ncspot &&
-    cargo build --release &&
+  cd /home/ralldi/.gitstuff/ncspot &&
+    cargo install --path /home/ralldi/.gitstuff/ncspot &&
 
 ## Gsimplecal
   cd /home/ralldi/.gitstuff/ &&
-  git clone git://github.com/dmedvinsky/gsimplecal.git &&
+  git clone https://github.com/dmedvinsky/gsimplecal.git &&
+  cd /home/ralldi/.gitstuff/gsimplecal/ &&
     /home/ralldi/.gitstuff/gsimplecal/autogen.sh &&
     /home/ralldi/.gitstuff/gsimplecal/configure &&
     make &&
@@ -69,8 +63,11 @@ git clone https://github.com/svenstaro/rofi-calc.git &&
     make &&
     chmod +x tty-clock &&
 
+## Start user services
+systemctl --user enable pulsemods.service &&
+
 ## Pip installs
-  pip install xcffib cairocffi qtile
+  pip install xcffib cairocffi qtile psutil &&
 
 ## Flatpak installs
 flatpak install us.zoom.Zoom org.rncbc.qpwgraph org.rncbc.qpwgraph org.libreoffice.LibreOffice org.ferdium.Ferdium net.lutris.Lutris md.obsidian.Obsidian com.obsproject.Studio com.github.tchx84.Flatseal com.brave.Browser

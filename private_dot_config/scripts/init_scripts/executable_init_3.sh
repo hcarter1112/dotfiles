@@ -7,11 +7,12 @@ cd /home/ralldi/.gitstuff/rofi-emoji/build/ &&
   make install &&
 
 ## Make install rofi-calc
-cd /home/ralldi/.gitstuff/rofi-calc/build &&
+cd /home/ralldi/.gitstuff/rofi-calc/build/ &&
  make install && 
 
 ## Install i3-lock-color
-  ./home/ralldi/.gitstuff/i3lock-color/install-i3lock-color.sh &&
+  cd /home/ralldi/.gitstuff/i3lock-color/ &&
+  /home/ralldi/.gitstuff/i3lock-color/install-i3lock-color.sh &&
 
 ## Placing files for betterlockscreen
   cp /home/ralldi/.gitstuff/betterlockscreen-main/betterlockscreen /usr/local/bin/ &&
@@ -23,4 +24,6 @@ cd /home/ralldi/.gitstuff/rofi-calc/build &&
     make install &&
 
 ## Move files for tty-clock
-  mv tty-clock /usr/local/bin/tty-clock
+cd /home/ralldi/.gitstuff/tty-clock/
+  cp tty-clock /usr/local/bin/
+

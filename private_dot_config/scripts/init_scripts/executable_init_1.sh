@@ -86,6 +86,7 @@ gcc  \
 git  \
 git-cola \
 google-noto-emoji-color-fonts \
+gtk3-devel \
 htop \
 ImageMagick \
 kitty \
@@ -124,6 +125,7 @@ xdotool \
 xdpyinfo \
 xcb-util-image-devel  \
 xcb-util-xrm-devel \
+setxkbmap \
 xorg-x11-server-Xorg \
 xrandr \
 xrdb \
@@ -134,7 +136,25 @@ v4l2loopback \
 vlc \
 &&
 
-dnf group upgrade --with-optional Multimedia -y
+dnf group upgrade --with-optional Multimedia -y &&
 
-hostnamectl set-hostname "main-pc"
+hostnamectl set-hostname "main-pc" &&
+
+chsh -s /usr/bin/fish &&
+chsh -s /usr/bin/fish ralldi &&
+
+## move systemd files and enable
+##
+## v4l2loopback service
+cp /home/ralldi/Downloads/v4l2.service /etc/X11/systemd/system/ &&
+  systemctl enable v4l2.service &&
+
+## pulsemods service
+cp /home/ralldi/Downloads/pulsemods.service /etc/systemd/user/ &&
+  
+## Qtile desktop file
+cp /home/ralldi/Downloads/qtile.desktop /usr/share/xsessions/ &&
+
+## Backgrounds folder
+cp -r /home/ralldi/Downloads/backgrounds/* /usr/share/backgrounds/
 
