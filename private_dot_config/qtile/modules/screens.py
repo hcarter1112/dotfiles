@@ -37,7 +37,7 @@ screens = [
                     borderwidth=2,
                     disable_drag=True,
                     font='Ubuntu Nerd Font',
-                    fontsize=14,
+                    fontsize=25,
                     hide_unused=False,
                     highlight_method='line',
                     inactive=colors[6], #e5e9f0
@@ -83,7 +83,7 @@ screens = [
                 widget.TextBox(
                     background=colors[1],
                     font='Ubuntu Nerd Font',
-                    fontsize=14,
+                    fontsize=20,
                     foreground=colors[6],
                     padding=0,
                     text=' '
@@ -117,7 +117,7 @@ screens = [
                 widget.TextBox(
                     background=colors[1],
                     font='Ubuntu Nerd Font',
-                    fontsize=14,
+                    fontsize=20,
                     foreground=colors[6],
                     padding=0,
                     text=' '
@@ -125,7 +125,7 @@ screens = [
                 widget.ThermalSensor(
                     background=colors[1],
                     font='Ubuntu',
-                    fontsize=12,
+                    fontsize=15,
                     foreground=colors[6],
                     update_interval=2
                 ),
@@ -138,7 +138,7 @@ screens = [
                 widget.TextBox(
                     background=colors[1],
                     font='Ubuntu Nerd Font',
-                    fontsize=14,
+                    fontsize=20,
                     foreground=colors[6],
                     padding=0,
                     text=' '
@@ -146,7 +146,7 @@ screens = [
                 widget.Memory(
                     background=colors[1],
                     font='Ubuntu',
-                    fontsize=12,
+                    fontsize=15,
                     foreground=colors[6],
                     format="{MemUsed: .0f}{mm}",
                     update_interval=1.0
@@ -160,7 +160,7 @@ screens = [
                 widget.TextBox(
                     background=colors[1],
                     font='Ubuntu Nerd Font',
-                    fontsize=14,
+                    fontsize=20,
                     foreground=colors[6],
                     padding=0,
                     text=' '
@@ -168,7 +168,7 @@ screens = [
                 widget.CPU(
                     background=colors[1],
                     font='Ubuntu',
-                    fontsize=12,
+                    fontsize=15,
                     foreground=colors[6],
                     format='CPU {load_percent}%',
                     update_interval=1
@@ -182,7 +182,7 @@ screens = [
                 widget.TextBox(
                     background=colors[1],
                     font='Ubuntu Nerd Font',
-                    fontsize=14,
+                    fontsize=20,
                     foreground=colors[6],
                     padding=0,
                     text=' '
@@ -190,13 +190,13 @@ screens = [
                 widget.KeyboardLayout(
                     background=colors[1],
                     font='Ubuntu',
-                    fontsize=12,
+                    fontsize=15,
                     foreground=colors[6]
                 ),
                 widget.CapsNumLockIndicator(
                     background=colors[1],
                     font='Ubuntu',
-                    fontsize=12,
+                    fontsize=15,
                     foreground=colors[6]
                 ),
                 # widget.Sep(
@@ -345,30 +345,12 @@ screens = [
     Screen(
         top=bar.Bar(
             [
-                widget.Sep(
-                    background=colors[1], #2e3440
-                    foreground=colors[5], #d8dee9
-                    linewidth=1,
-                    padding=10
-                ),
-                widget.Image(
-                    filename="~/.config/qtile/icons/qtilelogo.png",
-                    iconsize=8,
-                    background=colors[1],
-                    mouse_callbacks={'Button1': lambda : qtile.cmd_spawn('rofi -show run')}
-                ),
-                widget.Sep(
-                    background=colors[1],
-                    foreground=colors[5],
-                    linewidth=1,
-                    padding=10
-                ),
                 widget.GroupBox(
                     active=colors[16], #b48ead
                     borderwidth=2,
                     disable_drag=True,
                     font='Ubuntu Nerd Font',
-                    fontsize=14,
+                    fontsize=25,
                     hide_unused=False,
                     highlight_method='line',
                     inactive=colors[6], #e5e9f0
@@ -414,17 +396,18 @@ screens = [
                 widget.TextBox(
                     background=colors[1],
                     font='Ubuntu Nerd Font',
-                    fontsize=14,
+                    fontsize=20,
                     foreground=colors[6],
                     padding=0,
                     text=' '
                 ),
                 widget.Clock(
                     background=colors[1],
-                    font='Ubuntu Mono Bold',
+                    font='FiraSans Bold',
                     fontsize=22,
                     foreground=colors[6],
-                    format='%a %Y-%m-%d || %I:%M:%S %p '
+                    format='%a %Y-%m-%d || %I:%M:%S %p ',
+                    mouse_callbacks={'Button1': lambda : qtile.cmd_spawn('gsimplecal')}
                 ),
                 # widget.Prompt(
                 #     background=colors[1],
@@ -433,6 +416,11 @@ screens = [
                 #     foreground=colors[6]
                 # ),
                 widget.Spacer(),
+                # widget.Systray(
+                #     background=colors[1],
+                #     icon_size=20,
+                #     padding=4
+                # ),
                 widget.Sep(
                     background=colors[1],
                     foreground=colors[5],
@@ -442,7 +430,7 @@ screens = [
                 widget.TextBox(
                     background=colors[1],
                     font='Ubuntu Nerd Font',
-                    fontsize=14,
+                    fontsize=20,
                     foreground=colors[6],
                     padding=0,
                     text=' '
@@ -450,7 +438,7 @@ screens = [
                 widget.ThermalSensor(
                     background=colors[1],
                     font='Ubuntu',
-                    fontsize=12,
+                    fontsize=15,
                     foreground=colors[6],
                     update_interval=2
                 ),
@@ -463,7 +451,7 @@ screens = [
                 widget.TextBox(
                     background=colors[1],
                     font='Ubuntu Nerd Font',
-                    fontsize=14,
+                    fontsize=20,
                     foreground=colors[6],
                     padding=0,
                     text=' '
@@ -471,7 +459,7 @@ screens = [
                 widget.Memory(
                     background=colors[1],
                     font='Ubuntu',
-                    fontsize=12,
+                    fontsize=15,
                     foreground=colors[6],
                     format="{MemUsed: .0f}{mm}",
                     update_interval=1.0
@@ -485,7 +473,7 @@ screens = [
                 widget.TextBox(
                     background=colors[1],
                     font='Ubuntu Nerd Font',
-                    fontsize=14,
+                    fontsize=20,
                     foreground=colors[6],
                     padding=0,
                     text=' '
@@ -493,7 +481,7 @@ screens = [
                 widget.CPU(
                     background=colors[1],
                     font='Ubuntu',
-                    fontsize=12,
+                    fontsize=15,
                     foreground=colors[6],
                     format='CPU {load_percent}%',
                     update_interval=1
@@ -507,7 +495,7 @@ screens = [
                 widget.TextBox(
                     background=colors[1],
                     font='Ubuntu Nerd Font',
-                    fontsize=14,
+                    fontsize=20,
                     foreground=colors[6],
                     padding=0,
                     text=' '
@@ -515,21 +503,21 @@ screens = [
                 widget.KeyboardLayout(
                     background=colors[1],
                     font='Ubuntu',
-                    fontsize=12,
+                    fontsize=15,
                     foreground=colors[6]
                 ),
                 widget.CapsNumLockIndicator(
                     background=colors[1],
                     font='Ubuntu',
-                    fontsize=12,
+                    fontsize=15,
                     foreground=colors[6]
                 ),
-                widget.Sep(
-                    background=colors[1],
-                    foreground=colors[5],
-                    linewidth=1,
-                    padding=10
-                ),
+                # widget.Sep(
+                #     background=colors[1],
+                #     foreground=colors[5],
+                #     linewidth=1,
+                #     padding=10
+                # ),
             ],
             28,
             margin=[5, 8, 2, 8],

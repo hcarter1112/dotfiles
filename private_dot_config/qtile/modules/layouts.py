@@ -6,8 +6,8 @@ def init_layout_theme():
     return {
             "margin": 3,
             "border_width": 3,
-            "border_focus": '#5e81ac',
-            "border_normal": '#4c566a'
+            "border_focus": '#f5e0dc',
+            "border_normal": '#45475a'
             }
 
 layout_theme = init_layout_theme()
