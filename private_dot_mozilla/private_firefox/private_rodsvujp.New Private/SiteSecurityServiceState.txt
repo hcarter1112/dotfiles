@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 github.com^partitionKey=%28http%2Cgithub.com%29:HSTS	0	19351	1703533551752,1,1
 addons.mozilla.org^partitionKey=%28http%2Cmozilla.org%29:HSTS	0	19351	1703533526925,1,0
 firefox.settings.services.mozilla.com:HSTS	0	19351	1703532388659,1,0
@@ -19,3 +20,25 @@ accounts.google.com^partitionKey=%28http%2Cgoogle.com%29:HSTS	0	19351	1703532390
 docs.github.com^partitionKey=%28http%2Cgithub.com%29:HSTS	0	19351	1703553996023,1,0
 us02st1.zoom.us^partitionKey=%28http%2Czoom.us%29:HSTS	0	19351	1703532395223,1,1
 aus5.mozilla.org:HSTS	0	19351	1703532659157,1,0
+=======
+www.youtube.com^partitionKey=%28http%2Cyoutube.com%29:HSTS	0	19354	1703725864202,1,0
+classify-client.services.mozilla.com:HSTS	0	19354	1703743938709,1,0
+firefox.settings.services.mozilla.com:HSTS	0	19354	1703725861975,1,0
+www.reddit.com^partitionKey=%28http%2Creddit.com%29:HSTS	0	19354	1703765654381,1,1
+support.logi.com^partitionKey=%28http%2Clogi.com%29:HSTS	0	19354	1672489460734,1,0
+services.addons.mozilla.org:HSTS	0	19354	1703776992212,1,0
+aus5.mozilla.org:HSTS	0	19354	1703727118474,1,0
+wol.jw.org:HSTS	0	19354	1703728212295,1,0
+identity.bitwarden.com:HSTS	0	19354	1703725863363,1,1
+gql.reddit.com^partitionKey=%28http%2Creddit.com%29:HSTS	0	19354	1703765656957,1,1
+addons.mozilla.org:HSTS	0	19354	1703776992204,1,1
+fonts.googleapis.com:HSTS	0	19354	1703766263460,1,0
+api.bitwarden.com:HSTS	0	19354	1703725863956,1,1
+shavar.services.mozilla.com^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:HSTS	0	19354	1703743913262,1,1
+wol.jw.org^partitionKey=%28http%2Cjw.org%29:HSTS	0	19354	1703728211680,1,0
+support.logi.com:HSTS	0	19354	1672489464247,1,0
+gateway.reddit.com^partitionKey=%28http%2Creddit.com%29:HSTS	0	19354	1703765656969,1,1
+normandy.cdn.mozilla.net:HSTS	0	19354	1703743937991,1,0
+search.brave.com^partitionKey=%28http%2Cbrave.com%29:HSTS	0	19354	1703765647540,1,1
+cdn.converseapps.net:HSTS	0	19354	1674822262860,1,1
+>>>>>>> 8cffde1 (general merge)

@@ -12,6 +12,7 @@ then
 fi
 export PATH
 export EDITOR=/home/ralldi/.local/bin/lvim
+export TERM=kitty
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
 

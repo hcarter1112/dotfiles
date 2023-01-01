@@ -4,12 +4,6 @@ from libqtile.config import Screen
 
 import os
 
-# def open_calendar(qtile):  # spawn calendar widget
-#     qtile.cmd_spawn('gsimplecal')
-
-# def close_calendar(qtile):  # kill calendar widget
-#    qtile.cmd_spawn('killall -q gsimplecal')
-
 screens = [
     Screen(
         top=bar.Bar(
@@ -25,12 +19,6 @@ screens = [
                 #     iconsize=8,
                 #     background=colors[1],
                 #     mouse_callbacks={'Button1': lambda : qtile.cmd_spawn('rofi -show run')}
-                # ),
-                # widget.Sep(
-                #     background=colors[1],
-                #     foreground=colors[5],
-                #     linewidth=1,
-                #     padding=10
                 # ),
                 widget.GroupBox(
                     active=colors[16], #b48ead

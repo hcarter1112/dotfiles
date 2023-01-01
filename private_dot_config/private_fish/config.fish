@@ -4,6 +4,7 @@ set -U fish_user_paths  $HOME/.local/bin $HOME/Applications $fish_user_paths /ho
 set fish_greeting                      # Supresses fish's intro message
 set TERM "xterm-256color"              # Sets the terminal type
 set EDITOR "/home/ralldi/.local/bin/lvim"      # $EDITOR use Emacs in terminal
+set TERM "kitty"
 
 ### SET EITHER DEFAULT EMACS MODE OR VI MODE ###
 function fish_user_key_bindings
