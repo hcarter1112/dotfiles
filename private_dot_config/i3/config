@@ -1,0 +1,17 @@
+include /home/ralldi/.config/i3/theme.conf
+include /home/ralldi/.config/i3/catppuccin-mocha.conf
+include /home/ralldi/.config/i3/binds.conf
+include /home/ralldi/.config/i3/workspaces.conf
+include /home/ralldi/.config/i3/layout.conf
+exec_always --no-startup-id ~/.config/i3/autostart.sh
+exec_always --no-startup-id ~/.config/i3/scratch.sh
+set $fm DisplayPort-0
+set $sm DisplayPort-1
+set $mod Mod4
+floating_modifier $mod
+
+### Scratchpads
+for_window [class="kitty1"] move scratchpad
+for_window [class="pulse"] move scratchpad
+for_window [class="ncspot"] move scratchpad
+for_window [class="ranger"] move scratchpad
