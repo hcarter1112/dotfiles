@@ -1,0 +1,5 @@
+# pack-refs with: peeled fully-peeled sorted 
+fcb8dee94cd3e76782b67d2347667f9dd9f0f434 refs/remotes/origin/libvterm
+93fcf93750d3a4e3e9e4d7f7f3f09c3bfa572c85 refs/remotes/origin/main
+64cf1a45a3b2e0ed420a368f53dc8c4b6c0ea21b refs/tags/'v0.3'
+^64f1775952dbe001e989f2ab679563b54f2fca55

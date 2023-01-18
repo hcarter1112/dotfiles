@@ -1,0 +1,123 @@
+;; -*- mode: emacs-lisp; eval: (progn (pp-buffer) (indent-buffer)) -*-
+((def-persp "main" nil
+   (def-wconf
+     (((min-height . 4)
+       (min-width . 25)
+       (min-height-ignore . 3)
+       (min-width-ignore . 25)
+       (min-height-safe . 1)
+       (min-width-safe . 2)
+       (min-pixel-height . 88)
+       (min-pixel-width . 250)
+       (min-pixel-height-ignore . 66)
+       (min-pixel-width-ignore . 250)
+       (min-pixel-height-safe . 22)
+       (min-pixel-width-safe . 20))
+      leaf
+      (pixel-width . 1268)
+      (pixel-height . 434)
+      (total-width . 126)
+      (total-height . 20)
+      (normal-height . 1.0)
+      (normal-width . 1.0)
+      (parameters
+       (better-jumper-struct . #s(better-jumper-jump-list-struct nil -1)))
+      (buffer "*doom*"
+              (selected . t)
+              (hscroll . 0)
+              (fringes 0 0 nil nil)
+              (margins 23)
+              (scroll-bars nil 0 t nil 0 t nil)
+              (vscroll . 0)
+              (dedicated)
+              (point . 641)
+              (start . 1))))
+   (def-params
+     ((last-project-root)))
+   nil nil nil)
+ (def-persp "#1"
+   ((def-buffer "Downloads" "/home/ralldi/Downloads/" dired-mode))
+   (def-wconf
+     (((min-height . 4)
+       (min-width . 10)
+       (min-height-ignore . 2)
+       (min-width-ignore . 4)
+       (min-height-safe . 1)
+       (min-width-safe . 2)
+       (min-pixel-height . 88)
+       (min-pixel-width . 100)
+       (min-pixel-height-ignore . 44)
+       (min-pixel-width-ignore . 40)
+       (min-pixel-height-safe . 22)
+       (min-pixel-width-safe . 20))
+      leaf
+      (pixel-width . 1268)
+      (pixel-height . 669)
+      (total-width . 126)
+      (total-height . 30)
+      (normal-height . 1.0)
+      (normal-width . 1.0)
+      (parameters
+       (better-jumper-struct . #s(better-jumper-jump-list-struct
+                                  (0 0 .
+                                     [nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil])
+                                  -1)))
+      (buffer "*vterm*"
+              (selected . t)
+              (hscroll . 0)
+              (fringes 8 8 t nil)
+              (margins nil)
+              (scroll-bars nil 0 t nil 0 t nil)
+              (vscroll . 0)
+              (dedicated)
+              (point . 451)
+              (start . 1))
+      (next-buffers "Downloads")
+      (prev-buffers
+       ("Downloads" 1 375)
+       ("*vterm*" 1 1)
+       ("*doom*" 1 641))))
+   (def-params
+     ((last-project-root)))
+   nil nil nil)
+ (def-persp "*mu4e*" nil
+   (def-wconf
+     (((min-height . 4)
+       (min-width . 10)
+       (min-height-ignore . 3)
+       (min-width-ignore . 4)
+       (min-height-safe . 1)
+       (min-width-safe . 2)
+       (min-pixel-height . 88)
+       (min-pixel-width . 100)
+       (min-pixel-height-ignore . 66)
+       (min-pixel-width-ignore . 40)
+       (min-pixel-height-safe . 22)
+       (min-pixel-width-safe . 20))
+      leaf
+      (pixel-width . 1268)
+      (pixel-height . 434)
+      (total-width . 126)
+      (total-height . 20)
+      (normal-height . 1.0)
+      (normal-width . 1.0)
+      (parameters
+       (better-jumper-struct . #s(better-jumper-jump-list-struct
+                                  (0 0 .
+                                     [nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil])
+                                  -1)))
+      (buffer "*mu4e-main*"
+              (selected . t)
+              (hscroll . 0)
+              (fringes 8 8 t nil)
+              (margins nil)
+              (scroll-bars nil 0 t nil 0 t nil)
+              (vscroll . 0)
+              (dedicated)
+              (point . 1)
+              (start . 1))
+      (prev-buffers
+       ("*doom*" 1 641))))
+   (def-params
+     ((last-project-root)))
+   nil nil nil))

@@ -1,0 +1,5 @@
+(("default" . ((user-emacs-directory . "~/.doom")))
+ (server-name . "doom")
+ ("legacy" . ((user-emacs-directory . "~/.emacs.default")))
+ (server-name . "legacy")
+ )

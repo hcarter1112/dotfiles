@@ -1,0 +1,1 @@
+/home/ralldi/.doom/.local/straight/repos/evil/doc/build/texinfo/evil.texi
