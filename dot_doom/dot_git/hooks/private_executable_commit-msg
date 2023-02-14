@@ -1,2 +1,0 @@
-#!/usr/bin/env sh
-/home/ralldi/.doom/bin/doom --no-color ci hook commit-msg "$@"
