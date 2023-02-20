@@ -1,11 +1,11 @@
 
 ### EXPORT ###
-set -U fish_user_paths  $HOME/.local/bin $HOME/Applications $fish_user_paths /home/ralldi/.config/scripts/ /home/ralldi/.cargo/bin/ /home/ralldi/.fnm/fnm /home/ralldi/.nvm/versions/node/v18.12.1/bin
+set -U fish_user_paths  $HOME/.local/bin $HOME/Applications $fish_user_paths /home/ralldi/.config/scripts/ /home/ralldi/.cargo/bin/ /home/ralldi/.fnm/fnm /home/ralldi/.nvm/versions/node/v19.3.0/bin /home/ralldi/.emacs.d/bin/ /home/ralldi/.doom/bin/
 set fish_greeting                      # Supresses fish's intro message
 set TERM "xterm-256color"              # Sets the terminal type
-set EDITOR "/home/ralldi/.local/bin/lvim"      # $EDITOR use Emacs in terminal
+set EDITOR "emacsclient -n"      # $EDITOR use Emacs in terminal
 set TERM "kitty"
-
+set QT_QPA_PLATFORMTHEME qt5ct
 ### SET EITHER DEFAULT EMACS MODE OR VI MODE ###
 function fish_user_key_bindings
   # fish_default_key_bindings

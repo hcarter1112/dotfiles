@@ -1,23 +1,23 @@
 ####Dotfile Aliases#####
 
-alias al.="lvim /home/ralldi/.aliases"
-alias fish.="lvim /home/ralldi/.config/fish/config.fish"
-alias bash.="lvim /home/ralldi/.bashrc"
-alias scripts.="lvim /home/ralldi/.config/scripts/"
-alias spotifyd.="lvim /home/ralldi/.config/spotifyd/spotifyd.conf"
-alias kitty.="lvim /home/ralldi/.config/kitty/kitty.conf"
-alias gdrive="google-drive-ocamlfuse ~/gdrive/"
-alias rif.="lvim ~/.config/ranger/rifle.conf"
-alias q.="lvim ~/.config/qtile/config.py"
+alias al.="$EDITOR /home/ralldi/.aliases"
+alias fish.="$EDITOR /home/ralldi/.config/fish/config.fish"
+alias bash.="$EDITOR /home/ralldi/.bashrc"
+alias scripts.="$EDITOR /home/ralldi/.config/scripts/"
+alias kitty.="$EDITOR /home/ralldi/.config/kitty/kitty.conf"
+alias rif.="$EDITOR ~/.config/ranger/rifle.conf"
+alias q.="$EDITOR ~/.config/qtile/"
+alias de.="$EDITOR ~/.doom.d/"
+alias swm.="$EDITOR /home/ralldi/.stumpwm.d/init.lisp"
 
 ####Filesystem Aliases#####
 
 #bat fedora
   alias cat="bat"
-  alias con=/usr/bin/cat
+  alias ccat=/usr/bin/cat
 
 # #bat ubuntu
-#   alias con=/usr/bin/cat
+#   alias ccat=/usr/bin/cat
 #   alias cat="batcat"
 #   alias bat="batcat"
 
@@ -30,12 +30,12 @@ alias fpr="flatpak run"
 ###Fedora dnf aliases
 alias upd=/home/ralldi/.config/scripts/update-fedora.sh #update dnf and flatpak
 alias i="sudo dnf install"   #install fedora
-alias s="sudo dnf search"    #search dnf
-
+alias s="dnf search"    #search dnf
+alias r="sudo dnf remove"    # remove a package
 ###Ubuntu nala aliases
 # alias upd=/home/ralldi/.config/scripts/update-ubuntu.sh   #update and upgrade apt, snap, and flatpak
 # alias i="sudo nala install" #install ubuntu
-# alias s="sudo nala search" #search ubuntu
+# alias s="nala search" #search ubuntu
 
 alias ls="exa -al"
 alias hmt="ranger /home/ralldi/Documents/rclone/HmT-Mats/"
@@ -45,10 +45,9 @@ alias hmt="ranger /home/ralldi/Documents/rclone/HmT-Mats/"
 
 ####MISC####
 
-alias ences="gpgtar -eco es"
-alias deces="gpgtar -d es"
 alias clock="tty-clock -tcs"
 alias extip="curl icanhazip.com"
+alias e=$EDITOR
 
 #####REBOOT & SHUTDOWN####
 alias reboot="systemctl reboot"

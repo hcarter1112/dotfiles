@@ -9,7 +9,7 @@ super+w
 
 # Web Browsers
 super + {_,shift,ctrl} + b
- {firefox, flatpak run com.brave.Browser}
+ {firefox, librewolf, flatpak run com.brave.Browser}
 
 ## Terminal
 super + Return
@@ -47,7 +47,7 @@ super + shift + v
 
 ## Gaming
 super + g;{s,l}
- {steam,flatpak run net.lutris.Lutris}
+ {steam,lutris}
 
 ## Power options
 super + ctrl + alt {r,q,x}

@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-{"version":1,"listeners":{"remote-settings/monitor_changes":{"version":"\"1671980233645\"","sourceInfo":{"moduleURI":"resource://services-settings/remote-settings.js","symbolName":"remoteSettingsBroadcastHandler"}}}}
-=======
-{"version":1,"listeners":{"remote-settings/monitor_changes":{"version":"\"1672239434098\"","sourceInfo":{"moduleURI":"resource://services-settings/remote-settings.js","symbolName":"remoteSettingsBroadcastHandler"}}}}
->>>>>>> 8cffde1 (general merge)

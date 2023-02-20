@@ -18,6 +18,10 @@ def killall():
     shutil.rmtree([home + '/.config/qtile/__pycache__'])
     subprocess.Popen(['killall', 'urxvtd', 'lxpolkit', 'nitrogen', 'picom'])
 
+@hook.subscribe.startup
+def startup():
+    top.show(False)
+
 @hook.subscribe.startup_once
 def start_once():
     home = os.path.expanduser('~')
@@ -35,3 +39,12 @@ def set_floating(window):
         window.floating = True
 
 floating_types = ["notification", "toolbar", "splash", "dialog"]
+
+@hook.subscribe.screens_reconfigured
+async def _():
+    if len(qtile.screens) > 1:
+        groupbox1.visible_groups = ['1', '2', '3', '4', '5', '6']
+    else:
+        groupbox1.visible_groups = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
+    if hasattr(groupbox1, 'bar'):
+        groupbox1.bar.draw()

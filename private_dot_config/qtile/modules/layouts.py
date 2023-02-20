@@ -6,8 +6,8 @@ def init_layout_theme():
     return {
             "margin": 3,
             "border_width": 3,
-            "border_focus": '#f5e0dc',
-            "border_normal": '#45475a'
+            "border_focus": '#f5c2e7',
+            "border_normal": '#181825'
             }
 
 layout_theme = init_layout_theme()
@@ -39,6 +39,8 @@ layouts = [
 floating_layout = layout.Floating(float_rules=[
     # Run the utility of `xprop` to see the wm class and name of an X client.
     *layout.Floating.default_float_rules,
+    Match(wm_class='origin.exe'),  # gitk
+    Match(wm_class='steam_app_0'),  # gitk
     Match(wm_class='confirmreset'),  # gitk
     Match(wm_class='makebranch'),  # gitk
     Match(wm_class='maketag'),  # gitk
@@ -51,6 +53,6 @@ floating_layout = layout.Floating(float_rules=[
     Match(wm_class='copyq'),  # GPG key password entry
     Match(title='Library'),  # GPG key password entry
     ],
-    border_focus=colors[12] [1],
+    border_focus=colors[22] [1],
     border_width=3
 )

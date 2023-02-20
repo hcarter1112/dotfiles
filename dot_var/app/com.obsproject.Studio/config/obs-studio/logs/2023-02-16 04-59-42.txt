@@ -1,0 +1,491 @@
+04:59:42.472: Command Line Arguments: --startvirtualcam
+04:59:42.473: Using EGL/X11
+04:59:42.473: CPU Name: AMD Ryzen 5 3600 6-Core Processor
+04:59:42.473: CPU Speed: 2188.123MHz
+04:59:42.473: Physical Cores: 6, Logical Cores: 12
+04:59:42.473: Physical Memory: 32002MB Total, 8714MB Free
+04:59:42.473: Kernel Version: Linux 6.1.9-200.fsync.fc37.x86_64
+04:59:42.473: Distribution: "KDE Flatpak runtime" "5.15-21.08"
+04:59:42.473: Session Type: x11
+04:59:42.473: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.14
+04:59:42.474: Qt Version: 6.4.2 (runtime), 6.4.2 (compiled)
+04:59:42.474: Portable mode: false
+04:59:42.515: OBS 29.0.2 (linux)
+04:59:42.515: ---------------------------------
+04:59:42.515: ---------------------------------
+04:59:42.515: audio settings reset:
+04:59:42.515: 	samples per sec: 48000
+04:59:42.515: 	speakers:        2
+04:59:42.515: 	max buffering:   960 milliseconds
+04:59:42.515: 	buffering type:  dynamically increasing
+04:59:42.519: ---------------------------------
+04:59:42.519: Initializing OpenGL...
+04:59:42.571: Loading up OpenGL on adapter AMD AMD Radeon RX 6700 XT (navi22, LLVM 15.0.7, DRM 3.49, 6.1.9-200.fsync.fc37.x86_64)
+04:59:42.571: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 22.3.4 (git-a5ffb70f86), shading language 4.60
+04:59:42.604: ---------------------------------
+04:59:42.604: video settings reset:
+04:59:42.604: 	base resolution:   1920x1080
+04:59:42.604: 	output resolution: 1280x720
+04:59:42.604: 	downscale filter:  Bicubic
+04:59:42.604: 	fps:               30/1
+04:59:42.604: 	format:            NV12
+04:59:42.604: 	YUV mode:          Rec. 709/Partial
+04:59:42.604: NV12 texture support not available
+04:59:42.604: P010 texture support not available
+04:59:42.606: Audio monitoring device:
+04:59:42.606: 	name: Monitor of Starship/Matisse HD Audio Controller Digital Stereo (IEC958)
+04:59:42.606: 	id: alsa_output.pci-0000_0f_00.4.iec958-stereo.monitor
+04:59:42.606: ---------------------------------
+04:59:42.626: No AJA devices found, skipping loading AJA UI plugin
+04:59:42.626: Failed to initialize module 'aja-output-ui.so'
+04:59:42.643: No AJA devices found, skipping loading AJA plugin
+04:59:42.643: Failed to initialize module 'aja.so'
+04:59:42.650: Failed to load 'en-US' text for module: 'decklink-captions.so'
+04:59:42.657: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+04:59:42.663: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+04:59:42.663: Failed to initialize module 'decklink.so'
+04:59:42.890: [pipewire] No captures available
+04:59:42.918: [obs-browser]: Version 2.19.0
+04:59:42.918: [obs-browser]: CEF Version 103.0.5060.134 (runtime), 103.0.0-5060-shared-textures_143.2591+g4204d54+chromium-103.0.5060.134 (compiled)
+04:59:42.938: VAAPI: API version 1.15
+04:59:42.942: FFmpeg VAAPI H264 encoding supported
+04:59:42.986: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.1.0 | RPC Version: 1)
+04:59:42.986: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.4.2 | Qt version (run-time): 6.4.2
+04:59:42.986: [obs-websocket] [obs_module_load] Linked ASIO Version: 101201
+04:59:42.991: [obs-websocket] [obs_module_load] Module loaded.
+04:59:43.015: ---------------------------------
+04:59:43.015:   Loaded Modules:
+04:59:43.015:     text-freetype2.so
+04:59:43.015:     rtmp-services.so
+04:59:43.015:     obs-x264.so
+04:59:43.015:     obs-websocket.so
+04:59:43.015:     obs-vst.so
+04:59:43.015:     obs-transitions.so
+04:59:43.015:     obs-outputs.so
+04:59:43.015:     obs-filters.so
+04:59:43.015:     obs-ffmpeg.so
+04:59:43.015:     obs-browser.so
+04:59:43.015:     linux-v4l2.so
+04:59:43.015:     linux-pulseaudio.so
+04:59:43.016:     linux-pipewire.so
+04:59:43.016:     linux-jack.so
+04:59:43.016:     linux-capture.so
+04:59:43.016:     image-source.so
+04:59:43.016:     frontend-tools.so
+04:59:43.016:     decklink-output-ui.so
+04:59:43.016:     decklink-captions.so
+04:59:43.016: ---------------------------------
+04:59:43.016: ==== Startup complete ===============================================
+04:59:43.049: All scene data cleared
+04:59:43.049: ------------------------------------------------
+04:59:43.050: v4l2-input: Start capture from /dev/video0
+04:59:43.051: v4l2-input: Input: 0
+04:59:43.051: v4l2-input: Resolution: 1920x1080
+04:59:43.051: v4l2-input: Pixelformat: BGR3
+04:59:43.051: v4l2-input: Linesize: 5760 Bytes
+04:59:43.052: v4l2-input: Framerate: 30.00 fps
+04:59:43.053: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+04:59:43.076: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.64) 15.0.0'
+04:59:43.076: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+04:59:43.076: pulse-input: Started recording from 'alsa_input.usb-Razer_Razer_BlackShark_V2_Pro-00.mono-fallback'
+04:59:43.080: pulse-am: Server name: 'PulseAudio (on PipeWire 0.3.64) 15.0.0'
+04:59:43.080: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
+04:59:43.080: pulse-am: Started Monitoring in 'alsa_output.pci-0000_0f_00.4.iec958-stereo.monitor'
+04:59:44.172: v4l2-input: /dev/video0: select timed out
+04:59:44.172: v4l2-input: /dev/video0: failed to log status
+04:59:44.427: [window-capture: 'JW Lib'] update settings:
+04:59:44.427: 	title: unknown
+04:59:44.427: 	class: unknown
+04:59:44.427: 
+04:59:44.428: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.64) 15.0.0'
+04:59:44.428: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+04:59:44.428: pulse-input: Started recording from 'alsa_output.usb-Razer_Razer_BlackShark_V2_Pro-00.analog-stereo.monitor' (default)
+04:59:44.442: Switched to scene 'Classroom'
+04:59:44.442: ------------------------------------------------
+04:59:44.442: Loaded scenes:
+04:59:44.442: - scene '[NS] Audio':
+04:59:44.442:     - source: 'RazerMic' (pulse_input_capture)
+04:59:44.442:         - monitoring: monitor only
+04:59:44.442:         - filter: 'Noise Gate' (noise_gate_filter)
+04:59:44.442:         - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+04:59:44.442:         - filter: 'Compressor' (compressor_filter)
+04:59:44.442: - scene '[NS] Video':
+04:59:44.453:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+04:59:44.453: - scene 'Base':
+04:59:44.453:     - source: '[NS] Audio' (scene)
+04:59:44.453:     - source: '[NS] Video' (scene)
+04:59:44.453: - scene 'Classroom':
+04:59:44.455:     - source: 'Base' (scene)
+04:59:44.455:     - source: 'Name Plate' (text_ft2_source_v2)
+04:59:44.455:     - source: 'brody.jpeg' (image_source)
+04:59:44.455:     - source: 'butterflies.png' (image_source)
+04:59:44.455:     - source: 'candy-gumdrops.png' (image_source)
+04:59:44.455:     - source: 'car.png' (image_source)
+04:59:44.455:     - source: 'cat.png' (image_source)
+04:59:44.455:     - source: 'cat-white.png' (image_source)
+04:59:44.455:     - source: 'colored-pencils.png' (image_source)
+04:59:44.455:     - source: 'dinosaurs.png' (image_source)
+04:59:44.455:     - source: 'dog-fluffy.png' (image_source)
+04:59:44.455:     - source: 'drum-kit.png' (image_source)
+04:59:44.455:     - source: 'Elsa.png' (image_source)
+04:59:44.455:     - source: 'fighterjet.png' (image_source)
+04:59:44.455:     - source: 'fire truck.png' (image_source)
+04:59:44.455:     - source: 'fish-many.png' (image_source)
+04:59:44.455:     - source: 'fish-tropical.png' (image_source)
+04:59:44.455:     - source: 'fox.png' (image_source)
+04:59:44.455:     - source: 'George.png' (image_source)
+04:59:44.455:     - source: 'harold2.png' (image_source)
+04:59:44.455:     - source: 'Harold Sticker.png' (image_source)
+04:59:44.455:     - source: 'Ice Cream.png' (image_source)
+04:59:44.455:     - source: 'ice-cream-chocolate.png' (image_source)
+04:59:44.455:     - source: 'icecream-strawberry.png' (image_source)
+04:59:44.455:     - source: 'ironman-classic.png' (image_source)
+04:59:44.455:     - source: 'ironman-lego.png' (image_source)
+04:59:44.455:     - source: 'jacket-pink.png' (image_source)
+04:59:44.455:     - source: 'milk-tony.png' (image_source)
+04:59:44.455:     - source: 'moon-tony.png' (image_source)
+04:59:44.455:     - source: 'nerf_gun.png' (image_source)
+04:59:44.455:     - source: 'ninja-tony.png' (image_source)
+04:59:44.455:     - source: 'olaf.png' (image_source)
+04:59:44.455:     - source: 'orange-juice.png' (image_source)
+04:59:44.455:     - source: 'owl-snow.png' (image_source)
+04:59:44.455:     - source: 'panda.png' (image_source)
+04:59:44.455:     - source: 'penguin.png' (image_source)
+04:59:44.455:     - source: 'pokeball-ethan.png' (image_source)
+04:59:44.455:     - source: 'pyramix-tony.png' (image_source)
+04:59:44.455:     - source: 'rabbit.png' (image_source)
+04:59:44.455:     - source: 'Rubikscube.png' (image_source)
+04:59:44.455:     - source: 'spiderman-cute.png' (image_source)
+04:59:44.455:     - source: 'spiderman-jump.png' (image_source)
+04:59:44.455:     - source: 'spiderman-miles.png' (image_source)
+04:59:44.455:     - source: 'spiderman-ultra.png' (image_source)
+04:59:44.455:     - source: 'sun.png' (image_source)
+04:59:44.455:     - source: 'sushi.png' (image_source)
+04:59:44.455:     - source: 'tank-matt.png' (image_source)
+04:59:44.455:     - source: 'tank-modern.png' (image_source)
+04:59:44.455:     - source: 'transformer-bumblebee.png' (image_source)
+04:59:44.455:     - source: 'transformer-decepticon.png' (image_source)
+04:59:44.455:     - source: 'triceratops.png' (image_source)
+04:59:44.455:     - source: 'turtle-cartoon.png' (image_source)
+04:59:44.455:     - source: 'ultraman1.png' (image_source)
+04:59:44.455:     - source: 'ultraman2.png' (image_source)
+04:59:44.456:     - source: 'ultraman3.png' (image_source)
+04:59:44.456:     - source: 'ultraman4.png' (image_source)
+04:59:44.456:     - source: 'ultraman-cute.png' (image_source)
+04:59:44.456:     - source: 'ultraman-group.png' (image_source)
+04:59:44.456:     - source: 'watermelon.png' (image_source)
+04:59:44.456:     - source: 'watermelon-drink.png' (image_source)
+04:59:44.456:     - source: 'pikachu.png' (image_source)
+04:59:44.456:     - source: 'fried-dumplings.png' (image_source)
+04:59:44.456:     - source: 'rabbit-white.png' (image_source)
+04:59:44.456:     - source: 'rabbit-white.png' (image_source)
+04:59:44.456:     - source: 'horse-black.png' (image_source)
+04:59:44.456:     - source: 'flower.png' (image_source)
+04:59:44.456:     - source: 'cake.png' (image_source)
+04:59:44.456:     - source: 'panda.png' (image_source)
+04:59:44.456:     - source: 'fighterjet.png' (image_source)
+04:59:44.456:     - source: 'fried-rice.png' (image_source)
+04:59:44.456:     - source: 'rabbit-white.png' (image_source)
+04:59:44.456:     - source: 'spiderman-classic.png' (image_source)
+04:59:44.456: - scene 'JW Share':
+04:59:44.456:     - source: 'JW Lib' (xcomposite_input)
+04:59:44.456:     - source: 'WIN 10 VM' (pulse_output_capture)
+04:59:44.456: ------------------------------------------------
+04:59:44.733: NV12 texture support not available
+04:59:44.733: P010 texture support not available
+04:59:44.739: Virtual camera started
+04:59:44.751: ==== Virtual Camera Start ==========================================
+04:59:44.990: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: WIN 10 VM)
+04:59:44.990: 
+05:00:14.740: Failed to create xdg-screensaver: 2
+05:00:44.741: Failed to create xdg-screensaver: 2
+05:01:14.741: Failed to create xdg-screensaver: 2
+05:01:44.742: Failed to create xdg-screensaver: 2
+05:02:14.742: Failed to create xdg-screensaver: 2
+05:02:44.743: Failed to create xdg-screensaver: 2
+05:03:14.744: Failed to create xdg-screensaver: 2
+05:03:44.744: Failed to create xdg-screensaver: 2
+05:04:14.745: Failed to create xdg-screensaver: 2
+05:04:44.745: Failed to create xdg-screensaver: 2
+05:05:14.746: Failed to create xdg-screensaver: 2
+05:05:44.747: Failed to create xdg-screensaver: 2
+05:06:14.747: Failed to create xdg-screensaver: 2
+05:06:44.748: Failed to create xdg-screensaver: 2
+05:07:14.748: Failed to create xdg-screensaver: 2
+05:07:44.749: Failed to create xdg-screensaver: 2
+05:08:14.749: Failed to create xdg-screensaver: 2
+05:08:44.750: Failed to create xdg-screensaver: 2
+05:09:14.750: Failed to create xdg-screensaver: 2
+05:09:44.751: Failed to create xdg-screensaver: 2
+05:10:14.751: Failed to create xdg-screensaver: 2
+05:10:44.752: Failed to create xdg-screensaver: 2
+05:11:14.752: Failed to create xdg-screensaver: 2
+05:11:44.753: Failed to create xdg-screensaver: 2
+05:12:14.753: Failed to create xdg-screensaver: 2
+05:12:44.754: Failed to create xdg-screensaver: 2
+05:13:14.755: Failed to create xdg-screensaver: 2
+05:13:44.755: Failed to create xdg-screensaver: 2
+05:14:14.756: Failed to create xdg-screensaver: 2
+05:14:44.756: Failed to create xdg-screensaver: 2
+05:15:14.757: Failed to create xdg-screensaver: 2
+05:39:38.598: Last log entry repeated for 48 more lines
+05:39:38.598: User added source 'rabbit-white.png' (image_source) to scene 'Classroom'
+05:39:44.783: Failed to create xdg-screensaver: 2
+05:40:14.783: Failed to create xdg-screensaver: 2
+05:40:44.784: Failed to create xdg-screensaver: 2
+05:41:14.785: Failed to create xdg-screensaver: 2
+05:41:44.785: Failed to create xdg-screensaver: 2
+05:42:14.786: Failed to create xdg-screensaver: 2
+05:42:44.786: Failed to create xdg-screensaver: 2
+05:43:14.787: Failed to create xdg-screensaver: 2
+05:43:44.788: Failed to create xdg-screensaver: 2
+05:44:14.788: Failed to create xdg-screensaver: 2
+05:44:44.789: Failed to create xdg-screensaver: 2
+05:45:14.789: Failed to create xdg-screensaver: 2
+05:45:44.790: Failed to create xdg-screensaver: 2
+05:46:14.791: Failed to create xdg-screensaver: 2
+05:46:44.791: Failed to create xdg-screensaver: 2
+05:47:14.792: Failed to create xdg-screensaver: 2
+05:47:44.792: Failed to create xdg-screensaver: 2
+05:48:14.793: Failed to create xdg-screensaver: 2
+05:48:44.794: Failed to create xdg-screensaver: 2
+05:49:14.794: Failed to create xdg-screensaver: 2
+05:49:44.795: Failed to create xdg-screensaver: 2
+05:50:14.795: Failed to create xdg-screensaver: 2
+05:50:44.796: Failed to create xdg-screensaver: 2
+05:51:14.796: Failed to create xdg-screensaver: 2
+05:51:44.797: Failed to create xdg-screensaver: 2
+05:52:14.798: Failed to create xdg-screensaver: 2
+05:52:44.798: Failed to create xdg-screensaver: 2
+05:53:14.799: Failed to create xdg-screensaver: 2
+05:53:44.799: Failed to create xdg-screensaver: 2
+05:54:14.800: Failed to create xdg-screensaver: 2
+05:54:44.800: Failed to create xdg-screensaver: 2
+05:59:44.026: Last log entry repeated for 9 more lines
+05:59:44.026: User Removed source 'rabbit-white.png' (image_source) from scene 'Classroom'
+05:59:44.805: Failed to create xdg-screensaver: 2
+06:00:14.806: Failed to create xdg-screensaver: 2
+06:00:44.807: Failed to create xdg-screensaver: 2
+06:01:14.807: Failed to create xdg-screensaver: 2
+06:01:44.808: Failed to create xdg-screensaver: 2
+06:02:14.808: Failed to create xdg-screensaver: 2
+06:02:44.809: Failed to create xdg-screensaver: 2
+06:03:14.810: Failed to create xdg-screensaver: 2
+06:03:23.740: User added source 'ultraman2.png' (image_source) to scene 'Classroom'
+06:03:44.810: Failed to create xdg-screensaver: 2
+06:04:14.811: Failed to create xdg-screensaver: 2
+06:04:44.812: Failed to create xdg-screensaver: 2
+06:05:14.813: Failed to create xdg-screensaver: 2
+06:05:44.813: Failed to create xdg-screensaver: 2
+06:06:14.814: Failed to create xdg-screensaver: 2
+06:06:44.814: Failed to create xdg-screensaver: 2
+06:07:14.815: Failed to create xdg-screensaver: 2
+06:07:44.816: Failed to create xdg-screensaver: 2
+06:08:14.816: Failed to create xdg-screensaver: 2
+06:08:44.817: Failed to create xdg-screensaver: 2
+06:09:14.817: Failed to create xdg-screensaver: 2
+06:09:44.818: Failed to create xdg-screensaver: 2
+06:10:14.819: Failed to create xdg-screensaver: 2
+06:10:44.819: Failed to create xdg-screensaver: 2
+06:11:14.820: Failed to create xdg-screensaver: 2
+06:11:44.820: Failed to create xdg-screensaver: 2
+06:12:14.821: Failed to create xdg-screensaver: 2
+06:12:44.821: Failed to create xdg-screensaver: 2
+06:13:14.822: Failed to create xdg-screensaver: 2
+06:13:44.822: Failed to create xdg-screensaver: 2
+06:14:14.823: Failed to create xdg-screensaver: 2
+06:14:44.824: Failed to create xdg-screensaver: 2
+06:15:14.824: Failed to create xdg-screensaver: 2
+06:15:44.825: Failed to create xdg-screensaver: 2
+06:16:14.826: Failed to create xdg-screensaver: 2
+06:16:44.826: Failed to create xdg-screensaver: 2
+06:17:14.827: Failed to create xdg-screensaver: 2
+06:17:44.828: Failed to create xdg-screensaver: 2
+06:18:14.828: Failed to create xdg-screensaver: 2
+06:18:44.829: Failed to create xdg-screensaver: 2
+06:29:51.224: Last log entry repeated for 22 more lines
+06:29:51.224: User Removed source 'ultraman2.png' (image_source) from scene 'Classroom'
+06:30:14.841: Failed to create xdg-screensaver: 2
+06:30:44.842: Failed to create xdg-screensaver: 2
+06:31:14.843: Failed to create xdg-screensaver: 2
+06:31:44.844: Failed to create xdg-screensaver: 2
+06:32:14.844: Failed to create xdg-screensaver: 2
+06:32:44.845: Failed to create xdg-screensaver: 2
+06:33:14.845: Failed to create xdg-screensaver: 2
+06:33:44.846: Failed to create xdg-screensaver: 2
+06:34:14.846: Failed to create xdg-screensaver: 2
+06:34:44.847: Failed to create xdg-screensaver: 2
+06:35:14.847: Failed to create xdg-screensaver: 2
+06:35:44.848: Failed to create xdg-screensaver: 2
+06:36:14.848: Failed to create xdg-screensaver: 2
+06:36:44.849: Failed to create xdg-screensaver: 2
+06:37:14.849: Failed to create xdg-screensaver: 2
+06:37:44.850: Failed to create xdg-screensaver: 2
+06:38:14.850: Failed to create xdg-screensaver: 2
+06:38:44.851: Failed to create xdg-screensaver: 2
+06:39:14.852: Failed to create xdg-screensaver: 2
+06:39:44.852: Failed to create xdg-screensaver: 2
+06:40:14.853: Failed to create xdg-screensaver: 2
+06:40:31.063: User added source 'ultraman-group.png' (image_source) to scene 'Classroom'
+06:40:36.817: User Removed source 'ultraman-group.png' (image_source) from scene 'Classroom'
+06:40:40.848: User added source 'ultraman-group.png' (image_source) to scene 'Classroom'
+06:40:44.853: Failed to create xdg-screensaver: 2
+06:40:53.113: User added source 'orange-juice.png' (image_source) to scene 'Classroom'
+06:41:14.854: Failed to create xdg-screensaver: 2
+06:41:44.854: Failed to create xdg-screensaver: 2
+06:42:14.855: Failed to create xdg-screensaver: 2
+06:42:44.855: Failed to create xdg-screensaver: 2
+06:43:14.856: Failed to create xdg-screensaver: 2
+06:43:44.857: Failed to create xdg-screensaver: 2
+06:44:14.857: Failed to create xdg-screensaver: 2
+06:44:44.858: Failed to create xdg-screensaver: 2
+06:45:14.858: Failed to create xdg-screensaver: 2
+06:45:44.859: Failed to create xdg-screensaver: 2
+06:46:14.859: Failed to create xdg-screensaver: 2
+06:46:44.860: Failed to create xdg-screensaver: 2
+06:47:14.861: Failed to create xdg-screensaver: 2
+06:47:44.861: Failed to create xdg-screensaver: 2
+06:48:14.862: Failed to create xdg-screensaver: 2
+06:48:44.862: Failed to create xdg-screensaver: 2
+06:49:14.863: Failed to create xdg-screensaver: 2
+06:49:44.864: Failed to create xdg-screensaver: 2
+06:50:14.864: Failed to create xdg-screensaver: 2
+06:50:44.865: Failed to create xdg-screensaver: 2
+06:51:14.866: Failed to create xdg-screensaver: 2
+06:51:44.866: Failed to create xdg-screensaver: 2
+06:52:14.867: Failed to create xdg-screensaver: 2
+06:52:44.868: Failed to create xdg-screensaver: 2
+06:53:14.869: Failed to create xdg-screensaver: 2
+06:53:44.869: Failed to create xdg-screensaver: 2
+06:54:14.870: Failed to create xdg-screensaver: 2
+06:54:44.871: Failed to create xdg-screensaver: 2
+06:55:14.871: Failed to create xdg-screensaver: 2
+06:55:44.872: Failed to create xdg-screensaver: 2
+06:56:14.872: Failed to create xdg-screensaver: 2
+07:01:00.589: Last log entry repeated for 9 more lines
+07:01:00.589: User Removed source 'ultraman-group.png' (image_source) from scene 'Classroom'
+07:01:00.589: User Removed source 'orange-juice.png' (image_source) from scene 'Classroom'
+07:01:14.879: Failed to create xdg-screensaver: 2
+07:01:44.880: Failed to create xdg-screensaver: 2
+07:02:14.880: Failed to create xdg-screensaver: 2
+07:02:44.881: Failed to create xdg-screensaver: 2
+07:03:14.881: Failed to create xdg-screensaver: 2
+07:03:44.882: Failed to create xdg-screensaver: 2
+07:04:14.882: Failed to create xdg-screensaver: 2
+07:04:29.686: User added source 'harold2.png' (image_source) to scene 'Classroom'
+07:04:39.262: User added source 'cake.png' (image_source) to scene 'Classroom'
+07:04:44.883: Failed to create xdg-screensaver: 2
+07:05:14.883: Failed to create xdg-screensaver: 2
+07:05:44.884: Failed to create xdg-screensaver: 2
+07:06:14.885: Failed to create xdg-screensaver: 2
+07:06:44.885: Failed to create xdg-screensaver: 2
+07:07:14.886: Failed to create xdg-screensaver: 2
+07:07:44.887: Failed to create xdg-screensaver: 2
+07:08:14.887: Failed to create xdg-screensaver: 2
+07:08:44.888: Failed to create xdg-screensaver: 2
+07:09:14.888: Failed to create xdg-screensaver: 2
+07:09:44.889: Failed to create xdg-screensaver: 2
+07:10:14.889: Failed to create xdg-screensaver: 2
+07:10:44.890: Failed to create xdg-screensaver: 2
+07:11:14.891: Failed to create xdg-screensaver: 2
+07:11:44.892: Failed to create xdg-screensaver: 2
+07:12:14.892: Failed to create xdg-screensaver: 2
+07:12:44.893: Failed to create xdg-screensaver: 2
+07:13:14.893: Failed to create xdg-screensaver: 2
+07:13:44.894: Failed to create xdg-screensaver: 2
+07:14:14.895: Failed to create xdg-screensaver: 2
+07:14:44.895: Failed to create xdg-screensaver: 2
+07:15:14.896: Failed to create xdg-screensaver: 2
+07:15:44.896: Failed to create xdg-screensaver: 2
+07:16:14.897: Failed to create xdg-screensaver: 2
+07:16:44.897: Failed to create xdg-screensaver: 2
+07:17:14.898: Failed to create xdg-screensaver: 2
+07:17:44.899: Failed to create xdg-screensaver: 2
+07:18:14.899: Failed to create xdg-screensaver: 2
+07:18:44.900: Failed to create xdg-screensaver: 2
+07:19:14.901: Failed to create xdg-screensaver: 2
+07:19:44.901: Failed to create xdg-screensaver: 2
+07:29:39.138: Last log entry repeated for 19 more lines
+07:29:39.138: User Removed source 'cake.png' (image_source) from scene 'Classroom'
+07:29:39.139: User Removed source 'harold2.png' (image_source) from scene 'Classroom'
+07:29:44.913: Failed to create xdg-screensaver: 2
+07:30:14.913: Failed to create xdg-screensaver: 2
+07:30:44.914: Failed to create xdg-screensaver: 2
+07:31:14.914: Failed to create xdg-screensaver: 2
+07:31:44.915: Failed to create xdg-screensaver: 2
+07:32:14.915: Failed to create xdg-screensaver: 2
+07:32:44.916: Failed to create xdg-screensaver: 2
+07:33:14.916: Failed to create xdg-screensaver: 2
+07:33:44.917: Failed to create xdg-screensaver: 2
+07:34:14.917: Failed to create xdg-screensaver: 2
+07:34:44.918: Failed to create xdg-screensaver: 2
+07:35:14.918: Failed to create xdg-screensaver: 2
+07:35:44.919: Failed to create xdg-screensaver: 2
+07:36:14.920: Failed to create xdg-screensaver: 2
+07:36:44.920: Failed to create xdg-screensaver: 2
+07:37:14.921: Failed to create xdg-screensaver: 2
+07:37:44.921: Failed to create xdg-screensaver: 2
+07:38:14.922: Failed to create xdg-screensaver: 2
+07:38:44.922: Failed to create xdg-screensaver: 2
+07:39:14.923: Failed to create xdg-screensaver: 2
+07:39:44.923: Failed to create xdg-screensaver: 2
+07:40:14.924: Failed to create xdg-screensaver: 2
+07:40:44.924: Failed to create xdg-screensaver: 2
+07:41:14.925: Failed to create xdg-screensaver: 2
+07:41:44.926: Failed to create xdg-screensaver: 2
+07:42:04.940: User added source 'ironman-lego.png' (image_source) to scene 'Classroom'
+07:42:14.926: Failed to create xdg-screensaver: 2
+07:42:21.202: User Removed source 'ironman-lego.png' (image_source) from scene 'Classroom'
+07:42:23.772: User added source 'ultraman2.png' (image_source) to scene 'Classroom'
+07:42:44.927: Failed to create xdg-screensaver: 2
+07:43:14.927: Failed to create xdg-screensaver: 2
+07:43:44.928: Failed to create xdg-screensaver: 2
+07:44:14.929: Failed to create xdg-screensaver: 2
+07:44:44.929: Failed to create xdg-screensaver: 2
+07:45:14.930: Failed to create xdg-screensaver: 2
+07:45:44.931: Failed to create xdg-screensaver: 2
+07:46:14.931: Failed to create xdg-screensaver: 2
+07:46:44.932: Failed to create xdg-screensaver: 2
+07:47:14.933: Failed to create xdg-screensaver: 2
+07:47:44.933: Failed to create xdg-screensaver: 2
+07:48:14.934: Failed to create xdg-screensaver: 2
+07:48:44.934: Failed to create xdg-screensaver: 2
+07:49:14.935: Failed to create xdg-screensaver: 2
+07:49:44.936: Failed to create xdg-screensaver: 2
+07:50:14.937: Failed to create xdg-screensaver: 2
+07:50:44.937: Failed to create xdg-screensaver: 2
+07:51:14.938: Failed to create xdg-screensaver: 2
+07:51:44.939: Failed to create xdg-screensaver: 2
+07:52:14.940: Failed to create xdg-screensaver: 2
+07:52:44.940: Failed to create xdg-screensaver: 2
+07:53:14.941: Failed to create xdg-screensaver: 2
+07:53:44.942: Failed to create xdg-screensaver: 2
+07:54:14.943: Failed to create xdg-screensaver: 2
+07:54:44.944: Failed to create xdg-screensaver: 2
+07:55:14.945: Failed to create xdg-screensaver: 2
+07:55:44.946: Failed to create xdg-screensaver: 2
+07:56:14.947: Failed to create xdg-screensaver: 2
+07:56:44.947: Failed to create xdg-screensaver: 2
+07:57:14.948: Failed to create xdg-screensaver: 2
+07:57:44.948: Failed to create xdg-screensaver: 2
+07:59:45.010: Last log entry repeated for 4 more lines
+07:59:45.010: User Removed source 'ultraman2.png' (image_source) from scene 'Classroom'
+08:00:14.951: Failed to create xdg-screensaver: 2
+08:00:44.951: Failed to create xdg-screensaver: 2
+08:01:14.952: Failed to create xdg-screensaver: 2
+08:01:44.953: Failed to create xdg-screensaver: 2
+08:02:14.953: Failed to create xdg-screensaver: 2
+08:02:44.954: Failed to create xdg-screensaver: 2
+08:03:14.954: Failed to create xdg-screensaver: 2
+08:03:44.955: Failed to create xdg-screensaver: 2
+08:04:14.955: Failed to create xdg-screensaver: 2
+08:04:44.956: Failed to create xdg-screensaver: 2
+08:05:14.957: Failed to create xdg-screensaver: 2
+08:05:44.957: Failed to create xdg-screensaver: 2
+08:05:50.148: User added source 'rabbit-white.png' (image_source) to scene 'Classroom'
+08:06:14.958: Failed to create xdg-screensaver: 2
+08:06:44.958: Failed to create xdg-screensaver: 2
+08:07:14.959: Failed to create xdg-screensaver: 2
+08:07:44.960: Failed to create xdg-screensaver: 2
+08:08:14.960: Failed to create xdg-screensaver: 2
+08:08:44.961: Failed to create xdg-screensaver: 2

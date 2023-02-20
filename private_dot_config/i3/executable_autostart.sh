@@ -19,8 +19,9 @@ run copyq --start-server
 run nm-applet
 run volumeicon
 #run urxvtd -q -o -f
-run /usr/bin/emacs --daemon
-run /usr/bin/emacs --with-profile legacy --daemon
-run /usr/bin/offlineimap
+run /usr/bin/emacs-lucid --daemon
+run /usr/bin/emacs-lucid --with-profile legacy --daemon
+# run /usr/bin/offlineimap
 run /usr/bin/sxhkd
 run /home/ralldi/.config/polybar/i3/launch-i3.sh
+run /usr/bin/corectrl
