@@ -11,7 +11,7 @@ an executable
 -- general
 lvim.log.level = "warn"
 lvim.format_on_save.enabled = false
-lvim.colorscheme = "catppuccin"
+lvim.colorscheme = "gruvbox"
 vim.opt.relativenumber = true
 vim.opt.title=false
 -- to disable icons and use a minimalist setup, uncomment the following
@@ -170,11 +170,28 @@ lvim.plugins = {
       "norcalli/nvim-colorizer.lua",
       "shaunsingh/nord.nvim",
       "catppuccin/nvim",
+      "ellisonleao/gruvbox.nvim",
+      "HiPhish/nvim-ts-rainbow2",
       "folke/trouble.nvim",
       cmd = "TroubleToggle",
     },
 }
 require'colorizer'.setup()
+
+require("nvim-treesitter.configs").setup {
+  highlight = {
+      -- ...
+  },
+  -- ...
+  rainbow = {
+    enable = true,
+    -- disable = { "jsx", "cpp" }, list of languages you want to disable the plugin for
+    extended_mode = true, -- Also highlight non-bracket delimiters like html tags, boolean or table: lang -> boolean
+    max_file_lines = nil, -- Do not enable for files with more than n lines, int
+    -- colors = {}, -- table of hex strings
+    -- termcolors = {} -- table of colour name strings
+  }
+}
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
 -- vim.api.nvim_create_autocmd("BufEnter", {
 --   pattern = { "*.json", "*.jsonc" },

@@ -3,33 +3,59 @@ from libqtile.widget import Spacer
 from libqtile import qtile
 
 def init_colors():
-    return [
-            ["#11111b", "#11111b"], # 0 Crust
-            ["#181825", "#181825"], # 1 Mantle
-            ["#1e1e2e", "#1e1e2e"], # 2 Base
-            ["#cdd6f4", "#cdd6f4"], # 3 Text
-            ["#a6adc8", "#a6adc8"], # 4 Subtext0
-            ["#bac2de", "#bac2de"], # 5 Subtext1
-            ["#313244", "#313244"], # 6 Surface0
-            ["#45475a", "#45475a"], # 7 Surface1
-            ["#585b70", "#585b70"], # 8 Surface2
-            ["#6c7086", "#6c7086"], # 9 Overlay0
-            ["#7f849c", "#7f849c"], # 10 Overlay1
-            ["#9399b2", "#9399b2"], # 11 Overlay2
-            ["#b4befe", "#b4befe"], # 12 Lavender
-            ["#89b4fa", "#89b4fa"], # 13 Blue
-            ["#74c7ec", "#74c7ec"], # 14 Saphire
-            ["#89dceb", "#89dceb"], # 15 Sky
-            ["#94e2d5", "#94e2d5"], # 16 Teal
-            ["#a6e3a1", "#a6e3a1"], # 17 Green
-            ["#f9e2af", "#f9e2af"], # 18 Yellow
-            ["#fab387", "#fab387"], # 19 Peach
-            ["#eba0ac", "#eba0ac"], # 20 Maroon
-            ["#f38ba8", "#f38ba8"], # 21 Red
-            ["#cba6f7", "#cba6f7"], # 22 Mauve
-            ["#f5c2e7", "#f5c2e7"], # 23 Pink
-            ["#f2cdcd", "#f2cdcd"], # 24 Flamingo
-            ["#f5e0dc", "#f5e0dc"], # 25 Rosewater
+    return [ # 0 
+            ["#1d2021", "#1d2021"],
+             # 1   
+            ["#282828", "#282828"],
+             # 2-Bar Background 
+            ["#3c3836", "#3c3836"],
+             # 3 -  Text 
+            ["#ebdbb2", "#ebdbb2"],
+             # 4 
+            ["#a89984", "#a89984"],
+             # 5 
+            ["#bdae93", "#bdae93"],
+             # 6- Widget text 
+            ["#665c54", "#665c54"],
+             # 7- Bar alt 
+            ["#7c6f64", "#7c6f64"],
+             # 8 
+            ["#928374", "#928374"],
+             # 9 - Group Box Inactive Icon,
+            ["#a89984", "#a89984"],
+             # 10
+            ["#ebdbb2", "#ebdbb2"],
+             # 11
+            ["#b16286", "#b16286"],
+             # 12 - Clock and Cal Icon
+            ["#fabd2f", "#fabd2f"],
+             # 13- Active Screen Underline
+            ["#fe8019", "#fe8019"],
+             # 14 - Second Widget Color
+            ["#83a598", "#83a598"],
+             # 15
+            ["#458588", "#458588"],
+             # 16
+            ["#689d6a", "#689d6a"],
+             # 17 - Third Widget Color
+            ["#8ec07c", "#8ec07c"],
+             # 18
+            ["#b8bb26", "#b8bb26"],
+             # 19
+            ["#fab387", "#fab387"],
+             # 20 - Urgent/No Update
+            ["#cc241d", "#cc241d"],
+             # 21
+            ["#fb4934", "#fb4934"],
+             # 22 - Group Box Active Icon, first colored widget
+            ["#d3869b", "#d3869b"],
+             # 23
+            ["#d65d0e", "#d65d0e"],
+             # 24
+            ["#d79921", "#d79921"],
+             # 25
+            ["#fbf1c7", "#fbf1c7"],
+             #26
             ["#FF00000", "#FF00000"]] # 26 Transparent
 
 colors = init_colors()

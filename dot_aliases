@@ -48,6 +48,7 @@ alias hmt="ranger /home/ralldi/Documents/rclone/HmT-Mats/"
 alias clock="tty-clock -tcs"
 alias extip="curl icanhazip.com"
 alias e=$EDITOR
+alias mvc="$HOME/.config/scripts/mv-class-notes.sh"
 
 #####REBOOT & SHUTDOWN####
 alias reboot="systemctl reboot"
