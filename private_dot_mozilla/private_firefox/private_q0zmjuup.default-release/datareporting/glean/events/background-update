@@ -1,2 +1,0 @@
-{"timestamp":686550,"category":"nimbus_events","name":"validation_failed","extra":{"feature":"dapTelemetry","experiment":"dap-telemetry-first-ingress-test","reason":"invalid-feature"}}
-{"timestamp":954708,"category":"nimbus_events","name":"validation_failed","extra":{"experiment":"dap-telemetry-first-ingress-test","reason":"invalid-feature","feature":"dapTelemetry"}}
