@@ -35,15 +35,3 @@ true
 0
 true
 #
-
-https://obsproject.com/forum/
-https://obsproject.com/forum/service_worker.js
-true
-{c029621f-d83c-400a-a50d-106614220893}
-0
-1676974084405912
-1676974084406997
-1676974084053407
-0
-true
-#
