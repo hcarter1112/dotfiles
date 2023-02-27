@@ -1,0 +1,285 @@
+21:01:50.169: Command Line Arguments: --startvirtualcam
+21:01:50.169: Using EGL/X11
+21:01:50.169: CPU Name: AMD Ryzen 5 3600 6-Core Processor
+21:01:50.169: CPU Speed: 3593.103MHz
+21:01:50.170: Physical Cores: 6, Logical Cores: 12
+21:01:50.170: Physical Memory: 32002MB Total, 8531MB Free
+21:01:50.170: Kernel Version: Linux 6.1.11-201.fsync.fc37.x86_64
+21:01:50.170: Distribution: "KDE Flatpak runtime" "5.15-21.08"
+21:01:50.170: Session Type: x11
+21:01:50.170: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.14
+21:01:50.171: Qt Version: 6.4.2 (runtime), 6.4.2 (compiled)
+21:01:50.171: Portable mode: false
+21:01:50.208: OBS 29.0.2 (linux)
+21:01:50.208: ---------------------------------
+21:01:50.208: ---------------------------------
+21:01:50.208: audio settings reset:
+21:01:50.208: 	samples per sec: 48000
+21:01:50.208: 	speakers:        2
+21:01:50.208: 	max buffering:   960 milliseconds
+21:01:50.208: 	buffering type:  dynamically increasing
+21:01:50.214: ---------------------------------
+21:01:50.214: Initializing OpenGL...
+21:01:50.267: Loading up OpenGL on adapter AMD AMD Radeon RX 6700 XT (navi22, LLVM 15.0.7, DRM 3.49, 6.1.11-201.fsync.fc37.x86_64)
+21:01:50.267: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 22.3.4 (git-a5ffb70f86), shading language 4.60
+21:01:50.302: ---------------------------------
+21:01:50.302: video settings reset:
+21:01:50.302: 	base resolution:   1920x1080
+21:01:50.302: 	output resolution: 1280x720
+21:01:50.302: 	downscale filter:  Bicubic
+21:01:50.302: 	fps:               30/1
+21:01:50.302: 	format:            NV12
+21:01:50.302: 	YUV mode:          Rec. 709/Partial
+21:01:50.302: NV12 texture support not available
+21:01:50.302: P010 texture support not available
+21:01:50.304: Audio monitoring device:
+21:01:50.304: 	name: Monitor of Starship/Matisse HD Audio Controller Digital Stereo (IEC958)
+21:01:50.304: 	id: alsa_output.pci-0000_0f_00.4.iec958-stereo.monitor
+21:01:50.304: ---------------------------------
+21:01:50.324: No AJA devices found, skipping loading AJA UI plugin
+21:01:50.324: Failed to initialize module 'aja-output-ui.so'
+21:01:50.339: No AJA devices found, skipping loading AJA plugin
+21:01:50.339: Failed to initialize module 'aja.so'
+21:01:50.344: Failed to load 'en-US' text for module: 'decklink-captions.so'
+21:01:50.352: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+21:01:50.357: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+21:01:50.357: Failed to initialize module 'decklink.so'
+21:01:50.609: [pipewire] No captures available
+21:01:50.636: [obs-browser]: Version 2.19.0
+21:01:50.636: [obs-browser]: CEF Version 103.0.5060.134 (runtime), 103.0.0-5060-shared-textures_143.2591+g4204d54+chromium-103.0.5060.134 (compiled)
+21:01:50.658: VAAPI: API version 1.15
+21:01:50.660: FFmpeg VAAPI H264 encoding supported
+21:01:50.704: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.1.0 | RPC Version: 1)
+21:01:50.704: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.4.2 | Qt version (run-time): 6.4.2
+21:01:50.704: [obs-websocket] [obs_module_load] Linked ASIO Version: 101201
+21:01:50.744: [obs-websocket] [obs_module_load] Module loaded.
+21:01:50.768: ---------------------------------
+21:01:50.768:   Loaded Modules:
+21:01:50.768:     text-freetype2.so
+21:01:50.768:     rtmp-services.so
+21:01:50.768:     obs-x264.so
+21:01:50.768:     obs-websocket.so
+21:01:50.768:     obs-vst.so
+21:01:50.768:     obs-transitions.so
+21:01:50.768:     obs-outputs.so
+21:01:50.768:     obs-filters.so
+21:01:50.768:     obs-ffmpeg.so
+21:01:50.768:     obs-browser.so
+21:01:50.768:     linux-v4l2.so
+21:01:50.768:     linux-pulseaudio.so
+21:01:50.768:     linux-pipewire.so
+21:01:50.768:     linux-jack.so
+21:01:50.768:     linux-capture.so
+21:01:50.768:     image-source.so
+21:01:50.768:     frontend-tools.so
+21:01:50.768:     decklink-output-ui.so
+21:01:50.768:     decklink-captions.so
+21:01:50.768: ---------------------------------
+21:01:50.768: ==== Startup complete ===============================================
+21:01:50.806: All scene data cleared
+21:01:50.806: ------------------------------------------------
+21:01:50.811: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.66) 15.0.0'
+21:01:50.811: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+21:01:50.811: pulse-input: Started recording from 'alsa_output.pci-0000_0d_00.1.hdmi-stereo-extra3.monitor' (default)
+21:01:50.812: [window-capture: 'JW Lib'] update settings:
+21:01:50.812: 	title: unknown
+21:01:50.812: 	class: unknown
+21:01:50.812: 
+21:01:51.382: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: WIN 10 VM)
+21:01:51.382: 
+21:01:52.179: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.66) 15.0.0'
+21:01:52.179: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+21:01:52.179: pulse-input: Started recording from 'alsa_input.usb-Razer_Razer_BlackShark_V2_Pro-00.mono-fallback'
+21:01:52.184: pulse-am: Server name: 'PulseAudio (on PipeWire 0.3.66) 15.0.0'
+21:01:52.184: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
+21:01:52.184: pulse-am: Started Monitoring in 'alsa_output.pci-0000_0f_00.4.iec958-stereo.monitor'
+21:01:52.200: v4l2-input: Start capture from /dev/video0
+21:01:52.201: v4l2-input: Input: 0
+21:01:52.201: v4l2-input: Resolution: 1920x1080
+21:01:52.201: v4l2-input: Pixelformat: BGR3
+21:01:52.201: v4l2-input: Linesize: 5760 Bytes
+21:01:52.201: v4l2-input: Framerate: 30.00 fps
+21:01:52.203: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+21:01:52.219: Switched to scene 'Base'
+21:01:52.219: ------------------------------------------------
+21:01:52.219: Loaded scenes:
+21:01:52.219: - scene '[NS] Audio':
+21:01:52.219:     - source: 'RazerMic' (pulse_input_capture)
+21:01:52.219:         - monitoring: monitor only
+21:01:52.219:         - filter: 'Noise Gate' (noise_gate_filter)
+21:01:52.219:         - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+21:01:52.219:         - filter: 'Compressor' (compressor_filter)
+21:01:52.219: - scene '[NS] Video':
+21:01:52.219:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+21:01:52.219: - scene 'Base':
+21:01:52.224:     - source: '[NS] Audio' (scene)
+21:01:52.224:     - source: '[NS] Video' (scene)
+21:01:52.224: - scene 'Classroom':
+21:01:52.224:     - source: 'Base' (scene)
+21:01:52.224:     - source: 'Name Plate' (text_ft2_source_v2)
+21:01:52.224:     - source: 'brody.jpeg' (image_source)
+21:01:52.224:     - source: 'butterflies.png' (image_source)
+21:01:52.224:     - source: 'candy-gumdrops.png' (image_source)
+21:01:52.224:     - source: 'car.png' (image_source)
+21:01:52.224:     - source: 'cat.png' (image_source)
+21:01:52.224:     - source: 'cat-white.png' (image_source)
+21:01:52.224:     - source: 'colored-pencils.png' (image_source)
+21:01:52.224:     - source: 'dinosaurs.png' (image_source)
+21:01:52.224:     - source: 'dog-fluffy.png' (image_source)
+21:01:52.224:     - source: 'drum-kit.png' (image_source)
+21:01:52.224:     - source: 'Elsa.png' (image_source)
+21:01:52.224:     - source: 'fighterjet.png' (image_source)
+21:01:52.224:     - source: 'fire truck.png' (image_source)
+21:01:52.224:     - source: 'fish-many.png' (image_source)
+21:01:52.224:     - source: 'fish-tropical.png' (image_source)
+21:01:52.224:     - source: 'fox.png' (image_source)
+21:01:52.224:     - source: 'George.png' (image_source)
+21:01:52.224:     - source: 'harold2.png' (image_source)
+21:01:52.224:     - source: 'Harold Sticker.png' (image_source)
+21:01:52.224:     - source: 'Ice Cream.png' (image_source)
+21:01:52.224:     - source: 'ice-cream-chocolate.png' (image_source)
+21:01:52.224:     - source: 'icecream-strawberry.png' (image_source)
+21:01:52.224:     - source: 'ironman-classic.png' (image_source)
+21:01:52.224:     - source: 'ironman-lego.png' (image_source)
+21:01:52.224:     - source: 'jacket-pink.png' (image_source)
+21:01:52.224:     - source: 'milk-tony.png' (image_source)
+21:01:52.224:     - source: 'moon-tony.png' (image_source)
+21:01:52.224:     - source: 'nerf_gun.png' (image_source)
+21:01:52.224:     - source: 'ninja-tony.png' (image_source)
+21:01:52.224:     - source: 'olaf.png' (image_source)
+21:01:52.224:     - source: 'orange-juice.png' (image_source)
+21:01:52.224:     - source: 'owl-snow.png' (image_source)
+21:01:52.224:     - source: 'panda.png' (image_source)
+21:01:52.224:     - source: 'penguin.png' (image_source)
+21:01:52.224:     - source: 'pokeball-ethan.png' (image_source)
+21:01:52.224:     - source: 'pyramix-tony.png' (image_source)
+21:01:52.224:     - source: 'rabbit.png' (image_source)
+21:01:52.224:     - source: 'Rubikscube.png' (image_source)
+21:01:52.224:     - source: 'spiderman-cute.png' (image_source)
+21:01:52.224:     - source: 'spiderman-jump.png' (image_source)
+21:01:52.224:     - source: 'spiderman-miles.png' (image_source)
+21:01:52.224:     - source: 'spiderman-ultra.png' (image_source)
+21:01:52.224:     - source: 'sun.png' (image_source)
+21:01:52.224:     - source: 'sushi.png' (image_source)
+21:01:52.224:     - source: 'tank-matt.png' (image_source)
+21:01:52.224:     - source: 'tank-modern.png' (image_source)
+21:01:52.224:     - source: 'transformer-bumblebee.png' (image_source)
+21:01:52.224:     - source: 'transformer-decepticon.png' (image_source)
+21:01:52.224:     - source: 'triceratops.png' (image_source)
+21:01:52.224:     - source: 'turtle-cartoon.png' (image_source)
+21:01:52.224:     - source: 'ultraman1.png' (image_source)
+21:01:52.224:     - source: 'ultraman2.png' (image_source)
+21:01:52.224:     - source: 'ultraman3.png' (image_source)
+21:01:52.224:     - source: 'ultraman4.png' (image_source)
+21:01:52.224:     - source: 'ultraman-cute.png' (image_source)
+21:01:52.224:     - source: 'ultraman-group.png' (image_source)
+21:01:52.224:     - source: 'watermelon.png' (image_source)
+21:01:52.224:     - source: 'watermelon-drink.png' (image_source)
+21:01:52.224:     - source: 'pikachu.png' (image_source)
+21:01:52.224:     - source: 'fried-dumplings.png' (image_source)
+21:01:52.224:     - source: 'rabbit-white.png' (image_source)
+21:01:52.224:     - source: 'rabbit-white.png' (image_source)
+21:01:52.224:     - source: 'horse-black.png' (image_source)
+21:01:52.224:     - source: 'flower.png' (image_source)
+21:01:52.224:     - source: 'cake.png' (image_source)
+21:01:52.224:     - source: 'panda.png' (image_source)
+21:01:52.224:     - source: 'fighterjet.png' (image_source)
+21:01:52.224:     - source: 'fried-rice.png' (image_source)
+21:01:52.224:     - source: 'rabbit-white.png' (image_source)
+21:01:52.224:     - source: 'spiderman-classic.png' (image_source)
+21:01:52.224:     - source: 'rabbit-white.png' (image_source)
+21:01:52.224:     - source: 'chipmunk.png' (image_source)
+21:01:52.224: - scene 'JW Share':
+21:01:52.224:     - source: 'JW Lib' (xcomposite_input)
+21:01:52.224:     - source: 'WIN 10 VM' (pulse_output_capture)
+21:01:52.224: ------------------------------------------------
+21:01:52.276: NV12 texture support not available
+21:01:52.276: P010 texture support not available
+21:01:52.279: Virtual camera started
+21:01:52.292: ==== Virtual Camera Start ==========================================
+21:01:53.324: v4l2-input: /dev/video0: select timed out
+21:01:53.324: v4l2-input: /dev/video0: failed to log status
+21:01:57.432: User switched to scene 'Classroom'
+21:01:59.686: Stopping virtual camera due to hotkey
+21:01:59.686: Output 'virtualcam_output': stopping
+21:01:59.686: Output 'virtualcam_output': Total frames output: 221
+21:01:59.686: Output 'virtualcam_output': Total drawn frames: 222
+21:01:59.686: ==== Virtual Camera Stop ===========================================
+21:01:59.695: Virtual camera stopped
+21:02:01.042: ==== Shutting down ==================================================
+21:02:01.050: pulse-input: Stopped recording from 'alsa_output.pci-0000_0d_00.1.hdmi-stereo-extra3.monitor'
+21:02:01.050: pulse-input: Got 408 packets with 489600 frames
+21:02:01.060: pulse-input: Stopped recording from 'alsa_input.usb-Razer_Razer_BlackShark_V2_Pro-00.mono-fallback'
+21:02:01.060: pulse-input: Got 353 packets with 423600 frames
+21:02:01.060: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_0f_00.4.iec958-stereo.monitor'
+21:02:01.060: pulse-am: Got 331 packets with 397200 frames
+21:02:01.112: v4l2-input: /dev/video0: Stopped capture after 105 frames
+21:02:01.268: All scene data cleared
+21:02:01.268: ------------------------------------------------
+21:02:01.346: [obs-websocket] [obs_module_unload] Shutting down...
+21:02:01.346: [obs-websocket] [obs_module_unload] Finished shutting down.
+21:02:01.352: [Scripting] Total detached callbacks: 0
+21:02:01.352: Freeing OBS context data
+21:02:01.364: == Profiler Results =============================
+21:02:01.364: run_program_init: 2180.57 ms
+21:02:01.364:  ┣OBSApp::AppInit: 5.03 ms
+21:02:01.364:  ┃ ┗OBSApp::InitLocale: 2.025 ms
+21:02:01.364:  ┗OBSApp::OBSInit: 2105.92 ms
+21:02:01.364:    ┣obs_startup: 1.487 ms
+21:02:01.364:    ┗OBSBasic::OBSInit: 2066.89 ms
+21:02:01.364:      ┣OBSBasic::InitBasicConfig: 0.07 ms
+21:02:01.364:      ┣OBSBasic::ResetAudio: 0.161 ms
+21:02:01.364:      ┣OBSBasic::ResetVideo: 95.235 ms
+21:02:01.364:      ┣OBSBasic::InitOBSCallbacks: 0.004 ms
+21:02:01.364:      ┣OBSBasic::InitHotkeys: 0.037 ms
+21:02:01.364:      ┣obs_load_all_modules2: 463.924 ms
+21:02:01.364:      ┃ ┣obs_init_module(aja-output-ui.so): 0.091 ms
+21:02:01.364:      ┃ ┣obs_init_module(aja.so): 0.062 ms
+21:02:01.364:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+21:02:01.364:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+21:02:01.364:      ┃ ┣obs_init_module(decklink.so): 0.135 ms
+21:02:01.364:      ┃ ┣obs_init_module(frontend-tools.so): 111.354 ms
+21:02:01.364:      ┃ ┣obs_init_module(image-source.so): 0.03 ms
+21:02:01.364:      ┃ ┣obs_init_module(linux-capture.so): 0.45 ms
+21:02:01.364:      ┃ ┣obs_init_module(linux-jack.so): 0.005 ms
+21:02:01.364:      ┃ ┣obs_init_module(linux-pipewire.so): 1.185 ms
+21:02:01.364:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.005 ms
+21:02:01.364:      ┃ ┣obs_init_module(linux-v4l2.so): 0.139 ms
+21:02:01.364:      ┃ ┣obs_init_module(obs-browser.so): 0.086 ms
+21:02:01.364:      ┃ ┣obs_init_module(obs-ffmpeg.so): 15.848 ms
+21:02:01.364:      ┃ ┃ ┗nvenc_check: 1.151 ms
+21:02:01.364:      ┃ ┣obs_init_module(obs-filters.so): 0.045 ms
+21:02:01.364:      ┃ ┣obs_init_module(obs-outputs.so): 0.006 ms
+21:02:01.364:      ┃ ┣obs_init_module(obs-transitions.so): 0.009 ms
+21:02:01.364:      ┃ ┣obs_init_module(obs-vst.so): 0.003 ms
+21:02:01.364:      ┃ ┣obs_init_module(obs-websocket.so): 39.832 ms
+21:02:01.364:      ┃ ┣obs_init_module(obs-x264.so): 0.002 ms
+21:02:01.364:      ┃ ┣obs_init_module(rtmp-services.so): 1.115 ms
+21:02:01.364:      ┃ ┗obs_init_module(text-freetype2.so): 0.017 ms
+21:02:01.364:      ┣OBSBasic::ResetOutputs: 0.124 ms
+21:02:01.364:      ┣OBSBasic::CreateHotkeys: 0.204 ms
+21:02:01.364:      ┣OBSBasic::InitService: 2.02 ms
+21:02:01.364:      ┣OBSBasic::InitPrimitives: 0.124 ms
+21:02:01.364:      ┗OBSBasic::Load: 1455.34 ms
+21:02:01.364: obs_hotkey_thread(25 ms): min=0.071 ms, median=0.138 ms, max=3.211 ms, 99th percentile=0.794 ms, 100% below 25 ms
+21:02:01.365: audio_thread(Audio): min=0.016 ms, median=0.032 ms, max=7.759 ms, 99th percentile=1.26 ms
+21:02:01.365: obs_graphics_thread(33.3333 ms): min=0.144 ms, median=1.983 ms, max=1386.58 ms, 99th percentile=12.576 ms, 99.6564% below 33.333 ms
+21:02:01.365:  ┣tick_sources: min=0 ms, median=0.041 ms, max=1380.91 ms, 99th percentile=0.61 ms
+21:02:01.365:  ┣output_frame: min=0.11 ms, median=1.488 ms, max=11.86 ms, 99th percentile=5.957 ms
+21:02:01.365:  ┃ ┣gs_context(video->graphics): min=0.11 ms, median=0.327 ms, max=11.461 ms, 99th percentile=2.683 ms, 1.76289 calls per parent call
+21:02:01.365:  ┃ ┃ ┣render_video: min=0.027 ms, median=0.162 ms, max=10.895 ms, 99th percentile=2.407 ms
+21:02:01.365:  ┃ ┃ ┃ ┣render_main_texture: min=0.02 ms, median=0.149 ms, max=10.887 ms, 99th percentile=2.401 ms
+21:02:01.365:  ┃ ┃ ┃ ┣render_output_texture: min=0.013 ms, median=0.023 ms, max=0.711 ms, 99th percentile=0.044 ms, 0.432749 calls per parent call
+21:02:01.365:  ┃ ┃ ┃ ┣render_convert_texture: min=0.016 ms, median=0.03 ms, max=0.808 ms, 99th percentile=0.052 ms, 0.432749 calls per parent call
+21:02:01.365:  ┃ ┃ ┃ ┗stage_output_texture: min=0.011 ms, median=0.018 ms, max=0.818 ms, 99th percentile=0.028 ms, 0.432749 calls per parent call
+21:02:01.365:  ┃ ┃ ┣gs_flush: min=0.001 ms, median=0.003 ms, max=0.027 ms, 99th percentile=0.011 ms
+21:02:01.365:  ┃ ┃ ┗download_frame: min=0 ms, median=0.047 ms, max=0.111 ms, 99th percentile=0.107 ms, 0.432749 calls per parent call
+21:02:01.365:  ┃ ┗output_video_data: min=0.129 ms, median=0.165 ms, max=0.417 ms, 99th percentile=0.409 ms, 0.75945 calls per parent call
+21:02:01.365:  ┗render_displays: min=0.003 ms, median=0.366 ms, max=3.893 ms, 99th percentile=0.971 ms
+21:02:01.365: video_thread(video): min=1.072 ms, median=1.638 ms, max=2.182 ms, 99th percentile=2.115 ms
+21:02:01.365: =================================================
+21:02:01.365: == Profiler Time Between Calls ==================
+21:02:01.365: obs_hotkey_thread(25 ms): min=25.132 ms, median=25.207 ms, max=28.281 ms, 96.3719% within ±2% of 25 ms (0% lower, 3.62812% higher)
+21:02:01.365: obs_graphics_thread(33.3333 ms): min=13.416 ms, median=33.334 ms, max=1386.58 ms, 97.931% within ±2% of 33.333 ms (1.03448% lower, 1.03448% higher)
+21:02:01.365: =================================================
+21:02:01.369: Number of memory leaks: 0
