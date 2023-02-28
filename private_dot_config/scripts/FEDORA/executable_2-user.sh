@@ -1,6 +1,30 @@
 #!/bin/bash
 #### This part of the script should run without root...
 #
+if [[ ! -d /home/ralldi/.config/ ]]
+then
+  mkdir /home/ralldi/.config/ 
+fi
+
+if [[ ! -d /home/ralldi/Pictures/ ]]
+then
+  mkdir /home/ralldi/Pictures/ 
+fi
+
+if [[ ! -d /home/ralldi/Videos/ ]]
+then
+  mkdir /home/ralldi/Videos/ 
+fi
+
+if [[ ! -d /home/ralldi/Downloads/ ]]
+then
+  mkdir /home/ralldi/Downloads/ 
+fi
+
+if [[ ! -d /home/ralldi/Documents/ ]]
+then
+  mkdir /home/ralldi/Documents/ 
+fi
 
 ## Install flatpak repo
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo &&
@@ -67,8 +91,7 @@ git clone https://github.com/svenstaro/rofi-calc.git &&
 systemctl --user enable pulsemods.service &&
 
 ## Pip installs
-  pip install xcffib cairocffi qtile psutil pulsemixer &&
+pip install qtile pulsemixer &&
 
 ## Flatpak installs
-flatpak install us.zoom.Zoom org.rncbc.qpwgraph org.rncbc.qpwgraph org.libreoffice.LibreOffice org.ferdium.Ferdium net.lutris.Lutris md.obsidian.Obsidian com.obsproject.Studio com.github.tchx84.Flatseal com.brave.Browser
-
+flatpak install us.zoom.Zoom org.libreoffice.LibreOffice org.ferdium.Ferdium md.obsidian.Obsidian com.obsproject.Studio com.github.tchx84.Flatseal com.brave.Browser

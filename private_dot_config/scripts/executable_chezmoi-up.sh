@@ -6,6 +6,7 @@ chezmoi add \
 ~/.bashrc \
 ~/.var/app/com.obsproject.Studio/config/obs-studio/ \
 ~/.config/dunst/ \
+~/.config/corectrl/ \
 ~/.config/gsimplecal \
 ~/.config/i3/ \
 ~/.config/kitty/ \
