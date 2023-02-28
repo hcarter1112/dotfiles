@@ -1,0 +1,8 @@
+[Unit]
+Description=start v4l2loopback
+
+[Service]
+ExecStart=/home/ralldi/.config/scripts/v4l2.sh
+
+[Install]
+WantedBy=default.target

@@ -13,6 +13,9 @@ alias swm.="$EDITOR /home/ralldi/.stumpwm.d/init.lisp"
 
 ####Filesystem Aliases#####
 
+alias sccd="cd ~/.config/scripts/"
+alias archcd="cd ~/.config/scripts/ARCH/"
+
 #bat fedora
   alias cat="bat"
   alias ccat=/usr/bin/cat

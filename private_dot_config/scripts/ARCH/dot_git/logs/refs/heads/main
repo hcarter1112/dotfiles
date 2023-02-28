@@ -5,3 +5,7 @@ a0aa96280201aec1772f659460d8e8159cb21e13 21874e1dac62678ecfcba6c906cee8dc8b5a3e8
 21874e1dac62678ecfcba6c906cee8dc8b5a3e87 4c1c91009d03d66828bd53979cd35ba1cb7b522a hcarter1112 <hcarter1112@gmail.com> 1677455346 -0500	commit: fixes
 4c1c91009d03d66828bd53979cd35ba1cb7b522a 4dd14167cd2d722140e766b19fbede5e4876059c hcarter1112 <hcarter1112@gmail.com> 1677456168 -0500	commit: add cargo install to aur pkg install.
 4dd14167cd2d722140e766b19fbede5e4876059c c9b1cd1cc3eb299429626518dc49d90e363d7ed2 hcarter1112 <hcarter1112@gmail.com> 1677458528 -0500	commit: change shell commands added
+c9b1cd1cc3eb299429626518dc49d90e363d7ed2 dcf76a77b1a685b02be726c70be9891e2129c977 hcarter1112 <hcarter1112@gmail.com> 1677507157 -0500	commit: added driver selection script
+dcf76a77b1a685b02be726c70be9891e2129c977 eb31972d5f0b03c9a94c7bd553ea13aa88827531 hcarter1112 <hcarter1112@gmail.com> 1677507693 -0500	commit: removed redundent intel ucode install from pactrap script
+eb31972d5f0b03c9a94c7bd553ea13aa88827531 5cc9798e2bcaa75691164c05ee665cecbfe18ef4 hcarter1112 <hcarter1112@gmail.com> 1677508170 -0500	commit: removed native package list conflicts and added dependency packages
+5cc9798e2bcaa75691164c05ee665cecbfe18ef4 10c513df56d013c209583d845608b7c23d5dc9fe hcarter1112 <hcarter1112@gmail.com> 1677508811 -0500	commit: fix aur script so you don'

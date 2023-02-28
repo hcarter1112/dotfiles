@@ -1,0 +1,56 @@
+################ These are the steps to follow for the install script
+
+0 - Move your dnf.conf file into place to speed things up
+sudo mv /etc/dnf/dnf.conf /etc/dnf/dnf.conf.bak && cp /home/ralldi/Downloads/dnf.conf /etc/dnf/dnf.conf
+
+1 - Update system
+2 - in a separate terminal start the nerdfonts download and the rclone sync
+
+## Copy over nerdfonts and backgrounds
+cp -r /home/ralldi/Downloads/nerd-fonts/ /home/ralldi/.gitstuff
+
+## git clone nerd fonts (if not present on your local drive)
+git clone https://github.com/ryanoasis/nerd-fonts.git
+
+## Chezmoi install and init
+sudo su &&
+cd / &&
+sh -c "$(curl -fsLS chezmoi.io/get)" &&
+exit
+
+3 - Download Zhumu from 
+https://www.me.zhumu.com/download
+
+4 - Run init_1 AS SUDO!!! - This installs all of your package manager programs along 
+with creating necessary folders if you don't have them. It also chages your 
+hostname. You can change this by going to the file and changing the last line
+before running the script.This script also syncs with RPM and installs flatpak. It also installs media codecs
+
+## Chezmoi apply - pull files from github and insert them
+chezmoi init --apply https://github.com/hcarter1112/dotfiles &&
+
+## Rclone sync
+/home/ralldi/.config/scripts/rclone-gd-init.sh
+
+## Install Node Version Manager (nvm)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
+  nvm install node
+
+## Install rust and cargo
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+## Install Lunar Vim
+LV_BRANCH='release-1.2/neovim-0.8' bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
+
+5 -  Run init_2 without root - REFRESH BASH BEFORE RUNNING!!! - This script takes care of downloading a bunch of 
+gitfiles and getting them set up for init_3. This also installs your pip and 
+flatpack packages
+
+6 - Run init_3 AS SUDO!!! -  This script is just to place files in root and wrap up 
+some of the git installs 
+
+7 - Last steps
+  1. Go into firefox to the about:profiles page and make a new profile using the folder that you from your repo
+  2. Set your background with Nitrogen if you are using a WM
+  3. Set your betterlockscreen (-u) with the same wallpaper
+  4. set up your crontab 
