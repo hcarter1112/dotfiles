@@ -1,6 +1,6 @@
 www.jw.org^partitionKey=%28http%2Cjw.org%29:HSTS	0	19418	1709290307251,1,0
 classify-client.services.mozilla.com:HSTS	1	19419	1709371892632,1,0
-www.youtube.com^partitionKey=%28http%2Cyoutube.com%29:HSTS	0	19417	1709245174535,1,0
+www.youtube.com^partitionKey=%28http%2Cyoutube.com%29:HSTS	1	19419	1709401375516,1,0
 drivefrontend-pa.clients6.google.com^partitionKey=%28http%2Cgoogle.com%29:HSTS	1	19418	1688595177793,1,1
 github.githubassets.com:HSTS	0	19418	1709252398985,1,0
 firefox.settings.services.mozilla.com:HSTS	2	19419	1709337725257,1,0
@@ -19,7 +19,7 @@ peoplestackwebexperiments-pa.clients6.google.com^partitionKey=%28http%2Cgoogle.c
 raw.githubusercontent.com:HSTS	1	19419	1709300311740,1,0
 drive.google.com^partitionKey=%28http%2Cgoogle.com%29:HSTS	1	19418	1709244772139,1,1
 api.bitwarden.com:HSTS	2	19419	1709340984212,1,1
-youtube.com^partitionKey=%28http%2Cyoutube.com%29:HSTS	0	19417	1709245184471,1,1
+youtube.com^partitionKey=%28http%2Cyoutube.com%29:HSTS	1	19419	1709401384538,1,1
 cdn.jsdelivr.net:HSTS	0	19418	1709302509149,1,1
 fonts.googleapis.com:HSTS	0	19417	1709244774003,1,0
 notifications.bitwarden.com:HSTS	1	19419	1709399747750,1,1

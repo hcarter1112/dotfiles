@@ -11,6 +11,7 @@ chezmoi add \
 ~/.config/i3/ \
 ~/.config/kitty/ \
 ~/.config/lvim/ \
+~/.config/nvim/ \
 ~/.config/polybar/ \
 ~/.config/fish/ \
 ~/.config/qtile/ \
