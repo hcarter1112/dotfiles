@@ -39,6 +39,8 @@ libXrandr \
 libjpeg-turbo-devel \
 libev-devel \
 libtool \
+lightdm \
+lightdm-gtk \
 lxappearance  \
 lxpolkit  \
 ncurses-devel \
