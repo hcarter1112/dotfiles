@@ -2,60 +2,63 @@ from libqtile import widget
 from libqtile.widget import Spacer
 from libqtile import qtile
 
+
 def init_colors():
-    return [ # 0 
+    return [
+            # 0
             ["#1d2021", "#1d2021"],
-             # 1   
+            # 1
             ["#282828", "#282828"],
-             # 2-Bar Background 
+            # 2-Bar Background
             ["#3c3836", "#3c3836"],
-             # 3 -  Text 
+            # 3 - Text
             ["#ebdbb2", "#ebdbb2"],
-             # 4 
+            # 4
             ["#a89984", "#a89984"],
-             # 5 
+            # 5
             ["#bdae93", "#bdae93"],
-             # 6- Widget text 
+            # 6- Widget text
             ["#665c54", "#665c54"],
-             # 7- Bar alt 
+            # 7- Bar alt
             ["#7c6f64", "#7c6f64"],
-             # 8 
+            # 8
             ["#928374", "#928374"],
-             # 9 - Group Box Inactive Icon,
+            # 9 - Group Box Inactive Icon,
             ["#a89984", "#a89984"],
-             # 10
+            # 10
             ["#ebdbb2", "#ebdbb2"],
-             # 11
+            # 11
             ["#b16286", "#b16286"],
-             # 12 - Clock and Cal Icon
+            # 12 - Clock and Cal Icon
             ["#fabd2f", "#fabd2f"],
-             # 13- Active Screen Underline
+            # 13- Active Screen Underline
             ["#fe8019", "#fe8019"],
-             # 14 - Second Widget Color
+            # 14 - Second Widget Color
             ["#83a598", "#83a598"],
-             # 15
+            # 15
             ["#458588", "#458588"],
-             # 16
+            # 16
             ["#689d6a", "#689d6a"],
-             # 17 - Third Widget Color
+            # 17 - Third Widget Color
             ["#8ec07c", "#8ec07c"],
-             # 18
+            # 18
             ["#b8bb26", "#b8bb26"],
-             # 19
+            # 19
             ["#fab387", "#fab387"],
-             # 20 - Urgent/No Update
+            # 20 - Urgent/No Update
             ["#cc241d", "#cc241d"],
-             # 21
+            # 21
             ["#fb4934", "#fb4934"],
-             # 22 - Group Box Active Icon, first colored widget
+            # 22 - Group Box Active Icon, first colored widget
             ["#d3869b", "#d3869b"],
-             # 23
+            # 23
             ["#d65d0e", "#d65d0e"],
-             # 24
+            # 24
             ["#d79921", "#d79921"],
-             # 25
+            # 25
             ["#fbf1c7", "#fbf1c7"],
-             #26
-            ["#FF00000", "#FF00000"]] # 26 Transparent
+            # 26 - Transparent
+            ["#FF00000", "#FF00000"]]
+
 
 colors = init_colors()

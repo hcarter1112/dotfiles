@@ -19,6 +19,8 @@ chezmoi add \
 ~/.config/rofi/ \
 ~/.config/scripts/ \
 ~/.config/sxhkd/ \
+~/.config/lf/ \
+~/.config/mimeapps.list/ \
 ~/.mozilla/firefox/rodsvujp.New\ Private/ \
 ~/.stumpwm.d/ \
 ~/projects/ \

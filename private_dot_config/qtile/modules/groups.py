@@ -58,6 +58,7 @@ groups.append(ScratchPad('scratchpad', [
     DropDown('pulsemixer', 'kitty  pulsemixer', width=0.5, height=0.5, x=0.25, y=0.2, opacity=0.85),
     DropDown('ncspot', 'kitty  ncspot', width=0.7, height=0.7, x=0.15, y=0.15, opacity=0.85),
     DropDown('ranger', 'kitty  ranger', width=0.7, height=0.7, x=0.15, y=0.15, opacity=0.8),
+    DropDown('lf', 'kitty  lf', width=0.7, height=0.7, x=0.15, y=0.15, opacity=0.8),
     DropDown('calc', 'kitty qalc', width=0.5, height=0.5, x=0.25, y=0.2, opacity=0.85),
 ]))
 
@@ -66,5 +67,6 @@ keys.append(Key("A-<Return>", lazy.group['scratchpad'].dropdown_toggle('term')))
 keys.append(Key("C-S-1", lazy.group['scratchpad'].dropdown_toggle('htop'))),
 keys.append(Key("C-S-2", lazy.group['scratchpad'].dropdown_toggle('pulsemixer'))),
 keys.append(Key("C-S-3", lazy.group['scratchpad'].dropdown_toggle('ncspot'))),
-keys.append(Key("C-S-4", lazy.group['scratchpad'].dropdown_toggle('ranger'))),
+# keys.append(Key("C-S-4", lazy.group['scratchpad'].dropdown_toggle('ranger'))),
+keys.append(Key("C-S-4", lazy.group['scratchpad'].dropdown_toggle('lf'))),
 keys.append(Key("C-S-5", lazy.group['scratchpad'].dropdown_toggle('calc'))),

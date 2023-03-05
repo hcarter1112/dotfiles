@@ -1,8 +1,11 @@
 
 ### EXPORT ###
-set -U fish_user_paths  $HOME/.local/bin $HOME/Applications $fish_user_paths /home/ralldi/.config/scripts/ /home/ralldi/.cargo/bin/ /home/ralldi/.fnm/fnm /home/ralldi/.nvm/versions/node/v19.3.0/bin /home/ralldi/.emacs.d/bin/ /home/ralldi/.doom/bin/
+set -U fish_user_paths  $HOME/.local/bin $HOME/Applications $fish_user_paths /home/ralldi/.config/scripts/ /home/ralldi/.cargo/bin/ /home/ralldi/.fnm/fnm /home/ralldi/.nvm/versions/node/v19.3.0/bin /home/ralldi/.emacs.d/bin/ /home/ralldi/.doom/bin/ /usr/local/go/bin /home/ralldi/go/bin/
 set fish_greeting                      # Supresses fish's intro message
+set OPENER "/usr/bin/rifle"
 set TERM "xterm-256color"              # Sets the terminal type
+set PAGER "bat"
+set VISUAL "/usr/bin/nvim"
 set EDITOR "/usr/bin/nvim"      # $EDITOR use Emacs in terminal
 set TERM "kitty"
 ### SET EITHER DEFAULT EMACS MODE OR VI MODE ###

@@ -6,8 +6,12 @@ alias bash.="$EDITOR /home/ralldi/.bashrc"
 alias scripts.="$EDITOR /home/ralldi/.config/scripts/"
 alias kitty.="$EDITOR /home/ralldi/.config/kitty/kitty.conf"
 alias rif.="$EDITOR ~/.config/ranger/rifle.conf"
+alias lf.="$EDITOR ~/.config/lf/lfrc"
 alias sx.="$EDITOR ~/.config/sxhkd/sxhkdrc"
+alias pb.="$EDITOR ~/.config/polybar/"
 alias q.="$EDITOR ~/.config/qtile/"
+alias chez.="$EDITOR ~/.config/scripts/chezmoi-up.sh"
+alias mime.="$EDITOR ~/.config/mimeapps.list"
 alias de.="$EDITOR ~/.doom.d/"
 alias swm.="$EDITOR /home/ralldi/.stumpwm.d/init.lisp"
 
@@ -57,7 +61,7 @@ alias hmt="ranger /home/ralldi/Documents/rclone/HmT-Mats/"
 alias clock="tty-clock -tcs"
 alias extip="curl icanhazip.com"
 alias e=$EDITOR
-alias se=sudo $EDITOR
+alias se="sudo $EDITOR"
 alias mvc="$HOME/.config/scripts/mv-class-notes.sh"
 
 #####REBOOT & SHUTDOWN####

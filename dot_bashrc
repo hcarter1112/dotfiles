@@ -12,7 +12,7 @@ then
 fi
 PATH="$HOME/.emacs.d/bin:$HOME/.doom/bin:$PATH"
 export PATH
-export EDITOR="nvim"
+export EDITOR=/usr/bin/nvim
 export TERM=kitty
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
