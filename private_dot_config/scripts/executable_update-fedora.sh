@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo dnf upgrade -y &&
+sudo dnf upgrade &&
 echo "------------------------" &&
 sudo flatpak update -y &&
 # echo "------------------------" &&

@@ -1,0 +1,200 @@
+08:13:52.964: Command Line Arguments: --startvirtualcam
+08:13:52.964: Using EGL/X11
+08:13:52.964: CPU Name: AMD Ryzen 5 3600 6-Core Processor
+08:13:52.964: CPU Speed: 2095.217MHz
+08:13:52.964: Physical Cores: 6, Logical Cores: 12
+08:13:52.964: Physical Memory: 32002MB Total, 3364MB Free
+08:13:52.964: Kernel Version: Linux 6.1.14-201.fsync.fc37.x86_64
+08:13:52.965: Distribution: "KDE Flatpak runtime" "5.15-21.08"
+08:13:52.965: Session Type: x11
+08:13:52.965: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.14
+08:13:52.965: Qt Version: 6.4.2 (runtime), 6.4.2 (compiled)
+08:13:52.965: Portable mode: false
+08:13:53.007: OBS 29.0.2 (linux)
+08:13:53.007: ---------------------------------
+08:13:53.007: ---------------------------------
+08:13:53.007: audio settings reset:
+08:13:53.007: 	samples per sec: 48000
+08:13:53.007: 	speakers:        2
+08:13:53.007: 	max buffering:   960 milliseconds
+08:13:53.007: 	buffering type:  dynamically increasing
+08:13:53.011: ---------------------------------
+08:13:53.011: Initializing OpenGL...
+08:13:53.053: Loading up OpenGL on adapter AMD AMD Radeon RX 6700 XT (navi22, LLVM 15.0.7, DRM 3.49, 6.1.14-201.fsync.fc37.x86_64)
+08:13:53.053: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 22.3.5 (git-6570a15662), shading language 4.60
+08:13:53.080: ---------------------------------
+08:13:53.080: video settings reset:
+08:13:53.080: 	base resolution:   1920x1080
+08:13:53.080: 	output resolution: 1280x720
+08:13:53.080: 	downscale filter:  Bicubic
+08:13:53.080: 	fps:               30/1
+08:13:53.080: 	format:            NV12
+08:13:53.080: 	YUV mode:          Rec. 709/Partial
+08:13:53.081: NV12 texture support not available
+08:13:53.081: P010 texture support not available
+08:13:53.083: Audio monitoring device:
+08:13:53.083: 	name: Monitor of Starship/Matisse HD Audio Controller Digital Stereo (IEC958)
+08:13:53.083: 	id: alsa_output.pci-0000_0f_00.4.iec958-stereo.monitor
+08:13:53.083: ---------------------------------
+08:13:53.103: No AJA devices found, skipping loading AJA UI plugin
+08:13:53.103: Failed to initialize module 'aja-output-ui.so'
+08:13:53.119: No AJA devices found, skipping loading AJA plugin
+08:13:53.119: Failed to initialize module 'aja.so'
+08:13:53.125: Failed to load 'en-US' text for module: 'decklink-captions.so'
+08:13:53.133: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+08:13:53.140: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+08:13:53.140: Failed to initialize module 'decklink.so'
+08:13:53.338: [pipewire] No captures available
+08:13:53.365: [obs-browser]: Version 2.19.0
+08:13:53.365: [obs-browser]: CEF Version 103.0.5060.134 (runtime), 103.0.0-5060-shared-textures_143.2591+g4204d54+chromium-103.0.5060.134 (compiled)
+08:13:53.383: VAAPI: API version 1.15
+08:13:53.386: FFmpeg VAAPI H264 encoding supported
+08:13:53.431: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.1.0 | RPC Version: 1)
+08:13:53.431: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.4.2 | Qt version (run-time): 6.4.2
+08:13:53.431: [obs-websocket] [obs_module_load] Linked ASIO Version: 101201
+08:13:53.470: [obs-websocket] [obs_module_load] Module loaded.
+08:13:53.495: ---------------------------------
+08:13:53.495:   Loaded Modules:
+08:13:53.495:     text-freetype2.so
+08:13:53.495:     rtmp-services.so
+08:13:53.495:     obs-x264.so
+08:13:53.495:     obs-websocket.so
+08:13:53.495:     obs-vst.so
+08:13:53.495:     obs-transitions.so
+08:13:53.495:     obs-outputs.so
+08:13:53.495:     obs-filters.so
+08:13:53.495:     obs-ffmpeg.so
+08:13:53.495:     obs-browser.so
+08:13:53.495:     linux-v4l2.so
+08:13:53.495:     linux-pulseaudio.so
+08:13:53.495:     linux-pipewire.so
+08:13:53.495:     linux-jack.so
+08:13:53.495:     linux-capture.so
+08:13:53.495:     image-source.so
+08:13:53.495:     frontend-tools.so
+08:13:53.495:     decklink-output-ui.so
+08:13:53.495:     decklink-captions.so
+08:13:53.495: ---------------------------------
+08:13:53.495: ==== Startup complete ===============================================
+08:13:53.520: All scene data cleared
+08:13:53.520: ------------------------------------------------
+08:14:06.669: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.66) 15.0.0'
+08:14:06.669: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+08:14:06.669: pulse-input: Started recording from 'alsa_output.usb-Razer_Razer_BlackShark_V2_Pro-00.analog-stereo.monitor' (default)
+08:14:06.670: [window-capture: 'JW Lib'] update settings:
+08:14:06.670: 	title: unknown
+08:14:06.670: 	class: unknown
+08:14:06.670: 
+08:14:07.216: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: WIN 10 VM)
+08:14:07.216: 
+08:14:07.992: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.66) 15.0.0'
+08:14:07.992: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+08:14:07.992: pulse-input: Started recording from 'alsa_input.usb-Razer_Razer_BlackShark_V2_Pro-00.mono-fallback'
+08:14:07.997: pulse-am: Server name: 'PulseAudio (on PipeWire 0.3.66) 15.0.0'
+08:14:07.997: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
+08:14:07.998: pulse-am: Started Monitoring in 'alsa_output.pci-0000_0f_00.4.iec958-stereo.monitor'
+08:14:08.011: v4l2-input: Start capture from /dev/video0
+08:14:28.161: v4l2-input: Input: 0
+08:14:43.521: v4l2-input: Unable to set format
+08:14:43.521: v4l2-input: Initialization failed, errno: Input/output error
+08:14:43.538: Switched to scene 'Classroom'
+08:14:43.538: ------------------------------------------------
+08:14:43.538: Loaded scenes:
+08:14:43.538: - scene '[NS] Audio':
+08:14:43.538:     - source: 'RazerMic' (pulse_input_capture)
+08:14:43.538:         - monitoring: monitor only
+08:14:43.538:         - filter: 'Noise Gate' (noise_gate_filter)
+08:14:43.538:         - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+08:14:43.538:         - filter: 'Compressor' (compressor_filter)
+08:14:43.538: - scene '[NS] Video':
+08:14:43.538:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+08:14:43.538: - scene 'Base':
+08:14:43.543:     - source: '[NS] Audio' (scene)
+08:14:43.543:     - source: '[NS] Video' (scene)
+08:14:43.543: - scene 'Classroom':
+08:14:43.544:     - source: 'Base' (scene)
+08:14:43.544:     - source: 'Name Plate' (text_ft2_source_v2)
+08:14:43.544:     - source: 'brody.jpeg' (image_source)
+08:14:43.544:     - source: 'butterflies.png' (image_source)
+08:14:43.544:     - source: 'candy-gumdrops.png' (image_source)
+08:14:43.544:     - source: 'car.png' (image_source)
+08:14:43.544:     - source: 'cat.png' (image_source)
+08:14:43.544:     - source: 'cat-white.png' (image_source)
+08:14:43.544:     - source: 'colored-pencils.png' (image_source)
+08:14:43.544:     - source: 'dinosaurs.png' (image_source)
+08:14:43.544:     - source: 'dog-fluffy.png' (image_source)
+08:14:43.544:     - source: 'drum-kit.png' (image_source)
+08:14:43.544:     - source: 'Elsa.png' (image_source)
+08:14:43.544:     - source: 'fighterjet.png' (image_source)
+08:14:43.544:     - source: 'fire truck.png' (image_source)
+08:14:43.544:     - source: 'fish-many.png' (image_source)
+08:14:43.544:     - source: 'fish-tropical.png' (image_source)
+08:14:43.544:     - source: 'fox.png' (image_source)
+08:14:43.544:     - source: 'George.png' (image_source)
+08:14:43.544:     - source: 'harold2.png' (image_source)
+08:14:43.544:     - source: 'Harold Sticker.png' (image_source)
+08:14:43.544:     - source: 'Ice Cream.png' (image_source)
+08:14:43.544:     - source: 'ice-cream-chocolate.png' (image_source)
+08:14:43.544:     - source: 'icecream-strawberry.png' (image_source)
+08:14:43.544:     - source: 'ironman-classic.png' (image_source)
+08:14:43.544:     - source: 'ironman-lego.png' (image_source)
+08:14:43.545:     - source: 'jacket-pink.png' (image_source)
+08:14:43.545:     - source: 'milk-tony.png' (image_source)
+08:14:43.545:     - source: 'moon-tony.png' (image_source)
+08:14:43.545:     - source: 'nerf_gun.png' (image_source)
+08:14:43.545:     - source: 'ninja-tony.png' (image_source)
+08:14:43.545:     - source: 'olaf.png' (image_source)
+08:14:43.545:     - source: 'orange-juice.png' (image_source)
+08:14:43.545:     - source: 'owl-snow.png' (image_source)
+08:14:43.545:     - source: 'panda.png' (image_source)
+08:14:43.545:     - source: 'penguin.png' (image_source)
+08:14:43.545:     - source: 'pokeball-ethan.png' (image_source)
+08:14:43.545:     - source: 'pyramix-tony.png' (image_source)
+08:14:43.545:     - source: 'rabbit.png' (image_source)
+08:14:43.545:     - source: 'Rubikscube.png' (image_source)
+08:14:43.545:     - source: 'spiderman-cute.png' (image_source)
+08:14:43.545:     - source: 'spiderman-jump.png' (image_source)
+08:14:43.545:     - source: 'spiderman-miles.png' (image_source)
+08:14:43.545:     - source: 'spiderman-ultra.png' (image_source)
+08:14:43.545:     - source: 'sun.png' (image_source)
+08:14:43.545:     - source: 'sushi.png' (image_source)
+08:14:43.545:     - source: 'tank-matt.png' (image_source)
+08:14:43.545:     - source: 'tank-modern.png' (image_source)
+08:14:43.545:     - source: 'transformer-bumblebee.png' (image_source)
+08:14:43.545:     - source: 'transformer-decepticon.png' (image_source)
+08:14:43.545:     - source: 'triceratops.png' (image_source)
+08:14:43.545:     - source: 'turtle-cartoon.png' (image_source)
+08:14:43.545:     - source: 'ultraman1.png' (image_source)
+08:14:43.545:     - source: 'ultraman2.png' (image_source)
+08:14:43.545:     - source: 'ultraman3.png' (image_source)
+08:14:43.545:     - source: 'ultraman4.png' (image_source)
+08:14:43.545:     - source: 'ultraman-cute.png' (image_source)
+08:14:43.545:     - source: 'ultraman-group.png' (image_source)
+08:14:43.545:     - source: 'watermelon.png' (image_source)
+08:14:43.545:     - source: 'watermelon-drink.png' (image_source)
+08:14:43.545:     - source: 'pikachu.png' (image_source)
+08:14:43.545:     - source: 'fried-dumplings.png' (image_source)
+08:14:43.545:     - source: 'rabbit-white.png' (image_source)
+08:14:43.545:     - source: 'rabbit-white.png' (image_source)
+08:14:43.545:     - source: 'horse-black.png' (image_source)
+08:14:43.545:     - source: 'flower.png' (image_source)
+08:14:43.545:     - source: 'cake.png' (image_source)
+08:14:43.545:     - source: 'panda.png' (image_source)
+08:14:43.545:     - source: 'fighterjet.png' (image_source)
+08:14:43.545:     - source: 'fried-rice.png' (image_source)
+08:14:43.545:     - source: 'rabbit-white.png' (image_source)
+08:14:43.545:     - source: 'spiderman-classic.png' (image_source)
+08:14:43.545:     - source: 'rabbit-white.png' (image_source)
+08:14:43.545:     - source: 'chipmunk.png' (image_source)
+08:14:43.545:     - source: 'chocolate.png' (image_source)
+08:14:43.545:     - source: 'Mulan.png' (image_source)
+08:14:43.545:     - source: 'chipmunk.png' (image_source)
+08:14:43.545:     - source: 'rabbit-white.png' (image_source)
+08:14:43.545: - scene 'JW Share':
+08:14:43.545:     - source: 'JW Lib' (xcomposite_input)
+08:14:43.545:     - source: 'WIN 10 VM' (pulse_output_capture)
+08:14:43.545: ------------------------------------------------
+08:14:43.795: NV12 texture support not available
+08:14:43.795: P010 texture support not available
+08:14:43.798: Virtual camera started
+08:14:43.812: ==== Virtual Camera Start ==========================================

@@ -13,6 +13,7 @@ dmidecode
 dnsmasq
 dunst
 efibootmgr
+evolution
 exa
 fd
 feh
@@ -29,6 +30,8 @@ gvfs
 htop
 kitty
 kvantum
+lazygit
+lf
 libguestfs
 lightdm
 lightdm-gtk-greeter
@@ -63,12 +66,14 @@ qtile
 ranger
 rclone
 reflector
+ripgrep
 rofi-calc
 rofi-emoji
 rustup
 sxhkd
 thunar
 thunar-volman
+trash-cli
 ttf-joypixels
 v4l2loopback-dkms
 v4l2loopback-utils

@@ -30,7 +30,7 @@ then
   cp grub /etc/default/
 fi
 
-./chezmoi-install.sh &&
+$HOME/.gitstuff/FEDORA/chezmoi-install.sh &&
 
 systemctl enable --now chronyd libvirtd lightdm NetworkManager polkit v4l2 &&
  

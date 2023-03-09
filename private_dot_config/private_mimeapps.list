@@ -1,0 +1,16 @@
+[Removed Associations]
+
+[Added Associations]
+application/pdf=userapp-firefox-WXISX1.desktop;
+x-scheme-handler/mailto=userapp-Evolution-CA2J11.desktop;
+
+[Default Applications]
+application/pdf=firefox.desktop
+image/png=feh.desktop
+image/jpg=feh.desktop
+image/jpeg=feh.desktop
+text/plain=nvim.desktop
+image/webp=feh.desktop
+image/svg+xml=imagemagic.desktop
+text/x-shellscript=nvim.desktop
+x-scheme-handler/mailto=userapp-Evolution-CA2J11.desktop

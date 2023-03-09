@@ -1,0 +1,351 @@
+08:17:04.402: Command Line Arguments: --startvirtualcam
+08:17:04.402: Using EGL/X11
+08:17:04.403: CPU Name: AMD Ryzen 5 3600 6-Core Processor
+08:17:04.403: CPU Speed: 2195.503MHz
+08:17:04.403: Physical Cores: 6, Logical Cores: 12
+08:17:04.403: Physical Memory: 32002MB Total, 27138MB Free
+08:17:04.403: Kernel Version: Linux 6.1.14-201.fsync.fc37.x86_64
+08:17:04.403: Distribution: "KDE Flatpak runtime" "5.15-21.08"
+08:17:04.403: Session Type: x11
+08:17:04.403: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.14
+08:17:04.404: Qt Version: 6.4.2 (runtime), 6.4.2 (compiled)
+08:17:04.404: Portable mode: false
+08:17:04.441: OBS 29.0.2 (linux)
+08:17:04.441: ---------------------------------
+08:17:04.441: ---------------------------------
+08:17:04.441: audio settings reset:
+08:17:04.441: 	samples per sec: 48000
+08:17:04.441: 	speakers:        2
+08:17:04.441: 	max buffering:   960 milliseconds
+08:17:04.441: 	buffering type:  dynamically increasing
+08:17:04.446: ---------------------------------
+08:17:04.446: Initializing OpenGL...
+08:17:04.564: Loading up OpenGL on adapter AMD AMD Radeon RX 6700 XT (navi22, LLVM 15.0.7, DRM 3.49, 6.1.14-201.fsync.fc37.x86_64)
+08:17:04.564: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 22.3.5 (git-6570a15662), shading language 4.60
+08:17:04.600: ---------------------------------
+08:17:04.600: video settings reset:
+08:17:04.600: 	base resolution:   1920x1080
+08:17:04.600: 	output resolution: 1280x720
+08:17:04.600: 	downscale filter:  Bicubic
+08:17:04.600: 	fps:               30/1
+08:17:04.600: 	format:            NV12
+08:17:04.600: 	YUV mode:          Rec. 709/Partial
+08:17:04.600: NV12 texture support not available
+08:17:04.600: P010 texture support not available
+08:17:04.602: Audio monitoring device:
+08:17:04.602: 	name: Monitor of Starship/Matisse HD Audio Controller Digital Stereo (IEC958)
+08:17:04.602: 	id: alsa_output.pci-0000_0f_00.4.iec958-stereo.monitor
+08:17:04.602: ---------------------------------
+08:17:04.619: No AJA devices found, skipping loading AJA UI plugin
+08:17:04.619: Failed to initialize module 'aja-output-ui.so'
+08:17:04.635: No AJA devices found, skipping loading AJA plugin
+08:17:04.635: Failed to initialize module 'aja.so'
+08:17:04.640: Failed to load 'en-US' text for module: 'decklink-captions.so'
+08:17:04.646: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+08:17:04.652: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+08:17:04.652: Failed to initialize module 'decklink.so'
+08:17:04.876: [pipewire] No captures available
+08:17:04.900: [obs-browser]: Version 2.19.0
+08:17:04.900: [obs-browser]: CEF Version 103.0.5060.134 (runtime), 103.0.0-5060-shared-textures_143.2591+g4204d54+chromium-103.0.5060.134 (compiled)
+08:17:04.926: VAAPI: API version 1.15
+08:17:04.929: FFmpeg VAAPI H264 encoding supported
+08:17:04.972: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.1.0 | RPC Version: 1)
+08:17:04.972: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.4.2 | Qt version (run-time): 6.4.2
+08:17:04.972: [obs-websocket] [obs_module_load] Linked ASIO Version: 101201
+08:17:05.009: [obs-websocket] [obs_module_load] Module loaded.
+08:17:05.030: ---------------------------------
+08:17:05.030:   Loaded Modules:
+08:17:05.030:     text-freetype2.so
+08:17:05.030:     rtmp-services.so
+08:17:05.030:     obs-x264.so
+08:17:05.030:     obs-websocket.so
+08:17:05.030:     obs-vst.so
+08:17:05.030:     obs-transitions.so
+08:17:05.030:     obs-outputs.so
+08:17:05.030:     obs-filters.so
+08:17:05.030:     obs-ffmpeg.so
+08:17:05.030:     obs-browser.so
+08:17:05.030:     linux-v4l2.so
+08:17:05.030:     linux-pulseaudio.so
+08:17:05.030:     linux-pipewire.so
+08:17:05.030:     linux-jack.so
+08:17:05.030:     linux-capture.so
+08:17:05.030:     image-source.so
+08:17:05.030:     frontend-tools.so
+08:17:05.030:     decklink-output-ui.so
+08:17:05.030:     decklink-captions.so
+08:17:05.030: ---------------------------------
+08:17:05.030: ==== Startup complete ===============================================
+08:17:05.082: All scene data cleared
+08:17:05.082: ------------------------------------------------
+08:17:05.097: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.66) 15.0.0'
+08:17:05.097: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+08:17:05.097: pulse-input: Started recording from 'alsa_output.usb-Razer_Razer_BlackShark_V2_Pro-00.analog-stereo.monitor' (default)
+08:17:05.098: [window-capture: 'JW Lib'] update settings:
+08:17:05.098: 	title: unknown
+08:17:05.098: 	class: unknown
+08:17:05.098: 
+08:17:05.658: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: WIN 10 VM)
+08:17:05.658: 
+08:17:06.454: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.66) 15.0.0'
+08:17:06.454: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+08:17:06.454: pulse-input: Started recording from 'alsa_input.usb-Razer_Razer_BlackShark_V2_Pro-00.mono-fallback'
+08:17:06.460: pulse-am: Server name: 'PulseAudio (on PipeWire 0.3.66) 15.0.0'
+08:17:06.460: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
+08:17:06.460: pulse-am: Started Monitoring in 'alsa_output.pci-0000_0f_00.4.iec958-stereo.monitor'
+08:17:06.475: v4l2-input: Start capture from /dev/video0
+08:17:06.475: v4l2-input: Input: 0
+08:17:06.476: v4l2-input: Resolution: 1920x1080
+08:17:06.476: v4l2-input: Pixelformat: BGR3
+08:17:06.476: v4l2-input: Linesize: 5760 Bytes
+08:17:06.476: v4l2-input: Framerate: 30.00 fps
+08:17:06.477: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+08:17:06.494: Switched to scene 'Classroom'
+08:17:06.494: ------------------------------------------------
+08:17:06.494: Loaded scenes:
+08:17:06.494: - scene '[NS] Audio':
+08:17:06.494:     - source: 'RazerMic' (pulse_input_capture)
+08:17:06.494:         - monitoring: monitor only
+08:17:06.494:         - filter: 'Noise Gate' (noise_gate_filter)
+08:17:06.494:         - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+08:17:06.494:         - filter: 'Compressor' (compressor_filter)
+08:17:06.494: - scene '[NS] Video':
+08:17:06.494:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+08:17:06.494: - scene 'Base':
+08:17:06.498:     - source: '[NS] Audio' (scene)
+08:17:06.498:     - source: '[NS] Video' (scene)
+08:17:06.498: - scene 'Classroom':
+08:17:06.499:     - source: 'Base' (scene)
+08:17:06.499:     - source: 'Name Plate' (text_ft2_source_v2)
+08:17:06.499:     - source: 'brody.jpeg' (image_source)
+08:17:06.499:     - source: 'butterflies.png' (image_source)
+08:17:06.499:     - source: 'candy-gumdrops.png' (image_source)
+08:17:06.499:     - source: 'car.png' (image_source)
+08:17:06.499:     - source: 'cat.png' (image_source)
+08:17:06.499:     - source: 'cat-white.png' (image_source)
+08:17:06.499:     - source: 'colored-pencils.png' (image_source)
+08:17:06.499:     - source: 'dinosaurs.png' (image_source)
+08:17:06.499:     - source: 'dog-fluffy.png' (image_source)
+08:17:06.499:     - source: 'drum-kit.png' (image_source)
+08:17:06.499:     - source: 'Elsa.png' (image_source)
+08:17:06.499:     - source: 'fighterjet.png' (image_source)
+08:17:06.499:     - source: 'fire truck.png' (image_source)
+08:17:06.499:     - source: 'fish-many.png' (image_source)
+08:17:06.499:     - source: 'fish-tropical.png' (image_source)
+08:17:06.499:     - source: 'fox.png' (image_source)
+08:17:06.499:     - source: 'George.png' (image_source)
+08:17:06.499:     - source: 'harold2.png' (image_source)
+08:17:06.499:     - source: 'Harold Sticker.png' (image_source)
+08:17:06.500:     - source: 'Ice Cream.png' (image_source)
+08:17:06.500:     - source: 'ice-cream-chocolate.png' (image_source)
+08:17:06.500:     - source: 'icecream-strawberry.png' (image_source)
+08:17:06.500:     - source: 'ironman-classic.png' (image_source)
+08:17:06.500:     - source: 'ironman-lego.png' (image_source)
+08:17:06.500:     - source: 'jacket-pink.png' (image_source)
+08:17:06.500:     - source: 'milk-tony.png' (image_source)
+08:17:06.500:     - source: 'moon-tony.png' (image_source)
+08:17:06.500:     - source: 'nerf_gun.png' (image_source)
+08:17:06.500:     - source: 'ninja-tony.png' (image_source)
+08:17:06.500:     - source: 'olaf.png' (image_source)
+08:17:06.500:     - source: 'orange-juice.png' (image_source)
+08:17:06.500:     - source: 'owl-snow.png' (image_source)
+08:17:06.500:     - source: 'panda.png' (image_source)
+08:17:06.500:     - source: 'penguin.png' (image_source)
+08:17:06.500:     - source: 'pokeball-ethan.png' (image_source)
+08:17:06.500:     - source: 'pyramix-tony.png' (image_source)
+08:17:06.500:     - source: 'rabbit.png' (image_source)
+08:17:06.500:     - source: 'Rubikscube.png' (image_source)
+08:17:06.500:     - source: 'spiderman-cute.png' (image_source)
+08:17:06.500:     - source: 'spiderman-jump.png' (image_source)
+08:17:06.500:     - source: 'spiderman-miles.png' (image_source)
+08:17:06.500:     - source: 'spiderman-ultra.png' (image_source)
+08:17:06.500:     - source: 'sun.png' (image_source)
+08:17:06.500:     - source: 'sushi.png' (image_source)
+08:17:06.500:     - source: 'tank-matt.png' (image_source)
+08:17:06.500:     - source: 'tank-modern.png' (image_source)
+08:17:06.500:     - source: 'transformer-bumblebee.png' (image_source)
+08:17:06.500:     - source: 'transformer-decepticon.png' (image_source)
+08:17:06.500:     - source: 'triceratops.png' (image_source)
+08:17:06.500:     - source: 'turtle-cartoon.png' (image_source)
+08:17:06.500:     - source: 'ultraman1.png' (image_source)
+08:17:06.500:     - source: 'ultraman2.png' (image_source)
+08:17:06.500:     - source: 'ultraman3.png' (image_source)
+08:17:06.500:     - source: 'ultraman4.png' (image_source)
+08:17:06.500:     - source: 'ultraman-cute.png' (image_source)
+08:17:06.500:     - source: 'ultraman-group.png' (image_source)
+08:17:06.500:     - source: 'watermelon.png' (image_source)
+08:17:06.500:     - source: 'watermelon-drink.png' (image_source)
+08:17:06.500:     - source: 'pikachu.png' (image_source)
+08:17:06.500:     - source: 'fried-dumplings.png' (image_source)
+08:17:06.500:     - source: 'rabbit-white.png' (image_source)
+08:17:06.500:     - source: 'rabbit-white.png' (image_source)
+08:17:06.500:     - source: 'horse-black.png' (image_source)
+08:17:06.500:     - source: 'flower.png' (image_source)
+08:17:06.500:     - source: 'cake.png' (image_source)
+08:17:06.500:     - source: 'panda.png' (image_source)
+08:17:06.500:     - source: 'fighterjet.png' (image_source)
+08:17:06.500:     - source: 'fried-rice.png' (image_source)
+08:17:06.500:     - source: 'rabbit-white.png' (image_source)
+08:17:06.500:     - source: 'spiderman-classic.png' (image_source)
+08:17:06.500:     - source: 'rabbit-white.png' (image_source)
+08:17:06.500:     - source: 'chipmunk.png' (image_source)
+08:17:06.500:     - source: 'chocolate.png' (image_source)
+08:17:06.500:     - source: 'Mulan.png' (image_source)
+08:17:06.500:     - source: 'chipmunk.png' (image_source)
+08:17:06.500: - scene 'JW Share':
+08:17:06.500:     - source: 'JW Lib' (xcomposite_input)
+08:17:06.500:     - source: 'WIN 10 VM' (pulse_output_capture)
+08:17:06.500: ------------------------------------------------
+08:17:06.898: NV12 texture support not available
+08:17:06.898: P010 texture support not available
+08:17:06.903: Virtual camera started
+08:17:06.916: ==== Virtual Camera Start ==========================================
+08:17:07.589: v4l2-input: /dev/video0: select timed out
+08:17:07.589: v4l2-input: /dev/video0: failed to log status
+08:17:36.905: Failed to create xdg-screensaver: 2
+08:18:06.905: Failed to create xdg-screensaver: 2
+08:18:36.906: Failed to create xdg-screensaver: 2
+08:19:06.907: Failed to create xdg-screensaver: 2
+08:19:36.907: Failed to create xdg-screensaver: 2
+08:20:06.908: Failed to create xdg-screensaver: 2
+08:20:36.909: Failed to create xdg-screensaver: 2
+08:21:06.909: Failed to create xdg-screensaver: 2
+08:21:36.910: Failed to create xdg-screensaver: 2
+08:22:06.478: User added source 'chipmunk.png' (image_source) to scene 'Classroom'
+08:22:06.910: Failed to create xdg-screensaver: 2
+08:22:36.911: Failed to create xdg-screensaver: 2
+08:23:06.911: Failed to create xdg-screensaver: 2
+08:23:36.912: Failed to create xdg-screensaver: 2
+08:24:06.913: Failed to create xdg-screensaver: 2
+08:24:36.913: Failed to create xdg-screensaver: 2
+08:25:06.914: Failed to create xdg-screensaver: 2
+08:25:36.914: Failed to create xdg-screensaver: 2
+08:26:06.915: Failed to create xdg-screensaver: 2
+08:26:36.916: Failed to create xdg-screensaver: 2
+08:27:06.916: Failed to create xdg-screensaver: 2
+08:27:36.917: Failed to create xdg-screensaver: 2
+08:28:06.918: Failed to create xdg-screensaver: 2
+08:28:36.918: Failed to create xdg-screensaver: 2
+08:29:06.919: Failed to create xdg-screensaver: 2
+08:29:36.919: Failed to create xdg-screensaver: 2
+08:30:06.920: Failed to create xdg-screensaver: 2
+08:30:36.921: Failed to create xdg-screensaver: 2
+08:31:06.921: Failed to create xdg-screensaver: 2
+08:31:36.922: Failed to create xdg-screensaver: 2
+08:32:06.923: Failed to create xdg-screensaver: 2
+08:32:36.923: Failed to create xdg-screensaver: 2
+08:33:06.924: Failed to create xdg-screensaver: 2
+08:33:36.924: Failed to create xdg-screensaver: 2
+08:34:06.925: Failed to create xdg-screensaver: 2
+08:34:36.925: Failed to create xdg-screensaver: 2
+08:35:06.926: Failed to create xdg-screensaver: 2
+08:35:36.926: Failed to create xdg-screensaver: 2
+08:36:00.882: User Removed source 'chipmunk.png' (image_source) from scene 'Classroom'
+08:36:06.927: Failed to create xdg-screensaver: 2
+08:36:36.927: Failed to create xdg-screensaver: 2
+08:37:06.928: Failed to create xdg-screensaver: 2
+08:37:36.929: Failed to create xdg-screensaver: 2
+08:38:06.929: Failed to create xdg-screensaver: 2
+08:38:36.930: Failed to create xdg-screensaver: 2
+08:39:06.930: Failed to create xdg-screensaver: 2
+08:39:36.931: Failed to create xdg-screensaver: 2
+08:40:06.931: Failed to create xdg-screensaver: 2
+08:40:36.932: Failed to create xdg-screensaver: 2
+08:41:06.933: Failed to create xdg-screensaver: 2
+08:41:36.933: Failed to create xdg-screensaver: 2
+08:42:06.934: Failed to create xdg-screensaver: 2
+08:42:36.934: Failed to create xdg-screensaver: 2
+08:43:06.935: Failed to create xdg-screensaver: 2
+08:43:36.936: Failed to create xdg-screensaver: 2
+08:44:06.936: Failed to create xdg-screensaver: 2
+08:44:36.937: Failed to create xdg-screensaver: 2
+08:45:06.937: Failed to create xdg-screensaver: 2
+08:45:36.938: Failed to create xdg-screensaver: 2
+08:46:06.939: Failed to create xdg-screensaver: 2
+08:46:36.939: Failed to create xdg-screensaver: 2
+08:47:06.940: Failed to create xdg-screensaver: 2
+08:47:36.940: Failed to create xdg-screensaver: 2
+08:48:06.941: Failed to create xdg-screensaver: 2
+08:48:35.666: Stopping virtual camera due to hotkey
+08:48:35.666: Output 'virtualcam_output': stopping
+08:48:35.666: Output 'virtualcam_output': Total frames output: 56661
+08:48:35.666: Output 'virtualcam_output': Total drawn frames: 56662
+08:48:35.666: ==== Virtual Camera Stop ===========================================
+08:48:35.677: Virtual camera stopped
+08:48:36.955: ==== Shutting down ==================================================
+08:48:36.962: pulse-input: Stopped recording from 'alsa_output.usb-Razer_Razer_BlackShark_V2_Pro-00.analog-stereo.monitor'
+08:48:36.962: pulse-input: Got 75674 packets with 90808800 frames
+08:48:36.972: pulse-input: Stopped recording from 'alsa_input.usb-Razer_Razer_BlackShark_V2_Pro-00.mono-fallback'
+08:48:36.972: pulse-input: Got 75619 packets with 90742800 frames
+08:48:36.972: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_0f_00.4.iec958-stereo.monitor'
+08:48:36.972: pulse-am: Got 75597 packets with 90716400 frames
+08:48:36.990: v4l2-input: /dev/video0: Stopped capture after 49365 frames
+08:48:37.145: All scene data cleared
+08:48:37.145: ------------------------------------------------
+08:48:37.222: [obs-websocket] [obs_module_unload] Shutting down...
+08:48:37.222: [obs-websocket] [obs_module_unload] Finished shutting down.
+08:48:37.227: [Scripting] Total detached callbacks: 0
+08:48:37.227: Freeing OBS context data
+08:48:37.238: == Profiler Results =============================
+08:48:37.238: run_program_init: 2532.97 ms
+08:48:37.238:  ┣OBSApp::AppInit: 4.492 ms
+08:48:37.238:  ┃ ┗OBSApp::InitLocale: 1.819 ms
+08:48:37.238:  ┗OBSApp::OBSInit: 2493.9 ms
+08:48:37.238:    ┣obs_startup: 1.02 ms
+08:48:37.238:    ┗OBSBasic::OBSInit: 2455.08 ms
+08:48:37.238:      ┣OBSBasic::InitBasicConfig: 0.068 ms
+08:48:37.238:      ┣OBSBasic::ResetAudio: 0.179 ms
+08:48:37.238:      ┣OBSBasic::ResetVideo: 160.193 ms
+08:48:37.238:      ┣OBSBasic::InitOBSCallbacks: 0.003 ms
+08:48:37.238:      ┣OBSBasic::InitHotkeys: 0.038 ms
+08:48:37.238:      ┣obs_load_all_modules2: 427.885 ms
+08:48:37.238:      ┃ ┣obs_init_module(aja-output-ui.so): 0.064 ms
+08:48:37.238:      ┃ ┣obs_init_module(aja.so): 0.052 ms
+08:48:37.238:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+08:48:37.238:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+08:48:37.238:      ┃ ┣obs_init_module(decklink.so): 0.083 ms
+08:48:37.239:      ┃ ┣obs_init_module(frontend-tools.so): 103.492 ms
+08:48:37.239:      ┃ ┣obs_init_module(image-source.so): 0.007 ms
+08:48:37.239:      ┃ ┣obs_init_module(linux-capture.so): 0.453 ms
+08:48:37.239:      ┃ ┣obs_init_module(linux-jack.so): 0.003 ms
+08:48:37.239:      ┃ ┣obs_init_module(linux-pipewire.so): 1.089 ms
+08:48:37.239:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.002 ms
+08:48:37.239:      ┃ ┣obs_init_module(linux-v4l2.so): 0.113 ms
+08:48:37.239:      ┃ ┣obs_init_module(obs-browser.so): 0.043 ms
+08:48:37.239:      ┃ ┣obs_init_module(obs-ffmpeg.so): 21.237 ms
+08:48:37.239:      ┃ ┃ ┗nvenc_check: 1.064 ms
+08:48:37.239:      ┃ ┣obs_init_module(obs-filters.so): 0.038 ms
+08:48:37.239:      ┃ ┣obs_init_module(obs-outputs.so): 0.005 ms
+08:48:37.239:      ┃ ┣obs_init_module(obs-transitions.so): 0.007 ms
+08:48:37.239:      ┃ ┣obs_init_module(obs-vst.so): 0.003 ms
+08:48:37.239:      ┃ ┣obs_init_module(obs-websocket.so): 37.964 ms
+08:48:37.239:      ┃ ┣obs_init_module(obs-x264.so): 0.002 ms
+08:48:37.239:      ┃ ┣obs_init_module(rtmp-services.so): 1.511 ms
+08:48:37.239:      ┃ ┗obs_init_module(text-freetype2.so): 0.021 ms
+08:48:37.239:      ┣OBSBasic::ResetOutputs: 0.159 ms
+08:48:37.239:      ┣OBSBasic::CreateHotkeys: 0.246 ms
+08:48:37.239:      ┣OBSBasic::InitService: 1.719 ms
+08:48:37.239:      ┣OBSBasic::InitPrimitives: 0.137 ms
+08:48:37.239:      ┗OBSBasic::Load: 1554.62 ms
+08:48:37.239: obs_hotkey_thread(25 ms): min=0.055 ms, median=0.119 ms, max=26.25 ms, 99th percentile=2.155 ms, 99.9987% below 25 ms
+08:48:37.239: audio_thread(Audio): min=0.006 ms, median=0.062 ms, max=10.61 ms, 99th percentile=1.013 ms
+08:48:37.239: obs_graphics_thread(33.3333 ms): min=0.105 ms, median=3.769 ms, max=1391.27 ms, 99th percentile=7.891 ms, 99.9982% below 33.333 ms
+08:48:37.239:  ┣tick_sources: min=0 ms, median=0.044 ms, max=1391.14 ms, 99th percentile=0.21 ms
+08:48:37.239:  ┣output_frame: min=0.084 ms, median=3.159 ms, max=19.315 ms, 99th percentile=4.977 ms
+08:48:37.239:  ┃ ┣gs_context(video->graphics): min=0.084 ms, median=1.241 ms, max=17.823 ms, 99th percentile=3.257 ms, 1.9987 calls per parent call
+08:48:37.239:  ┃ ┃ ┣render_video: min=0.004 ms, median=1.054 ms, max=13.831 ms, 99th percentile=2.964 ms
+08:48:37.239:  ┃ ┃ ┃ ┣render_main_texture: min=0.004 ms, median=1.001 ms, max=13.827 ms, 99th percentile=2.957 ms
+08:48:37.239:  ┃ ┃ ┃ ┣render_output_texture: min=0.012 ms, median=0.02 ms, max=0.384 ms, 99th percentile=0.045 ms, 0.499656 calls per parent call
+08:48:37.239:  ┃ ┃ ┃ ┣render_convert_texture: min=0.014 ms, median=0.023 ms, max=8.454 ms, 99th percentile=0.05 ms, 0.499656 calls per parent call
+08:48:37.239:  ┃ ┃ ┃ ┗stage_output_texture: min=0.008 ms, median=0.013 ms, max=0.477 ms, 99th percentile=0.033 ms, 0.499656 calls per parent call
+08:48:37.239:  ┃ ┃ ┣gs_flush: min=0.001 ms, median=0.003 ms, max=0.715 ms, 99th percentile=0.008 ms
+08:48:37.239:  ┃ ┃ ┗download_frame: min=0 ms, median=0.038 ms, max=1.158 ms, 99th percentile=0.113 ms, 0.499656 calls per parent call
+08:48:37.239:  ┃ ┗output_video_data: min=0.126 ms, median=0.173 ms, max=1.306 ms, 99th percentile=0.427 ms
+08:48:37.239:  ┗render_displays: min=0.002 ms, median=0.537 ms, max=22.569 ms, 99th percentile=3.953 ms
+08:48:37.239: video_thread(video): min=1.041 ms, median=1.587 ms, max=3.11 ms, 99th percentile=2.213 ms
+08:48:37.239: =================================================
+08:48:37.239: == Profiler Time Between Calls ==================
+08:48:37.239: obs_hotkey_thread(25 ms): min=25.082 ms, median=25.188 ms, max=51.322 ms, 95.5296% within ±2% of 25 ms (0% lower, 4.47042% higher)
+08:48:37.239: obs_graphics_thread(33.3333 ms): min=10.109 ms, median=33.333 ms, max=1391.27 ms, 99.9665% within ±2% of 33.333 ms (0.0176252% lower, 0.0158627% higher)
+08:48:37.239: =================================================
+08:48:37.276: Number of memory leaks: 0

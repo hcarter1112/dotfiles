@@ -23,6 +23,10 @@ cd /home/ralldi/.gitstuff/rofi-calc/build/ &&
   cd /home/ralldi/.gitstuff/gsimplecal/ &&
     make install &&
 
+## make install gsimplecal
+  cd /home/ralldi/.gitstuff/dragon/ &&
+    make install &&
+    
 ## Move files for tty-clock
 cd /home/ralldi/.gitstuff/tty-clock/
   cp tty-clock /usr/local/bin/

@@ -12,8 +12,9 @@ set icons true
 
 cmd open $xdg-open "$f"
 # Trash-cli command
-cmd sudo-trash $sudo trash-put -r $fx
-cmd trash $trash-put -r $fx
+cmd REMOVE $sudo rm -rf $fx
+cmd sudo-trash %sudo trash-put $fx
+cmd trash %trash-put $fx
 # Make directory cmd
 cmd mkdir ${{
   printf "Directory Name: "
@@ -36,12 +37,30 @@ cmd unzip ${{
     *) echo "unsupported format" ;;
   esac
 }}
+cmd drag-exit $dragon -x $fx
+cmd drag-keep $dragon -k $fx
+cmd drag-target $dragon -t $fx
+cmd mvc ${{
+  printf "Name of student: "
+  read ans
+  /home/ralldi/.config/scripts/mv-class-notes.sh $ans &&
+  filename=$ans-$(date -I)
+  dragon -x "/home/ralldi/Downloads/class-notes/$filename.pdf"
+}}
+cmd chmod+x $chmod +x $fx
+cmd sudoedit $sudoedit $fx
 
 map g
 map m
+map <enter>
 
+map <enter> open
 map DD sudo-trash
 map Dd trash
+map DR REMOVE
+map Dx drag-exit
+map Dk drag-keep
+map Dt drag-target
 map Tl %trash-list
 map Tr %trash-restore
 map mM mark-save
@@ -49,15 +68,19 @@ map mm mark-load
 map mr mark-remove
 map mf mkfile
 map md mkdir
+map mv mvc
 map R reload
+map E sudoedit
+map ax chmod+x
 
-map gd cd ~/Documents/
-map gD cd ~/Downloads/
+map gD cd ~/Documents/
+map gd cd ~/Downloads/
 map gc cd ~/.config/
+map gC cd ~/Downloads/class-notes/
 map gs cd ~/.gitstuff/
 map gh cd ~/Documents/rclone/HmT-Mats/
 map gb cd /usr/share/backgrounds/
 map gT cd ~/.local/share/Trash/files/
 map ~ cd ~/
 
-# vim:ft=go
+# vim:ft=bash

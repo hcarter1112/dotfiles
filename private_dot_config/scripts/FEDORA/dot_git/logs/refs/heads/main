@@ -2,3 +2,5 @@
 6135853e84955561527671ba58ede4f899b10106 6135853e84955561527671ba58ede4f899b10106 hcarter1112 <hcarter1112@gmail.com> 1677550844 -0500	Branch: renamed refs/heads/master to refs/heads/main
 6135853e84955561527671ba58ede4f899b10106 efeff637efd68c62670e533836bcf44b95c4317d hcarter1112 <hcarter1112@gmail.com> 1677557251 -0500	commit: rough changes to the name and list of instructions
 efeff637efd68c62670e533836bcf44b95c4317d 773b3d7e6d35b22167847ecdcfebc3cb7168e6e9 hcarter1112 <hcarter1112@gmail.com> 1677558073 -0500	commit: dnf install changes
+773b3d7e6d35b22167847ecdcfebc3cb7168e6e9 3b556c398565c8698a876ae3916ec75fe1615b2d hcarter1112 <hcarter1112@gmail.com> 1678056000 -0500	commit: added dragon (drag and drop) install to scripts 2 and 3
+3b556c398565c8698a876ae3916ec75fe1615b2d ffd3f7d7b6f9fa025533f16b9d1f1f0408748a7f hcarter1112 <hcarter1112@gmail.com> 1678373937 -0500	commit: updates

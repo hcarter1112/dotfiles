@@ -18,7 +18,9 @@ alias swm.="$EDITOR /home/ralldi/.stumpwm.d/init.lisp"
 ####Filesystem Aliases#####
 
 alias sccd="cd ~/.config/scripts/"
+alias gitcd="cd ~/.gitstuff/"
 alias archcd="cd ~/.config/scripts/ARCH/"
+alias fedcd="cd ~/.config/scripts/FEDORA/"
 
 #bat fedora
   alias cat="bat"
@@ -61,7 +63,7 @@ alias hmt="ranger /home/ralldi/Documents/rclone/HmT-Mats/"
 alias clock="tty-clock -tcs"
 alias extip="curl icanhazip.com"
 alias e=$EDITOR
-alias se="sudo $EDITOR"
+alias se="sudoedit"
 alias mvc="$HOME/.config/scripts/mv-class-notes.sh"
 
 #####REBOOT & SHUTDOWN####

@@ -22,12 +22,12 @@ super+r;{c,m}
  {/home/ralldi/.config/rofi/scripts/calc_t2,/home/ralldi/.config/rofi/scripts/emoji_t2}
 
 ## Emacs
-super+d;{d,e}
- {emacsclient -c -a 'emacs', /usr/bin/emacs --with-profile legacy}
+super + {_,shift,ctrl} + d
+ {evolution}
 
 ## File Explorer
 super + {_,shift,ctrl} + e
- {thunar,kitty ranger}
+ {thunar,kitty lf}
 
 ## Gsimplecal
 super + c

@@ -1,7 +1,8 @@
 #!/bin/bash
 dnf install -y \
 https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm \
-https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm \
+https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm &&
+dnf install -y \
 gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-openh264 gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel \
 lame\* --exclude=lame-devel \
 akmod-v4l2loopback \
@@ -31,6 +32,7 @@ i3 \
 ImageMagick \
 kitty \
 kmod-v4l2loopback \
+lazygit \
 libxcb-devel \
 libXinerama  \
 libxkbcommon-devel  \
@@ -65,6 +67,7 @@ python3-dbus-next \
 qalc \
 qpwgraph \
 ranger \
+ripgrep \
 rclone \
 rofi \
 rofi-devel \
@@ -90,6 +93,8 @@ v4l2loopback \
 vlc \
 &&
 
+dnf copr enable pennbauman/ports &&
+dnf install lf &&
 dnf config-manager --add-repo https://rpm.librewolf.net/librewolf-repo.repo &&
 dnf install librewolf &&
 dnf group upgrade --with-optional Multimedia -y &&
