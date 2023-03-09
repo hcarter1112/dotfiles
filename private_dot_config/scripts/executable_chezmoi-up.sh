@@ -12,6 +12,7 @@ chezmoi add \
 ~/.config/kitty/ \
 ~/.config/lvim/ \
 ~/.config/nvim/ \
+~/.config/nitrogen/ \
 ~/.config/polybar/ \
 ~/.config/fish/ \
 ~/.config/qtile/ \

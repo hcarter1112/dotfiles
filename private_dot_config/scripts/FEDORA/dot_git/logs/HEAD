@@ -5,3 +5,9 @@
 efeff637efd68c62670e533836bcf44b95c4317d 773b3d7e6d35b22167847ecdcfebc3cb7168e6e9 hcarter1112 <hcarter1112@gmail.com> 1677558073 -0500	commit: dnf install changes
 773b3d7e6d35b22167847ecdcfebc3cb7168e6e9 3b556c398565c8698a876ae3916ec75fe1615b2d hcarter1112 <hcarter1112@gmail.com> 1678056000 -0500	commit: added dragon (drag and drop) install to scripts 2 and 3
 3b556c398565c8698a876ae3916ec75fe1615b2d ffd3f7d7b6f9fa025533f16b9d1f1f0408748a7f hcarter1112 <hcarter1112@gmail.com> 1678373937 -0500	commit: updates
+ffd3f7d7b6f9fa025533f16b9d1f1f0408748a7f 28b18fc53be8ed9347c13b98abe28496d76c25a3 hcarter1112 <hcarter1112@gmail.com> 1678374245 -0500	commit: update
+28b18fc53be8ed9347c13b98abe28496d76c25a3 3f9176018cb0c2f214f76ec7f443d1a977fc7882 hcarter1112 <hcarter1112@gmail.com> 1678375653 -0500	commit: fix for 2-user script. if statements to prevent fail
+3f9176018cb0c2f214f76ec7f443d1a977fc7882 2576012257218f640cb6db1c415c30d3bb6631b8 hcarter1112 <hcarter1112@gmail.com> 1678380114 -0500	commit: python3-devel added as dependency for qtile
+2576012257218f640cb6db1c415c30d3bb6631b8 48be52eba1a7d4fb993651d2bc434dbe58115063 hcarter1112 <hcarter1112@gmail.com> 1678380306 -0500	commit: re-added v4l2loopback
+48be52eba1a7d4fb993651d2bc434dbe58115063 02a0ef86cec878ae4e8f646ba3e5485bc5f4e21a hcarter1112 <hcarter1112@gmail.com> 1678381148 -0500	commit: fixes
+02a0ef86cec878ae4e8f646ba3e5485bc5f4e21a e8b7bac5c0db3498accbabc630c1813b57900382 hcarter1112 <hcarter1112@gmail.com> 1678381649 -0500	commit: fixes to 2 script

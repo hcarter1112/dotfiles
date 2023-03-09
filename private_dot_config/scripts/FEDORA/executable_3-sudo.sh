@@ -31,3 +31,5 @@ cd /home/ralldi/.gitstuff/rofi-calc/build/ &&
 cd /home/ralldi/.gitstuff/tty-clock/
   cp tty-clock /usr/local/bin/
 
+## Move XKB Mouse accel files
+cp $HOME/.gitstuff/FEDORA/50-mouse-acceleration.conf /etc/X11/xorg.conf.d/

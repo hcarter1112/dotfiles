@@ -10,6 +10,7 @@ autoconf \
 automake \
 bat  \
 cairo-devel \
+cargo \
 chrony \
 copyq \
 corectrl \
@@ -59,6 +60,7 @@ pipewire-utils \
 pkgconf \
 polybar \
 pulseaudio-libs-devel \
+python3-devel \
 python3-pip \
 python3-cffi \
 python3-xcffib \
@@ -74,6 +76,7 @@ rofi-devel \
 sxhkd \
 util-linux-user \
 vim  \
+v4l2loopback \
 volumeicon \
 wget  \
 wireplumber \

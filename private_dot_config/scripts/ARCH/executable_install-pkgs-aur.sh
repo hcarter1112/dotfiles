@@ -8,6 +8,7 @@ librewolf-bin \
 zoom \
 tty-clock-git \
 ferdium \
+i3lock-color \
 gruvbox-dark-gtk \
 gruvbox-dark-icons-gtk \
 gruvbox-material-gtk-theme-git \

@@ -36,18 +36,23 @@ fi
 cd /home/ralldi/.gitstuff/ &&
 
 ## git clone rofi-emoji
+if [ ! -d /home/ralldi/.gitstuff/rofi-emoji/ ]
+then
   cd /home/ralldi/.gitstuff/ &&
-git clone https://github.com/Mange/rofi-emoji.git &&
+  git clone https://github.com/Mange/rofi-emoji.git
+fi
   cd /home/ralldi/.gitstuff/rofi-emoji/ &&
   autoreconf -i &&
   mkdir /home/ralldi/.gitstuff/rofi-emoji/build &&
   cd /home/ralldi/.gitstuff/rofi-emoji/build &&
   /home/ralldi/.gitstuff/rofi-emoji/configure &&
   make &&
-
 ## git clone rofi-calc
+if [ ! -d /home/ralldi/.gitstuff/rofi-calc/ ]
+then
   cd /home/ralldi/.gitstuff/ &&
-git clone https://github.com/svenstaro/rofi-calc.git &&
+  git clone https://github.com/svenstaro/rofi-calc.git
+fi
   cd /home/ralldi/.gitstuff/rofi-calc/ &&
   autoreconf -i &&
   mkdir /home/ralldi/.gitstuff/rofi-calc/build/ &&
@@ -56,47 +61,66 @@ git clone https://github.com/svenstaro/rofi-calc.git &&
   make &&
 
 ## git clone i3-lock-color
+if [ ! -d /home/ralldi/.gitstuff/i3lock-color/ ]
+then
   cd /home/ralldi/.gitstuff/ &&
-  git clone https://github.com/Raymo111/i3lock-color.git &&
+  git clone https://github.com/Raymo111/i3lock-color.git
+fi
 
 ## wget betterlockscreen and make betterlockscreen
+if [ ! -d /home/ralldi/.gitstuff/betterlockscreen-main/ ]
+then
   cd /home/ralldi/.gitstuff/ &&
   wget https://github.com/betterlockscreen/betterlockscreen/archive/refs/heads/main.zip &&
     unzip main.zip &&
     cd /home/ralldi/.gitstuff/betterlockscreen-main/ &&
-    chmod u+x betterlockscreen &&
+    chmod u+x betterlockscreen
+fi
 
 ## Build ncspot
+if [ ! -d /home/ralldi/.gitstuff/ncspot/ ]
+then
   cd /home/ralldi/.gitstuff/ &&
-  git clone https://github.com/hrkfdn/ncspot &&
+  git clone https://github.com/hrkfdn/ncspot
+fi
   cd /home/ralldi/.gitstuff/ncspot &&
     cargo install --path /home/ralldi/.gitstuff/ncspot &&
 
 ## Gsimplecal
+if [ ! -d /home/ralldi/.gitstuff/gsimplecal/ ]
+then
   cd /home/ralldi/.gitstuff/ &&
-  git clone https://github.com/dmedvinsky/gsimplecal.git &&
+  git clone https://github.com/dmedvinsky/gsimplecal.git
+fi
   cd /home/ralldi/.gitstuff/gsimplecal/ &&
     /home/ralldi/.gitstuff/gsimplecal/autogen.sh &&
     /home/ralldi/.gitstuff/gsimplecal/configure &&
     make &&
 
 ## tty-clock
+if [ ! -d /home/ralldi/.gitstuff/tty-clock/ ]
+then
   cd /home/ralldi/.gitstuff/  &&
-  git clone https://github.com/xorg62/tty-clock &&
+  git clone https://github.com/xorg62/tty-clock
+fi
     cd /home/ralldi/.gitstuff/tty-clock/ &&
     make &&
     chmod +x tty-clock &&
 
 ## Dragon (Drag and drop)
+if [ ! -d /home/ralldi/.gitstuff/dragon/ ]
+then
   cd /home/ralldi/.gitstuff/ &&
-  git clone https://github.com/mwh/dragon &&
+  git clone https://github.com/mwh/dragon
+fi
   cd /home/ralldi/.gitstuff/dragon/ &&
     make &&
     make install &&
 
 ## Lazyvim install
-./lazyvim-install.sh
+./lazyvim-install.sh &&
 
+./chezmoi.sh &&
 ## Start user services
 systemctl --user enable pulsemods.service &&
 

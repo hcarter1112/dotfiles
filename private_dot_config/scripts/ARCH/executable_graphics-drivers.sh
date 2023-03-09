@@ -50,7 +50,7 @@ do
   then
     echo "You have selected AMD..."
     echo "Installing AMD gpu drivers..." &&
-    pacman -S amgpu &&
+    pacman -S amdgpu &&
     exit_code=0
 
   elif [[ $gpu -eq 2 ]]
