@@ -5,3 +5,4 @@ e773f80e87248157402060043a4af1895da3062d bc7156956a87b2fff9cbd17077c2d5b233cc31e
 bc7156956a87b2fff9cbd17077c2d5b233cc31ee 2b1cb5f35c0fac6a9ea2e74dc53387b5decf3818 hcarter1112 <hcarter1112@gmail.com> 1678378232 -0500	commit: i3lock added to prevent dependency selection
 2b1cb5f35c0fac6a9ea2e74dc53387b5decf3818 1cfd81016c0027804318d9ced62c99c1ae22cd7e hcarter1112 <hcarter1112@gmail.com> 1678387543 -0500	commit: update
 1cfd81016c0027804318d9ced62c99c1ae22cd7e e094a31809e957068e54b45b5a36c054949605bd hcarter1112 <hcarter1112@gmail.com> 1678477984 -0500	commit: steam, wine, gpu drivers added to graphics-drivers. updated pacman.conf and other updated files
+e094a31809e957068e54b45b5a36c054949605bd 31f03907034d95b500142265dd647fd546b3b85e hcarter1112 <hcarter1112@gmail.com> 1678482981 -0500	commit: test

@@ -1,6 +1,7 @@
 ####Dotfile Aliases#####
 
 alias al.="$EDITOR /home/ralldi/.aliases"
+alias env.="$EDITOR /home/ralldi/.env"
 alias fish.="$EDITOR /home/ralldi/.config/fish/config.fish"
 alias bash.="$EDITOR /home/ralldi/.bashrc"
 alias scripts.="$EDITOR /home/ralldi/.config/scripts/"
@@ -69,7 +70,6 @@ alias extip="curl icanhazip.com"
 alias e=$EDITOR
 alias se="sudoedit"
 alias mvc="$HOME/.config/scripts/mv-class-notes.sh"
-alias scron="bash su -c $(printf "%q " "crontab -e")"
 
 #####REBOOT & SHUTDOWN####
 alias reboot="systemctl reboot"

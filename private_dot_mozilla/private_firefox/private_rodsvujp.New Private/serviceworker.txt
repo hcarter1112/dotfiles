@@ -35,15 +35,3 @@ true
 0
 true
 #
-
-https://www.reddit.com/
-https://www.reddit.com/sw.1ab8087c79dd3679b0bd38e1c9ebc5de.js
-true
-{b3ee5b53-41d1-4a19-a3b1-09e0149d50ea}
-0
-1678477492006435
-1678477492256115
-1678477491901694
-0
-true
-#
