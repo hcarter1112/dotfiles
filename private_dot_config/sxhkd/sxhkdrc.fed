@@ -1,0 +1,54 @@
+# SXHKD keybinds for qtile
+## Work binds
+super+z;{z,x,c,v,a,s}
+ {flatpak run com.obsproject.Studio --startvirtualcam,flatpak run md.obsidian.Obsidian,flatpak run us.zoom.Zoom,/usr/bin/zhumuintl,flatpak run org.rncbc.qpwgraph,thunar "/home/ralldi/Downloads/class-notes"}
+
+## CLose application
+super+w
+ xdotool getwindowfocus windowquit
+
+# Web Browsers
+super + {_,shift,ctrl} + b
+ {firefox, librewolf, flatpak run com.brave.Browser}
+
+## Terminal
+super + Return
+ kitty
+
+## Rofi Menus
+super + {shift,ctrl} + Return
+ {/home/ralldi/.config/rofi/scripts/launcher_t2,/home/ralldi/.config/rofi/scripts/window_t2}
+super+r;{c,m}
+ {/home/ralldi/.config/rofi/scripts/calc_t2,/home/ralldi/.config/rofi/scripts/emoji_t2}
+
+## Emacs
+super + {_,shift,ctrl} + d
+ {evolution}
+
+## File Explorer
+super + {_,shift,ctrl} + e
+ {thunar,kitty lf}
+
+## Gsimplecal
+super + c
+ gsimplecal
+
+## Ferdium
+super + f
+ flatpak run org.ferdium.Ferdium
+
+## Flameshot
+super + shift + s
+ flameshot gui
+
+## CopyQ
+super + shift + v
+ copyq toggle
+
+## Gaming
+super + g;{s,l}
+ {steam,lutris}
+
+## Power options
+super + ctrl + alt {r,q,x}
+ {systemctl reboot,systemctl poweroff,"/home/ralldi/.config/scripts/betterlock.sh"}

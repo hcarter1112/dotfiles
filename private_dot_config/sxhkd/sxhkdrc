@@ -1,7 +1,7 @@
 # SXHKD keybinds for qtile
 ## Work binds
 super+z;{z,x,c,v,a,s}
- {flatpak run com.obsproject.Studio --startvirtualcam,flatpak run md.obsidian.Obsidian,flatpak run us.zoom.Zoom,/usr/bin/zhumuintl,flatpak run org.rncbc.qpwgraph,thunar "/home/ralldi/Downloads/class-notes"}
+ {obs --startvirtualcam,obsidian,zoom,zhumuintl,qpwgraph,thunar "/home/ralldi/Downloads/class-notes"}
 
 ## CLose application
 super+w
@@ -23,7 +23,7 @@ super+r;{c,m}
 
 ## Emacs
 super + {_,shift,ctrl} + d
- {evolution}
+ {thunderbird}
 
 ## File Explorer
 super + {_,shift,ctrl} + e
@@ -35,7 +35,7 @@ super + c
 
 ## Ferdium
 super + f
- flatpak run org.ferdium.Ferdium
+ ferdium
 
 ## Flameshot
 super + shift + s

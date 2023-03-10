@@ -21,15 +21,15 @@ screens = [
             [
                 widget.TextBox(
                     background=colors[7],
-                    font='DroidSansMono Nerd Font Mono',
-                    fontsize=40,
+                    font='DroidSansMono Nerd Font',
+                    fontsize=25,
                     foreground=colors[2],
                     padding=5,
                     text=''
                 ),
                 widget.TextBox(
                     background=colors[2],
-                    font='DroidSansMono Nerd Font Mono',
+                    font='DroidSansMono Nerd Font',
                     fontsize=30,
                     foreground=colors[7],
                     padding=0,
@@ -40,8 +40,8 @@ screens = [
                     active=colors[22], #b48ead
                     borderwidth=2,
                     disable_drag=True,
-                    font='DroidSansMono Nerd Font Mono',
-                    fontsize=25,
+                    font='DroidSansMono Nerd Font',
+                    fontsize=20,
                     hide_unused=False,
                     highlight_method='line',
                     inactive=colors[9],
@@ -55,7 +55,7 @@ screens = [
                 ),
                 widget.TextBox(
                     background=colors[7],
-                    font='DroidSansMono Nerd Font Mono',
+                    font='DroidSansMono Nerd Font',
                     fontsize=30,
                     foreground=colors[2],
                     padding=0,
@@ -70,7 +70,7 @@ screens = [
                 ),
                 widget.TextBox(
                     background=colors[2],
-                    font='DroidSansMono Nerd Font Mono',
+                    font='DroidSansMono Nerd Font',
                     fontsize=30,
                     foreground=colors[7],
                     padding=0,
@@ -103,7 +103,7 @@ screens = [
                 widget.Spacer(),
                 widget.TextBox(
                     background=colors[2],
-                    font='DroidSansMono Nerd Font Mono',
+                    font='DroidSansMono Nerd Font',
                     fontsize=30,
                     foreground=colors[7],
                     padding=0,
@@ -116,7 +116,7 @@ screens = [
                 ),
                 widget.TextBox(
                     background=colors[7],
-                    font='DroidSansMono Nerd Font Mono',
+                    font='DroidSansMono Nerd Font',
                     fontsize=30,
                     foreground=colors[22],
                     padding=0,
@@ -139,7 +139,7 @@ screens = [
                 ),
                 widget.TextBox(
                     background=colors[22],
-                    font='DroidSansMono Nerd Font Mono',
+                    font='DroidSansMono Nerd Font',
                     fontsize=30,
                     foreground=colors[7],
                     padding=0,
@@ -163,7 +163,7 @@ screens = [
                 ),
                 widget.TextBox(
                     background=colors[7],
-                    font='DroidSansMono Nerd Font Mono',
+                    font='DroidSansMono Nerd Font',
                     fontsize=30,
                     foreground=colors[14],
                     padding=0,
@@ -187,7 +187,7 @@ screens = [
                 ),
                 widget.TextBox(
                     background=colors[14],
-                    font='DroidSansMono Nerd Font Mono',
+                    font='DroidSansMono Nerd Font',
                     fontsize=30,
                     foreground=colors[7],
                     padding=0,
@@ -195,7 +195,7 @@ screens = [
                 ),
                 widget.TextBox(
                     background=colors[7],
-                    font='DroidSansMono Nerd Font Mono',
+                    font='DroidSansMono Nerd Font',
                     fontsize=30,
                     foreground=colors[17],
                     padding=0,
@@ -203,7 +203,7 @@ screens = [
                 ),
                 widget.CheckUpdates(
                     background=colors[7],
-                    font='DroidSansMono Nerd Font Mono',
+                    font='DroidSansMono Nerd Font',
                     fontsize=15,
                     foreground=colors[17],
                     colour_no_updates=colors[20],
@@ -216,7 +216,7 @@ screens = [
                 ),
                 widget.TextBox(
                     background=colors[7],
-                    font='DroidSansMono Nerd Font Mono',
+                    font='DroidSansMono Nerd Font',
                     fontsize=30,
                     foreground=colors[17],
                     padding=0,
@@ -257,7 +257,7 @@ screens = [
                     active=colors[22], #b48ead
                     borderwidth=2,
                     disable_drag=True,
-                    font='DroidSansMono Nerd Font Mono',
+                    font='DroidSansMono Nerd Font',
                     fontsize=25,
                     hide_unused=False,
                     highlight_method='line',
@@ -272,7 +272,7 @@ screens = [
                 ),
                 widget.TextBox(
                     background=colors[7],
-                    font='DroidSansMono Nerd Font Mono',
+                    font='DroidSansMono Nerd Font',
                     fontsize=30,
                     foreground=colors[2],
                     padding=0,
@@ -287,7 +287,7 @@ screens = [
                 ),
                 widget.TextBox(
                     background=colors[2],
-                    font='DroidSansMono Nerd Font Mono',
+                    font='DroidSansMono Nerd Font',
                     fontsize=30,
                     foreground=colors[7],
                     padding=0,
@@ -320,7 +320,7 @@ screens = [
                 widget.Spacer(),
                 widget.TextBox(
                     background=colors[2],
-                    font='DroidSansMono Nerd Font Mono',
+                    font='DroidSansMono Nerd Font',
                     fontsize=30,
                     foreground=colors[22],
                     padding=0,
@@ -343,7 +343,7 @@ screens = [
                 ),
                 widget.TextBox(
                     background=colors[22],
-                    font='DroidSansMono Nerd Font Mono',
+                    font='DroidSansMono Nerd Font',
                     fontsize=30,
                     foreground=colors[7],
                     padding=0,
@@ -367,7 +367,7 @@ screens = [
                 ),
                 widget.TextBox(
                     background=colors[7],
-                    font='DroidSansMono Nerd Font Mono',
+                    font='DroidSansMono Nerd Font',
                     fontsize=30,
                     foreground=colors[14],
                     padding=0,

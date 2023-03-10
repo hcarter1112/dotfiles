@@ -1,22 +1,22 @@
 
 ### EXPORT ###
-set -U fish_user_paths  $HOME/.local/bin $HOME/Applications $fish_user_paths /home/ralldi/.config/scripts/ /home/ralldi/.cargo/bin/ /home/ralldi/.fnm/fnm /home/ralldi/.nvm/versions/node/v19.3.0/bin /home/ralldi/.emacs.d/bin/ /home/ralldi/.doom/bin/ /usr/local/go/bin /home/ralldi/go/bin/
-set fish_greeting                      # Supresses fish's intro message
-set OPENER "/usr/bin/rifle"
-set TERM "xterm-256color"              # Sets the terminal type
-set PAGER "bat"
-set VISUAL "/usr/bin/nvim"
-set EDITOR "/usr/bin/nvim"      # $EDITOR use Emacs in terminal
-set TERM "kitty"
+export (envsubst < /home/ralldi/.env)
+# set -U fish_user_paths  $HOME/.local/bin $HOME/Applications $fish_user_paths /home/ralldi/.config/scripts/ /home/ralldi/.cargo/bin/ /home/ralldi/.fnm/fnm /home/ralldi/.nvm/versions/node/v19.3.0/bin /home/ralldi/.emacs.d/bin/ /home/ralldi/.doom/bin/ /usr/local/go/bin /home/ralldi/go/bin/
+set fish_greeting # Supresses fish's intro message
+# set PAGER "bat"
+# set VISUAL "/usr/bin/nvim"
+# set EDITOR "/usr/bin/nvim"      # $EDITOR use Emacs in terminal
+# set SUDO_EDITOR "/usr/bin/nvim"
+# set TERM "kitty"
 ### SET EITHER DEFAULT EMACS MODE OR VI MODE ###
 function fish_user_key_bindings
-  # fish_default_key_bindings
-  fish_vi_key_bindings
+    # fish_default_key_bindings
+    fish_vi_key_bindings
 end
 ### END OF VI MODE ###
 
 if [ -f /home/ralldi/.aliases ]
-source /home/ralldi/.aliases
+    source /home/ralldi/.aliases
 end
 
 # ####Dotfile Aliases#####

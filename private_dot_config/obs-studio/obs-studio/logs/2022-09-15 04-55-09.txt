@@ -1,0 +1,380 @@
+04:55:09.978: CPU Name: AMD Ryzen 5 3600 6-Core Processor
+04:55:09.978: CPU Speed: 3597.118MHz
+04:55:09.978: Physical Cores: 6, Logical Cores: 12
+04:55:09.978: Physical Memory: 15928MB Total, 4613MB Free
+04:55:09.978: Kernel Version: Linux 5.19.0-76051900-generic
+04:55:09.978: Distribution: "Pop!_OS" "22.04"
+04:55:09.978: Session Type: x11
+04:55:09.978: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+04:55:09.980: Qt Version: 5.15.3 (runtime), 5.15.2 (compiled)
+04:55:09.980: Portable mode: false
+04:55:10.057: OBS 27.2.3+dfsg1-1 (linux)
+04:55:10.057: ---------------------------------
+04:55:10.057: ---------------------------------
+04:55:10.057: audio settings reset:
+04:55:10.057: 	samples per sec: 48000
+04:55:10.057: 	speakers:        2
+04:55:10.065: ---------------------------------
+04:55:10.065: Initializing OpenGL...
+04:55:10.134: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1070 Ti/PCIe/SSE2
+04:55:10.134: OpenGL loaded successfully, version 3.3.0 NVIDIA 515.48.07, shading language 3.30 NVIDIA via Cg compiler
+04:55:10.144: ---------------------------------
+04:55:10.144: video settings reset:
+04:55:10.144: 	base resolution:   1920x1080
+04:55:10.144: 	output resolution: 1280x720
+04:55:10.144: 	downscale filter:  Bicubic
+04:55:10.144: 	fps:               30/1
+04:55:10.144: 	format:            NV12
+04:55:10.144: 	YUV mode:          709/Partial
+04:55:10.144: NV12 texture support not available
+04:55:10.157: Audio monitoring device:
+04:55:10.157: 	name: Monitor of Starship/Matisse HD Audio Controller Digital Stereo (IEC958)
+04:55:10.157: 	id: alsa_output.pci-0000_0f_00.4.iec958-stereo.monitor
+04:55:10.157: ---------------------------------
+04:55:10.159: Failed to load 'en-US' text for module: 'decklink-captions.so'
+04:55:10.161: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+04:55:10.210: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+04:55:10.210: No blackmagic support
+04:55:10.284: NVENC supported
+04:55:10.284: FFMPEG VAAPI supported
+04:55:10.299: [vlc-video]: VLC 3.0.16 Vetinari found, VLC video source enabled
+04:55:10.299: ---------------------------------
+04:55:10.299:   Loaded Modules:
+04:55:10.299:     vlc-video.so
+04:55:10.299:     text-freetype2.so
+04:55:10.299:     rtmp-services.so
+04:55:10.299:     obs-x264.so
+04:55:10.299:     obs-transitions.so
+04:55:10.299:     obs-outputs.so
+04:55:10.299:     obs-filters.so
+04:55:10.299:     obs-ffmpeg.so
+04:55:10.299:     linux-v4l2.so
+04:55:10.299:     linux-pulseaudio.so
+04:55:10.299:     linux-jack.so
+04:55:10.299:     linux-decklink.so
+04:55:10.299:     linux-capture.so
+04:55:10.299:     linux-alsa.so
+04:55:10.299:     image-source.so
+04:55:10.299:     frontend-tools.so
+04:55:10.299:     decklink-ouput-ui.so
+04:55:10.299:     decklink-captions.so
+04:55:10.300: ---------------------------------
+04:55:10.300: ==== Startup complete ===============================================
+04:55:10.352: All scene data cleared
+04:55:10.352: ------------------------------------------------
+04:55:10.354: v4l2-input: Start capture from /dev/video0
+04:55:10.355: v4l2-input: Input: 0
+04:55:10.355: v4l2-input: Resolution: 1280x720
+04:55:10.355: v4l2-input: Pixelformat: BGR3
+04:55:10.355: v4l2-input: Linesize: 3840 Bytes
+04:55:10.355: v4l2-input: Framerate: 30.00 fps
+04:55:10.359: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+04:55:10.363: alsa-input: PCM 'front:CARD=Pro,DEV=0' rate set to 48000
+04:55:10.363: alsa-input: PCM 'front:CARD=Pro,DEV=0' channels set to 1
+04:55:10.375: pulse-am: Server name: 'PulseAudio (on PipeWire 0.3.56) 15.0.0'
+04:55:10.376: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
+04:55:10.376: pulse-am: Started Monitoring in 'alsa_output.pci-0000_0f_00.4.iec958-stereo.monitor'
+04:55:11.223: Switched to scene 'Class'
+04:55:11.223: ------------------------------------------------
+04:55:11.223: Loaded scenes:
+04:55:11.223: - scene 'Base':
+04:55:11.223:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+04:55:11.223:     - source: 'Audio Capture Device (ALSA)' (alsa_input_capture)
+04:55:11.223:         - monitoring: monitor only
+04:55:11.223:         - filter: 'Noise Gate' (noise_gate_filter)
+04:55:11.223:         - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+04:55:11.223:         - filter: 'Compressor' (compressor_filter)
+04:55:11.223: - scene 'Class':
+04:55:11.225:     - source: 'Base' (scene)
+04:55:11.225:     - source: '2022-07-26_06-38.png' (image_source)
+04:55:11.225:     - source: 'car.png' (image_source)
+04:55:11.225:     - source: 'cat.png' (image_source)
+04:55:11.225:     - source: 'clipart3690.png' (image_source)
+04:55:11.225:     - source: 'clipart11513.png' (image_source)
+04:55:11.225:     - source: 'Elsa.png' (image_source)
+04:55:11.225:     - source: 'George.png' (image_source)
+04:55:11.225:     - source: 'Harold Sticker.png' (image_source)
+04:55:11.225:     - source: 'Ice Cream.png' (image_source)
+04:55:11.225:     - source: 'Jerry.png' (image_source)
+04:55:11.225:     - source: 'justin.png' (image_source)
+04:55:11.225:     - source: 'MattTank.png' (image_source)
+04:55:11.225:     - source: 'TonyMoon.png' (image_source)
+04:55:11.225:     - source: 'TonyNinja.png' (image_source)
+04:55:11.225:     - source: 'TonyPyraminx.png' (image_source)
+04:55:11.225:     - source: 'toppng.com-bunny-png-cartoon-free-487x477.png' (image_source)
+04:55:11.226:     - source: 'toppng.com-color-pencils-2907x1221.png' (image_source)
+04:55:11.226:     - source: 'toppng.com-eyes-face-hide-kitty-wallpaper-2560x1600.jpg' (image_source)
+04:55:11.226:     - source: 'toppng.com-fish-2219x1692.png' (image_source)
+04:55:11.226:     - source: 'toppng.com-fox-300x300.png' (image_source)
+04:55:11.226:     - source: 'toppng.com-ice-cream-cup-png-pic-1668x3543.png' (image_source)
+04:55:11.226:     - source: 'toppng.com-kawaii-sushi-png-sushi-anime-600x355.png' (image_source)
+04:55:11.226:     - source: 'toppng.com-olaf-hawaiian-frozen-2996x4232.png' (image_source)
+04:55:11.226:     - source: 'toppng.com-orange-juice-2960x3504.png' (image_source)
+04:55:11.226:     - source: 'toppng.com-rawr-trex-bunny-ears-egg-jurassic-world-figura-stomp-strike-tyrannosaurus-600x605.png' (image_source)
+04:55:11.226:     - source: 'toppng.com-tropical-fish-clipart-realistic-fish-fish-1035x344.png' (image_source)
+04:55:11.226:     - source: 'toppng.com-turtle-cartoon-600x348.png' (image_source)
+04:55:11.226:     - source: 'WhatsApp Image 2022-05-19 at 10.57.02 AM.jpeg' (image_source)
+04:55:11.226:     - source: 'Group' (group)
+04:55:11.226:         - source: 'clipart2665566.png' (image_source)
+04:55:11.226:         - source: 'clipart3022325.png' (image_source)
+04:55:11.226:         - source: 'toppng.com-bumblebee-photo-by-yeshua2k8-transformers-revenge-of-the-fallen-official-movie-814x1000.png' (image_source)
+04:55:11.226:         - source: 'toppng.com-ironman-875x1718.png' (image_source)
+04:55:11.226:         - source: 'clipart3417367.png' (image_source)
+04:55:11.226:         - source: 'toppng.com-ultraman-orb-coloring-pages-709x1097.png' (image_source)
+04:55:11.226:         - source: 'clipart2461454.png' (image_source)
+04:55:11.226:         - source: 'spiderman.png' (image_source)
+04:55:11.226:         - source: 'clipart46745.png' (image_source)
+04:55:11.226:         - source: 'clipart4417035.png' (image_source)
+04:55:11.226:     - source: 'NamePlate' (text_ft2_source_v2)
+04:55:11.226: ------------------------------------------------
+04:55:11.522: v4l2-input: /dev/video0: select timed out
+04:55:11.522: v4l2-input: /dev/video0: failed to log status
+04:55:17.592: Virtual camera started
+04:55:17.608: ==== Virtual Camera Start ==========================================
+05:04:29.727: User added source 'toppng.com-fish-2219x1692.png' (image_source) to scene 'Class'
+05:22:36.403: pulse-am: source monitor reached max latency 1441ms
+05:24:08.660: pulse-am: source monitor reached max latency 1441ms
+05:25:12.074: pulse-am: source monitor reached max latency 1441ms
+05:25:41.062: pulse-am: source monitor reached max latency 1441ms
+05:26:34.918: User added source 'Harold Sticker.png' (image_source) to scene 'Class'
+05:27:14.818: pulse-am: source monitor reached max latency 1441ms
+05:27:30.210: pulse-am: source monitor reached max latency 1441ms
+05:30:01.954: User Removed source 'Base' (scene) from scene 'Class'
+05:30:02.036: pulse-am: source monitor reached max latency 1441ms
+05:30:04.189: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Base'
+05:30:04.189: User added source 'Audio Capture Device (ALSA)' (alsa_input_capture) to scene 'Base'
+05:30:04.189: User Removed source 'clipart2665566.png' (image_source) from scene 'Group'
+05:30:04.189: User Removed source 'clipart3022325.png' (image_source) from scene 'Group'
+05:30:04.189: User Removed source 'toppng.com-bumblebee-photo-by-yeshua2k8-transformers-revenge-of-the-fallen-official-movie-814x1000.png' (image_source) from scene 'Group'
+05:30:04.189: User Removed source 'toppng.com-ironman-875x1718.png' (image_source) from scene 'Group'
+05:30:04.189: User Removed source 'clipart3417367.png' (image_source) from scene 'Group'
+05:30:04.189: User Removed source 'toppng.com-ultraman-orb-coloring-pages-709x1097.png' (image_source) from scene 'Group'
+05:30:04.189: User Removed source 'clipart2461454.png' (image_source) from scene 'Group'
+05:30:04.189: User Removed source 'spiderman.png' (image_source) from scene 'Group'
+05:30:04.189: User Removed source 'clipart46745.png' (image_source) from scene 'Group'
+05:30:04.189: User Removed source 'clipart4417035.png' (image_source) from scene 'Group'
+05:30:04.189: User Removed source '2022-07-26_06-38.png' (image_source) from scene 'Class'
+05:30:04.189: User Removed source 'car.png' (image_source) from scene 'Class'
+05:30:04.189: User Removed source 'cat.png' (image_source) from scene 'Class'
+05:30:04.189: User Removed source 'clipart3690.png' (image_source) from scene 'Class'
+05:30:04.189: User Removed source 'clipart11513.png' (image_source) from scene 'Class'
+05:30:04.189: User Removed source 'Elsa.png' (image_source) from scene 'Class'
+05:30:04.189: User Removed source 'George.png' (image_source) from scene 'Class'
+05:30:04.189: User Removed source 'Harold Sticker.png' (image_source) from scene 'Class'
+05:30:04.189: User Removed source 'Ice Cream.png' (image_source) from scene 'Class'
+05:30:04.190: User Removed source 'Jerry.png' (image_source) from scene 'Class'
+05:30:04.190: User Removed source 'justin.png' (image_source) from scene 'Class'
+05:30:04.190: User Removed source 'MattTank.png' (image_source) from scene 'Class'
+05:30:04.190: User Removed source 'TonyMoon.png' (image_source) from scene 'Class'
+05:30:04.190: User Removed source 'TonyNinja.png' (image_source) from scene 'Class'
+05:30:04.190: User Removed source 'TonyPyraminx.png' (image_source) from scene 'Class'
+05:30:04.190: User Removed source 'toppng.com-bunny-png-cartoon-free-487x477.png' (image_source) from scene 'Class'
+05:30:04.190: User Removed source 'toppng.com-color-pencils-2907x1221.png' (image_source) from scene 'Class'
+05:30:04.190: User Removed source 'toppng.com-eyes-face-hide-kitty-wallpaper-2560x1600.jpg' (image_source) from scene 'Class'
+05:30:04.190: User Removed source 'toppng.com-fish-2219x1692.png' (image_source) from scene 'Class'
+05:30:04.190: User Removed source 'toppng.com-fox-300x300.png' (image_source) from scene 'Class'
+05:30:04.190: User Removed source 'toppng.com-ice-cream-cup-png-pic-1668x3543.png' (image_source) from scene 'Class'
+05:30:04.190: User Removed source 'toppng.com-kawaii-sushi-png-sushi-anime-600x355.png' (image_source) from scene 'Class'
+05:30:04.190: User Removed source 'toppng.com-olaf-hawaiian-frozen-2996x4232.png' (image_source) from scene 'Class'
+05:30:04.190: User Removed source 'toppng.com-orange-juice-2960x3504.png' (image_source) from scene 'Class'
+05:30:04.190: User Removed source 'toppng.com-rawr-trex-bunny-ears-egg-jurassic-world-figura-stomp-strike-tyrannosaurus-600x605.png' (image_source) from scene 'Class'
+05:30:04.190: User Removed source 'toppng.com-tropical-fish-clipart-realistic-fish-fish-1035x344.png' (image_source) from scene 'Class'
+05:30:04.190: User Removed source 'toppng.com-turtle-cartoon-600x348.png' (image_source) from scene 'Class'
+05:30:04.190: User Removed source 'WhatsApp Image 2022-05-19 at 10.57.02 AM.jpeg' (image_source) from scene 'Class'
+05:30:04.190: User Removed source 'Group' (group) from scene 'Class'
+05:30:04.190: User Removed source 'NamePlate' (text_ft2_source_v2) from scene 'Class'
+05:30:04.190: User Removed source 'Harold Sticker.png' (image_source) from scene 'Class'
+05:30:04.190: User Removed source 'toppng.com-fish-2219x1692.png' (image_source) from scene 'Class'
+05:30:04.192: User added source 'Base' (scene) to scene 'Class'
+05:30:04.193: User added source '2022-07-26_06-38.png' (image_source) to scene 'Class'
+05:30:04.195: User added source 'car.png' (image_source) to scene 'Class'
+05:30:04.196: User added source 'cat.png' (image_source) to scene 'Class'
+05:30:04.197: User added source 'clipart3690.png' (image_source) to scene 'Class'
+05:30:04.198: User added source 'clipart11513.png' (image_source) to scene 'Class'
+05:30:04.199: User added source 'Elsa.png' (image_source) to scene 'Class'
+05:30:04.201: User added source 'George.png' (image_source) to scene 'Class'
+05:30:04.202: User added source 'Harold Sticker.png' (image_source) to scene 'Class'
+05:30:04.203: User added source 'Ice Cream.png' (image_source) to scene 'Class'
+05:30:04.204: User added source 'Jerry.png' (image_source) to scene 'Class'
+05:30:04.206: User added source 'justin.png' (image_source) to scene 'Class'
+05:30:04.207: User added source 'MattTank.png' (image_source) to scene 'Class'
+05:30:04.208: User added source 'TonyMoon.png' (image_source) to scene 'Class'
+05:30:04.210: User added source 'TonyNinja.png' (image_source) to scene 'Class'
+05:30:04.211: User added source 'TonyPyraminx.png' (image_source) to scene 'Class'
+05:30:04.212: User added source 'toppng.com-bunny-png-cartoon-free-487x477.png' (image_source) to scene 'Class'
+05:30:04.214: User added source 'toppng.com-color-pencils-2907x1221.png' (image_source) to scene 'Class'
+05:30:04.215: User added source 'toppng.com-eyes-face-hide-kitty-wallpaper-2560x1600.jpg' (image_source) to scene 'Class'
+05:30:04.217: User added source 'toppng.com-fish-2219x1692.png' (image_source) to scene 'Class'
+05:30:04.218: User added source 'toppng.com-fox-300x300.png' (image_source) to scene 'Class'
+05:30:04.219: User added source 'toppng.com-ice-cream-cup-png-pic-1668x3543.png' (image_source) to scene 'Class'
+05:30:04.221: User added source 'toppng.com-kawaii-sushi-png-sushi-anime-600x355.png' (image_source) to scene 'Class'
+05:30:04.222: User added source 'toppng.com-olaf-hawaiian-frozen-2996x4232.png' (image_source) to scene 'Class'
+05:30:04.223: pulse-am: source monitor reached max latency 1441ms
+05:30:04.224: User added source 'toppng.com-orange-juice-2960x3504.png' (image_source) to scene 'Class'
+05:30:04.225: User added source 'toppng.com-rawr-trex-bunny-ears-egg-jurassic-world-figura-stomp-strike-tyrannosaurus-600x605.png' (image_source) to scene 'Class'
+05:30:04.227: User added source 'toppng.com-tropical-fish-clipart-realistic-fish-fish-1035x344.png' (image_source) to scene 'Class'
+05:30:04.228: User added source 'toppng.com-turtle-cartoon-600x348.png' (image_source) to scene 'Class'
+05:30:04.230: User added source 'WhatsApp Image 2022-05-19 at 10.57.02 AM.jpeg' (image_source) to scene 'Class'
+05:30:04.272: User added source 'Group' (group) to scene 'Class'
+05:30:04.274: User added source 'NamePlate' (text_ft2_source_v2) to scene 'Class'
+05:30:04.275: User added source 'Harold Sticker.png' (image_source) to scene 'Class'
+05:30:04.277: User added source 'toppng.com-fish-2219x1692.png' (image_source) to scene 'Class'
+05:30:09.231: User Removed source 'toppng.com-fish-2219x1692.png' (image_source) from scene 'Class'
+05:30:11.808: User Removed source 'Harold Sticker.png' (image_source) from scene 'Class'
+05:30:30.448: pulse-am: source monitor reached max latency 1441ms
+05:30:47.936: pulse-am: source monitor reached max latency 1441ms
+05:32:18.045: pulse-am: source monitor reached max latency 1441ms
+05:33:25.175: User added source 'TonyPyraminx.png' (image_source) to scene 'Class'
+05:33:41.811: pulse-am: source monitor reached max latency 1441ms
+05:34:33.847: pulse-am: source monitor reached max latency 1441ms
+05:35:41.670: pulse-am: source monitor reached max latency 1441ms
+05:36:43.323: pulse-am: source monitor reached max latency 1441ms
+05:37:48.620: pulse-am: source monitor reached max latency 1441ms
+05:38:51.355: pulse-am: source monitor reached max latency 1441ms
+05:39:45.982: pulse-am: source monitor reached max latency 1441ms
+05:41:00.239: pulse-am: source monitor reached max latency 1441ms
+05:41:15.339: pulse-am: source monitor reached max latency 1441ms
+05:43:03.644: pulse-am: source monitor reached max latency 1441ms
+05:43:29.149: pulse-am: source monitor reached max latency 1441ms
+05:45:10.905: pulse-am: source monitor reached max latency 1441ms
+05:46:06.466: pulse-am: source monitor reached max latency 1441ms
+05:47:11.268: pulse-am: source monitor reached max latency 1441ms
+05:48:06.789: pulse-am: source monitor reached max latency 1441ms
+05:48:24.900: pulse-am: source monitor reached max latency 1441ms
+05:50:25.929: pulse-am: source monitor reached max latency 1441ms
+05:51:13.091: pulse-am: source monitor reached max latency 1441ms
+05:52:08.180: pulse-am: source monitor reached max latency 1441ms
+05:53:30.868: pulse-am: source monitor reached max latency 1441ms
+05:54:08.664: pulse-am: source monitor reached max latency 1441ms
+05:55:32.322: pulse-am: source monitor reached max latency 1441ms
+05:56:23.701: pulse-am: source monitor reached max latency 1441ms
+05:56:30.965: User Removed source 'TonyPyraminx.png' (image_source) from scene 'Class'
+05:58:52.316: pulse-am: source monitor reached max latency 1441ms
+06:07:15.109: pulse-am: source monitor reached max latency 1441ms
+06:15:38.584: pulse-am: source monitor reached max latency 1441ms
+06:24:01.634: pulse-am: source monitor reached max latency 1441ms
+06:33:49.101: User added source 'spiderman.png' (image_source) to scene 'Class'
+06:34:33.063: User added source 'car.png' (image_source) to scene 'Class'
+06:46:42.094: pulse-am: source monitor reached max latency 1441ms
+06:47:49.441: pulse-am: source monitor reached max latency 1441ms
+06:48:56.799: pulse-am: source monitor reached max latency 1441ms
+06:49:52.522: pulse-am: source monitor reached max latency 1441ms
+06:51:02.260: pulse-am: source monitor reached max latency 1441ms
+06:52:06.619: pulse-am: source monitor reached max latency 1441ms
+06:53:09.517: pulse-am: source monitor reached max latency 1441ms
+06:54:14.132: pulse-am: source monitor reached max latency 1441ms
+06:54:53.648: pulse-am: source monitor reached max latency 1441ms
+06:55:49.626: pulse-am: source monitor reached max latency 1441ms
+06:56:04.359: pulse-am: source monitor reached max latency 1441ms
+06:56:09.156: User Removed source 'spiderman.png' (image_source) from scene 'Class'
+06:56:09.156: User Removed source 'car.png' (image_source) from scene 'Class'
+06:59:31.303: pulse-am: source monitor reached max latency 1441ms
+07:05:36.182: User added source 'Harold Sticker.png' (image_source) to scene 'Class'
+07:05:41.049: User added source 'clipart11513.png' (image_source) to scene 'Class'
+07:21:56.038: pulse-am: source monitor reached max latency 1441ms
+07:23:02.340: pulse-am: source monitor reached max latency 1441ms
+07:24:34.187: pulse-am: source monitor reached max latency 1441ms
+07:25:35.804: pulse-am: source monitor reached max latency 1441ms
+07:26:30.904: pulse-am: source monitor reached max latency 1441ms
+07:28:28.589: pulse-am: source monitor reached max latency 1441ms
+07:30:14.273: User Removed source 'clipart11513.png' (image_source) from scene 'Class'
+07:30:16.486: User Removed source 'Harold Sticker.png' (image_source) from scene 'Class'
+07:35:47.686: User added source 'TonyMoon.png' (image_source) to scene 'Class'
+07:51:32.513: pulse-am: source monitor reached max latency 1441ms
+07:52:45.859: pulse-am: source monitor reached max latency 1441ms
+07:53:38.539: pulse-am: source monitor reached max latency 1441ms
+07:54:53.382: pulse-am: source monitor reached max latency 1441ms
+07:55:05.469: pulse-am: source monitor reached max latency 1441ms
+07:55:33.009: pulse-am: source monitor reached max latency 1441ms
+07:58:43.952: pulse-am: source monitor reached max latency 1441ms
+08:03:01.934: User Removed source 'TonyMoon.png' (image_source) from scene 'Class'
+08:03:37.077: User added source 'clipart11513.png' (image_source) to scene 'Class'
+08:22:01.248: pulse-am: source monitor reached max latency 1441ms
+08:23:02.688: pulse-am: source monitor reached max latency 1441ms
+08:24:13.088: pulse-am: source monitor reached max latency 1441ms
+08:25:14.380: pulse-am: source monitor reached max latency 1441ms
+08:26:16.493: pulse-am: source monitor reached max latency 1441ms
+08:27:19.139: pulse-am: source monitor reached max latency 1441ms
+08:27:46.457: pulse-am: source monitor reached max latency 1441ms
+08:28:19.444: pulse-am: source monitor reached max latency 1441ms
+08:31:18.544: User Removed source 'clipart11513.png' (image_source) from scene 'Class'
+09:08:39.231: Output 'virtualcam_output': stopping
+09:08:39.232: Output 'virtualcam_output': Total frames output: 456048
+09:08:39.232: Output 'virtualcam_output': Total drawn frames: 456026 (456049 attempted)
+09:08:39.232: Output 'virtualcam_output': Number of lagged frames due to rendering lag/stalls: 23 (0.0%)
+09:08:39.241: ==== Virtual Camera Stop ===========================================
+09:08:39.262: Virtual camera stopped
+09:08:48.611: Virtual camera started
+09:08:48.616: ==== Virtual Camera Start ==========================================
+09:11:49.155: Output 'virtualcam_output': stopping
+09:11:49.155: Output 'virtualcam_output': Total frames output: 5415
+09:11:49.155: Output 'virtualcam_output': Total drawn frames: 5416
+09:11:49.155: ==== Virtual Camera Stop ===========================================
+09:11:49.156: Virtual camera stopped
+09:11:49.929: ==== Shutting down ==================================================
+09:11:49.984: v4l2-input: /dev/video0: Stopped capture after 398889 frames
+09:11:50.189: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_0f_00.4.iec958-stereo.monitor'
+09:11:50.189: pulse-am: Got 3066207 packets with 738955887 frames
+09:11:50.228: All scene data cleared
+09:11:50.228: ------------------------------------------------
+09:11:50.376: [Scripting] Total detached callbacks: 0
+09:11:50.376: Freeing OBS context data
+09:11:50.404: == Profiler Results =============================
+09:11:50.404: run_program_init: 1576.72 ms
+09:11:50.404:  ┣OBSApp::AppInit: 3.671 ms
+09:11:50.405:  ┃ ┗OBSApp::InitLocale: 1.507 ms
+09:11:50.405:  ┗OBSApp::OBSInit: 1477.72 ms
+09:11:50.405:    ┣obs_startup: 2.118 ms
+09:11:50.405:    ┗OBSBasic::OBSInit: 1398.3 ms
+09:11:50.405:      ┣OBSBasic::InitBasicConfig: 0.066 ms
+09:11:50.405:      ┣OBSBasic::ResetAudio: 0.151 ms
+09:11:50.405:      ┣OBSBasic::ResetVideo: 99.368 ms
+09:11:50.405:      ┣OBSBasic::InitOBSCallbacks: 0.004 ms
+09:11:50.405:      ┣OBSBasic::InitHotkeys: 0.038 ms
+09:11:50.405:      ┣obs_load_all_modules: 142.493 ms
+09:11:50.405:      ┃ ┣obs_init_module(decklink-captions.so): 0.033 ms
+09:11:50.405:      ┃ ┣obs_init_module(decklink-ouput-ui.so): 0.883 ms
+09:11:50.405:      ┃ ┣obs_init_module(frontend-tools.so): 37.813 ms
+09:11:50.405:      ┃ ┣obs_init_module(image-source.so): 0.004 ms
+09:11:50.405:      ┃ ┣obs_init_module(linux-alsa.so): 0.001 ms
+09:11:50.405:      ┃ ┣obs_init_module(linux-capture.so): 0.203 ms
+09:11:50.405:      ┃ ┣obs_init_module(linux-decklink.so): 0.105 ms
+09:11:50.405:      ┃ ┣obs_init_module(linux-jack.so): 0.001 ms
+09:11:50.405:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.001 ms
+09:11:50.405:      ┃ ┣obs_init_module(linux-v4l2.so): 0.056 ms
+09:11:50.405:      ┃ ┣obs_init_module(obs-ffmpeg.so): 10.678 ms
+09:11:50.405:      ┃ ┃ ┗nvenc_check: 3.058 ms
+09:11:50.405:      ┃ ┣obs_init_module(obs-filters.so): 0.024 ms
+09:11:50.405:      ┃ ┣obs_init_module(obs-outputs.so): 0.002 ms
+09:11:50.405:      ┃ ┣obs_init_module(obs-transitions.so): 0.005 ms
+09:11:50.405:      ┃ ┣obs_init_module(obs-x264.so): 0.001 ms
+09:11:50.405:      ┃ ┣obs_init_module(rtmp-services.so): 1.864 ms
+09:11:50.405:      ┃ ┣obs_init_module(text-freetype2.so): 0.01 ms
+09:11:50.405:      ┃ ┗obs_init_module(vlc-video.so): 2.515 ms
+09:11:50.405:      ┣OBSBasic::ResetOutputs: 1.151 ms
+09:11:50.405:      ┣OBSBasic::CreateHotkeys: 0.029 ms
+09:11:50.405:      ┣OBSBasic::InitService: 1.237 ms
+09:11:50.405:      ┣OBSBasic::InitPrimitives: 0.21 ms
+09:11:50.405:      ┗OBSBasic::Load: 960.354 ms
+09:11:50.405: obs_hotkey_thread(25 ms): min=0.038 ms, median=0.068 ms, max=89.961 ms, 99th percentile=7.695 ms, 99.7348% below 25 ms
+09:11:50.405: audio_thread(Audio): min=0 ms, median=0.036 ms, max=27.565 ms, 99th percentile=0.524 ms
+09:11:50.405: obs_graphics_thread(33.3333 ms): min=0.248 ms, median=1.654 ms, max=848.217 ms, 99th percentile=19.226 ms, 99.6829% below 33.333 ms
+09:11:50.405:  ┣tick_sources: min=0 ms, median=0.029 ms, max=845.476 ms, 99th percentile=0.1 ms
+09:11:50.405:  ┣output_frame: min=0.078 ms, median=1.13 ms, max=60.559 ms, 99th percentile=7.891 ms
+09:11:50.405:  ┃ ┣gs_context(video->graphics): min=0.077 ms, median=0.953 ms, max=60.208 ms, 99th percentile=7.6 ms
+09:11:50.405:  ┃ ┃ ┣render_video: min=0.023 ms, median=0.878 ms, max=36.435 ms, 99th percentile=1.943 ms
+09:11:50.405:  ┃ ┃ ┃ ┣render_main_texture: min=0.018 ms, median=0.742 ms, max=36.361 ms, 99th percentile=1.597 ms
+09:11:50.405:  ┃ ┃ ┃ ┣render_output_texture: min=0.019 ms, median=0.032 ms, max=1.665 ms, 99th percentile=0.069 ms
+09:11:50.405:  ┃ ┃ ┃ ┣render_convert_texture: min=0.025 ms, median=0.038 ms, max=0.934 ms, 99th percentile=0.082 ms
+09:11:50.405:  ┃ ┃ ┃ ┗stage_output_texture: min=0.017 ms, median=0.026 ms, max=26.227 ms, 99th percentile=0.332 ms
+09:11:50.405:  ┃ ┃ ┣gs_flush: min=0.003 ms, median=0.005 ms, max=26.589 ms, 99th percentile=0.011 ms
+09:11:50.405:  ┃ ┃ ┗download_frame: min=0 ms, median=0.002 ms, max=0.542 ms, 99th percentile=0.005 ms
+09:11:50.405:  ┃ ┗output_video_data: min=0.126 ms, median=0.175 ms, max=7.502 ms, 99th percentile=0.473 ms
+09:11:50.405:  ┗render_displays: min=0.034 ms, median=0.31 ms, max=74.175 ms, 99th percentile=8.536 ms
+09:11:50.405: video_thread(video): min=0.965 ms, median=1.194 ms, max=11.558 ms, 99th percentile=2.057 ms
+09:11:50.405: =================================================
+09:11:50.405: == Profiler Time Between Calls ==================
+09:11:50.405: obs_hotkey_thread(25 ms): min=25.051 ms, median=25.129 ms, max=115.021 ms, 91.4472% within ±2% of 25 ms (0% lower, 8.55277% higher)
+09:11:50.405: obs_graphics_thread(33.3333 ms): min=1.964 ms, median=33.333 ms, max=848.221 ms, 99.2495% within ±2% of 33.333 ms (0.379255% lower, 0.371246% higher)
+09:11:50.405: =================================================
+09:11:50.556: Number of memory leaks: 0

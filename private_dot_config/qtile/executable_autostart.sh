@@ -12,15 +12,15 @@ run setxkbmap -layout us -variant altgr-intl -option "caps:escape_shifted_capslo
 run xset s 3600
 run xss-lock /home/ralldi/.config/scripts/betterlock.sh
 run dunst
-run nitrogen --restore
 run picom -b
 run lxpolkit
 run copyq --start-server
 run nm-applet
+run nitrogen --restore
 # run volumeicon
 #run urxvtd -q -o -f
-run /usr/bin/emacs-lucid --daemon
-run /usr/bin/emacs-lucid --with-profile legacy --daemon
-run /usr/bin/offlineimap
+# run /usr/bin/emacs-lucid --daemon
+# run /usr/bin/emacs-lucid --with-profile legacy --daemon
+# run /usr/bin/offlineimap
 run /usr/bin/sxhkd
 run /usr/bin/corectrl

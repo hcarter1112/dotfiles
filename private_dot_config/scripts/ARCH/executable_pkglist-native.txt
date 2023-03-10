@@ -16,6 +16,7 @@ evolution
 exa
 fd
 feh
+ffmpegthumbnailer
 firefox
 fish
 flameshot
@@ -31,6 +32,7 @@ kitty
 kvantum
 lazygit
 lf
+lib32-systemd
 libguestfs
 lightdm
 lightdm-gtk-greeter
@@ -61,6 +63,7 @@ pulsemixer
 python-pip
 python-psutil
 qemu-full
+qpwgraph
 qtile
 ranger
 rclone
@@ -74,6 +77,8 @@ thunar
 thunar-volman
 trash-cli
 ttf-joypixels
+ttf-liberation
+tumbler
 v4l2loopback-dkms
 v4l2loopback-utils
 vde2
