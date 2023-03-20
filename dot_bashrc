@@ -31,7 +31,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
 # . "$HOME/.cargo/env"
 
-alias scron="bash su -c $(printf "%q " "crontab -e")"
+alias scron="su -c $(printf "%q " "crontab -e")"
 if [ -f /home/ralldi/.aliases ]; then
 	source /home/ralldi/.aliases
 fi

@@ -45,7 +45,7 @@ alias upd="sudo pikaur -Syu"
 # alias s="pacman -Ss"
 ### AUR helper alias
 alias i="pikaur -S"
-alias r="pikaur -Rns"
+alias r="pikaur -Rcs"
 alias s="pikaur -Ss"
 ###Fedora dnf aliases
 # alias upd=/home/ralldi/.config/scripts/update-fedora.sh #update dnf and flatpak

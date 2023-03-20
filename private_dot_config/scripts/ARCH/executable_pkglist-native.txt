@@ -34,6 +34,7 @@ lazygit
 lf
 lib32-systemd
 libguestfs
+libreoffice-still
 lightdm
 lightdm-gtk-greeter
 linux

@@ -1,9 +1,8 @@
 #!/bin/bash
 
-cd ~/.gitstuff/ &&
-if [[ ! -d ~/.gitstuff/yay-git/ ]]
-then
-  git clone https://aur.archlinux.org/yay-git.git
-fi
-cd ~/.gitstuff/yay-git/ &&
-makepkg -si
+cd /home/ralldi/.gitstuff/ &&
+	if [[ ! -d ~/.gitstuff/pikaur-git/ ]]; then
+		git clone https://aur.archlinux.org/pikaur-git.git
+	fi
+cd ~/.gitstuff/pikaur-git/ &&
+	makepkg -si

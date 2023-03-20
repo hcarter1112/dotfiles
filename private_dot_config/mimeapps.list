@@ -1,0 +1,33 @@
+[Removed Associations]
+
+[Added Associations]
+application/pdf=userapp-firefox-WXISX1.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-65RP11.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-65RP11.desktop;
+x-scheme-handler/news=userapp-Thunderbird-QAUQ11.desktop;
+x-scheme-handler/snews=userapp-Thunderbird-QAUQ11.desktop;
+x-scheme-handler/nntp=userapp-Thunderbird-QAUQ11.desktop;
+x-scheme-handler/feed=userapp-Thunderbird-VLKM11.desktop;
+application/rss+xml=userapp-Thunderbird-VLKM11.desktop;
+application/x-extension-rss=userapp-Thunderbird-VLKM11.desktop;
+
+[Default Applications]
+application/pdf=firefox.desktop
+image/png=feh.desktop
+image/jpg=feh.desktop
+image/jpeg=feh.desktop
+image/webp=feh.desktop
+image/svg+xml=imagemagic.desktop
+text/plain=nvim.desktop
+text/xscript.python=nvim.desktop
+text/x-shellscript=nvim.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-65RP11.desktop
+message/rfc822=userapp-Thunderbird-65RP11.desktop
+x-scheme-handler/mid=userapp-Thunderbird-65RP11.desktop
+x-scheme-handler/news=userapp-Thunderbird-QAUQ11.desktop
+x-scheme-handler/snews=userapp-Thunderbird-QAUQ11.desktop
+x-scheme-handler/nntp=userapp-Thunderbird-QAUQ11.desktop
+x-scheme-handler/feed=userapp-Thunderbird-VLKM11.desktop
+application/rss+xml=userapp-Thunderbird-VLKM11.desktop
+application/x-extension-rss=userapp-Thunderbird-VLKM11.desktop
+inode/directory=thunar.desktop

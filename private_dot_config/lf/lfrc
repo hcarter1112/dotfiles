@@ -12,9 +12,9 @@ set icons true
 
 cmd open $xdg-open "$f"
 # Trash-cli command
-cmd REMOVE $sudo rm -rf $fx
-cmd sudo-trash %sudo trash-put $fx
-cmd trash %trash-put $fx
+cmd REMOVE $sudo rm -rf "$fx"
+cmd sudo-trash %sudo trash-put "$fx"
+cmd trash %trash-put "$fx"
 # Make directory cmd
 cmd mkdir ${{
   printf "Directory Name: "
@@ -37,18 +37,18 @@ cmd unzip ${{
     *) echo "unsupported format" ;;
   esac
 }}
-cmd drag-exit $dragon -x $fx
-cmd drag-keep $dragon -k $fx
-cmd drag-target $dragon -t $fx
+cmd drag-exit $dragon-drop -x "$fx"
+cmd drag-keep $dragon-drop -k "$fx"
+cmd drag-target $dragon-drop -t "$fx"
 cmd mvc ${{
   printf "Name of student: "
   read ans
   /home/ralldi/.config/scripts/mv-class-notes.sh $ans &&
   filename=$ans-$(date -I)
-  dragon -x "/home/ralldi/Downloads/class-notes/$filename.pdf"
+  dragon-drop -x "/home/ralldi/Downloads/class-notes/$filename.pdf"
 }}
-cmd chmod+x $chmod +x $fx
-cmd sudoedit $sudoedit $fx
+cmd chmod+x $chmod +x "$fx"
+cmd sudoedit $sudoedit "$f"
 
 map g
 map m

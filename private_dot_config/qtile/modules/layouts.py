@@ -6,7 +6,7 @@ def init_layout_theme():
     return {
             "margin": 3,
             "border_width": 3,
-            "border_focus": '#b8bb26',
+            "border_focus": '#52bdff',
             "border_normal": '#282828'
             }
 
@@ -53,6 +53,6 @@ floating_layout = layout.Floating(float_rules=[
     Match(wm_class='copyq'),  # GPG key password entry
     Match(title='Library'),  # GPG key password entry
     ],
-    border_focus=colors[13] [1],
+    border_focus=colors[9] [1],
     border_width=3
 )
