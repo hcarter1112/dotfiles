@@ -46,6 +46,8 @@ keys = [
         desc="Toggle between split and unsplit sides of stack"),
     Key("M-S-t", lazy.window.toggle_fullscreen(), desc="Toggle Fullscreen"),
 
+    # Toggle keyboard layouts
+    Key("M-S-<Tab>", lazy.widget["keyboardlayout"].next_keyboard(), desc="toggle keyboard layouts"),
     # Toggle between different layouts as defined below
     Key("M-<Tab>", lazy.next_layout(), desc="Toggle between layouts"),
     # Key("M-w", lazy.window.kill(), desc="Kill focused window"),

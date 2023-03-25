@@ -54,6 +54,7 @@ nodejs-emojione
 noto-fonts
 obs-studio
 openbsd-netcat
+pacman-contrib
 picom
 pipewire
 pipewire-alsa

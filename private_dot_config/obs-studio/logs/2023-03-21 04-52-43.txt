@@ -1,0 +1,468 @@
+04:52:43.212: Command Line Arguments: --startvirtualcam
+04:52:43.212: Using EGL/X11
+04:52:43.212: CPU Name: AMD Ryzen 5 3600 6-Core Processor
+04:52:43.212: CPU Speed: 2394.929MHz
+04:52:43.212: Physical Cores: 6, Logical Cores: 12
+04:52:43.212: Physical Memory: 32009MB Total, 5871MB Free
+04:52:43.212: Kernel Version: Linux 6.2.7-arch1-1
+04:52:43.212: Distribution: "Arch Linux" Unknown
+04:52:43.212: Session Type: x11
+04:52:43.212: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+04:52:43.213: Qt Version: 6.4.3 (runtime), 6.4.2 (compiled)
+04:52:43.213: Portable mode: false
+04:52:43.287: OBS 29.0.2-2 (linux)
+04:52:43.287: ---------------------------------
+04:52:43.288: ---------------------------------
+04:52:43.288: audio settings reset:
+04:52:43.288: 	samples per sec: 48000
+04:52:43.288: 	speakers:        2
+04:52:43.288: 	max buffering:   960 milliseconds
+04:52:43.288: 	buffering type:  dynamically increasing
+04:52:43.289: ---------------------------------
+04:52:43.289: Initializing OpenGL...
+04:52:43.343: Loading up OpenGL on adapter AMD AMD Radeon RX 6700 XT (navi22, LLVM 15.0.7, DRM 3.49, 6.2.7-arch1-1)
+04:52:43.343: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 22.3.6, shading language 4.60
+04:52:43.374: ---------------------------------
+04:52:43.374: video settings reset:
+04:52:43.374: 	base resolution:   1920x1080
+04:52:43.374: 	output resolution: 1280x720
+04:52:43.374: 	downscale filter:  Bicubic
+04:52:43.374: 	fps:               30/1
+04:52:43.374: 	format:            NV12
+04:52:43.374: 	YUV mode:          Rec. 709/Partial
+04:52:43.374: NV12 texture support not available
+04:52:43.374: P010 texture support not available
+04:52:43.376: Audio monitoring device:
+04:52:43.376: 	name: Monitor of Starship/Matisse HD Audio Controller Digital Stereo (IEC958)
+04:52:43.376: 	id: alsa_output.pci-0000_0f_00.4.iec958-stereo.monitor
+04:52:43.376: ---------------------------------
+04:52:43.386: Failed to load 'en-US' text for module: 'decklink-captions.so'
+04:52:43.395: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+04:52:43.402: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+04:52:43.402: Failed to initialize module 'decklink.so'
+04:52:43.548: [pipewire] No captures available
+04:52:43.584: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+04:52:43.584: FFmpeg VAAPI H264 encoding not supported
+04:52:43.656: ---------------------------------
+04:52:43.656:   Loaded Modules:
+04:52:43.656:     text-freetype2.so
+04:52:43.656:     rtmp-services.so
+04:52:43.656:     obs-x264.so
+04:52:43.656:     obs-vst.so
+04:52:43.656:     obs-transitions.so
+04:52:43.656:     obs-outputs.so
+04:52:43.656:     obs-libfdk.so
+04:52:43.656:     obs-filters.so
+04:52:43.656:     obs-ffmpeg.so
+04:52:43.656:     linux-v4l2.so
+04:52:43.656:     linux-pulseaudio.so
+04:52:43.656:     linux-pipewire.so
+04:52:43.656:     linux-jack.so
+04:52:43.656:     linux-capture.so
+04:52:43.656:     linux-alsa.so
+04:52:43.656:     image-source.so
+04:52:43.656:     frontend-tools.so
+04:52:43.656:     decklink-output-ui.so
+04:52:43.656:     decklink-captions.so
+04:52:43.656: ---------------------------------
+04:52:43.657: ==== Startup complete ===============================================
+04:52:43.714: All scene data cleared
+04:52:43.715: ------------------------------------------------
+04:52:43.727: v4l2-input: Start capture from /dev/video0
+04:52:43.728: v4l2-input: Input: 0
+04:52:43.728: v4l2-input: Resolution: 1920x1080
+04:52:43.728: v4l2-input: Pixelformat: BGR3
+04:52:43.728: v4l2-input: Linesize: 5760 Bytes
+04:52:43.728: v4l2-input: Framerate: 30.00 fps
+04:52:43.730: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+04:52:44.853: v4l2-input: /dev/video0: select timed out
+04:52:44.853: v4l2-input: /dev/video0: failed to log status
+04:52:45.031: [window-capture: 'JW Lib'] update settings:
+04:52:45.031: 	title: unknown
+04:52:45.031: 	class: unknown
+04:52:45.031: 
+04:52:45.034: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.67) 15.0.0'
+04:52:45.034: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+04:52:45.034: pulse-input: Started recording from 'alsa_output.usb-Razer_Razer_BlackShark_V2_Pro-00.iec958-stereo.monitor' (default)
+04:52:45.040: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.67) 15.0.0'
+04:52:45.040: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+04:52:45.040: pulse-input: Started recording from 'alsa_input.usb-Razer_Razer_BlackShark_V2_Pro-00.mono-fallback'
+04:52:45.044: pulse-am: Server name: 'PulseAudio (on PipeWire 0.3.67) 15.0.0'
+04:52:45.044: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
+04:52:45.044: pulse-am: Started Monitoring in 'alsa_output.pci-0000_0f_00.4.iec958-stereo.monitor'
+04:52:45.065: Switched to scene 'Base'
+04:52:45.065: ------------------------------------------------
+04:52:45.065: Loaded scenes:
+04:52:45.065: - scene '[NS] Audio':
+04:52:45.065:     - source: 'RazerMic' (pulse_input_capture)
+04:52:45.065:         - monitoring: monitor only
+04:52:45.065:         - filter: 'Noise Gate' (noise_gate_filter)
+04:52:45.065:         - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+04:52:45.065:         - filter: 'Compressor' (compressor_filter)
+04:52:45.065: - scene '[NS] Video':
+04:52:45.065:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+04:52:45.065: - scene 'Base':
+04:52:45.088:     - source: '[NS] Audio' (scene)
+04:52:45.088:     - source: '[NS] Video' (scene)
+04:52:45.088: - scene 'Classroom':
+04:52:45.088:     - source: 'Base' (scene)
+04:52:45.088:     - source: 'Name Plate' (text_ft2_source_v2)
+04:52:45.088:     - source: 'brody.jpeg' (image_source)
+04:52:45.088:     - source: 'butterflies.png' (image_source)
+04:52:45.088:     - source: 'candy-gumdrops.png' (image_source)
+04:52:45.088:     - source: 'car.png' (image_source)
+04:52:45.088:     - source: 'cat.png' (image_source)
+04:52:45.088:     - source: 'cat-white.png' (image_source)
+04:52:45.088:     - source: 'colored-pencils.png' (image_source)
+04:52:45.088:     - source: 'dinosaurs.png' (image_source)
+04:52:45.088:     - source: 'dog-fluffy.png' (image_source)
+04:52:45.088:     - source: 'drum-kit.png' (image_source)
+04:52:45.088:     - source: 'Elsa.png' (image_source)
+04:52:45.088:     - source: 'fighterjet.png' (image_source)
+04:52:45.088:     - source: 'fire truck.png' (image_source)
+04:52:45.088:     - source: 'fish-many.png' (image_source)
+04:52:45.088:     - source: 'fish-tropical.png' (image_source)
+04:52:45.088:     - source: 'fox.png' (image_source)
+04:52:45.088:     - source: 'George.png' (image_source)
+04:52:45.088:     - source: 'harold2.png' (image_source)
+04:52:45.088:     - source: 'Harold Sticker.png' (image_source)
+04:52:45.088:     - source: 'Ice Cream.png' (image_source)
+04:52:45.088:     - source: 'ice-cream-chocolate.png' (image_source)
+04:52:45.088:     - source: 'icecream-strawberry.png' (image_source)
+04:52:45.088:     - source: 'ironman-classic.png' (image_source)
+04:52:45.088:     - source: 'ironman-lego.png' (image_source)
+04:52:45.088:     - source: 'jacket-pink.png' (image_source)
+04:52:45.088:     - source: 'milk-tony.png' (image_source)
+04:52:45.088:     - source: 'moon-tony.png' (image_source)
+04:52:45.088:     - source: 'nerf_gun.png' (image_source)
+04:52:45.088:     - source: 'ninja-tony.png' (image_source)
+04:52:45.088:     - source: 'olaf.png' (image_source)
+04:52:45.088:     - source: 'orange-juice.png' (image_source)
+04:52:45.088:     - source: 'owl-snow.png' (image_source)
+04:52:45.088:     - source: 'panda.png' (image_source)
+04:52:45.088:     - source: 'penguin.png' (image_source)
+04:52:45.088:     - source: 'pokeball-ethan.png' (image_source)
+04:52:45.088:     - source: 'pyramix-tony.png' (image_source)
+04:52:45.088:     - source: 'rabbit.png' (image_source)
+04:52:45.088:     - source: 'Rubikscube.png' (image_source)
+04:52:45.088:     - source: 'spiderman-cute.png' (image_source)
+04:52:45.088:     - source: 'spiderman-jump.png' (image_source)
+04:52:45.088:     - source: 'spiderman-miles.png' (image_source)
+04:52:45.088:     - source: 'spiderman-ultra.png' (image_source)
+04:52:45.088:     - source: 'sun.png' (image_source)
+04:52:45.088:     - source: 'sushi.png' (image_source)
+04:52:45.088:     - source: 'tank-matt.png' (image_source)
+04:52:45.088:     - source: 'tank-modern.png' (image_source)
+04:52:45.088:     - source: 'transformer-bumblebee.png' (image_source)
+04:52:45.088:     - source: 'transformer-decepticon.png' (image_source)
+04:52:45.088:     - source: 'triceratops.png' (image_source)
+04:52:45.088:     - source: 'turtle-cartoon.png' (image_source)
+04:52:45.088:     - source: 'ultraman1.png' (image_source)
+04:52:45.088:     - source: 'ultraman2.png' (image_source)
+04:52:45.088:     - source: 'ultraman3.png' (image_source)
+04:52:45.088:     - source: 'ultraman4.png' (image_source)
+04:52:45.088:     - source: 'ultraman-cute.png' (image_source)
+04:52:45.088:     - source: 'ultraman-group.png' (image_source)
+04:52:45.088:     - source: 'watermelon.png' (image_source)
+04:52:45.088:     - source: 'watermelon-drink.png' (image_source)
+04:52:45.088:     - source: 'pikachu.png' (image_source)
+04:52:45.088:     - source: 'fried-dumplings.png' (image_source)
+04:52:45.088:     - source: 'rabbit-white.png' (image_source)
+04:52:45.088:     - source: 'rabbit-white.png' (image_source)
+04:52:45.088:     - source: 'horse-black.png' (image_source)
+04:52:45.088:     - source: 'flower.png' (image_source)
+04:52:45.088:     - source: 'cake.png' (image_source)
+04:52:45.088:     - source: 'panda.png' (image_source)
+04:52:45.088:     - source: 'fighterjet.png' (image_source)
+04:52:45.088:     - source: 'fried-rice.png' (image_source)
+04:52:45.088:     - source: 'rabbit-white.png' (image_source)
+04:52:45.088:     - source: 'spiderman-classic.png' (image_source)
+04:52:45.088:     - source: 'rabbit-white.png' (image_source)
+04:52:45.088:     - source: 'chipmunk.png' (image_source)
+04:52:45.088:     - source: 'chocolate.png' (image_source)
+04:52:45.088:     - source: 'Mulan.png' (image_source)
+04:52:45.088:     - source: 'chipmunk.png' (image_source)
+04:52:45.088:     - source: 'icecream-strawberry.png' (image_source)
+04:52:45.088:     - source: 'ice-cream-chocolate.png' (image_source)
+04:52:45.088:     - source: 'medal-tony.png' (image_source)
+04:52:45.088:     - source: 'earth.png' (image_source)
+04:52:45.088: - scene 'JW Share':
+04:52:45.088:     - source: 'JW Lib' (xcomposite_input)
+04:52:45.088:     - source: 'WIN 10 VM' (pulse_output_capture)
+04:52:45.088: ------------------------------------------------
+04:52:45.145: NV12 texture support not available
+04:52:45.145: P010 texture support not available
+04:52:45.147: Virtual camera started
+04:52:45.154: ==== Virtual Camera Start ==========================================
+04:52:45.592: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: WIN 10 VM)
+04:52:45.592: 
+04:52:56.412: User switched to scene 'Classroom'
+05:11:43.921: User added source 'spiderman-miles.png' (image_source) to scene 'Classroom'
+05:11:46.851: User added source '[NS] Audio' (scene) to scene 'Base'
+05:11:46.851: User added source '[NS] Video' (scene) to scene 'Base'
+05:11:46.852: User Removed source 'Base' (scene) from scene 'Classroom'
+05:11:46.852: User Removed source 'Name Plate' (text_ft2_source_v2) from scene 'Classroom'
+05:11:46.852: User Removed source 'brody.jpeg' (image_source) from scene 'Classroom'
+05:11:46.852: User Removed source 'butterflies.png' (image_source) from scene 'Classroom'
+05:11:46.852: User Removed source 'candy-gumdrops.png' (image_source) from scene 'Classroom'
+05:11:46.852: User Removed source 'car.png' (image_source) from scene 'Classroom'
+05:11:46.852: User Removed source 'cat.png' (image_source) from scene 'Classroom'
+05:11:46.852: User Removed source 'cat-white.png' (image_source) from scene 'Classroom'
+05:11:46.852: User Removed source 'colored-pencils.png' (image_source) from scene 'Classroom'
+05:11:46.852: User Removed source 'dinosaurs.png' (image_source) from scene 'Classroom'
+05:11:46.852: User Removed source 'dog-fluffy.png' (image_source) from scene 'Classroom'
+05:11:46.852: User Removed source 'drum-kit.png' (image_source) from scene 'Classroom'
+05:11:46.852: User Removed source 'Elsa.png' (image_source) from scene 'Classroom'
+05:11:46.852: User Removed source 'fighterjet.png' (image_source) from scene 'Classroom'
+05:11:46.852: User Removed source 'fire truck.png' (image_source) from scene 'Classroom'
+05:11:46.852: User Removed source 'fish-many.png' (image_source) from scene 'Classroom'
+05:11:46.852: User Removed source 'fish-tropical.png' (image_source) from scene 'Classroom'
+05:11:46.852: User Removed source 'fox.png' (image_source) from scene 'Classroom'
+05:11:46.852: User Removed source 'George.png' (image_source) from scene 'Classroom'
+05:11:46.852: User Removed source 'harold2.png' (image_source) from scene 'Classroom'
+05:11:46.852: User Removed source 'Harold Sticker.png' (image_source) from scene 'Classroom'
+05:11:46.852: User Removed source 'Ice Cream.png' (image_source) from scene 'Classroom'
+05:11:46.852: User Removed source 'ice-cream-chocolate.png' (image_source) from scene 'Classroom'
+05:11:46.852: User Removed source 'icecream-strawberry.png' (image_source) from scene 'Classroom'
+05:11:46.852: User Removed source 'ironman-classic.png' (image_source) from scene 'Classroom'
+05:11:46.852: User Removed source 'ironman-lego.png' (image_source) from scene 'Classroom'
+05:11:46.852: User Removed source 'jacket-pink.png' (image_source) from scene 'Classroom'
+05:11:46.852: User Removed source 'milk-tony.png' (image_source) from scene 'Classroom'
+05:11:46.852: User Removed source 'moon-tony.png' (image_source) from scene 'Classroom'
+05:11:46.852: User Removed source 'nerf_gun.png' (image_source) from scene 'Classroom'
+05:11:46.852: User Removed source 'ninja-tony.png' (image_source) from scene 'Classroom'
+05:11:46.852: User Removed source 'olaf.png' (image_source) from scene 'Classroom'
+05:11:46.852: User Removed source 'orange-juice.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'owl-snow.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'panda.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'penguin.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'pokeball-ethan.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'pyramix-tony.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'rabbit.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'Rubikscube.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'spiderman-cute.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'spiderman-jump.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'spiderman-miles.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'spiderman-ultra.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'sun.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'sushi.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'tank-matt.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'tank-modern.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'transformer-bumblebee.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'transformer-decepticon.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'triceratops.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'turtle-cartoon.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'ultraman1.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'ultraman2.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'ultraman3.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'ultraman4.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'ultraman-cute.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'ultraman-group.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'watermelon.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'watermelon-drink.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'pikachu.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'fried-dumplings.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'rabbit-white.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'rabbit-white.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'horse-black.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'flower.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'cake.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'panda.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'fighterjet.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'fried-rice.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'rabbit-white.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'spiderman-classic.png' (image_source) from scene 'Classroom'
+05:11:46.853: User Removed source 'rabbit-white.png' (image_source) from scene 'Classroom'
+05:11:46.854: User Removed source 'chipmunk.png' (image_source) from scene 'Classroom'
+05:11:46.854: User Removed source 'chocolate.png' (image_source) from scene 'Classroom'
+05:11:46.854: User Removed source 'Mulan.png' (image_source) from scene 'Classroom'
+05:11:46.854: User Removed source 'chipmunk.png' (image_source) from scene 'Classroom'
+05:11:46.854: User Removed source 'icecream-strawberry.png' (image_source) from scene 'Classroom'
+05:11:46.854: User Removed source 'ice-cream-chocolate.png' (image_source) from scene 'Classroom'
+05:11:46.854: User Removed source 'medal-tony.png' (image_source) from scene 'Classroom'
+05:11:46.854: User Removed source 'earth.png' (image_source) from scene 'Classroom'
+05:11:46.854: User Removed source 'spiderman-miles.png' (image_source) from scene 'Classroom'
+05:11:46.856: User added source 'Base' (scene) to scene 'Classroom'
+05:11:46.858: User added source 'Name Plate' (text_ft2_source_v2) to scene 'Classroom'
+05:11:46.860: User added source 'brody.jpeg' (image_source) to scene 'Classroom'
+05:11:46.862: User added source 'butterflies.png' (image_source) to scene 'Classroom'
+05:11:46.864: User added source 'candy-gumdrops.png' (image_source) to scene 'Classroom'
+05:11:46.866: User added source 'car.png' (image_source) to scene 'Classroom'
+05:11:46.867: User added source 'cat.png' (image_source) to scene 'Classroom'
+05:11:46.869: User added source 'cat-white.png' (image_source) to scene 'Classroom'
+05:11:46.871: User added source 'colored-pencils.png' (image_source) to scene 'Classroom'
+05:11:46.873: User added source 'dinosaurs.png' (image_source) to scene 'Classroom'
+05:11:46.875: User added source 'dog-fluffy.png' (image_source) to scene 'Classroom'
+05:11:46.878: User added source 'drum-kit.png' (image_source) to scene 'Classroom'
+05:11:46.881: User added source 'Elsa.png' (image_source) to scene 'Classroom'
+05:11:46.884: User added source 'fighterjet.png' (image_source) to scene 'Classroom'
+05:11:46.885: User added source 'fire truck.png' (image_source) to scene 'Classroom'
+05:11:46.888: User added source 'fish-many.png' (image_source) to scene 'Classroom'
+05:11:46.890: User added source 'fish-tropical.png' (image_source) to scene 'Classroom'
+05:11:46.892: User added source 'fox.png' (image_source) to scene 'Classroom'
+05:11:46.894: User added source 'George.png' (image_source) to scene 'Classroom'
+05:11:46.896: User added source 'harold2.png' (image_source) to scene 'Classroom'
+05:11:46.898: User added source 'Harold Sticker.png' (image_source) to scene 'Classroom'
+05:11:46.900: User added source 'Ice Cream.png' (image_source) to scene 'Classroom'
+05:11:46.902: User added source 'ice-cream-chocolate.png' (image_source) to scene 'Classroom'
+05:11:46.904: User added source 'icecream-strawberry.png' (image_source) to scene 'Classroom'
+05:11:46.905: User added source 'ironman-classic.png' (image_source) to scene 'Classroom'
+05:11:46.907: User added source 'ironman-lego.png' (image_source) to scene 'Classroom'
+05:11:46.909: User added source 'jacket-pink.png' (image_source) to scene 'Classroom'
+05:11:46.914: User added source 'milk-tony.png' (image_source) to scene 'Classroom'
+05:11:46.918: User added source 'moon-tony.png' (image_source) to scene 'Classroom'
+05:11:46.920: User added source 'nerf_gun.png' (image_source) to scene 'Classroom'
+05:11:46.923: User added source 'ninja-tony.png' (image_source) to scene 'Classroom'
+05:11:46.925: User added source 'olaf.png' (image_source) to scene 'Classroom'
+05:11:46.927: User added source 'orange-juice.png' (image_source) to scene 'Classroom'
+05:11:46.929: User added source 'owl-snow.png' (image_source) to scene 'Classroom'
+05:11:46.931: User added source 'panda.png' (image_source) to scene 'Classroom'
+05:11:46.933: User added source 'penguin.png' (image_source) to scene 'Classroom'
+05:11:46.935: User added source 'pokeball-ethan.png' (image_source) to scene 'Classroom'
+05:11:46.939: User added source 'pyramix-tony.png' (image_source) to scene 'Classroom'
+05:11:46.942: User added source 'rabbit.png' (image_source) to scene 'Classroom'
+05:11:46.946: User added source 'Rubikscube.png' (image_source) to scene 'Classroom'
+05:11:46.950: User added source 'spiderman-cute.png' (image_source) to scene 'Classroom'
+05:11:46.953: User added source 'spiderman-jump.png' (image_source) to scene 'Classroom'
+05:11:46.955: User added source 'spiderman-miles.png' (image_source) to scene 'Classroom'
+05:11:46.958: User added source 'spiderman-ultra.png' (image_source) to scene 'Classroom'
+05:11:46.960: User added source 'sun.png' (image_source) to scene 'Classroom'
+05:11:46.962: User added source 'sushi.png' (image_source) to scene 'Classroom'
+05:11:46.965: User added source 'tank-matt.png' (image_source) to scene 'Classroom'
+05:11:46.967: User added source 'tank-modern.png' (image_source) to scene 'Classroom'
+05:11:46.969: User added source 'transformer-bumblebee.png' (image_source) to scene 'Classroom'
+05:11:46.971: User added source 'transformer-decepticon.png' (image_source) to scene 'Classroom'
+05:11:46.974: User added source 'triceratops.png' (image_source) to scene 'Classroom'
+05:11:46.976: User added source 'turtle-cartoon.png' (image_source) to scene 'Classroom'
+05:11:46.979: User added source 'ultraman1.png' (image_source) to scene 'Classroom'
+05:11:46.983: User added source 'ultraman2.png' (image_source) to scene 'Classroom'
+05:11:46.985: User added source 'ultraman3.png' (image_source) to scene 'Classroom'
+05:11:46.988: User added source 'ultraman4.png' (image_source) to scene 'Classroom'
+05:11:46.990: User added source 'ultraman-cute.png' (image_source) to scene 'Classroom'
+05:11:46.992: User added source 'ultraman-group.png' (image_source) to scene 'Classroom'
+05:11:46.994: User added source 'watermelon.png' (image_source) to scene 'Classroom'
+05:11:46.997: User added source 'watermelon-drink.png' (image_source) to scene 'Classroom'
+05:11:46.999: User added source 'pikachu.png' (image_source) to scene 'Classroom'
+05:11:47.001: User added source 'fried-dumplings.png' (image_source) to scene 'Classroom'
+05:11:47.004: User added source 'rabbit-white.png' (image_source) to scene 'Classroom'
+05:11:47.006: User added source 'rabbit-white.png' (image_source) to scene 'Classroom'
+05:11:47.009: User added source 'horse-black.png' (image_source) to scene 'Classroom'
+05:11:47.012: User added source 'flower.png' (image_source) to scene 'Classroom'
+05:11:47.015: User added source 'cake.png' (image_source) to scene 'Classroom'
+05:11:47.018: User added source 'panda.png' (image_source) to scene 'Classroom'
+05:11:47.020: User added source 'fighterjet.png' (image_source) to scene 'Classroom'
+05:11:47.023: User added source 'fried-rice.png' (image_source) to scene 'Classroom'
+05:11:47.025: User added source 'rabbit-white.png' (image_source) to scene 'Classroom'
+05:11:47.027: User added source 'spiderman-classic.png' (image_source) to scene 'Classroom'
+05:11:47.030: User added source 'rabbit-white.png' (image_source) to scene 'Classroom'
+05:11:47.032: User added source 'chipmunk.png' (image_source) to scene 'Classroom'
+05:11:47.035: User added source 'chocolate.png' (image_source) to scene 'Classroom'
+05:11:47.037: User added source 'Mulan.png' (image_source) to scene 'Classroom'
+05:11:47.040: User added source 'chipmunk.png' (image_source) to scene 'Classroom'
+05:11:47.042: User added source 'icecream-strawberry.png' (image_source) to scene 'Classroom'
+05:11:47.044: User added source 'ice-cream-chocolate.png' (image_source) to scene 'Classroom'
+05:11:47.050: User added source 'medal-tony.png' (image_source) to scene 'Classroom'
+05:11:47.053: User added source 'earth.png' (image_source) to scene 'Classroom'
+05:11:56.049: User added source 'transformer-bumblebee.png' (image_source) to scene 'Classroom'
+05:33:52.180: User Removed source 'transformer-bumblebee.png' (image_source) from scene 'Classroom'
+05:41:00.817: User added source 'pikachu.png' (image_source) to scene 'Classroom'
+06:06:52.778: User Removed source 'pikachu.png' (image_source) from scene 'Classroom'
+06:07:07.802: User added source 'fighterjet.png' (image_source) to scene 'Classroom'
+06:07:29.952: User Removed source 'fighterjet.png' (image_source) from scene 'Classroom'
+06:07:33.052: User added source 'tank-modern.png' (image_source) to scene 'Classroom'
+06:07:54.922: User added source 'tank-matt.png' (image_source) to scene 'Classroom'
+06:16:59.434: User added source 'tank-modern.png' (image_source) to scene 'Classroom'
+06:23:33.682: User added source 'tank-modern.png' (image_source) to scene 'Classroom'
+06:25:27.185: User added source 'tank-modern.png' (image_source) to scene 'Classroom'
+06:29:57.120: User Removed source 'tank-modern.png' (image_source) from scene 'Classroom'
+06:29:57.120: User Removed source 'tank-modern.png' (image_source) from scene 'Classroom'
+06:29:57.120: User Removed source 'tank-modern.png' (image_source) from scene 'Classroom'
+06:29:57.120: User Removed source 'tank-modern.png' (image_source) from scene 'Classroom'
+06:30:02.154: User Removed source 'tank-matt.png' (image_source) from scene 'Classroom'
+06:33:40.723: User added source 'Ice Cream.png' (image_source) to scene 'Classroom'
+06:57:03.811: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: WIN 10 VM)
+06:57:03.811: 
+06:57:18.820: User Removed source 'Ice Cream.png' (image_source) from scene 'Classroom'
+07:05:12.941: User added source 'Mulan.png' (image_source) to scene 'Classroom'
+07:15:10.301: User added source 'Mulan.png' (image_source) to scene 'Classroom'
+07:38:27.642: User Removed source 'Mulan.png' (image_source) from scene 'Classroom'
+07:38:27.642: User Removed source 'Mulan.png' (image_source) from scene 'Classroom'
+07:57:55.955: Stopping virtual camera due to hotkey
+07:57:55.955: Output 'virtualcam_output': stopping
+07:57:55.955: Output 'virtualcam_output': Total frames output: 333323
+07:57:55.955: Output 'virtualcam_output': Total drawn frames: 333324
+07:57:55.955: ==== Virtual Camera Stop ===========================================
+07:57:55.960: Virtual camera stopped
+07:57:56.768: ==== Shutting down ==================================================
+07:57:56.792: pulse-input: Stopped recording from 'alsa_output.usb-Razer_Razer_BlackShark_V2_Pro-00.iec958-stereo.monitor'
+07:57:56.792: pulse-input: Got 444472 packets with 533366400 frames
+07:57:56.803: pulse-input: Stopped recording from 'alsa_input.usb-Razer_Razer_BlackShark_V2_Pro-00.mono-fallback'
+07:57:56.803: pulse-input: Got 444472 packets with 533366400 frames
+07:57:56.803: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_0f_00.4.iec958-stereo.monitor'
+07:57:56.803: pulse-am: Got 444449 packets with 533338800 frames
+07:57:56.817: v4l2-input: /dev/video0: Stopped capture after 293350 frames
+07:57:56.932: All scene data cleared
+07:57:56.932: ------------------------------------------------
+07:57:57.022: [Scripting] Total detached callbacks: 0
+07:57:57.022: Freeing OBS context data
+07:57:57.036: == Profiler Results =============================
+07:57:57.036: run_program_init: 1990.99 ms
+07:57:57.036:  ┣OBSApp::AppInit: 15.387 ms
+07:57:57.036:  ┃ ┗OBSApp::InitLocale: 1.416 ms
+07:57:57.036:  ┗OBSApp::OBSInit: 1932.11 ms
+07:57:57.036:    ┣obs_startup: 0.792 ms
+07:57:57.036:    ┗OBSBasic::OBSInit: 1856.57 ms
+07:57:57.036:      ┣OBSBasic::InitBasicConfig: 0.06 ms
+07:57:57.036:      ┣OBSBasic::ResetAudio: 0.124 ms
+07:57:57.036:      ┣OBSBasic::ResetVideo: 88.326 ms
+07:57:57.036:      ┣OBSBasic::InitOBSCallbacks: 0.006 ms
+07:57:57.036:      ┣OBSBasic::InitHotkeys: 0.041 ms
+07:57:57.036:      ┣obs_load_all_modules2: 280.111 ms
+07:57:57.036:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+07:57:57.036:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+07:57:57.036:      ┃ ┣obs_init_module(decklink.so): 0.105 ms
+07:57:57.036:      ┃ ┣obs_init_module(frontend-tools.so): 83.187 ms
+07:57:57.036:      ┃ ┣obs_init_module(image-source.so): 0.011 ms
+07:57:57.036:      ┃ ┣obs_init_module(linux-alsa.so): 0.003 ms
+07:57:57.036:      ┃ ┣obs_init_module(linux-capture.so): 1.036 ms
+07:57:57.036:      ┃ ┣obs_init_module(linux-jack.so): 0.004 ms
+07:57:57.036:      ┃ ┣obs_init_module(linux-pipewire.so): 0.788 ms
+07:57:57.036:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.004 ms
+07:57:57.036:      ┃ ┣obs_init_module(linux-v4l2.so): 0.059 ms
+07:57:57.036:      ┃ ┣obs_init_module(obs-ffmpeg.so): 1.105 ms
+07:57:57.036:      ┃ ┃ ┗nvenc_check: 0.899 ms
+07:57:57.036:      ┃ ┣obs_init_module(obs-filters.so): 0.042 ms
+07:57:57.036:      ┃ ┣obs_init_module(obs-libfdk.so): 0.002 ms
+07:57:57.036:      ┃ ┣obs_init_module(obs-outputs.so): 0.002 ms
+07:57:57.036:      ┃ ┣obs_init_module(obs-transitions.so): 0.008 ms
+07:57:57.036:      ┃ ┣obs_init_module(obs-vst.so): 0.004 ms
+07:57:57.036:      ┃ ┣obs_init_module(obs-x264.so): 0.002 ms
+07:57:57.036:      ┃ ┣obs_init_module(rtmp-services.so): 1.753 ms
+07:57:57.036:      ┃ ┗obs_init_module(text-freetype2.so): 0.011 ms
+07:57:57.036:      ┣OBSBasic::ResetOutputs: 0.088 ms
+07:57:57.036:      ┣OBSBasic::CreateHotkeys: 0.179 ms
+07:57:57.036:      ┣OBSBasic::InitService: 1.298 ms
+07:57:57.036:      ┣OBSBasic::InitPrimitives: 0.149 ms
+07:57:57.036:      ┗OBSBasic::Load: 1432.7 ms
+07:57:57.036: obs_hotkey_thread(25 ms): min=0.04 ms, median=0.089 ms, max=31.178 ms, 99th percentile=2.2 ms, 99.9991% below 25 ms
+07:57:57.036: audio_thread(Audio): min=0.009 ms, median=0.06 ms, max=8.25 ms, 99th percentile=1.093 ms
+07:57:57.036: obs_graphics_thread(33.3333 ms): min=0.087 ms, median=3.93 ms, max=1346.64 ms, 99th percentile=7.945 ms, 99.9997% below 33.333 ms
+07:57:57.036:  ┣tick_sources: min=0 ms, median=0.042 ms, max=1321.57 ms, 99th percentile=0.155 ms
+07:57:57.036:  ┣output_frame: min=0.068 ms, median=3.225 ms, max=25.036 ms, 99th percentile=5.162 ms
+07:57:57.036:  ┃ ┣gs_context(video->graphics): min=0.068 ms, median=1.298 ms, max=25.035 ms, 99th percentile=3.285 ms, 1.99986 calls per parent call
+07:57:57.036:  ┃ ┃ ┣render_video: min=0.011 ms, median=1.101 ms, max=23.583 ms, 99th percentile=2.977 ms
+07:57:57.036:  ┃ ┃ ┃ ┣render_main_texture: min=0.009 ms, median=1.045 ms, max=23.579 ms, 99th percentile=2.971 ms
+07:57:57.036:  ┃ ┃ ┃ ┣render_output_texture: min=0.011 ms, median=0.02 ms, max=0.44 ms, 99th percentile=0.045 ms, 0.499966 calls per parent call
+07:57:57.036:  ┃ ┃ ┃ ┣render_convert_texture: min=0.014 ms, median=0.023 ms, max=0.875 ms, 99th percentile=0.05 ms, 0.499966 calls per parent call
+07:57:57.036:  ┃ ┃ ┃ ┗stage_output_texture: min=0.008 ms, median=0.013 ms, max=0.353 ms, 99th percentile=0.031 ms, 0.499966 calls per parent call
+07:57:57.036:  ┃ ┃ ┣gs_flush: min=0.001 ms, median=0.003 ms, max=1.056 ms, 99th percentile=0.008 ms
+07:57:57.036:  ┃ ┃ ┗download_frame: min=0 ms, median=0.046 ms, max=2.443 ms, 99th percentile=0.1 ms, 0.499966 calls per parent call
+07:57:57.036:  ┃ ┗output_video_data: min=0.125 ms, median=0.181 ms, max=2.869 ms, 99th percentile=0.443 ms
+07:57:57.036:  ┗render_displays: min=0.002 ms, median=0.666 ms, max=28.138 ms, 99th percentile=3.842 ms
+07:57:57.036: video_thread(video): min=0.997 ms, median=1.558 ms, max=4.397 ms, 99th percentile=2.361 ms
+07:57:57.036: =================================================
+07:57:57.036: == Profiler Time Between Calls ==================
+07:57:57.036: obs_hotkey_thread(25 ms): min=25.063 ms, median=25.154 ms, max=56.244 ms, 95.1486% within ±2% of 25 ms (0% lower, 4.85136% higher)
+07:57:57.036: obs_graphics_thread(33.3333 ms): min=20.02 ms, median=33.333 ms, max=1346.64 ms, 99.9952% within ±2% of 33.333 ms (0.00239974% lower, 0.00239974% higher)
+07:57:57.036: =================================================
+07:57:57.085: Number of memory leaks: 0

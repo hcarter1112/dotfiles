@@ -1,0 +1,370 @@
+12:04:49.780: Command Line Arguments: --startvirtualcam
+12:04:49.781: Using EGL/X11
+12:04:49.781: CPU Name: AMD Ryzen 5 3600 6-Core Processor
+12:04:49.781: CPU Speed: 1862.860MHz
+12:04:49.781: Physical Cores: 6, Logical Cores: 12
+12:04:49.781: Physical Memory: 32009MB Total, 22480MB Free
+12:04:49.781: Kernel Version: Linux 6.2.7-arch1-1
+12:04:49.781: Distribution: "Arch Linux" Unknown
+12:04:49.781: Session Type: x11
+12:04:49.781: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+12:04:49.782: Qt Version: 6.4.3 (runtime), 6.4.2 (compiled)
+12:04:49.782: Portable mode: false
+12:04:49.851: OBS 29.0.2-2 (linux)
+12:04:49.851: ---------------------------------
+12:04:49.851: ---------------------------------
+12:04:49.851: audio settings reset:
+12:04:49.851: 	samples per sec: 48000
+12:04:49.851: 	speakers:        2
+12:04:49.851: 	max buffering:   960 milliseconds
+12:04:49.851: 	buffering type:  dynamically increasing
+12:04:49.853: ---------------------------------
+12:04:49.853: Initializing OpenGL...
+12:04:49.905: Loading up OpenGL on adapter AMD AMD Radeon RX 6700 XT (navi22, LLVM 15.0.7, DRM 3.49, 6.2.7-arch1-1)
+12:04:49.905: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 23.0.0, shading language 4.60
+12:04:50.018: ---------------------------------
+12:04:50.018: video settings reset:
+12:04:50.018: 	base resolution:   1920x1080
+12:04:50.018: 	output resolution: 1280x720
+12:04:50.018: 	downscale filter:  Bicubic
+12:04:50.018: 	fps:               30/1
+12:04:50.018: 	format:            NV12
+12:04:50.018: 	YUV mode:          Rec. 709/Partial
+12:04:50.018: NV12 texture support not available
+12:04:50.018: P010 texture support not available
+12:04:50.020: Audio monitoring device:
+12:04:50.020: 	name: Monitor of Starship/Matisse HD Audio Controller Digital Stereo (IEC958)
+12:04:50.020: 	id: alsa_output.pci-0000_0f_00.4.iec958-stereo.monitor
+12:04:50.020: ---------------------------------
+12:04:50.029: Failed to load 'en-US' text for module: 'decklink-captions.so'
+12:04:50.036: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+12:04:50.043: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+12:04:50.043: Failed to initialize module 'decklink.so'
+12:04:50.169: [pipewire] No captures available
+12:04:50.219: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+12:04:50.219: FFmpeg VAAPI H264 encoding not supported
+12:04:50.298: ---------------------------------
+12:04:50.298:   Loaded Modules:
+12:04:50.298:     text-freetype2.so
+12:04:50.298:     rtmp-services.so
+12:04:50.298:     obs-x264.so
+12:04:50.298:     obs-vst.so
+12:04:50.298:     obs-transitions.so
+12:04:50.298:     obs-outputs.so
+12:04:50.298:     obs-libfdk.so
+12:04:50.298:     obs-filters.so
+12:04:50.298:     obs-ffmpeg.so
+12:04:50.298:     linux-v4l2.so
+12:04:50.298:     linux-pulseaudio.so
+12:04:50.298:     linux-pipewire.so
+12:04:50.298:     linux-jack.so
+12:04:50.298:     linux-capture.so
+12:04:50.298:     linux-alsa.so
+12:04:50.298:     image-source.so
+12:04:50.298:     frontend-tools.so
+12:04:50.298:     decklink-output-ui.so
+12:04:50.298:     decklink-captions.so
+12:04:50.298: ---------------------------------
+12:04:50.298: ==== Startup complete ===============================================
+12:04:50.321: All scene data cleared
+12:04:50.321: ------------------------------------------------
+12:04:50.333: v4l2-input: Start capture from /dev/video0
+12:04:50.334: v4l2-input: Input: 0
+12:04:50.334: v4l2-input: Resolution: 1920x1080
+12:04:50.334: v4l2-input: Pixelformat: BGR3
+12:04:50.334: v4l2-input: Linesize: 5760 Bytes
+12:04:50.334: v4l2-input: Framerate: 30.00 fps
+12:04:50.336: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+12:04:51.454: v4l2-input: /dev/video0: select timed out
+12:04:51.454: v4l2-input: /dev/video0: failed to log status
+12:04:51.612: [window-capture: 'JW Lib'] update settings:
+12:04:51.612: 	title: unknown
+12:04:51.612: 	class: unknown
+12:04:51.612: 
+12:04:51.616: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.67) 15.0.0'
+12:04:51.616: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+12:04:51.616: pulse-input: Started recording from 'alsa_output.pci-0000_0d_00.1.hdmi-stereo-extra2.monitor' (default)
+12:04:51.622: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.67) 15.0.0'
+12:04:51.622: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+12:04:51.622: pulse-input: Started recording from 'alsa_input.usb-Razer_Razer_BlackShark_V2_Pro-00.mono-fallback'
+12:04:51.625: pulse-am: Server name: 'PulseAudio (on PipeWire 0.3.67) 15.0.0'
+12:04:51.627: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
+12:04:51.627: pulse-am: Started Monitoring in 'alsa_output.pci-0000_0f_00.4.iec958-stereo.monitor'
+12:04:51.651: Switched to scene 'Classroom'
+12:04:51.652: ------------------------------------------------
+12:04:51.652: Loaded scenes:
+12:04:51.652: - scene '[NS] Audio':
+12:04:51.652:     - source: 'RazerMic' (pulse_input_capture)
+12:04:51.652:         - monitoring: monitor only
+12:04:51.652:         - filter: 'Noise Gate' (noise_gate_filter)
+12:04:51.652:         - filter: 'Noise Suppression' (noise_suppress_filter_v2)
+12:04:51.652:         - filter: 'Compressor' (compressor_filter)
+12:04:51.652: - scene '[NS] Video':
+12:04:51.652:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+12:04:51.652: - scene 'Base':
+12:04:51.689:     - source: '[NS] Audio' (scene)
+12:04:51.689:     - source: '[NS] Video' (scene)
+12:04:51.689: - scene 'Classroom':
+12:04:51.695:     - source: 'Base' (scene)
+12:04:51.695:     - source: 'Name Plate' (text_ft2_source_v2)
+12:04:51.695:     - source: 'brody.jpeg' (image_source)
+12:04:51.695:     - source: 'butterflies.png' (image_source)
+12:04:51.695:     - source: 'candy-gumdrops.png' (image_source)
+12:04:51.695:     - source: 'car.png' (image_source)
+12:04:51.695:     - source: 'cat.png' (image_source)
+12:04:51.695:     - source: 'cat-white.png' (image_source)
+12:04:51.695:     - source: 'colored-pencils.png' (image_source)
+12:04:51.695:     - source: 'dinosaurs.png' (image_source)
+12:04:51.695:     - source: 'dog-fluffy.png' (image_source)
+12:04:51.695:     - source: 'drum-kit.png' (image_source)
+12:04:51.695:     - source: 'Elsa.png' (image_source)
+12:04:51.695:     - source: 'fighterjet.png' (image_source)
+12:04:51.695:     - source: 'fire truck.png' (image_source)
+12:04:51.695:     - source: 'fish-many.png' (image_source)
+12:04:51.695:     - source: 'fish-tropical.png' (image_source)
+12:04:51.695:     - source: 'fox.png' (image_source)
+12:04:51.695:     - source: 'George.png' (image_source)
+12:04:51.695:     - source: 'harold2.png' (image_source)
+12:04:51.695:     - source: 'Harold Sticker.png' (image_source)
+12:04:51.695:     - source: 'Ice Cream.png' (image_source)
+12:04:51.695:     - source: 'ice-cream-chocolate.png' (image_source)
+12:04:51.695:     - source: 'icecream-strawberry.png' (image_source)
+12:04:51.695:     - source: 'ironman-classic.png' (image_source)
+12:04:51.695:     - source: 'ironman-lego.png' (image_source)
+12:04:51.695:     - source: 'jacket-pink.png' (image_source)
+12:04:51.695:     - source: 'milk-tony.png' (image_source)
+12:04:51.695:     - source: 'moon-tony.png' (image_source)
+12:04:51.695:     - source: 'nerf_gun.png' (image_source)
+12:04:51.695:     - source: 'ninja-tony.png' (image_source)
+12:04:51.695:     - source: 'olaf.png' (image_source)
+12:04:51.695:     - source: 'orange-juice.png' (image_source)
+12:04:51.695:     - source: 'owl-snow.png' (image_source)
+12:04:51.695:     - source: 'panda.png' (image_source)
+12:04:51.695:     - source: 'penguin.png' (image_source)
+12:04:51.695:     - source: 'pokeball-ethan.png' (image_source)
+12:04:51.695:     - source: 'pyramix-tony.png' (image_source)
+12:04:51.695:     - source: 'rabbit.png' (image_source)
+12:04:51.695:     - source: 'Rubikscube.png' (image_source)
+12:04:51.695:     - source: 'spiderman-cute.png' (image_source)
+12:04:51.695:     - source: 'spiderman-jump.png' (image_source)
+12:04:51.695:     - source: 'spiderman-miles.png' (image_source)
+12:04:51.695:     - source: 'spiderman-ultra.png' (image_source)
+12:04:51.695:     - source: 'sun.png' (image_source)
+12:04:51.695:     - source: 'sushi.png' (image_source)
+12:04:51.695:     - source: 'tank-matt.png' (image_source)
+12:04:51.695:     - source: 'tank-modern.png' (image_source)
+12:04:51.695:     - source: 'transformer-bumblebee.png' (image_source)
+12:04:51.695:     - source: 'transformer-decepticon.png' (image_source)
+12:04:51.695:     - source: 'triceratops.png' (image_source)
+12:04:51.695:     - source: 'turtle-cartoon.png' (image_source)
+12:04:51.695:     - source: 'ultraman1.png' (image_source)
+12:04:51.695:     - source: 'ultraman2.png' (image_source)
+12:04:51.695:     - source: 'ultraman-cute.png' (image_source)
+12:04:51.695:     - source: 'ultraman-group.png' (image_source)
+12:04:51.695:     - source: 'watermelon.png' (image_source)
+12:04:51.695:     - source: 'watermelon-drink.png' (image_source)
+12:04:51.695:     - source: 'pikachu.png' (image_source)
+12:04:51.695:     - source: 'fried-dumplings.png' (image_source)
+12:04:51.695:     - source: 'rabbit-white.png' (image_source)
+12:04:51.695:     - source: 'rabbit-white.png' (image_source)
+12:04:51.695:     - source: 'horse-black.png' (image_source)
+12:04:51.695:     - source: 'flower.png' (image_source)
+12:04:51.695:     - source: 'cake.png' (image_source)
+12:04:51.695:     - source: 'panda.png' (image_source)
+12:04:51.695:     - source: 'fighterjet.png' (image_source)
+12:04:51.695:     - source: 'fried-rice.png' (image_source)
+12:04:51.695:     - source: 'rabbit-white.png' (image_source)
+12:04:51.695:     - source: 'spiderman-classic.png' (image_source)
+12:04:51.695:     - source: 'rabbit-white.png' (image_source)
+12:04:51.695:     - source: 'chipmunk.png' (image_source)
+12:04:51.695:     - source: 'chocolate.png' (image_source)
+12:04:51.695:     - source: 'Mulan.png' (image_source)
+12:04:51.695:     - source: 'chipmunk.png' (image_source)
+12:04:51.695:     - source: 'icecream-strawberry.png' (image_source)
+12:04:51.695:     - source: 'ice-cream-chocolate.png' (image_source)
+12:04:51.695:     - source: 'medal-tony.png' (image_source)
+12:04:51.695:     - source: 'earth.png' (image_source)
+12:04:51.695:     - source: 'bone.png' (image_source)
+12:04:51.695:     - source: 'ultraman4.png' (image_source)
+12:04:51.695:     - source: 'chocolate.png' (image_source)
+12:04:51.695:     - source: 'ultraman3.png' (image_source)
+12:04:51.695:     - source: 'ultraman-galaxy.png' (image_source)
+12:04:51.695: - scene 'JW Share':
+12:04:51.695:     - source: 'JW Lib' (xcomposite_input)
+12:04:51.695:     - source: 'WIN 10 VM' (pulse_output_capture)
+12:04:51.695: ------------------------------------------------
+12:04:52.031: NV12 texture support not available
+12:04:52.031: P010 texture support not available
+12:04:52.033: Virtual camera started
+12:04:52.040: ==== Virtual Camera Start ==========================================
+12:04:52.198: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: WIN 10 VM)
+12:04:52.198: 
+12:04:55.038: User switched to scene 'Base'
+12:05:03.222: Output 'virtualcam_output': stopping
+12:05:03.222: Output 'virtualcam_output': Total frames output: 334
+12:05:03.222: Output 'virtualcam_output': Total drawn frames: 336
+12:05:03.223: ==== Virtual Camera Stop ===========================================
+12:05:03.230: Virtual camera stopped
+12:05:24.103: ---------------------------------
+12:05:24.103: [x264 encoder: 'simple_video_stream'] preset: veryfast
+12:05:24.103: [x264 encoder: 'simple_video_stream'] settings:
+12:05:24.103: 	rate_control: CBR
+12:05:24.103: 	bitrate:      2500
+12:05:24.103: 	buffer size:  2500
+12:05:24.103: 	crf:          23
+12:05:24.103: 	fps_num:      30
+12:05:24.103: 	fps_den:      1
+12:05:24.103: 	width:        1280
+12:05:24.103: 	height:       720
+12:05:24.103: 	keyint:       250
+12:05:24.103: 
+12:05:24.114: libfdk_aac encoder created
+12:05:24.114: libfdk_aac bitrate: 160, channels: 2
+12:05:24.121: ==== Recording Start ===============================================
+12:05:24.121: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/ralldi/2023-03-23 12-05-24.mkv'...
+12:24:48.659: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/ralldi/2023-03-23 12-05-24.mkv' stopped
+12:24:48.659: Output 'simple_file_output': stopping
+12:24:48.659: Output 'simple_file_output': Total frames output: 34904
+12:24:48.659: Output 'simple_file_output': Total drawn frames: 34936
+12:24:48.659: ==== Recording Stop ================================================
+12:24:48.672: libfdk_aac encoder destroyed
+12:26:13.443: Settings changed (outputs)
+12:26:13.443: ------------------------------------------------
+12:27:59.775: ---------------------------------
+12:27:59.775: [x264 encoder: 'simple_video_stream'] preset: veryfast
+12:27:59.776: [x264 encoder: 'simple_video_stream'] settings:
+12:27:59.776: 	rate_control: CBR
+12:27:59.776: 	bitrate:      2500
+12:27:59.776: 	buffer size:  2500
+12:27:59.776: 	crf:          23
+12:27:59.776: 	fps_num:      30
+12:27:59.776: 	fps_den:      1
+12:27:59.776: 	width:        1280
+12:27:59.776: 	height:       720
+12:27:59.776: 	keyint:       250
+12:27:59.776: 
+12:27:59.783: libfdk_aac encoder created
+12:27:59.783: libfdk_aac bitrate: 160, channels: 2
+12:27:59.790: ==== Recording Start ===============================================
+12:27:59.790: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/ralldi/Videos/obs/2023-03-23 12-27-59.mkv'...
+12:31:49.727: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/ralldi/Videos/obs/2023-03-23 12-27-59.mkv' stopped
+12:31:49.727: Output 'simple_file_output': stopping
+12:31:49.727: Output 'simple_file_output': Total frames output: 6866
+12:31:49.727: Output 'simple_file_output': Total drawn frames: 6898
+12:31:49.727: ==== Recording Stop ================================================
+12:31:49.746: libfdk_aac encoder destroyed
+12:33:56.833: ---------------------------------
+12:33:56.833: [x264 encoder: 'simple_video_stream'] preset: veryfast
+12:33:56.833: [x264 encoder: 'simple_video_stream'] settings:
+12:33:56.833: 	rate_control: CBR
+12:33:56.833: 	bitrate:      2500
+12:33:56.833: 	buffer size:  2500
+12:33:56.833: 	crf:          23
+12:33:56.833: 	fps_num:      30
+12:33:56.833: 	fps_den:      1
+12:33:56.833: 	width:        1280
+12:33:56.833: 	height:       720
+12:33:56.833: 	keyint:       250
+12:33:56.833: 
+12:33:56.839: libfdk_aac encoder created
+12:33:56.839: libfdk_aac bitrate: 160, channels: 2
+12:33:56.846: ==== Recording Start ===============================================
+12:33:56.846: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/ralldi/Videos/obs/2023-03-23 12-33-56.mkv'...
+13:03:40.603: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: WIN 10 VM)
+13:03:40.603: 
+13:15:39.927: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/ralldi/Videos/obs/2023-03-23 12-33-56.mkv' stopped
+13:15:39.927: Output 'simple_file_output': stopping
+13:15:39.927: Output 'simple_file_output': Total frames output: 75060
+13:15:39.927: Output 'simple_file_output': Total drawn frames: 75093
+13:15:39.927: ==== Recording Stop ================================================
+13:15:39.940: libfdk_aac encoder destroyed
+13:24:01.443: Settings changed (outputs)
+13:24:01.443: ------------------------------------------------
+13:24:36.104: Settings changed (outputs)
+13:24:36.104: ------------------------------------------------
+13:25:41.665: ==== Shutting down ==================================================
+13:25:41.685: pulse-input: Stopped recording from 'alsa_output.pci-0000_0d_00.1.hdmi-stereo-extra2.monitor'
+13:25:41.685: pulse-input: Got 194000 packets with 232800000 frames
+13:25:41.685: pulse-input: Stopped recording from 'alsa_input.usb-Razer_Razer_BlackShark_V2_Pro-00.mono-fallback'
+13:25:41.685: pulse-input: Got 194001 packets with 232801200 frames
+13:25:41.685: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_0f_00.4.iec958-stereo.monitor'
+13:25:41.685: pulse-am: Got 193979 packets with 232774800 frames
+13:25:41.707: v4l2-input: /dev/video0: Stopped capture after 127738 frames
+13:25:41.821: All scene data cleared
+13:25:41.821: ------------------------------------------------
+13:25:41.912: [Scripting] Total detached callbacks: 0
+13:25:41.912: Freeing OBS context data
+13:25:41.931: == Profiler Results =============================
+13:25:41.931: run_program_init: 2315.22 ms
+13:25:41.931:  ┣OBSApp::AppInit: 18.568 ms
+13:25:41.931:  ┃ ┗OBSApp::InitLocale: 1.796 ms
+13:25:41.931:  ┗OBSApp::OBSInit: 2249.35 ms
+13:25:41.931:    ┣obs_startup: 1.229 ms
+13:25:41.931:    ┗OBSBasic::OBSInit: 2178.8 ms
+13:25:41.931:      ┣OBSBasic::InitBasicConfig: 0.064 ms
+13:25:41.931:      ┣OBSBasic::ResetAudio: 0.136 ms
+13:25:41.931:      ┣OBSBasic::ResetVideo: 168.543 ms
+13:25:41.931:      ┣OBSBasic::InitOBSCallbacks: 0.006 ms
+13:25:41.931:      ┣OBSBasic::InitHotkeys: 0.042 ms
+13:25:41.931:      ┣obs_load_all_modules2: 277.606 ms
+13:25:41.931:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+13:25:41.931:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+13:25:41.931:      ┃ ┣obs_init_module(decklink.so): 0.108 ms
+13:25:41.931:      ┃ ┣obs_init_module(frontend-tools.so): 68.808 ms
+13:25:41.931:      ┃ ┣obs_init_module(image-source.so): 0.008 ms
+13:25:41.931:      ┃ ┣obs_init_module(linux-alsa.so): 0.002 ms
+13:25:41.931:      ┃ ┣obs_init_module(linux-capture.so): 0.482 ms
+13:25:41.931:      ┃ ┣obs_init_module(linux-jack.so): 0.002 ms
+13:25:41.931:      ┃ ┣obs_init_module(linux-pipewire.so): 0.857 ms
+13:25:41.931:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.003 ms
+13:25:41.931:      ┃ ┣obs_init_module(linux-v4l2.so): 0.06 ms
+13:25:41.931:      ┃ ┣obs_init_module(obs-ffmpeg.so): 1.109 ms
+13:25:41.931:      ┃ ┃ ┗nvenc_check: 0.883 ms
+13:25:41.931:      ┃ ┣obs_init_module(obs-filters.so): 0.028 ms
+13:25:41.931:      ┃ ┣obs_init_module(obs-libfdk.so): 0.002 ms
+13:25:41.931:      ┃ ┣obs_init_module(obs-outputs.so): 0.002 ms
+13:25:41.931:      ┃ ┣obs_init_module(obs-transitions.so): 0.009 ms
+13:25:41.931:      ┃ ┣obs_init_module(obs-vst.so): 0.003 ms
+13:25:41.931:      ┃ ┣obs_init_module(obs-x264.so): 0.002 ms
+13:25:41.931:      ┃ ┣obs_init_module(rtmp-services.so): 0.914 ms
+13:25:41.931:      ┃ ┗obs_init_module(text-freetype2.so): 0.015 ms
+13:25:41.931:      ┣OBSBasic::ResetOutputs: 0.086 ms
+13:25:41.931:      ┣OBSBasic::CreateHotkeys: 0.172 ms
+13:25:41.931:      ┣OBSBasic::InitService: 1.216 ms
+13:25:41.931:      ┣OBSBasic::InitPrimitives: 0.128 ms
+13:25:41.931:      ┗OBSBasic::Load: 1536.49 ms
+13:25:41.931: obs_hotkey_thread(25 ms): min=0.042 ms, median=0.087 ms, max=7.22 ms, 99th percentile=0.357 ms, 100% below 25 ms
+13:25:41.931: audio_thread(Audio): min=0.008 ms, median=0.132 ms, max=30.698 ms, 99th percentile=0.395 ms
+13:25:41.931:  ┗receive_audio: min=0.002 ms, median=0.103 ms, max=2.227 ms, 99th percentile=0.173 ms, 0.80328 calls per parent call
+13:25:41.931:    ┣buffer_audio: min=0 ms, median=0 ms, max=0.056 ms, 99th percentile=0.001 ms
+13:25:41.931:    ┗do_encode: min=0.043 ms, median=0.101 ms, max=2.224 ms, 99th percentile=0.17 ms
+13:25:41.931:      ┣encode(simple_aac): min=0.042 ms, median=0.094 ms, max=0.516 ms, 99th percentile=0.155 ms, 0.298787 calls per parent call
+13:25:41.931:      ┣send_packet: min=0.001 ms, median=0.005 ms, max=2.087 ms, 99th percentile=0.025 ms
+13:25:41.931:      ┗encode(simple_aac): min=0.04 ms, median=0.094 ms, max=0.588 ms, 99th percentile=0.155 ms, 0.701213 calls per parent call
+13:25:41.931: obs_graphics_thread(33.3333 ms): min=0.079 ms, median=1.932 ms, max=1352.15 ms, 99th percentile=3.13 ms, 99.9993% below 33.333 ms
+13:25:41.931:  ┣tick_sources: min=0 ms, median=0.04 ms, max=1297.36 ms, 99th percentile=0.062 ms
+13:25:41.931:  ┣output_frame: min=0.07 ms, median=1.313 ms, max=54.76 ms, 99th percentile=2.333 ms
+13:25:41.931:  ┃ ┣gs_context(video->graphics): min=0.07 ms, median=1.113 ms, max=54.758 ms, 99th percentile=2.078 ms
+13:25:41.931:  ┃ ┃ ┣render_video: min=0.006 ms, median=0.946 ms, max=44.049 ms, 99th percentile=1.898 ms
+13:25:41.931:  ┃ ┃ ┃ ┣render_main_texture: min=0.005 ms, median=0.897 ms, max=44.046 ms, 99th percentile=1.849 ms
+13:25:41.931:  ┃ ┃ ┃ ┣render_output_texture: min=0.008 ms, median=0.018 ms, max=7.216 ms, 99th percentile=0.032 ms, 0.803994 calls per parent call
+13:25:41.931:  ┃ ┃ ┃ ┣render_convert_texture: min=0.01 ms, median=0.022 ms, max=10.835 ms, 99th percentile=0.035 ms, 0.803994 calls per parent call
+13:25:41.931:  ┃ ┃ ┃ ┗stage_output_texture: min=0.006 ms, median=0.012 ms, max=0.159 ms, 99th percentile=0.019 ms, 0.803994 calls per parent call
+13:25:41.931:  ┃ ┃ ┣gs_flush: min=0.001 ms, median=0.004 ms, max=0.164 ms, 99th percentile=0.008 ms
+13:25:41.931:  ┃ ┃ ┗download_frame: min=0 ms, median=0.071 ms, max=0.417 ms, 99th percentile=0.173 ms, 0.803994 calls per parent call
+13:25:41.931:  ┃ ┗output_video_data: min=0.118 ms, median=0.219 ms, max=4.802 ms, 99th percentile=0.45 ms, 0.805823 calls per parent call
+13:25:41.931:  ┗render_displays: min=0.002 ms, median=0.492 ms, max=9.387 ms, 99th percentile=1.426 ms
+13:25:41.931: video_thread(video): min=1.006 ms, median=1.532 ms, max=2.805 ms, 99th percentile=2.227 ms
+13:25:41.931: video_thread(video): min=0.472 ms, median=0.911 ms, max=5.761 ms, 99th percentile=2.05 ms
+13:25:41.931:  ┗receive_video: min=0.471 ms, median=0.909 ms, max=5.76 ms, 99th percentile=2.048 ms
+13:25:41.931:    ┗do_encode: min=0.47 ms, median=0.908 ms, max=5.759 ms, 99th percentile=2.047 ms
+13:25:41.931:      ┣encode(simple_video_stream): min=0.479 ms, median=0.893 ms, max=3.077 ms, 99th percentile=2.032 ms, 0.298787 calls per parent call
+13:25:41.931:      ┣send_packet: min=0.001 ms, median=0.014 ms, max=4.9 ms, 99th percentile=0.084 ms
+13:25:41.931:      ┗encode(simple_video_stream): min=0.463 ms, median=0.887 ms, max=3.299 ms, 99th percentile=2.017 ms, 0.701213 calls per parent call
+13:25:41.931: OBSBasic::ResetOutputs: min=0.12 ms, median=0.141 ms, max=0.18 ms, 99th percentile=0.18 ms
+13:25:41.931: =================================================
+13:25:41.931: == Profiler Time Between Calls ==================
+13:25:41.931: obs_hotkey_thread(25 ms): min=25.075 ms, median=25.151 ms, max=151.263 ms, 99.4901% within ±2% of 25 ms (0% lower, 0.509863% higher)
+13:25:41.931: obs_graphics_thread(33.3333 ms): min=14.509 ms, median=33.333 ms, max=1352.15 ms, 99.9945% within ±2% of 33.333 ms (0.00274884% lower, 0.00274884% higher)
+13:25:41.931: =================================================
+13:25:41.968: Number of memory leaks: 0

@@ -1,14 +1,12 @@
 #!/usr/bin/sh
 
 run() {
-  if ! pgrep -f "$1" ;
-  then
-    "$@"&
-  fi
+	if ! pgrep -f "$1"; then
+		"$@" &
+	fi
 }
 
 run xrandr --output DisplayPort-1 --mode 2560x1440 --rate 165 --pos 0x0 --rotate right --output DisplayPort-0 --mode 2560x1440 --rate 165 --pos 1440x560
-run setxkbmap -layout us -variant altgr-intl -option "caps:escape_shifted_capslock"
 run xset s 3600
 run xss-lock /home/ralldi/.config/scripts/betterlock.sh
 run dunst

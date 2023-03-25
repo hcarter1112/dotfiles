@@ -158,3 +158,67 @@ obs-media backup failed
 2023/03/20 00:00:02 Failed to create file system for "gdrive:peruvian-taxes": didn't find section in config file
 Mon Mar 20 12:00:02 AM -05 2023
 peruvian-taxes backup failed
+2023/03/21 00:00:01 NOTICE: Config file "/root/.config/rclone/rclone.conf" not found - using defaults
+2023/03/21 00:00:01 Failed to create file system for "gdrive:Obsidian": didn't find section in config file
+Tue Mar 21 12:00:01 AM -05 2023
+Obsidian backup failed
+2023/03/21 00:00:01 NOTICE: Config file "/root/.config/rclone/rclone.conf" not found - using defaults
+2023/03/21 00:00:01 Failed to create file system for "gdrive:HmT-Mats": didn't find section in config file
+Tue Mar 21 12:00:01 AM -05 2023
+HmT-Mats backup failed
+2023/03/21 00:00:01 NOTICE: Config file "/root/.config/rclone/rclone.conf" not found - using defaults
+2023/03/21 00:00:01 Failed to create file system for "gdrive:obs-media": didn't find section in config file
+Tue Mar 21 12:00:01 AM -05 2023
+obs-media backup failed
+2023/03/21 00:00:01 NOTICE: Config file "/root/.config/rclone/rclone.conf" not found - using defaults
+2023/03/21 00:00:01 Failed to create file system for "gdrive:peruvian-taxes": didn't find section in config file
+Tue Mar 21 12:00:01 AM -05 2023
+peruvian-taxes backup failed
+2023/03/22 00:00:01 NOTICE: Config file "/root/.config/rclone/rclone.conf" not found - using defaults
+2023/03/22 00:00:01 Failed to create file system for "gdrive:Obsidian": didn't find section in config file
+Wed Mar 22 12:00:01 AM -05 2023
+Obsidian backup failed
+2023/03/22 00:00:02 NOTICE: Config file "/root/.config/rclone/rclone.conf" not found - using defaults
+2023/03/22 00:00:02 Failed to create file system for "gdrive:HmT-Mats": didn't find section in config file
+Wed Mar 22 12:00:02 AM -05 2023
+HmT-Mats backup failed
+2023/03/22 00:00:02 NOTICE: Config file "/root/.config/rclone/rclone.conf" not found - using defaults
+2023/03/22 00:00:02 Failed to create file system for "gdrive:obs-media": didn't find section in config file
+Wed Mar 22 12:00:02 AM -05 2023
+obs-media backup failed
+2023/03/22 00:00:02 NOTICE: Config file "/root/.config/rclone/rclone.conf" not found - using defaults
+2023/03/22 00:00:02 Failed to create file system for "gdrive:peruvian-taxes": didn't find section in config file
+Wed Mar 22 12:00:02 AM -05 2023
+peruvian-taxes backup failed
+2023/03/23 00:00:01 NOTICE: Config file "/root/.config/rclone/rclone.conf" not found - using defaults
+2023/03/23 00:00:01 Failed to create file system for "gdrive:Obsidian": didn't find section in config file
+Thu Mar 23 12:00:01 AM -05 2023
+Obsidian backup failed
+2023/03/23 00:00:01 NOTICE: Config file "/root/.config/rclone/rclone.conf" not found - using defaults
+2023/03/23 00:00:01 Failed to create file system for "gdrive:HmT-Mats": didn't find section in config file
+Thu Mar 23 12:00:01 AM -05 2023
+HmT-Mats backup failed
+2023/03/23 00:00:01 NOTICE: Config file "/root/.config/rclone/rclone.conf" not found - using defaults
+2023/03/23 00:00:01 Failed to create file system for "gdrive:obs-media": didn't find section in config file
+Thu Mar 23 12:00:01 AM -05 2023
+obs-media backup failed
+2023/03/23 00:00:01 NOTICE: Config file "/root/.config/rclone/rclone.conf" not found - using defaults
+2023/03/23 00:00:01 Failed to create file system for "gdrive:peruvian-taxes": didn't find section in config file
+Thu Mar 23 12:00:01 AM -05 2023
+peruvian-taxes backup failed
+2023/03/24 00:00:01 NOTICE: Config file "/root/.config/rclone/rclone.conf" not found - using defaults
+2023/03/24 00:00:01 Failed to create file system for "gdrive:Obsidian": didn't find section in config file
+Fri Mar 24 12:00:01 AM -05 2023
+Obsidian backup failed
+2023/03/24 00:00:01 NOTICE: Config file "/root/.config/rclone/rclone.conf" not found - using defaults
+2023/03/24 00:00:01 Failed to create file system for "gdrive:HmT-Mats": didn't find section in config file
+Fri Mar 24 12:00:01 AM -05 2023
+HmT-Mats backup failed
+2023/03/24 00:00:01 NOTICE: Config file "/root/.config/rclone/rclone.conf" not found - using defaults
+2023/03/24 00:00:01 Failed to create file system for "gdrive:obs-media": didn't find section in config file
+Fri Mar 24 12:00:01 AM -05 2023
+obs-media backup failed
+2023/03/24 00:00:01 NOTICE: Config file "/root/.config/rclone/rclone.conf" not found - using defaults
+2023/03/24 00:00:01 Failed to create file system for "gdrive:peruvian-taxes": didn't find section in config file
+Fri Mar 24 12:00:01 AM -05 2023
+peruvian-taxes backup failed

@@ -193,10 +193,13 @@ screens = [
                     text=' '
                 ),
                 widget.KeyboardLayout(
+                    configured_keyboards=['us', 'us altgr-intl'],
+                    display_map={'us': 'US', 'us altgr-intl': 'altgr-intl'},
                     background=colors[0],
                     font='DroidSansMono Nerd Font',
                     fontsize=15,
-                    foreground=colors[1]
+                    foreground=colors[1],
+                    update_interval=1
                 ),
                 widget.CapsNumLockIndicator(
                     background=colors[0],
