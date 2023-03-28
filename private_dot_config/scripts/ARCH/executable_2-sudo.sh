@@ -1,6 +1,6 @@
 #!/bin/bash
-./user-setup.sh &&
-	./aur-setup.sh &&
+./variables.sh &&
+	./user-setup.sh &&
 	./graphics-drivers.sh &&
 	./install-pkgs-native.sh &&
 	./change-shell.sh &&

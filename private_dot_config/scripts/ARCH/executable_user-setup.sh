@@ -2,23 +2,6 @@
 ## This script will set up the base root system, prompt for a host name, and set up users and passwords
 
 cd /ARCH &&
-	## Set hostname
-	echo "Please enter a hostname: " &&
-	read $hostname &&
-	echo "$hostname" >/etc/hostname &&
-
-	## Set Root password
-	passwd &&
-
-	## Create skel format for new users
-	cd /etc/skel &&
-	mkdir Downloads Documents Videos Pictures .config .gitstuff &&
-
-	## Add ralldi user and prompt for password
-	useradd -m -G wheel ralldi &&
-	echo "User ralldi added..."
-echo "please add a password"
-passwd ralldi &&
 
 	## General system setup
 	ln -sf /usr/share/zoneinfo/America/Lima /etc/localtime &&
@@ -38,7 +21,7 @@ passwd ralldi &&
 	if [ -f /etc/pacman.conf ]; then
 		mv /etc/pacman.conf /etc/pacman.conf.bak
 	fi
-cp pacman.conf /etc/pacman.conf &&
+cp /ARCH/pacman.conf /etc/pacman.conf &&
 
 	## mkinitcpio and install grub to the system
 	mkinitcpio -P &&

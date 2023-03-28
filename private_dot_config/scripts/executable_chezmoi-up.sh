@@ -15,6 +15,7 @@ rm -rf /home/ralldi/.local/share/chezmoi/d* /home/ralldi/.local/share/chezmoi/p*
 		~/.config/nvim/ \
 		~/.config/nitrogen/ \
 		~/.config/polybar/ \
+		~/.config/pikaur.conf \
 		~/.config/fish/ \
 		~/.config/qtile/ \
 		~/.config/ranger/ \

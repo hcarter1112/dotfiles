@@ -1,0 +1,8 @@
+[Unit]
+Description=add remapped source to pulse
+
+[Service]
+ExecStart=/home/ralldi/.config/scripts/pulsemods.sh
+
+[Install]
+WantedBy=default.target
