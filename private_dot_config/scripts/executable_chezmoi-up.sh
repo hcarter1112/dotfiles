@@ -25,9 +25,7 @@ rm -rf /home/ralldi/.local/share/chezmoi/d* /home/ralldi/.local/share/chezmoi/p*
 		~/.config/sxhkd/ \
 		~/.config/lf/ \
 		~/.config/mimeapps.list/ \
-		~/.mozilla/firefox/rodsvujp.New\ Private/ \
 		~/.stumpwm.d/ \
-		~/projects/ \
 		~/.env \
 		~/.config/rclone/ \
 		~/.doom.d/ &&
