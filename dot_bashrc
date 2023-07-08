@@ -35,3 +35,6 @@ alias scron="su -c $(printf "%q " "crontab -e")"
 if [ -f /home/ralldi/.aliases ]; then
 	source /home/ralldi/.aliases
 fi
+
+[[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
+eval "$(atuin init bash)"

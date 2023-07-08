@@ -9,6 +9,7 @@ set fish_greeting # Supresses fish's intro message
 # set SUDO_EDITOR "/usr/bin/nvim"
 # set TERM "kitty"
 ### SET EITHER DEFAULT EMACS MODE OR VI MODE ###
+atuin init fish | source
 function fish_user_key_bindings
     # fish_default_key_bindings
     fish_vi_key_bindings

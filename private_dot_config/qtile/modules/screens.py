@@ -201,12 +201,16 @@ screens = [
                     foreground=colors[1],
                     update_interval=1
                 ),
-                widget.CapsNumLockIndicator(
-                    background=colors[0],
-                    font='DroidSansMono Nerd Font',
-                    fontsize=15,
-                    foreground=colors[1]
+                widget.BatteryIcon(),
+                widget.Battery(
+                    format = '{percent:2.0%}'
                 ),
+                # widget.CapsNumLockIndicator(
+                #     background=colors[0],
+                #     font='DroidSansMono Nerd Font',
+                #     fontsize=15,
+                #     foreground=colors[1]
+                # ),
                 widget.Sep(
                     foreground=colors[6],
                     background=colors[0],

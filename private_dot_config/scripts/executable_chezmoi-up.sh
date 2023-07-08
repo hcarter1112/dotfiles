@@ -14,6 +14,7 @@ rm -rf /home/ralldi/.local/share/chezmoi/d* /home/ralldi/.local/share/chezmoi/p*
 		~/.config/lvim/ \
 		~/.config/nvim/ \
 		~/.config/nitrogen/ \
+		~/.config/newsboat/ \
 		~/.config/polybar/ \
 		~/.config/pikaur.conf \
 		~/.config/fish/ \

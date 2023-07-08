@@ -1,7 +1,7 @@
 VISUAL=/usr/bin/nvim
 EDITOR=/usr/bin/nvim
 SUDO_EDITOR=/usr/bin/nvim
+NVM_DIR=/home/ralldi/.nvm/
 TERM=kitty
 PAGER=/usr/bin/bat
-PATH=/home/ralldi/.local/bin:/home/ralldi/Applications:/home/ralldi/.config/scripts/:/home/ralldi/.cargo/bin/:home/ralldi/.fnm/fnm:/home/ralldi/.nvm/versions/node/v18.12.1/bin:/home/ralldi/.emacs.d/bin/:/home/ralldi/.nvm/versions/node/v19.3.0/bin:/home/ralldi/.doom/bin/:/usr/local/go/bin:/home/ralldi/go/bin/:/home/ralldi/.local/share/nvim/mason/bin:/usr/local/bin:/usr/bin:/bin:usr/local/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
-QT_STYLE_OVERRIDE=kvantum
+PATH=/home/ralldi/.local/bin:/home/ralldi/Applications:/home/ralldi/.config/scripts/:/home/ralldi/.cargo/bin/:home/ralldi/.fnm/fnm:/home/ralldi/.nvm/versions/node/v18.12.1/bin:/home/ralldi/.emacs.d/bin/:/home/ralldi/.nvm/versions/node/v19.3.0/bin:/home/ralldi/.doom/bin/:/usr/local/go/bin:/home/ralldi/go/bin/:/home/ralldi/.local/share/nvim/mason/bin:/usr/local/bin:/usr/bin:/bin:usr/local/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl QT_STYLE_OVERRIDE=kvantum:/home/ralldi/.nvm/versions/node/v20.3.1/bin:/home/ralldi/.nvm/versions/node/v18.16.1/bin:
